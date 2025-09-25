@@ -250,10 +250,39 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function showResults() {
-        document.getElementById('recirculacion').style.display = 'none';
         cardPlaceholder.style.display = 'none';
         resultsScreen.classList.add('visible');
         displayResults();
+    }
+
+    function calculateResults() {
+        const scores = {};
+        data.candidates.forEach(c => scores[c.id] = 0);
+        const totalQuestions = userAnswers.length;
+
+        userAnswers.forEach(answer => {
+            const proposal = data.proposals.find(p => p.id === answer.proposalId);
+            if (!proposal) return;
+
+            data.candidates.forEach(candidate => {
+                const candidateStance = proposal.stances[candidate.id];
+                // Coincidencia exacta
+                if (answer.choice === candidateStance) {
+                    scores[candidate.id]++;
+                }
+                // Postura neutral del usuario suma medio punto a todos
+                else if (answer.choice === 'neutral') {
+                    scores[candidate.id] += 0.5;
+                }
+            });
+        });
+
+        const results = data.candidates.map(candidate => {
+            const score = totalQuestions > 0 ? Math.round((scores[candidate.id] / totalQuestions) * 100) : 0;
+            return { ...candidate, score };
+        });
+
+        return results.sort((a, b) => b.score - a.score);
     }
 
     function displayResults() {
@@ -285,25 +314,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Unificar el listener de cerrar resultados
-    closeResultsBtn.onclick = () => {
-        resultsScreen.classList.remove('visible');
-        document.getElementById('recirculacion').style.display = 'block';
-    };
-
-    // Botón para volver a realizar el test desde recirculación
-    const recTestBtn = document.getElementById('rec-test-btn');
-    if (recTestBtn) {
-        recTestBtn.onclick = () => {
-            document.getElementById('recirculacion').style.display = 'none';
-            resetApp();
-        };
-    }
+    closeResultsBtn.onclick = resetApp;
 
     function resetApp() {
         userAnswers = [];
         cardPlaceholder.style.display = 'none';
         resultsScreen.classList.remove('visible');
-        document.getElementById('recirculacion').style.display = 'none';
         createCards();
     }
 

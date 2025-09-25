@@ -157,61 +157,37 @@ body {
 @media (max-width: 600px) { body { padding: 0.5rem; } .app-header h1 { font-size: 1.2rem; } .card-proposal { font-size: 1.5rem; } .action-button { width: 55px; height: 55px; } .results-header h2 { font-size: 1.3rem; } .results-footer { flex-direction: column; gap: 0.8rem; } .action-button.primary-button, .action-button.secondary-button { width: 100%; } }
 
 /* --- Estilos de Recirculación y Cards de Recursos --- */
-.recirculacion {
-    background: var(--bg-gradient);
-    padding: 2rem 1rem 1.5rem 1rem;
-    border-radius: 24px;
-    max-width: 500px;
-    margin: 2rem auto 0 auto;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
-    text-align: center;
+.results-screen .recirculacion {
+    flex-shrink: 0; /* Evita que la sección de recirculación se encoja */
+    padding: 1.5rem 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 1rem;
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    max-width: none;
 }
-.recirculacion h2 {
-    font-size: 1.6rem;
-    font-weight: 800;
-    margin-bottom: 0.5rem;
+
+.results-screen .recirculacion h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
-.recirculacion p {
-    color: #bdbdbd;
-    margin-bottom: 2rem;
-}
-.recirculacion-cards {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
+
+.results-screen .recirculacion p {
+    font-size: 0.9rem;
+    color: #a0a0a0;
     margin-bottom: 1.5rem;
 }
-.rec-card {
-    background: rgba(255,255,255,0.04);
-    border-radius: 16px;
-    padding: 1.2rem 1rem;
-    text-align: left;
-    text-decoration: none;
-    color: var(--font-color);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    transition: background 0.2s, box-shadow 0.2s;
-    border: 1px solid rgba(255,255,255,0.08);
-    display: block;
+
+.results-screen .recirculacion-cards {
+    gap: 0.8rem;
+    margin-bottom: 0; /* Sin margen inferior */
 }
-.rec-card:hover {
-    background: rgba(255,255,255,0.10);
-    box-shadow: 0 4px 16px rgba(0,0,0,0.13);
+
+.results-screen .rec-card {
+    background: rgba(255, 255, 255, 0.05);
 }
-.rec-card h3 {
-    font-size: 1.1rem;
-    font-weight: 700;
-    margin-bottom: 0.3rem;
-}
-.rec-card p {
-    font-size: 0.98rem;
-    color: #e0e0e0;
-    margin: 0;
-}
-.recirculacion-footer {
-    margin-top: 1.2rem;
-}
-.recirculacion-footer .action-button {
-    width: auto;
-    padding: 0.7rem 1.5rem;
-    font-size: 1rem;
+
+.results-screen .rec-card:hover {
+    background: rgba(255, 255, 255, 0.1);
 }
