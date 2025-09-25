@@ -195,7 +195,7 @@ body {
 .action-button.secondary-button { background: transparent; color: var(--accent-neutral); border: 2px solid var(--accent-neutral); }
 .action-button.primary-button:hover { background-color: #5a38e0; }
 .action-button.secondary-button:hover { background-color: #dee2e6; }
-.reaction-container { position: fixed; bottom: 80px; left: 0; right: 0; width: 100%; height: 200px; pointer-events: none; overflow: hidden; z-index: 100; }
+.reaction-container { position: fixed; bottom: 80px; left: 50%; transform: translateX(-50%); width: 100%; max-width: 400px; height: 200px; pointer-events: none; overflow: hidden; z-index: 100; }
 .reaction-bubble.agree { color: var(--accent-agree); font-size: 1.5rem; }
 .reaction-bubble.disagree { color: var(--accent-disagree); font-size: 1.8rem; }
 .reaction-bubble.neutral { color: var(--accent-neutral); font-size: 1.8rem; font-weight: bold; }
