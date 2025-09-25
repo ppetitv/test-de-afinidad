@@ -253,8 +253,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function showResults() {
-        cardPlaceholder.style.display = 'flex';
-        displayResults();
+        cardPlaceholder.style.display = 'none'; // Oculta el placeholder
+        document.getElementById('recirculacion').style.display = 'none'; // Oculta recirculación
+        displayResults(); // Muestra resultados
     }
 
     function displayResults() {
@@ -284,8 +285,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 300);
         });
         resultsScreen.classList.add('visible');
-        // Mostrar recirculación al cerrar resultados
-        document.getElementById('recirculacion').style.display = 'none';
     }
 
     // Modificar el cierre de resultados para mostrar recirculación
