@@ -24,6 +24,7 @@ body {
     justify-content: space-between;
     height: 100%;
     padding: 1rem;
+    padding-bottom: calc(1rem + env(safe-area-inset-bottom));
 }
 
 /* --- Layout Principal --- */
@@ -49,6 +50,16 @@ body {
     background: linear-gradient(90deg, var(--accent-agree), var(--accent-neutral));
     border-radius: 3px;
     transition: width 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.progress-text {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #a0a0a0;
 }
 
 .swipe-area { flex-grow: 1; display: flex; justify-content: center; align-items: center; position: relative; width: 100%; max-width: 450px; margin: 0 auto; padding: 1rem 0; }
@@ -104,7 +115,7 @@ body {
 .card-source-tooltip a { background: var(--font-color); color: #121212; border-radius: 20px; padding: 0.5rem 1rem; text-decoration: none; font-weight: 600; display: inline-block; }
 
 /* --- Footer y Botones de Acción --- */
-.app-footer { padding: 1rem; position: relative; }
+.app-footer { padding: 1rem; padding-bottom: 1.5rem; position: relative; }
 .action-buttons { display: flex; justify-content: center; gap: 1.5rem; }
 .action-button { width: 60px; height: 60px; border-radius: 50%; border: 2px solid; background: transparent; cursor: pointer; display: flex; justify-content: center; align-items: center; transition: background-color 0.2s, transform 0.1s; flex-shrink: 0; font-family: sans-serif; }
 .action-button:active { transform: scale(0.9); }

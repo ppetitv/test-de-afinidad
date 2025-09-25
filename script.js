@@ -40,9 +40,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const closeSidebarBtn = document.getElementById('close-sidebar-button');
     const onboardingOverlay = document.getElementById('onboarding');
     const progressBar = document.getElementById('progress-bar');
+    const progressText = document.getElementById('progress-text');
 
     // --- INICIALIZACIÓN ---
     function init() {
+        if (progressText) {
+            progressText.textContent = `0 / ${data.proposals.length}`;
+        }
         createCards();
         setupEventListeners();
         setupOnboarding();
@@ -177,6 +181,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const progress = (userAnswers.length / data.proposals.length) * 100;
         if (progressBar) {
             progressBar.style.width = `${progress}%`;
+        }
+        if (progressText) {
+            progressText.textContent = `${userAnswers.length} / ${data.proposals.length}`;
         }
 
         const flyoutX = (choice === 'agree' ? 1 : -1) * window.innerWidth;
@@ -325,6 +332,9 @@ document.addEventListener('DOMContentLoaded', () => {
         resultsScreen.classList.remove('visible');
         if (progressBar) {
             progressBar.style.width = '0%';
+        }
+        if (progressText) {
+            progressText.textContent = `0 / ${data.proposals.length}`;
         }
         createCards();
     }
