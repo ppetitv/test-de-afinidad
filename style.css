@@ -34,7 +34,33 @@ body {
 .card-stack { position: relative; width: 100%; height: 550px; max-height: 70vh; }
 
 /* --- Estilo de las Tarjetas y Mejoras --- */
-.card { background: var(--card-bg); backdrop-filter: blur(var(--card-blur)); -webkit-backdrop-filter: blur(var(--card-blur)); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: var(--card-border-radius); position: absolute; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: space-between; padding: 2rem; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.3); cursor: grab; user-select: none; transition: transform 0.3s ease-out; will-change: transform, opacity; overflow: hidden; }
+.card { 
+    background: var(--card-bg); 
+    backdrop-filter: blur(var(--card-blur)); 
+    -webkit-backdrop-filter: blur(var(--card-blur)); 
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    border-radius: var(--card-border-radius); 
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    padding: 2rem; 
+    text-align: center; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3); 
+    cursor: grab; 
+    user-select: none; 
+    transition: transform 0.3s ease-out; 
+    will-change: transform, opacity; 
+    overflow: hidden; 
+    pointer-events: none; /* Deshabilita eventos en todas las tarjetas por defecto */
+}
+
+.card:last-child {
+    pointer-events: auto; /* Habilita eventos solo en la última tarjeta (la activa) */
+}
+
 .card.dragging { transition: none; }
 .card-topic, .card-proposal, .card-swipe-indicator { pointer-events: none; }
 .card-topic { font-size: 1rem; font-weight: 600; color: #a0a0a0; margin-bottom: 1rem; }

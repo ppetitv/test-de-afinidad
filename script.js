@@ -84,14 +84,19 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // --- LÓGICA DE INTERACCIÓN (SWIPE) - REFACTORIZADA ---
     function onPointerDown(e) {
-        const targetCard = e.target.closest('.card');
-        if (isDragging || !targetCard || targetCard !== cardStack.lastElementChild) return;
+        // Asegúrate de que solo estamos trabajando con la tarjeta superior
+        const targetCard = cardStack.lastElementChild;
+        if (!targetCard || isDragging) return;
+
+        // Solo procede si el click/touch fue en la tarjeta o en sus elementos hijos
+        if (!targetCard.contains(e.target)) return;
         
-        activeCard = targetCard;
         isDragging = true;
+        activeCard = targetCard;
         activeCard.classList.add('dragging');
         startPointX = e.pageX || e.touches[0].pageX;
 
+        // Añade los event listeners para el movimiento y liberación
         document.addEventListener('mousemove', onPointerMove);
         document.addEventListener('touchmove', onPointerMove, { passive: false });
         document.addEventListener('mouseup', onPointerUp, { once: true });
@@ -101,8 +106,13 @@ document.addEventListener('DOMContentLoaded', () => {
     function onPointerMove(e) {
         if (!isDragging || !activeCard) return;
         e.preventDefault();
+        
         const currentX = e.pageX || e.touches[0].pageX;
         offsetX = currentX - startPointX;
+        
+        // Limita el movimiento horizontal
+        const maxOffset = window.innerWidth * 0.8;
+        offsetX = Math.max(Math.min(offsetX, maxOffset), -maxOffset);
         
         activeCard.style.transform = `translate(${offsetX}px, 0) rotate(${offsetX * 0.05}deg)`;
 
@@ -114,11 +124,15 @@ document.addEventListener('DOMContentLoaded', () => {
         const opacity = Math.min(Math.abs(offsetX) / (activeCard.offsetWidth / 2.5), 1);
         
         if (offsetX > 0) {
-            agreeIndicator.style.opacity = opacity; agreeOverlay.style.opacity = opacity * 0.5;
-            disagreeIndicator.style.opacity = 0; disagreeOverlay.style.opacity = 0;
+            agreeIndicator.style.opacity = opacity;
+            agreeOverlay.style.opacity = opacity * 0.5;
+            disagreeIndicator.style.opacity = 0;
+            disagreeOverlay.style.opacity = 0;
         } else {
-            disagreeIndicator.style.opacity = opacity; disagreeOverlay.style.opacity = opacity * 0.5;
-            agreeIndicator.style.opacity = 0; agreeOverlay.style.opacity = 0;
+            disagreeIndicator.style.opacity = opacity;
+            disagreeOverlay.style.opacity = opacity * 0.5;
+            agreeIndicator.style.opacity = 0;
+            agreeOverlay.style.opacity = 0;
         }
     }
 
