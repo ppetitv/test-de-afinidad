@@ -257,28 +257,6 @@ document.addEventListener('DOMContentLoaded', () => {
         displayResults();
     }
 
-    function calculateResults() {
-        const candidateScores = {};
-        const maxScore = data.proposals.length;
-        data.candidates.forEach(c => candidateScores[c.id] = 0);
-        userAnswers.forEach(answer => {
-            const proposal = data.proposals.find(p => p.id === answer.proposalId);
-            if (!proposal) return;
-            data.candidates.forEach(candidate => {
-                const candidateStance = proposal.stances[candidate.id];
-                if (answer.choice === candidateStance) {
-                    candidateScores[candidate.id] += 1;
-                } else if (answer.choice === 'neutral' || candidateStance === 'neutral') {
-                    candidateScores[candidate.id] += 0.5;
-                }
-            });
-        });
-        return data.candidates.map(candidate => ({
-            ...candidate,
-            score: Math.round((candidateScores[candidate.id] / maxScore) * 100)
-        })).sort((a, b) => b.score - a.score);
-    }
-
     function displayResults() {
         const results = calculateResults();
         const resultsList = document.getElementById('results-list');
@@ -306,6 +284,24 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 300);
         });
         resultsScreen.classList.add('visible');
+        // Mostrar recirculación al cerrar resultados
+        document.getElementById('recirculacion').style.display = 'none';
+    }
+
+    // Modificar el cierre de resultados para mostrar recirculación
+    closeResultsBtn.addEventListener('click', () => {
+        resultsScreen.classList.remove('visible');
+        cardPlaceholder.style.display = 'none';
+        document.getElementById('recirculacion').style.display = 'block';
+    });
+
+    // Botón para volver a realizar el test desde recirculación
+    const recTestBtn = document.getElementById('rec-test-btn');
+    if (recTestBtn) {
+        recTestBtn.addEventListener('click', () => {
+            document.getElementById('recirculacion').style.display = 'none';
+            resetApp();
+        });
     }
 
     function resetApp() {
