@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const openSidebarBtn = document.getElementById('open-sidebar-button');
     const closeSidebarBtn = document.getElementById('close-sidebar-button');
     const onboardingOverlay = document.getElementById('onboarding');
+    const progressBar = document.getElementById('progress-bar');
 
     // --- INICIALIZACIÓN ---
     function init() {
@@ -62,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p class="card-topic">${proposal.topic}</p>
                 <h2 class="card-proposal">${proposal.text}</h2>
                 <button class="card-source-link" aria-label="Ver fuente">
-                    <img src="images/icon-source.svg" alt="Fuente" width="24" height="24">
+                    <span style="font-size: 1.5rem;" role="img" aria-label="Ícono de enlace">🔗</span>
                 </button>
                 <div class="card-source-tooltip">
                     <h4>Fuente de la Afirmación</h4>
@@ -171,6 +172,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const proposalIndex = userAnswers.length;
         const proposal = data.proposals[proposalIndex];
         userAnswers.push({ proposalId: proposal.id, choice });
+
+        // Update progress bar
+        const progress = (userAnswers.length / data.proposals.length) * 100;
+        if (progressBar) {
+            progressBar.style.width = `${progress}%`;
+        }
 
         const flyoutX = (choice === 'agree' ? 1 : -1) * window.innerWidth;
         const rotation = (choice === 'agree' ? 15 : -15);
@@ -316,6 +323,9 @@ document.addEventListener('DOMContentLoaded', () => {
         userAnswers = [];
         cardPlaceholder.style.display = 'none';
         resultsScreen.classList.remove('visible');
+        if (progressBar) {
+            progressBar.style.width = '0%';
+        }
         createCards();
     }
 

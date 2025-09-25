@@ -40,6 +40,9 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
         </button>
         <h1 class="header-title">Match Electoral</h1>
+        <div class="progress-container">
+            <div id="progress-bar" class="progress-bar-inner"></div>
+        </div>
     </header>
 
     <main id="swipe-area" class="swipe-area">
@@ -53,7 +56,7 @@
     <footer class="app-footer">
         <div class="action-buttons">
             <button id="disagree-button" class="action-button reaction-disagree" aria-label="En desacuerdo">&times;</button>
-            <button id="neutral-button" class="action-button reaction-neutral" aria-label="Neutral">!</button>
+            <button id="neutral-button" class="action-button reaction-neutral" aria-label="Neutral">=</button>
             <button id="agree-button" class="action-button reaction-agree" aria-label="De acuerdo">&#10084;</button>
         </div>
     </footer>
@@ -123,7 +126,7 @@
                 <p>También puedes usar los botones de acción. El botón central es para una postura <strong>neutral</strong>.</p>
                 <div class="onboarding-buttons-demo">
                     <span class="demo-btn red">&times;</span>
-                    <span class="demo-btn yellow">!</span>
+                    <span class="demo-btn yellow">=</span>
                     <span class="demo-btn green">&#10084;</span>
                 </div>
                 <button class="onboarding-button finish">¡Entendido!</button>
