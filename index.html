@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Match Electoral - El Poder en tus Manos | RPP</title>
+    <meta name="description" content="Desliza o presiona para decidir sobre temas clave y descubre tu afinidad con los candidatos presidenciales.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Overlay para el sidebar -->
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+    <!-- Sidebar -->
+    <nav id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <img src="images/rpp-logo.svg" alt="RPP Noticias Logo" class="sidebar-logo-rpp">
+            <img src="images/campaign-logo.svg" alt="El Poder en tus Manos" class="sidebar-logo-campaign">
+            <button id="close-sidebar-button" class="close-button" aria-label="Cerrar menú">&times;</button>
+        </div>
+        <ul class="sidebar-nav-links">
+            <li><a href="#brújula-electoral">Brújula Electoral</a></li>
+            <li><a href="#mapa-politico">Mapa Político</a></li>
+        </ul>
+        <ul class="sidebar-footer-links">
+            <li><a href="#reporte-errores">Reporte de errores</a></li>
+            <li><a href="https://rpp.pe" target="_blank" rel="noopener noreferrer">Ir a rpp.pe</a></li>
+        </ul>
+    </nav>
+
+    <header class="app-header">
+        <button id="open-sidebar-button" class="hamburger-button" aria-label="Abrir menú">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+        <h1 class="header-title">Match Electoral</h1>
+    </header>
+
+    <main id="swipe-area" class="swipe-area">
+        <div class="card-stack">
+            <!-- Las tarjetas de propuestas se insertarán aquí con JS -->
+        </div>
+        
+        <div class="card-placeholder">
+            <p class="placeholder-text">Calculando tus resultados...</p>
+        </div>
+    </main>
+
+    <footer class="app-footer">
+        <div class="action-buttons">
+            <button id="disagree-button" class="action-button reaction-disagree" aria-label="En desacuerdo">&times;</button>
+            <button id="neutral-button" class="action-button reaction-neutral" aria-label="Neutral">!</button>
+            <button id="agree-button" class="action-button reaction-agree" aria-label="De acuerdo">&#10084;</button>
+        </div>
+    </footer>
+    
+    <!-- Contenedor para las microanimaciones de reacción -->
+    <div id="reaction-container" class="reaction-container"></div>
+
+    <!-- Pantalla de Resultados -->
+    <section id="results-screen" class="results-screen">
+        <header class="results-header">
+            <h2>Tu Afinidad Electoral</h2>
+            <button id="close-results-button" class="close-button" aria-label="Cerrar resultados">&times;</button>
+        </header>
+        <div id="results-list" class="results-list">
+            <!-- Los resultados de los candidatos se insertarán aquí con JS -->
+        </div>
+        <footer class="results-footer">
+            <button id="restart-button" class="action-button secondary-button">Hacer el Test de Nuevo</button>
+            <button id="share-results-button" class="action-button primary-button">Compartir Resultados</button>
+        </footer>
+    </section>
+
+    <!-- Onboarding -->
+    <section id="onboarding" class="onboarding-overlay">
+        <div class="onboarding-modal">
+            <div id="onboarding-step-1" class="onboarding-step active">
+                <h3>¡Bienvenido al Match Electoral!</h3>
+                <p>Descubre tu afinidad con los candidatos respondiendo a propuestas clave para el país.</p>
+                <button class="onboarding-button next">Siguiente</button>
+            </div>
+            <div id="onboarding-step-2" class="onboarding-step">
+                <h3>¿Cómo funciona?</h3>
+                <p>Desliza la tarjeta a la <strong>derecha si estás de acuerdo</strong> o a la <strong>izquierda si estás en desacuerdo</strong>.</p>
+                <div class="onboarding-swipe-demo"></div>
+                <button class="onboarding-button next">Siguiente</button>
+            </div>
+            <div id="onboarding-step-3" class="onboarding-step">
+                <h3>Usa los botones</h3>
+                <p>También puedes usar los botones de acción. El botón central es para una postura <strong>neutral</strong>.</p>
+                <div class="onboarding-buttons-demo">
+                    <span class="demo-btn red">&times;</span>
+                    <span class="demo-btn yellow">!</span>
+                    <span class="demo-btn green">&#10084;</span>
+                </div>
+                <button class="onboarding-button finish">¡Entendido!</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
