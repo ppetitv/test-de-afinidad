@@ -168,21 +168,18 @@ document.addEventListener('DOMContentLoaded', () => {
         const cardToProcess = card || cardStack.firstElementChild;
         if (!cardToProcess) return;
 
-        // El índice ahora es el primer hijo
-        const proposalIndex = 0;
-        const proposal = data.proposals[proposalIndex + (data.proposals.length - cardStack.children.length)];
+        // El índice correcto es la cantidad de respuestas dadas
+        const proposalIndex = userAnswers.length;
+        const proposal = data.proposals[proposalIndex];
         userAnswers.push({ proposalId: proposal.id, choice });
 
         const flyoutX = (choice === 'agree' ? 1 : -1) * window.innerWidth;
         const rotation = (choice === 'agree' ? 15 : -15);
-        
         cardToProcess.classList.remove('dragging');
         cardToProcess.style.transition = 'transform 0.5s ease-out, opacity 0.5s ease-out';
         cardToProcess.style.transform = `translate(${flyoutX}px, 0) rotate(${rotation}deg)`;
         cardToProcess.style.opacity = '0';
-        
         triggerReactionAnimation(choice, choice === 'agree' ? agreeBtn : (choice === 'disagree' ? disagreeBtn : neutralBtn));
-        
         cardToProcess.addEventListener('transitionend', () => {
             cardToProcess.remove();
             if (cardStack.children.length === 0) {
