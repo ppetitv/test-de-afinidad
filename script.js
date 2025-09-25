@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Asignar z-index: la primera (arriba) tiene el mayor z-index
         Array.from(cardStack.children).forEach((card, index) => {
             card.style.zIndex = cardStack.children.length - index;
-            card.style.transform = `translateY(${index * -4}px) scale(${1 - index * 0.02})`;
+            card.style.transform = `translateY(${index * -10}px) scale(${1 - index * 0.02})`;
         });
     }
     
