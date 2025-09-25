@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', () => {
         bubble.className = `reaction-bubble ${type}`;
         bubble.innerHTML = sourceButton.innerHTML;
         const rect = sourceButton.getBoundingClientRect();
-        const startLeft = rect.left + rect.width / 2 - reactionContainer.getBoundingClientRect().left;
+        const startLeft = rect.left + rect.width / 2;
         const endLeft = startLeft + (Math.random() - 0.5) * 100;
         bubble.style.setProperty('--start-left', `${startLeft}px`);
         bubble.style.setProperty('--end-left', `${endLeft}px`);
