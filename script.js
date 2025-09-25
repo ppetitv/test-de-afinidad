@@ -89,6 +89,11 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // --- LÓGICA DE INTERACCIÓN (SWIPE) - REFACTORIZADA ---
     function onPointerDown(e) {
+        // No iniciar el arrastre si se hace clic en el botón de la fuente
+        if (e.target.closest('.card-source-link')) {
+            return;
+        }
+
         // Ahora la tarjeta activa es la primera
         const targetCard = cardStack.firstElementChild;
         if (!targetCard || isDragging) return;
