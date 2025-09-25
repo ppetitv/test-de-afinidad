@@ -31,7 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const agreeBtn = document.getElementById('agree-button');
     const resultsScreen = document.getElementById('results-screen');
     const restartBtn = document.getElementById('restart-button');
-    const closeResultsBtn = document.getElementById('close-results-button');
     const shareResultsBtn = document.getElementById('share-results-button');
     const cardPlaceholder = document.querySelector('.card-placeholder');
     const reactionContainer = document.getElementById('reaction-container');
@@ -312,9 +311,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 300);
         });
     }
-
-    // Unificar el listener de cerrar resultados
-    closeResultsBtn.onclick = resetApp;
 
     function resetApp() {
         userAnswers = [];
