@@ -51,9 +51,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- RENDERIZADO Y GESTIÓN DE TARJETAS ---
     function createCards() {
         cardStack.innerHTML = '';
-        // CORRECCIÓN CLAVE: Usamos prepend para que la primera tarjeta del array (índice 0)
-        // sea el último hijo en el DOM, lo que la coloca visualmente al frente.
-        data.proposals.slice().reverse().forEach(proposal => {
+        // Insertar las tarjetas en orden normal (no reverse)
+        data.proposals.forEach((proposal, index) => {
             const card = document.createElement('div');
             card.className = 'card';
             card.innerHTML = `
@@ -73,11 +72,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     <a href="${proposal.sourceURL}" target="_blank" rel="noopener noreferrer">Leer en RPP.pe</a>
                 </div>
             `;
-            cardStack.appendChild(card);
+            // Usar prepend para que la primera propuesta quede arriba
+            cardStack.prepend(card);
         });
 
+        // Asignar z-index: la primera (arriba) tiene el mayor z-index
         Array.from(cardStack.children).forEach((card, index) => {
-            card.style.zIndex = data.proposals.length - index;
+            card.style.zIndex = cardStack.children.length - index;
             card.style.transform = `translateY(${index * -4}px) scale(${1 - index * 0.02})`;
         });
     }
