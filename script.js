@@ -250,9 +250,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function showResults() {
-        // Oculta recirculación y placeholder
         document.getElementById('recirculacion').style.display = 'none';
         cardPlaceholder.style.display = 'none';
+        resultsScreen.classList.add('visible');
         displayResults();
     }
 
@@ -282,7 +282,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (progressBarInner) progressBarInner.style.width = `${result.score}%`;
             }, 300);
         });
-        resultsScreen.classList.add('visible');
     }
 
     // Unificar el listener de cerrar resultados
