@@ -85,10 +85,9 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // --- LÓGICA DE INTERACCIÓN (SWIPE) - REFACTORIZADA ---
     function onPointerDown(e) {
-        // Asegúrate de que solo estamos trabajando con la tarjeta superior
-        const targetCard = cardStack.lastElementChild;
+        // Ahora la tarjeta activa es la primera
+        const targetCard = cardStack.firstElementChild;
         if (!targetCard || isDragging) return;
-
         // Solo procede si el click/touch fue en la tarjeta o en sus elementos hijos
         if (!targetCard.contains(e.target)) return;
         
@@ -165,11 +164,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- LÓGICA DE PROCESAMIENTO DE ELECCIÓN ---
     function processChoice(choice, card) {
-        const cardToProcess = card || cardStack.lastElementChild;
+        // Usar la primera tarjeta como activa
+        const cardToProcess = card || cardStack.firstElementChild;
         if (!cardToProcess) return;
 
-        const proposalIndex = data.proposals.length - cardStack.children.length;
-        const proposal = data.proposals[proposalIndex];
+        // El índice ahora es el primer hijo
+        const proposalIndex = 0;
+        const proposal = data.proposals[proposalIndex + (data.proposals.length - cardStack.children.length)];
         userAnswers.push({ proposalId: proposal.id, choice });
 
         const flyoutX = (choice === 'agree' ? 1 : -1) * window.innerWidth;

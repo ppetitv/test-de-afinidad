@@ -57,8 +57,8 @@ body {
     pointer-events: none; /* Deshabilita eventos en todas las tarjetas por defecto */
 }
 
-.card:last-child {
-    pointer-events: auto; /* Habilita eventos solo en la última tarjeta (la activa) */
+.card:first-child {
+    pointer-events: auto; /* Habilita eventos solo en la primera tarjeta (la activa) */
 }
 
 .card.dragging { transition: none; }
