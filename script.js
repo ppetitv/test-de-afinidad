@@ -253,9 +253,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function showResults() {
-        cardPlaceholder.style.display = 'none'; // Oculta el placeholder
-        document.getElementById('recirculacion').style.display = 'none'; // Oculta recirculación
-        displayResults(); // Muestra resultados
+        // Oculta recirculación y placeholder
+        document.getElementById('recirculacion').style.display = 'none';
+        cardPlaceholder.style.display = 'none';
+        displayResults();
     }
 
     function displayResults() {
@@ -287,26 +288,26 @@ document.addEventListener('DOMContentLoaded', () => {
         resultsScreen.classList.add('visible');
     }
 
-    // Modificar el cierre de resultados para mostrar recirculación
-    closeResultsBtn.addEventListener('click', () => {
+    // Unificar el listener de cerrar resultados
+    closeResultsBtn.onclick = () => {
         resultsScreen.classList.remove('visible');
-        cardPlaceholder.style.display = 'none';
         document.getElementById('recirculacion').style.display = 'block';
-    });
+    };
 
     // Botón para volver a realizar el test desde recirculación
     const recTestBtn = document.getElementById('rec-test-btn');
     if (recTestBtn) {
-        recTestBtn.addEventListener('click', () => {
+        recTestBtn.onclick = () => {
             document.getElementById('recirculacion').style.display = 'none';
             resetApp();
-        });
+        };
     }
 
     function resetApp() {
         userAnswers = [];
         cardPlaceholder.style.display = 'none';
         resultsScreen.classList.remove('visible');
+        document.getElementById('recirculacion').style.display = 'none';
         createCards();
     }
 
@@ -326,15 +327,11 @@ document.addEventListener('DOMContentLoaded', () => {
         disagreeBtn.addEventListener('click', () => processChoice('disagree'));
         neutralBtn.addEventListener('click', () => processChoice('neutral'));
         restartBtn.addEventListener('click', resetApp);
-        closeResultsBtn.addEventListener('click', () => resultsScreen.classList.remove('visible'));
         shareResultsBtn.addEventListener('click', shareResults);
-        
         // Evento delegado para el swipe en el contenedor
         swipeArea.addEventListener('mousedown', onPointerDown);
         swipeArea.addEventListener('touchstart', onPointerDown, { passive: true });
-        
         document.body.addEventListener('click', handleTooltip);
-        
         setupSidebar();
     }
 
