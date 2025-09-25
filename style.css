@@ -1,11 +1,11 @@
 /* --- Global Reset & Setup --- */
 :root {
-    --bg-gradient: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+    --bg-gradient: #f8f9fa;
     --font-color: #212529;
     --font-family: 'Inter', sans-serif;
     --accent-agree: #28a745;
     --accent-disagree: #dc3545;
-    --accent-neutral: #7a5cff;
+    --accent-neutral: #6a48ff;
     --card-bg: #ffffff;
     --card-blur: 0px;
     --card-border-radius: 24px;
@@ -78,7 +78,7 @@ body {
     justify-content: space-between; 
     padding: 2rem; 
     text-align: center; 
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
     cursor: grab; 
     user-select: none; 
     transition: transform 0.3s ease-out; 
@@ -192,10 +192,10 @@ body {
 .results-footer { display: flex; justify-content: center; gap: 1rem; padding: 1.5rem 0 0.5rem; border-top: 1px solid #dee2e6; margin-top: 1rem; flex-wrap: wrap; }
 .action-button.secondary-button, .action-button.primary-button { background-color: var(--accent-neutral); color: #ffffff; border: none; border-radius: 50px; padding: 0.8rem 1.8rem; font-size: 1rem; font-weight: 600; width: auto; height: auto; transition: background-color 0.2s; }
 .action-button.secondary-button { background: #e9ecef; color: #212529; }
-.action-button.primary-button:hover { background-color: #6a48ff; }
+.action-button.primary-button:hover { background-color: #5a38e0; }
 .action-button.secondary-button:hover { background-color: #dee2e6; }
 .reaction-container { position: fixed; bottom: 80px; left: 50%; transform: translateX(-50%); width: 100%; max-width: 400px; height: 200px; pointer-events: none; overflow: hidden; z-index: 100; }
-.reaction-bubble { position: absolute; bottom: 0; width: 40px; height: 40px; border-radius: 50%; display: flex; justify-content: center; align-items: center; background-color: rgba(255, 255, 255, 0.2); backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); box-shadow: 0 2px 5px rgba(0,0,0,0.2); opacity: 0; animation: floatUpFade 2s forwards ease-out; font-family: sans-serif; }
+.reaction-bubble { position: absolute; bottom: 0; width: 40px; height: 40px; border-radius: 50%; display: flex; justify-content: center; align-items: center; background-color: rgba(255, 255, 255, 0.8); backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); box-shadow: 0 2px 5px rgba(0,0,0,0.1); opacity: 0; animation: floatUpFade 2s forwards ease-out; font-family: sans-serif; }
 .reaction-bubble.agree { color: var(--accent-agree); font-size: 1.5rem; }
 .reaction-bubble.disagree { color: var(--accent-disagree); font-size: 1.8rem; }
 .reaction-bubble.neutral { color: var(--accent-neutral); font-size: 1.8rem; font-weight: bold; }
