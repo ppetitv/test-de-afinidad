@@ -196,10 +196,11 @@ body {
 .action-button.primary-button:hover { background-color: #5a38e0; }
 .action-button.secondary-button:hover { background-color: #dee2e6; }
 .reaction-container { position: fixed; bottom: 80px; left: 50%; transform: translateX(-50%); width: 100%; max-width: 400px; height: 200px; pointer-events: none; overflow: hidden; z-index: 100; }
+.reaction-bubble { position: absolute; bottom: 0; width: 40px; height: 40px; border-radius: 50%; display: flex; justify-content: center; align-items: center; background-color: rgba(255, 255, 255, 0.8); backdrop-filter: blur(5px); -webkit-backdrop-filter: blur(5px); box-shadow: 0 2px 5px rgba(0,0,0,0.1); opacity: 0; animation: floatUpFade 2s forwards ease-out; font-family: sans-serif; }
 .reaction-bubble.agree { color: var(--accent-agree); font-size: 1.5rem; }
 .reaction-bubble.disagree { color: var(--accent-disagree); font-size: 1.8rem; }
 .reaction-bubble.neutral { color: var(--accent-neutral); font-size: 1.8rem; font-weight: bold; }
-@keyframes floatUpFade { 0% { transform: translate(-50%, 0) scale(0.7); opacity: 0; bottom: 0; left: var(--start-left); } 20% { opacity: 1; transform: translate(-50%, -20px) scale(1); } 100% { transform: translate(-50%, -200px) scale(1.2); opacity: 0; bottom: 100%; left: var(--end-left); } }
+@keyframes floatUpFade { 0% { opacity: 0; bottom: 0; left: var(--start-left); } 20% { opacity: 1; bottom: 40px; } 100% { opacity: 0; bottom: 200px; left: var(--end-left); } }
 @media (max-width: 600px) { body { padding: 0.5rem; } .app-header h1 { font-size: 1.2rem; } .card-proposal { font-size: 1.5rem; } .action-button { width: 55px; height: 55px; } .results-header h2 { font-size: 1.3rem; } .results-footer { flex-direction: column; gap: 0.8rem; } .action-button.primary-button, .action-button.secondary-button { width: 100%; } }
 
 /* --- Estilos de Recirculación y Cards de Recursos --- */
