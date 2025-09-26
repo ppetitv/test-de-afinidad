@@ -22,9 +22,10 @@ document.addEventListener('DOMContentLoaded', () => {
     let startPointX = 0;
     let offsetX = 0;
     let activeCard = null;
-    // --- Variables para Momentum Swipe ---
     let lastMove = { x: 0, time: 0 };
     let velocity = 0;
+    let lastAnswer = null;
+    let undoTimeout = null;
 
     // --- SELECTORES DEL DOM ---
     const swipeArea = document.getElementById('swipe-area');
@@ -32,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const disagreeBtn = document.getElementById('disagree-button');
     const neutralBtn = document.getElementById('neutral-button');
     const agreeBtn = document.getElementById('agree-button');
+    const undoBtn = document.getElementById('undo-button');
     const resultsScreen = document.getElementById('results-screen');
     const restartBtn = document.getElementById('restart-button');
     const shareResultsBtn = document.getElementById('share-results-button');
@@ -57,13 +59,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- RENDERIZADO Y GESTIÓN DE TARJETAS ---
     function createCards() {
-        if (cardPlaceholder) {
-            cardPlaceholder.style.display = 'none';
-        }
+        if (cardPlaceholder) cardPlaceholder.style.display = 'none';
         cardStack.innerHTML = '';
         data.proposals.forEach((proposal, index) => {
             const card = document.createElement('div');
             card.className = 'card';
+            card.dataset.proposalId = proposal.id;
             card.innerHTML = `
                 <div class="card-color-overlay agree"></div>
                 <div class="card-color-overlay disagree"></div>
@@ -86,14 +87,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         Array.from(cardStack.children).forEach((card, index) => {
             card.style.zIndex = cardStack.children.length - index;
-            card.style.transform = `translateY(${index * -10}px) scale(${1 - index * 0.02})`;
+            card.style.transform = `translateY(${index * -10}px) scale(${1 - index * 0.02}`)
         });
     }
     
     // --- LÓGICA DE INTERACCIÓN (SWIPE) CON MOMENTUM ---
     function onPointerDown(e) {
         if (e.target.closest('.card-source-link')) return;
-
         const targetCard = cardStack.firstElementChild;
         if (!targetCard || isDragging) return;
         if (!targetCard.contains(e.target)) return;
@@ -102,8 +102,6 @@ document.addEventListener('DOMContentLoaded', () => {
         activeCard = targetCard;
         activeCard.classList.add('dragging');
         startPointX = e.pageX || e.touches[0].pageX;
-
-        // Resetear velocidad para el nuevo gesto
         velocity = 0;
         lastMove = { x: startPointX, time: Date.now() };
 
@@ -122,17 +120,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const deltaTime = currentTime - lastMove.time;
         const deltaX = currentX - lastMove.x;
 
-        // Calcular velocidad (píxeles por milisegundo)
-        if (deltaTime > 0) {
-            velocity = deltaX / deltaTime;
-        }
+        if (deltaTime > 0) velocity = deltaX / deltaTime;
         lastMove = { x: currentX, time: currentTime };
 
         offsetX = currentX - startPointX;
-        
         const maxOffset = window.innerWidth * 0.8;
         offsetX = Math.max(Math.min(offsetX, maxOffset), -maxOffset);
-        
         activeCard.style.transform = `translate(${offsetX}px, 0) rotate(${offsetX * 0.05}deg)`;
 
         const opacity = Math.min(Math.abs(offsetX) / (activeCard.offsetWidth / 2.5), 1);
@@ -160,9 +153,8 @@ document.addEventListener('DOMContentLoaded', () => {
         document.removeEventListener('mousemove', onPointerMove);
         document.removeEventListener('touchmove', onPointerMove);
         
-        const distanceThreshold = activeCard.offsetWidth / 4; // Umbral de distancia
-        const velocityThreshold = 0.4; // Umbral de velocidad (px/ms)
-
+        const distanceThreshold = activeCard.offsetWidth / 4;
+        const velocityThreshold = 0.4;
         const flick = Math.abs(velocity) > velocityThreshold;
         const distanceMet = Math.abs(offsetX) > distanceThreshold;
 
@@ -173,7 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
             activeCard.classList.remove('dragging');
             const index = Array.from(cardStack.children).indexOf(activeCard);
             const originalIndex = cardStack.children.length - 1 - index;
-            activeCard.style.transform = `translateY(${originalIndex * -10}px) scale(${1 - originalIndex * 0.02})`;
+            activeCard.style.transform = `translateY(${originalIndex * -10}px) scale(${1 - originalIndex * 0.02}`)
             activeCard.querySelector('.card-color-overlay.agree').style.opacity = 0;
             activeCard.querySelector('.card-color-overlay.disagree').style.opacity = 0;
             activeCard.querySelector('.card-indicator-agree').style.opacity = 0;
@@ -186,30 +178,28 @@ document.addEventListener('DOMContentLoaded', () => {
         velocity = 0;
     }
 
+    function updateProgress() {
+        const progressPercentage = (userAnswers.length / data.proposals.length) * 100;
+        const progressContainer = document.querySelector('.progress-container');
+        if (progressBar) progressBar.style.width = `${progressPercentage}%`;
+        if (progressContainer) progressContainer.setAttribute('aria-valuenow', progressPercentage);
+        if (progressText) progressText.textContent = `${userAnswers.length} / ${data.proposals.length}`;
+    }
+
     // --- LÓGICA DE PROCESAMIENTO DE ELECCIÓN ---
     function processChoice(choice, card) {
         const cardToProcess = card || cardStack.firstElementChild;
         if (!cardToProcess) return;
 
-        if (navigator.vibrate) {
-            navigator.vibrate(50);
-        }
+        if (navigator.vibrate) navigator.vibrate(50);
 
-        const proposalIndex = userAnswers.length;
-        const proposal = data.proposals[proposalIndex];
-        userAnswers.push({ proposalId: proposal.id, choice });
-
-        const progressPercentage = (userAnswers.length / data.proposals.length) * 100;
-        const progressContainer = document.querySelector('.progress-container');
-        if (progressBar) {
-            progressBar.style.width = `${progressPercentage}%`;
-        }
-        if (progressContainer) {
-            progressContainer.setAttribute('aria-valuenow', progressPercentage);
-        }
-        if (progressText) {
-            progressText.textContent = `${userAnswers.length} / ${data.proposals.length}`;
-        }
+        // Guardar estado para posible deshacer
+        const proposalId = data.proposals[userAnswers.length].id;
+        lastAnswer = { card: cardToProcess.cloneNode(true), answer: { proposalId, choice } };
+        userAnswers.push(lastAnswer.answer);
+        
+        updateProgress();
+        showUndoButton();
 
         const flyoutX = (choice === 'agree' ? 1 : -1) * window.innerWidth;
         const rotation = (choice === 'agree' ? 15 : -15);
@@ -220,10 +210,41 @@ document.addEventListener('DOMContentLoaded', () => {
         triggerReactionAnimation(choice, choice === 'agree' ? agreeBtn : (choice === 'disagree' ? disagreeBtn : neutralBtn));
         cardToProcess.addEventListener('transitionend', () => {
             cardToProcess.remove();
-            if (cardStack.children.length === 0) {
-                setTimeout(showResults, 100);
-            }
+            if (cardStack.children.length === 0) setTimeout(showResults, 100);
         }, { once: true });
+    }
+
+    function showUndoButton() {
+        if (undoTimeout) clearTimeout(undoTimeout);
+        undoBtn.classList.add('visible');
+        undoTimeout = setTimeout(() => {
+            undoBtn.classList.remove('visible');
+        }, 4000); // Ocultar después de 4 segundos
+    }
+
+    function undoLastChoice() {
+        if (!lastAnswer) return;
+
+        undoBtn.classList.remove('visible');
+        if (undoTimeout) clearTimeout(undoTimeout);
+
+        userAnswers.pop();
+        
+        const restoredCard = lastAnswer.card;
+        restoredCard.style.transition = 'none';
+        restoredCard.style.opacity = 1;
+        restoredCard.style.transform = 'translate(0,0) rotate(0)';
+        cardStack.prepend(restoredCard);
+        
+        // Re-asignar z-index y transformaciones a toda la pila
+        Array.from(cardStack.children).forEach((card, index) => {
+            card.style.zIndex = cardStack.children.length - index;
+            card.style.transform = `translateY(${index * -10}px) scale(${1 - index * 0.02}`)
+            card.classList.remove('dragging');
+        });
+
+        updateProgress();
+        lastAnswer = null;
     }
 
     // --- GESTIÓN DE SIDEBAR, ONBOARDING Y TOOLTIP ---
@@ -292,9 +313,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function showResults() {
-        if (cardPlaceholder) {
-            cardPlaceholder.style.display = 'none';
-        }
+        if (cardPlaceholder) cardPlaceholder.style.display = 'none';
         resultsScreen.classList.add('visible');
         displayResults();
     }
@@ -357,16 +376,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function resetApp() {
         userAnswers = [];
-        if (cardPlaceholder) {
-            cardPlaceholder.style.display = 'block';
-        }
+        if (cardPlaceholder) cardPlaceholder.style.display = 'block';
         resultsScreen.classList.remove('visible');
-        if (progressBar) {
-            progressBar.style.width = '0%';
-        }
-        if (progressText) {
-            progressText.textContent = `0 / ${data.proposals.length}`;
-        }
+        updateProgress();
         setTimeout(createCards, 50);
     }
 
@@ -387,6 +399,7 @@ document.addEventListener('DOMContentLoaded', () => {
         neutralBtn.addEventListener('click', () => processChoice('neutral'));
         restartBtn.addEventListener('click', resetApp);
         shareResultsBtn.addEventListener('click', shareResults);
+        undoBtn.addEventListener('click', undoLastChoice);
         swipeArea.addEventListener('mousedown', onPointerDown);
         swipeArea.addEventListener('touchstart', onPointerDown, { passive: true });
         document.body.addEventListener('click', handleTooltip);
