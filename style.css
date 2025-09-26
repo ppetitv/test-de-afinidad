@@ -83,7 +83,7 @@ body {
 .card { 
     background: linear-gradient(220.55deg, #3D52D5 0%, #0017E4 100%); /* Gradiente oscurecido para contraste */
     color: #ffffff;
-    border: none;
+    border: 1px solid #cccccc69;
     border-radius: var(--card-border-radius); 
     position: absolute; 
     width: 100%; 
