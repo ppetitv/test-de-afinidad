@@ -27,6 +27,20 @@ body {
     padding-bottom: calc(1rem + env(safe-area-inset-bottom));
 }
 
+/* --- Estilos de Foco para Accesibilidad --- */
+:is(button, a, [tabindex]):focus-visible {
+    outline: 3px solid var(--accent-neutral);
+    outline-offset: 3px;
+    box-shadow: 0 0 0 4px rgba(106, 72, 255, 0.3);
+    border-radius: 12px;
+}
+
+:is(button, a, [tabindex]):focus:not(:focus-visible) {
+    outline: none;
+    box-shadow: none;
+}
+
+
 /* --- Layout Principal --- */
 .app-header { display: flex; align-items: center; justify-content: center; padding: 1rem; position: relative; height: 60px; }
 .header-title { font-weight: 800; font-size: 1.5rem; }
@@ -117,7 +131,7 @@ body {
 .app-footer { padding: 1rem; padding-bottom: 1.5rem; position: relative; }
 .action-buttons { display: flex; justify-content: center; gap: 1.5rem; }
 .action-button { width: 60px; height: 60px; border-radius: 50%; border: 2px solid; background: #ffffff; box-shadow: 0 4px 15px rgba(0,0,0,0.1); cursor: pointer; display: flex; justify-content: center; align-items: center; transition: background-color 0.2s, transform 0.1s; flex-shrink: 0; font-family: sans-serif; }
-.action-button:active { transform: scale(0.9); }
+.action-button:active { transform: scale(0.92); transition: transform 0.1s cubic-bezier(0.2, 0, 0.4, 1.5); } /* Efecto rebote */
 .reaction-disagree { border-color: var(--accent-disagree); color: var(--accent-disagree); font-size: 2rem; }
 .reaction-neutral { border-color: var(--accent-neutral); color: var(--accent-neutral); font-size: 2rem; font-weight: bold; }
 .reaction-agree { border-color: var(--accent-agree); color: var(--accent-agree); font-size: 1.8rem; padding-top: 3px; }
@@ -154,8 +168,7 @@ body {
 .demo-btn.red { background: var(--accent-disagree); color: white; }
 .demo-btn.yellow { background: var(--accent-neutral); color: #121212; }
 .demo-btn.green { background: var(--accent-agree); color: #121212; }
-.card-placeholder { display: none; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: #a0a0a0; width: 100%; height: 100%; padding: 2rem; }
-.placeholder-text { font-size: 1.5rem; }
+
 .results-screen { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--bg-gradient); z-index: 100; transform: translateY(100%); transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1); display: flex; flex-direction: column; padding: 1rem; }
 .results-screen.visible { transform: translateY(0); }
 .results-header { display: flex; justify-content: space-between; align-items: center; padding: 1rem 0; margin-bottom: 1rem; }
@@ -176,7 +189,6 @@ body {
 }
 
 .results-list { 
-    /* Se eliminan flex-grow y overflow-y */
     padding-right: 0; 
 }
 
@@ -201,7 +213,16 @@ body {
 .reaction-bubble.disagree { color: var(--accent-disagree); font-size: 1.8rem; }
 .reaction-bubble.neutral { color: var(--accent-neutral); font-size: 1.8rem; font-weight: bold; }
 @keyframes floatUpFade { 0% { opacity: 0; bottom: 0; left: var(--start-left); } 20% { opacity: 1; bottom: 40px; } 100% { opacity: 0; bottom: 200px; left: var(--end-left); } }
-@media (max-width: 600px) { body { padding: 0.5rem; } .app-header h1 { font-size: 1.2rem; } .card-proposal { font-size: 1.5rem; } .action-button { width: 55px; height: 55px; } .results-header h2 { font-size: 1.3rem; } .results-footer { flex-direction: column; gap: 0.8rem; } .action-button.primary-button, .action-button.secondary-button { width: 100%; } }
+
+@media (max-width: 600px) { 
+    body { padding: 0.5rem; } 
+    .app-header h1 { font-size: 1.2rem; } 
+    .card-proposal { font-size: 1.5rem; } 
+    .action-button { width: 64px; height: 64px; } /* Aumentado para mejor área táctil */
+    .results-header h2 { font-size: 1.3rem; } 
+    .results-footer { flex-direction: column; gap: 0.8rem; } 
+    .action-button.primary-button, .action-button.secondary-button { width: 100%; } 
+}
 
 /* --- Estilos de Recirculación y Cards de Recursos --- */
 .results-screen .recirculacion {
@@ -278,4 +299,80 @@ body {
 
 .results-screen .rec-card:hover::after {
     opacity: 1;
+}
+
+.onboarding-buttons-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.onboarding-button.secondary {
+    background: transparent;
+    color: var(--accent-neutral);
+    font-weight: normal;
+}
+
+.onboarding-button.secondary:hover {
+    background: rgba(106, 72, 255, 0.1);
+}
+
+/* --- Estilos del Loader Esquelético --- */
+.card-placeholder {
+    display: block; /* Por defecto visible */
+    position: relative;
+    width: 100%;
+    height: 550px;
+    max-height: 70vh;
+}
+
+.skeleton-card {
+    background-color: #e9ecef;
+    border-radius: var(--card-border-radius);
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.skeleton-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 150%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+    animation: shimmer 1.5s infinite;
+}
+
+.skeleton-line {
+    background-color: #dee2e6;
+    border-radius: 8px;
+}
+
+.skeleton-topic {
+    width: 40%;
+    height: 1rem;
+    margin-bottom: 1rem;
+}
+
+.skeleton-text {
+    width: 90%;
+    height: 2rem;
+}
+
+.skeleton-text.short {
+    width: 70%;
+}
+
+@keyframes shimmer {
+    100% {
+        left: 150%;
+    }
 }

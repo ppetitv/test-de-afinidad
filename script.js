@@ -47,13 +47,19 @@ document.addEventListener('DOMContentLoaded', () => {
         if (progressText) {
             progressText.textContent = `0 / ${data.proposals.length}`;
         }
-        createCards();
+        // Retraso simulado para mostrar el loader
+        setTimeout(() => {
+            createCards();
+        }, 500);
         setupEventListeners();
         setupOnboarding();
     }
 
     // --- RENDERIZADO Y GESTIÓN DE TARJETAS ---
     function createCards() {
+        if (cardPlaceholder) {
+            cardPlaceholder.style.display = 'none';
+        }
         cardStack.innerHTML = '';
         // Insertar las tarjetas en orden normal (no reverse)
         data.proposals.forEach((proposal, index) => {
@@ -83,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Asignar z-index: la primera (arriba) tiene el mayor z-index
         Array.from(cardStack.children).forEach((card, index) => {
             card.style.zIndex = cardStack.children.length - index;
-            card.style.transform = `translateY(${index * -10}px) scale(${1 - index * 0.02})`;
+            card.style.transform = `translateY(${index * -10}px) scale(${1 - index * 0.02}`)
         });
     }
     
@@ -159,7 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
             activeCard.classList.remove('dragging');
             const index = Array.from(cardStack.children).indexOf(activeCard);
             const originalIndex = cardStack.children.length - 1 - index;
-            activeCard.style.transform = `translateY(${originalIndex * -10}px) scale(${1 - originalIndex * 0.02})`;
+            activeCard.style.transform = `translateY(${originalIndex * -10}px) scale(${1 - originalIndex * 0.02}`)
             activeCard.querySelector('.card-color-overlay.agree').style.opacity = 0;
             activeCard.querySelector('.card-color-overlay.disagree').style.opacity = 0;
             activeCard.querySelector('.card-indicator-agree').style.opacity = 0;
@@ -177,15 +183,24 @@ document.addEventListener('DOMContentLoaded', () => {
         const cardToProcess = card || cardStack.firstElementChild;
         if (!cardToProcess) return;
 
+        // --- Mejora: Retroalimentación Háptica ---
+        if (navigator.vibrate) {
+            navigator.vibrate(50); // Vibración sutil de 50ms
+        }
+
         // El índice correcto es la cantidad de respuestas dadas
         const proposalIndex = userAnswers.length;
         const proposal = data.proposals[proposalIndex];
         userAnswers.push({ proposalId: proposal.id, choice });
 
-        // Update progress bar
-        const progress = (userAnswers.length / data.proposals.length) * 100;
+        // --- Mejora: Update progress bar y ARIA attributes ---
+        const progressPercentage = (userAnswers.length / data.proposals.length) * 100;
+        const progressContainer = document.querySelector('.progress-container');
         if (progressBar) {
-            progressBar.style.width = `${progress}%`;
+            progressBar.style.width = `${progressPercentage}%`;
+        }
+        if (progressContainer) {
+            progressContainer.setAttribute('aria-valuenow', progressPercentage);
         }
         if (progressText) {
             progressText.textContent = `${userAnswers.length} / ${data.proposals.length}`;
@@ -224,15 +239,19 @@ document.addEventListener('DOMContentLoaded', () => {
         const steps = document.querySelectorAll('.onboarding-step');
         let currentStep = 0;
 
+        const endOnboarding = () => {
+            onboardingOverlay.classList.remove('visible');
+            localStorage.setItem('onboardingComplete', 'true');
+        };
+
         onboardingOverlay.addEventListener('click', (e) => {
             if (e.target.classList.contains('next')) {
                 steps[currentStep].classList.remove('active');
                 currentStep++;
                 steps[currentStep].classList.add('active');
             }
-            if (e.target.classList.contains('finish')) {
-                onboardingOverlay.classList.remove('visible');
-                localStorage.setItem('onboardingComplete', 'true');
+            if (e.target.classList.contains('finish') || e.target.classList.contains('skip')) {
+                endOnboarding();
             }
         });
     }
@@ -268,7 +287,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function showResults() {
-        cardPlaceholder.style.display = 'none';
+        if (cardPlaceholder) {
+            cardPlaceholder.style.display = 'none';
+        }
         resultsScreen.classList.add('visible');
         displayResults();
     }
@@ -312,7 +333,7 @@ document.addEventListener('DOMContentLoaded', () => {
             item.className = 'result-item';
             item.innerHTML = `
                 <div class="candidate-header">
-                    <img src="${result.photo}" alt="Foto de ${result.name}" class="candidate-photo-results">
+                    <img src="${result.photo}" alt="Foto de ${result.name}" class="candidate-photo-results" loading="lazy">
                     <div class="candidate-name-party">
                         <span class="name">${result.name}</span>
                         <span class="party">${result.party}</span>
@@ -333,7 +354,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function resetApp() {
         userAnswers = [];
-        cardPlaceholder.style.display = 'none';
+        if (cardPlaceholder) {
+            cardPlaceholder.style.display = 'block';
+        }
         resultsScreen.classList.remove('visible');
         if (progressBar) {
             progressBar.style.width = '0%';
@@ -341,7 +364,10 @@ document.addEventListener('DOMContentLoaded', () => {
         if (progressText) {
             progressText.textContent = `0 / ${data.proposals.length}`;
         }
-        createCards();
+        // Retraso simulado para mostrar el loader
+        setTimeout(() => {
+            createCards();
+        }, 500);
     }
 
     function shareResults() {
@@ -370,4 +396,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Iniciar la aplicación
     init();
+
+    // --- NAVEGACIÓN POR TECLADO PARA ACCESIBILIDAD ---
+    document.addEventListener('keydown', (event) => {
+        // No hacer nada si la pantalla de resultados está visible o el onboarding
+        if (resultsScreen.classList.contains('visible') || onboardingOverlay.classList.contains('visible')) {
+            return;
+        }
+
+        // Prevenir scroll con la barra espaciadora
+        if (event.key === ' ') {
+            event.preventDefault();
+        }
+
+        switch (event.key) {
+            case 'ArrowRight':
+                agreeBtn.click();
+                break;
+            case 'ArrowLeft':
+                disagreeBtn.click();
+                break;
+            case ' ': // Barra espaciadora
+                neutralBtn.click();
+                break;
+        }
+    });
 });

@@ -40,18 +40,23 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
         </button>
         <h1 class="header-title">Match Electoral</h1>
-        <div class="progress-container">
+        <div class="progress-container" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Progreso del test">
             <div id="progress-bar" class="progress-bar-inner"></div>
         </div>
-        <span id="progress-text" class="progress-text"></span>
+        <span id="progress-text" class="progress-text" aria-live="polite"></span>
     </header>
 
     <main id="swipe-area" class="swipe-area">
         <div class="card-stack">
             <!-- Las tarjetas de propuestas se insertarán aquí con JS -->
         </div>
-        <!-- Eliminado el mensaje de calculando resultados -->
-        <div class="card-placeholder" style="display:none;"></div>
+        <div class="card-placeholder">
+            <div class="skeleton-card">
+                <div class="skeleton-line skeleton-topic"></div>
+                <div class="skeleton-line skeleton-text"></div>
+                <div class="skeleton-line skeleton-text short"></div>
+            </div>
+        </div>
     </main>
 
     <footer class="app-footer">
@@ -114,7 +119,10 @@
             <div id="onboarding-step-1" class="onboarding-step active">
                 <h3>¡Bienvenido al Match Electoral!</h3>
                 <p>Descubre tu afinidad con los candidatos respondiendo a propuestas clave para el país.</p>
-                <button class="onboarding-button next">Siguiente</button>
+                <div class="onboarding-buttons-container">
+                    <button class="onboarding-button next">Siguiente</button>
+                    <button class="onboarding-button skip secondary">Omitir</button>
+                </div>
             </div>
             <div id="onboarding-step-2" class="onboarding-step">
                 <h3>¿Cómo funciona?</h3>
