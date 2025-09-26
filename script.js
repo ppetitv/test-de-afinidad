@@ -22,6 +22,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let startPointX = 0;
     let offsetX = 0;
     let activeCard = null;
+    // --- Variables para Momentum Swipe ---
+    let lastMove = { x: 0, time: 0 };
+    let velocity = 0;
 
     // --- SELECTORES DEL DOM ---
     const swipeArea = document.getElementById('swipe-area');
@@ -58,7 +61,6 @@ document.addEventListener('DOMContentLoaded', () => {
             cardPlaceholder.style.display = 'none';
         }
         cardStack.innerHTML = '';
-        // Insertar las tarjetas en orden normal (no reverse)
         data.proposals.forEach((proposal, index) => {
             const card = document.createElement('div');
             card.className = 'card';
@@ -79,28 +81,21 @@ document.addEventListener('DOMContentLoaded', () => {
                     <a href="${proposal.sourceURL}" target="_blank" rel="noopener noreferrer">Leer en RPP.pe</a>
                 </div>
             `;
-            // Usar prepend para que la primera propuesta quede arriba
             cardStack.prepend(card);
         });
 
-        // Asignar z-index: la primera (arriba) tiene el mayor z-index
         Array.from(cardStack.children).forEach((card, index) => {
             card.style.zIndex = cardStack.children.length - index;
             card.style.transform = `translateY(${index * -10}px) scale(${1 - index * 0.02})`;
         });
     }
     
-    // --- LÓGICA DE INTERACCIÓN (SWIPE) - REFACTORIZADA ---
+    // --- LÓGICA DE INTERACCIÓN (SWIPE) CON MOMENTUM ---
     function onPointerDown(e) {
-        // No iniciar el arrastre si se hace clic en el botón de la fuente
-        if (e.target.closest('.card-source-link')) {
-            return;
-        }
+        if (e.target.closest('.card-source-link')) return;
 
-        // Ahora la tarjeta activa es la primera
         const targetCard = cardStack.firstElementChild;
         if (!targetCard || isDragging) return;
-        // Solo procede si el click/touch fue en la tarjeta o en sus elementos hijos
         if (!targetCard.contains(e.target)) return;
         
         isDragging = true;
@@ -108,7 +103,10 @@ document.addEventListener('DOMContentLoaded', () => {
         activeCard.classList.add('dragging');
         startPointX = e.pageX || e.touches[0].pageX;
 
-        // Añade los event listeners para el movimiento y liberación
+        // Resetear velocidad para el nuevo gesto
+        velocity = 0;
+        lastMove = { x: startPointX, time: Date.now() };
+
         document.addEventListener('mousemove', onPointerMove);
         document.addEventListener('touchmove', onPointerMove, { passive: false });
         document.addEventListener('mouseup', onPointerUp, { once: true });
@@ -120,20 +118,28 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         
         const currentX = e.pageX || e.touches[0].pageX;
+        const currentTime = Date.now();
+        const deltaTime = currentTime - lastMove.time;
+        const deltaX = currentX - lastMove.x;
+
+        // Calcular velocidad (píxeles por milisegundo)
+        if (deltaTime > 0) {
+            velocity = deltaX / deltaTime;
+        }
+        lastMove = { x: currentX, time: currentTime };
+
         offsetX = currentX - startPointX;
         
-        // Limita el movimiento horizontal
         const maxOffset = window.innerWidth * 0.8;
         offsetX = Math.max(Math.min(offsetX, maxOffset), -maxOffset);
         
         activeCard.style.transform = `translate(${offsetX}px, 0) rotate(${offsetX * 0.05}deg)`;
 
+        const opacity = Math.min(Math.abs(offsetX) / (activeCard.offsetWidth / 2.5), 1);
         const agreeOverlay = activeCard.querySelector('.card-color-overlay.agree');
         const disagreeOverlay = activeCard.querySelector('.card-color-overlay.disagree');
         const agreeIndicator = activeCard.querySelector('.card-indicator-agree');
         const disagreeIndicator = activeCard.querySelector('.card-indicator-disagree');
-        
-        const opacity = Math.min(Math.abs(offsetX) / (activeCard.offsetWidth / 2.5), 1);
         
         if (offsetX > 0) {
             agreeIndicator.style.opacity = opacity;
@@ -154,10 +160,15 @@ document.addEventListener('DOMContentLoaded', () => {
         document.removeEventListener('mousemove', onPointerMove);
         document.removeEventListener('touchmove', onPointerMove);
         
-        const decisionMade = Math.abs(offsetX) > activeCard.offsetWidth / 3;
-        
-        if (decisionMade) {
-            processChoice(offsetX > 0 ? 'agree' : 'disagree', activeCard);
+        const distanceThreshold = activeCard.offsetWidth / 4; // Umbral de distancia
+        const velocityThreshold = 0.4; // Umbral de velocidad (px/ms)
+
+        const flick = Math.abs(velocity) > velocityThreshold;
+        const distanceMet = Math.abs(offsetX) > distanceThreshold;
+
+        if (flick || distanceMet) {
+            const direction = flick ? (velocity > 0 ? 'agree' : 'disagree') : (offsetX > 0 ? 'agree' : 'disagree');
+            processChoice(direction, activeCard);
         } else {
             activeCard.classList.remove('dragging');
             const index = Array.from(cardStack.children).indexOf(activeCard);
@@ -172,25 +183,22 @@ document.addEventListener('DOMContentLoaded', () => {
         isDragging = false;
         offsetX = 0;
         activeCard = null;
+        velocity = 0;
     }
 
     // --- LÓGICA DE PROCESAMIENTO DE ELECCIÓN ---
     function processChoice(choice, card) {
-        // Usar la primera tarjeta como activa
         const cardToProcess = card || cardStack.firstElementChild;
         if (!cardToProcess) return;
 
-        // --- Mejora: Retroalimentación Háptica ---
         if (navigator.vibrate) {
-            navigator.vibrate(50); // Vibración sutil de 50ms
+            navigator.vibrate(50);
         }
 
-        // El índice correcto es la cantidad de respuestas dadas
         const proposalIndex = userAnswers.length;
         const proposal = data.proposals[proposalIndex];
         userAnswers.push({ proposalId: proposal.id, choice });
 
-        // --- Mejora: Update progress bar y ARIA attributes ---
         const progressPercentage = (userAnswers.length / data.proposals.length) * 100;
         const progressContainer = document.querySelector('.progress-container');
         if (progressBar) {
@@ -302,11 +310,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             data.candidates.forEach(candidate => {
                 const candidateStance = proposal.stances[candidate.id];
-                // Coincidencia exacta
                 if (answer.choice === candidateStance) {
                     scores[candidate.id]++;
                 }
-                // Postura neutral del usuario suma medio punto a todos
                 else if (answer.choice === 'neutral') {
                     scores[candidate.id] += 0.5;
                 }
@@ -361,7 +367,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (progressText) {
             progressText.textContent = `0 / ${data.proposals.length}`;
         }
-        // Usar un pequeño retraso para que el UI muestre el loader antes de recrear las tarjetas
         setTimeout(createCards, 50);
     }
 
@@ -382,7 +387,6 @@ document.addEventListener('DOMContentLoaded', () => {
         neutralBtn.addEventListener('click', () => processChoice('neutral'));
         restartBtn.addEventListener('click', resetApp);
         shareResultsBtn.addEventListener('click', shareResults);
-        // Evento delegado para el swipe en el contenedor
         swipeArea.addEventListener('mousedown', onPointerDown);
         swipeArea.addEventListener('touchstart', onPointerDown, { passive: true });
         document.body.addEventListener('click', handleTooltip);
@@ -394,12 +398,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- NAVEGACIÓN POR TECLADO PARA ACCESIBILIDAD ---
     document.addEventListener('keydown', (event) => {
-        // No hacer nada si la pantalla de resultados está visible o el onboarding
         if (resultsScreen.classList.contains('visible') || onboardingOverlay.classList.contains('visible')) {
             return;
         }
 
-        // Prevenir scroll con la barra espaciadora
         if (event.key === ' ') {
             event.preventDefault();
         }
@@ -411,7 +413,7 @@ document.addEventListener('DOMContentLoaded', () => {
             case 'ArrowLeft':
                 disagreeBtn.click();
                 break;
-            case ' ': // Barra espaciadora
+            case ' ':
                 neutralBtn.click();
                 break;
         }
