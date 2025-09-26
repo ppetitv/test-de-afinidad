@@ -65,6 +65,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.className = 'card';
             card.dataset.proposalId = proposal.id;
+            card.setAttribute('role', 'group');
+            card.setAttribute('aria-label', `Tarjeta de propuesta sobre ${proposal.topic}: ${proposal.text}`);
+            card.setAttribute('aria-roledescription', 'Tarjeta deslizable');
+
             card.innerHTML = `
                 <div class="card-color-overlay agree"></div>
                 <div class="card-color-overlay disagree"></div>
@@ -354,23 +358,17 @@ document.addEventListener('DOMContentLoaded', () => {
             const item = document.createElement('div');
             item.className = 'result-item';
             item.innerHTML = `
-                <div class="candidate-header">
-                    <img src="${result.photo}" alt="Foto de ${result.name}" class="candidate-photo-results" loading="lazy">
-                    <div class="candidate-name-party">
-                        <span class="name">${result.name}</span>
-                        <span class="party">${result.party}</span>
-                    </div>
-                    <span class="result-score">${result.score}%</span>
+                <img src="${result.photo}" alt="Foto de ${result.name}" class="candidate-photo-results" loading="lazy">
+                <div class="candidate-name-party">
+                    <span class="name">${result.name}</span>
+                    <span class="party">${result.party}</span>
                 </div>
-                <div class="progress-bar">
-                    <div class="progress-bar-inner"></div>
+                <div class="result-score">${result.score}%</div>
+                <div class="result-bar-container">
+                    <div class="result-bar" style="width: ${result.score}%"></div>
                 </div>
             `;
             resultsList.appendChild(item);
-            setTimeout(() => {
-                const progressBarInner = item.querySelector('.progress-bar-inner');
-                if (progressBarInner) progressBarInner.style.width = `${result.score}%`;
-            }, 300);
         });
     }
 
