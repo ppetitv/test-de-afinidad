@@ -47,10 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (progressText) {
             progressText.textContent = `0 / ${data.proposals.length}`;
         }
-        // Retraso simulado para mostrar el loader
-        setTimeout(() => {
-            createCards();
-        }, 500);
+        createCards();
         setupEventListeners();
         setupOnboarding();
     }
@@ -89,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Asignar z-index: la primera (arriba) tiene el mayor z-index
         Array.from(cardStack.children).forEach((card, index) => {
             card.style.zIndex = cardStack.children.length - index;
-            card.style.transform = `translateY(${index * -10}px) scale(${1 - index * 0.02}`)
+            card.style.transform = `translateY(${index * -10}px) scale(${1 - index * 0.02})`;
         });
     }
     
@@ -165,7 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
             activeCard.classList.remove('dragging');
             const index = Array.from(cardStack.children).indexOf(activeCard);
             const originalIndex = cardStack.children.length - 1 - index;
-            activeCard.style.transform = `translateY(${originalIndex * -10}px) scale(${1 - originalIndex * 0.02}`)
+            activeCard.style.transform = `translateY(${originalIndex * -10}px) scale(${1 - originalIndex * 0.02})`;
             activeCard.querySelector('.card-color-overlay.agree').style.opacity = 0;
             activeCard.querySelector('.card-color-overlay.disagree').style.opacity = 0;
             activeCard.querySelector('.card-indicator-agree').style.opacity = 0;
@@ -364,10 +361,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (progressText) {
             progressText.textContent = `0 / ${data.proposals.length}`;
         }
-        // Retraso simulado para mostrar el loader
-        setTimeout(() => {
-            createCards();
-        }, 500);
+        // Usar un pequeño retraso para que el UI muestre el loader antes de recrear las tarjetas
+        setTimeout(createCards, 50);
     }
 
     function shareResults() {
