@@ -5,7 +5,7 @@
     --font-family: 'Inter', sans-serif;
     --accent-agree: #28a745;
     --accent-disagree: #dc3545;
-    --accent-neutral: #6a48ff;
+    --accent-neutral: #5838D9; /* Color oscurecido para contraste */
     --card-bg: #ffffff;
     --card-blur: 0px;
     --card-border-radius: 24px;
@@ -31,7 +31,7 @@ body {
 :is(button, a, [tabindex]):focus-visible {
     outline: 3px solid var(--accent-neutral);
     outline-offset: 3px;
-    box-shadow: 0 0 0 4px rgba(106, 72, 255, 0.3);
+    box-shadow: 0 0 0 4px rgba(88, 56, 217, 0.3); /* Sombra actualizada al nuevo color */
     border-radius: 12px;
 }
 
@@ -81,7 +81,7 @@ body {
 
 /* --- Estilo de las Tarjetas y Mejoras --- */
 .card { 
-    background: linear-gradient(220.55deg, #3793FF 0%, #0017E4 100%);
+    background: linear-gradient(220.55deg, #3D52D5 0%, #0017E4 100%); /* Gradiente oscurecido para contraste */
     color: #ffffff;
     border: none;
     border-radius: var(--card-border-radius); 
