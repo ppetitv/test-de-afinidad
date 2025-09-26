@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         Array.from(cardStack.children).forEach((card, index) => {
             card.style.zIndex = cardStack.children.length - index;
-            card.style.transform = `translateY(${index * -10}px) scale(${1 - index * 0.02}`)
+            card.style.transform = `translateY(${index * -10}px) scale(${1 - index * 0.02})`;
         });
     }
     
@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
             activeCard.classList.remove('dragging');
             const index = Array.from(cardStack.children).indexOf(activeCard);
             const originalIndex = cardStack.children.length - 1 - index;
-            activeCard.style.transform = `translateY(${originalIndex * -10}px) scale(${1 - originalIndex * 0.02}`)
+            activeCard.style.transform = `translateY(${originalIndex * -10}px) scale(${1 - originalIndex * 0.02})`;
             activeCard.querySelector('.card-color-overlay.agree').style.opacity = 0;
             activeCard.querySelector('.card-color-overlay.disagree').style.opacity = 0;
             activeCard.querySelector('.card-indicator-agree').style.opacity = 0;
@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Re-asignar z-index y transformaciones a toda la pila
         Array.from(cardStack.children).forEach((card, index) => {
             card.style.zIndex = cardStack.children.length - index;
-            card.style.transform = `translateY(${index * -10}px) scale(${1 - index * 0.02}`)
+            card.style.transform = `translateY(${index * -10}px) scale(${1 - index * 0.02})`;
             card.classList.remove('dragging');
         });
 
