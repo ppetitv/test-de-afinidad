@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- ESTADO DE LA APLICACIÓN ---
     let userAnswers = [];
     let isDragging = false;
+    let isProcessing = false;
     let startPointX = 0;
     let offsetX = 0;
     let activeCard = null;
@@ -192,8 +193,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- LÓGICA DE PROCESAMIENTO DE ELECCIÓN ---
     function processChoice(choice, card) {
+        if (isProcessing) return;
         const cardToProcess = card || cardStack.firstElementChild;
         if (!cardToProcess) return;
+
+        isProcessing = true;
+        agreeBtn.disabled = true;
+        disagreeBtn.disabled = true;
+        neutralBtn.disabled = true;
 
         if (navigator.vibrate) navigator.vibrate(50);
 
@@ -214,7 +221,14 @@ document.addEventListener('DOMContentLoaded', () => {
         triggerReactionAnimation(choice, choice === 'agree' ? agreeBtn : (choice === 'disagree' ? disagreeBtn : neutralBtn));
         cardToProcess.addEventListener('transitionend', () => {
             cardToProcess.remove();
-            if (cardStack.children.length === 0) setTimeout(showResults, 100);
+            if (cardStack.children.length === 0) {
+                setTimeout(showResults, 100);
+            } else {
+                agreeBtn.disabled = false;
+                disagreeBtn.disabled = false;
+                neutralBtn.disabled = false;
+            }
+            isProcessing = false;
         }, { once: true });
     }
 
@@ -378,6 +392,10 @@ document.addEventListener('DOMContentLoaded', () => {
         resultsScreen.classList.remove('visible');
         updateProgress();
         setTimeout(createCards, 50);
+        agreeBtn.disabled = false;
+        disagreeBtn.disabled = false;
+        neutralBtn.disabled = false;
+        isProcessing = false;
     }
 
     function shareResults() {
