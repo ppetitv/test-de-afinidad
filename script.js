@@ -215,6 +215,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const flyoutX = (choice === 'agree' ? 1 : -1) * window.innerWidth;
         const rotation = (choice === 'agree' ? 15 : -15);
         cardToProcess.classList.remove('dragging');
+        // Change card background based on choice
+        if (choice === 'agree') {
+            cardToProcess.style.background = 'linear-gradient(220.55deg, #28a745 0%, #1e7e34 100%)';
+        } else if (choice === 'disagree') {
+            cardToProcess.style.background = 'linear-gradient(220.55deg, #dc3545 0%, #bd2130 100%)';
+        }
         cardToProcess.style.transition = 'transform 0.5s ease-out, opacity 0.5s ease-out';
         cardToProcess.style.transform = `translate(${flyoutX}px, 0) rotate(${rotation}deg)`;
         cardToProcess.style.opacity = '0';
