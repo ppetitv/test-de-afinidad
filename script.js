@@ -221,6 +221,11 @@ document.addEventListener('DOMContentLoaded', () => {
         triggerReactionAnimation(choice, choice === 'agree' ? agreeBtn : (choice === 'disagree' ? disagreeBtn : neutralBtn));
         cardToProcess.addEventListener('transitionend', () => {
             cardToProcess.remove();
+            // Update z-index and transforms for remaining cards
+            Array.from(cardStack.children).forEach((card, index) => {
+                card.style.zIndex = cardStack.children.length - index;
+                card.style.transform = `translateY(${index * -10}px) scale(${1 - index * 0.02})`;
+            });
             if (cardStack.children.length === 0) {
                 setTimeout(showResults, 100);
             } else {
