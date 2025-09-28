@@ -73,8 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
             card.innerHTML = `
                 <div class="card-color-overlay agree"></div>
                 <div class="card-color-overlay disagree"></div>
-                <div class="card-swipe-indicator card-indicator-agree">DE ACUERDO</div>
-                <div class="card-swipe-indicator card-indicator-disagree">EN DESACUERDO</div>
+                <div class="card-swipe-indicator"></div>
                 <p class="card-topic">${proposal.topic}</p>
                 <h2 class="card-proposal">${proposal.text}</h2>
                 <button class="card-source-link" aria-label="Ver fuente">
@@ -136,19 +135,27 @@ document.addEventListener('DOMContentLoaded', () => {
         const opacity = Math.min(Math.abs(offsetX) / (activeCard.offsetWidth / 2.5), 1);
         const agreeOverlay = activeCard.querySelector('.card-color-overlay.agree');
         const disagreeOverlay = activeCard.querySelector('.card-color-overlay.disagree');
-        const agreeIndicator = activeCard.querySelector('.card-indicator-agree');
-        const disagreeIndicator = activeCard.querySelector('.card-indicator-disagree');
-        
+        const indicator = activeCard.querySelector('.card-swipe-indicator');
+
+        indicator.classList.remove('agree', 'disagree', 'neutral');
+
         if (offsetX > 0) {
-            agreeIndicator.style.opacity = opacity;
+            indicator.classList.add('agree');
+            indicator.textContent = 'DE ACUERDO';
+            indicator.style.opacity = opacity;
             agreeOverlay.style.opacity = opacity * 0.5;
-            disagreeIndicator.style.opacity = 0;
             disagreeOverlay.style.opacity = 0;
-        } else {
-            disagreeIndicator.style.opacity = opacity;
+        } else if (offsetX < 0) {
+            indicator.classList.add('disagree');
+            indicator.textContent = 'EN DESACUERDO';
+            indicator.style.opacity = opacity;
             disagreeOverlay.style.opacity = opacity * 0.5;
             agreeIndicator.style.opacity = 0;
             agreeOverlay.style.opacity = 0;
+        } else {
+            indicator.style.opacity = 0;
+            agreeOverlay.style.opacity = 0;
+            disagreeOverlay.style.opacity = 0;
         }
     }
 
@@ -173,8 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
             activeCard.style.transform = `translateY(${originalIndex * -10}px) scale(${1 - originalIndex * 0.02})`;
             activeCard.querySelector('.card-color-overlay.agree').style.opacity = 0;
             activeCard.querySelector('.card-color-overlay.disagree').style.opacity = 0;
-            activeCard.querySelector('.card-indicator-agree').style.opacity = 0;
-            activeCard.querySelector('.card-indicator-disagree').style.opacity = 0;
+            activeCard.querySelector('.card-swipe-indicator').style.opacity = 0;
         }
         
         isDragging = false;
@@ -209,6 +215,21 @@ document.addEventListener('DOMContentLoaded', () => {
         else button = neutralBtn;
         button.classList.add('pressed');
         setTimeout(() => button.classList.remove('pressed'), 200);
+
+        // Show indicator
+        const indicator = cardToProcess.querySelector('.card-swipe-indicator');
+        indicator.classList.remove('agree', 'disagree', 'neutral');
+        if (choice === 'agree') {
+            indicator.classList.add('agree');
+            indicator.textContent = 'DE ACUERDO';
+        } else if (choice === 'disagree') {
+            indicator.classList.add('disagree');
+            indicator.textContent = 'EN DESACUERDO';
+        } else {
+            indicator.classList.add('neutral');
+            indicator.textContent = 'NEUTRAL';
+        }
+        indicator.style.opacity = 1;
 
         if (navigator.vibrate) navigator.vibrate(50);
 

@@ -121,9 +121,10 @@ body {
 .card-color-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; transition: opacity 0.3s ease-out; z-index: 0; pointer-events: none; }
 .card-color-overlay.agree { background-color: rgba(40, 167, 69, 0.2); }
 .card-color-overlay.disagree { background-color: rgba(220, 53, 69, 0.2); }
-.card-swipe-indicator { z-index: 1; position: absolute; top: 40%; transform: translateY(-50%) rotate(-15deg); font-size: 2.5rem; font-weight: 800; padding: 0.5rem 1.5rem; border-radius: 1rem; border: none; opacity: 0; transition: opacity 0.2s ease-in-out; }
-.card-indicator-agree { left: 1rem; background-color: #28a745; color: #ffffff; }
-.card-indicator-disagree { right: 1rem; background-color: #dc3545; color: #ffffff; transform: translateY(-50%) rotate(15deg); }
+.card-swipe-indicator { z-index: 1; position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); font-size: 2.5rem; font-weight: 800; padding: 0.5rem 1.5rem; border-radius: 1rem; border: none; opacity: 0; transition: opacity 0.2s ease-in-out; }
+.card-swipe-indicator.agree { background-color: #28a745; color: #ffffff; }
+.card-swipe-indicator.disagree { background-color: #dc3545; color: #ffffff; }
+.card-swipe-indicator.neutral { background-color: var(--accent-neutral); color: #ffffff; }
 
 /* --- Tooltip de Fuente --- */
 .card-source-link { z-index: 2; position: absolute; bottom: 1rem; right: 1rem; background: rgba(255,255,255,0.1); border-radius: 50%; width: 44px; height: 44px; display: flex; justify-content: center; align-items: center; color: #ffffff; transition: background-color 0.2s, color 0.2s; border: none; }
