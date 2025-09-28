@@ -373,6 +373,15 @@ document.addEventListener('DOMContentLoaded', () => {
         if (cardPlaceholder) cardPlaceholder.style.display = 'none';
         resultsScreen.classList.add('visible');
         displayResults();
+
+        // Hide scroll indicator on first scroll
+        const resultsContent = document.querySelector('.results-content');
+        const scrollIndicator = document.querySelector('.scroll-indicator');
+        if (resultsContent && scrollIndicator) {
+            resultsContent.addEventListener('scroll', () => {
+                scrollIndicator.style.opacity = '0';
+            }, { once: true });
+        }
     }
 
     function calculateResults() {
