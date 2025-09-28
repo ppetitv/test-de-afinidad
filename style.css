@@ -42,7 +42,7 @@ body {
 
 
 /* --- Onboarding Banner --- */
-.onboarding-banner { display: flex; justify-content: center; align-items: center; gap: 1rem; padding: 1rem; border-bottom: 1px solid #dee2e6; }
+.onboarding-banner { display: flex; justify-content: center; align-items: center; gap: 1rem; padding: 1rem; border-bottom: 1px solid #dee2e6; margin-bottom: 30px; }
 .onboarding-logo-rpp, .onboarding-logo-campaign { height: 32px; width: auto; }
 
 /* --- Layout Principal --- */
@@ -185,11 +185,11 @@ body {
 .onboarding-button { background: var(--accent-neutral); color: #ffffff; border: none; border-radius: 50px; padding: 0.8rem 2rem; font-size: 1rem; font-weight: 600; cursor: pointer; }
 .onboarding-swipe-demo { width: 100px; height: 150px; background: var(--card-bg); border-radius: 12px; margin: 0 auto 2rem auto; animation: swipe-anim 2s infinite ease-in-out; border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
 @keyframes swipe-anim { 0%, 100% { transform: translateX(0) rotate(0); } 40% { transform: translateX(30px) rotate(5deg); } 80% { transform: translateX(-30px) rotate(-5deg); } }
-.onboarding-buttons-demo { display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem; }
-.demo-btn { width: 40px; height: 40px; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 1.5rem; font-weight: bold; }
-.demo-btn.red { background: var(--accent-disagree); color: white; }
-.demo-btn.yellow { background: var(--accent-neutral); color: white; }
-.demo-btn.green { background: var(--accent-agree); color: #121212; }
+.onboarding-buttons-demo { display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 2rem; }
+.demo-btn { width: 60px; height: 60px; border-radius: 50%; border: 2px solid; background: #ffffff; box-shadow: 0 4px 15px rgba(0,0,0,0.1); display: flex; justify-content: center; align-items: center; font-size: 1.8rem; font-weight: bold; flex-shrink: 0; font-family: sans-serif; }
+.demo-btn.red { border-color: var(--accent-disagree); color: var(--accent-disagree); }
+.demo-btn.yellow { border-color: var(--accent-neutral); color: var(--accent-neutral); }
+.demo-btn.green { border-color: var(--accent-agree); color: var(--accent-agree); }
 
 .onboarding-source-demo { margin: 2rem 0; text-align: center; }
 .demo-card { background: linear-gradient(220.55deg, #3D52D5 0%, #0017E4 100%); color: #ffffff; border-radius: 16px; padding: 1.5rem; width: 200px; margin: 0 auto; position: relative; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
