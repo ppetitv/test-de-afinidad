@@ -186,6 +186,12 @@ body {
 .demo-btn.yellow { background: var(--accent-neutral); color: #121212; }
 .demo-btn.green { background: var(--accent-agree); color: #121212; }
 
+.onboarding-source-demo { margin: 2rem 0; text-align: center; }
+.demo-card { background: linear-gradient(220.55deg, #3D52D5 0%, #0017E4 100%); color: #ffffff; border-radius: 16px; padding: 1.5rem; width: 200px; margin: 0 auto; position: relative; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+.demo-card-text { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; }
+.demo-source-btn { position: absolute; bottom: 1rem; right: 1rem; background: rgba(255,255,255,0.1); border-radius: 50%; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center; color: #ffffff; border: none; }
+.demo-source-btn:hover { background: rgba(255,255,255,0.2); }
+
 /* --- Pantalla de Resultados --- */
 .results-screen { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: var(--bg-gradient); z-index: 100; transform: translateY(100%); transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1); display: flex; flex-direction: column; padding: 1rem; }
 .results-screen.visible { transform: translateY(0); }
@@ -198,7 +204,7 @@ body {
 .results-content::-webkit-scrollbar { display: none; }
 
 @media (min-width: 768px) {
-    .results-content { max-width: 900px; margin: 0 auto; }
+    .results-header, .results-content { max-width: 900px; margin: 0 auto; }
 }
 .results-list { padding-right: 0; display: flex; flex-direction: column; gap: 1.5rem; }
 
