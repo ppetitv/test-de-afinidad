@@ -145,6 +145,10 @@ body {
 .reaction-agree { border-color: var(--accent-agree); color: var(--accent-agree); font-size: 1.8rem; padding-top: 3px; }
 .action-button:hover { background-color: #f8f9fa; }
 .action-button:disabled { opacity: 0.5; cursor: not-allowed; }
+.action-button.pressed { transform: scale(0.9); transition: transform 0.1s ease-out; }
+.reaction-disagree.pressed { background-color: var(--accent-disagree); color: white; box-shadow: 0 0 20px rgba(220, 53, 69, 0.5); }
+.reaction-neutral.pressed { background-color: var(--accent-neutral); color: white; box-shadow: 0 0 20px rgba(88, 56, 217, 0.5); }
+.reaction-agree.pressed { background-color: var(--accent-agree); color: white; box-shadow: 0 0 20px rgba(40, 167, 69, 0.5); }
 
 .undo-button { position: absolute; bottom: 110px; left: 50%; transform: translate(-50%, 10px); background: #212529; color: #f8f9fa; border: none; border-radius: 20px; padding: 0.5rem 1rem; font-size: 0.9rem; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 0.5rem; box-shadow: 0 4px 15px rgba(0,0,0,0.2); opacity: 0; visibility: hidden; transition: transform 0.3s, opacity 0.3s, visibility 0.3s; }
 .undo-button svg { flex-shrink: 0; }

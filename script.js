@@ -202,6 +202,14 @@ document.addEventListener('DOMContentLoaded', () => {
         disagreeBtn.disabled = true;
         neutralBtn.disabled = true;
 
+        // Highlight the button
+        let button;
+        if (choice === 'agree') button = agreeBtn;
+        else if (choice === 'disagree') button = disagreeBtn;
+        else button = neutralBtn;
+        button.classList.add('pressed');
+        setTimeout(() => button.classList.remove('pressed'), 200);
+
         if (navigator.vibrate) navigator.vibrate(50);
 
         // Guardar estado para posible deshacer
@@ -323,16 +331,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- OTRAS FUNCIONES ---
     function triggerReactionAnimation(type, sourceButton) {
-        const bubble = document.createElement('div');
-        bubble.className = `reaction-bubble ${type}`;
-        bubble.innerHTML = sourceButton.innerHTML;
-        const rect = sourceButton.getBoundingClientRect();
-        const startLeft = rect.left + rect.width / 2 - reactionContainer.getBoundingClientRect().left;
-        const endLeft = startLeft + (Math.random() - 0.5) * 100;
-        bubble.style.setProperty('--start-left', `${startLeft}px`);
-        bubble.style.setProperty('--end-left', `${endLeft}px`);
-        reactionContainer.appendChild(bubble);
-        bubble.addEventListener('animationend', () => bubble.remove());
+        const numBubbles = 5; // Multiple bubbles
+        for (let i = 0; i < numBubbles; i++) {
+            setTimeout(() => {
+                const bubble = document.createElement('div');
+                bubble.className = `reaction-bubble ${type}`;
+                bubble.innerHTML = sourceButton.innerHTML;
+                const rect = sourceButton.getBoundingClientRect();
+                const startLeft = rect.left + rect.width / 2 - reactionContainer.getBoundingClientRect().left + (Math.random() - 0.5) * 20;
+                const endLeft = startLeft + (Math.random() - 0.5) * 150;
+                bubble.style.setProperty('--start-left', `${startLeft}px`);
+                bubble.style.setProperty('--end-left', `${endLeft}px`);
+                reactionContainer.appendChild(bubble);
+                bubble.addEventListener('animationend', () => bubble.remove());
+            }, i * 50); // Staggered creation
+        }
     }
 
     function showResults() {
