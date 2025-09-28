@@ -223,9 +223,9 @@ body {
 .result-bar-container { grid-column: 2 / 4; height: 20px; background-color: #e9ecef; border-radius: 10px; overflow: hidden; }
 .result-bar { height: 100%; width: 0; border-radius: 10px; background: var(--accent-neutral); transition: width 1s ease-out .3s; }
 
-.results-footer { display: flex; justify-content: center; gap: 1rem; padding: 1.5rem 0 0.5rem; border-top: 1px solid #dee2e6; margin-top: 1rem; flex-wrap: wrap; }
+.results-footer { display: flex; justify-content: center; gap: 1rem; padding: 1.5rem 0 0.5rem; margin-top: 1rem; flex-wrap: wrap; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); background: rgba(255, 255, 255, 0.8); }
 .action-button.secondary-button, .action-button.primary-button { background-color: var(--accent-neutral); color: #ffffff; border: none; border-radius: 50px; padding: 0.8rem 1.8rem; font-size: 1rem; font-weight: 600; width: auto; height: auto; transition: background-color 0.2s; }
-.action-button.secondary-button { background: transparent; color: var(--accent-neutral); border: 2px solid var(--accent-neutral); }
+.action-button.secondary-button { background: white; color: var(--accent-neutral); border: 2px solid var(--accent-neutral); }
 .action-button.primary-button:hover { background-color: #5a38e0; }
 .action-button.secondary-button:hover { background-color: #dee2e6; }
 .reaction-container { position: fixed; bottom: 80px; left: 50%; transform: translateX(-50%); width: 100%; max-width: 400px; height: 200px; pointer-events: none; overflow: hidden; z-index: 100; }
