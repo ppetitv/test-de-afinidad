@@ -103,7 +103,7 @@ body {
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
     cursor: grab; 
     user-select: none; 
-    transition: transform 0.3s ease-out, background 0.3s ease-out;
+    transition: transform 0.3s ease-out;
     will-change: transform, opacity; 
     overflow: hidden; 
     pointer-events: none; /* Deshabilita eventos en todas las tarjetas por defecto */
@@ -113,7 +113,7 @@ body {
     pointer-events: auto; /* Habilita eventos solo en la primera tarjeta (la activa) */
 }
 
-.card.dragging { transition: transform none; }
+.card.dragging { transition: none; }
 .card-topic, .card-proposal, .card-swipe-indicator { pointer-events: none; }
 .card-topic { font-size: 1rem; font-weight: 600; color: rgba(255, 255, 255, 0.7); margin-bottom: 1rem; }
 /* Mejora: Tipografía */

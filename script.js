@@ -28,21 +28,6 @@ document.addEventListener('DOMContentLoaded', () => {
     let lastAnswer = null;
     let undoTimeout = null;
 
-    // --- COLORES PARA TRANSICIÓN ---
-    const originalStart = {r:61, g:82, b:213};
-    const originalEnd = {r:0, g:23, b:228};
-    const greenStart = {r:40, g:167, b:69};
-    const greenEnd = {r:30, g:126, b:52};
-    const redStart = {r:220, g:53, b:69};
-    const redEnd = {r:189, g:33, b:48};
-
-    function mixColor(color1, color2, factor) {
-        const r = Math.round(color1.r + (color2.r - color1.r) * factor);
-        const g = Math.round(color1.g + (color2.g - color1.g) * factor);
-        const b = Math.round(color1.b + (color2.b - color1.b) * factor);
-        return {r, g, b};
-    }
-
     // --- SELECTORES DEL DOM ---
     const swipeArea = document.getElementById('swipe-area');
     const cardStack = document.querySelector('.card-stack');
@@ -165,22 +150,6 @@ document.addEventListener('DOMContentLoaded', () => {
             agreeIndicator.style.opacity = 0;
             agreeOverlay.style.opacity = 0;
         }
-
-        // Update background color
-        const maxOffsetForColor = activeCard.offsetWidth / 2;
-        const progress = Math.min(Math.abs(offsetX) / maxOffsetForColor, 1);
-        let startColor, endColor;
-        if (offsetX > 0) {
-            startColor = mixColor(originalStart, greenStart, progress);
-            endColor = mixColor(originalEnd, greenEnd, progress);
-        } else if (offsetX < 0) {
-            startColor = mixColor(originalStart, redStart, progress);
-            endColor = mixColor(originalEnd, redEnd, progress);
-        } else {
-            startColor = originalStart;
-            endColor = originalEnd;
-        }
-        activeCard.style.background = `linear-gradient(220.55deg, rgb(${startColor.r}, ${startColor.g}, ${startColor.b}) 0%, rgb(${endColor.r}, ${endColor.g}, ${endColor.b}) 100%)`;
     }
 
     function onPointerUp() {
@@ -206,7 +175,6 @@ document.addEventListener('DOMContentLoaded', () => {
             activeCard.querySelector('.card-color-overlay.disagree').style.opacity = 0;
             activeCard.querySelector('.card-indicator-agree').style.opacity = 0;
             activeCard.querySelector('.card-indicator-disagree').style.opacity = 0;
-            activeCard.style.background = 'linear-gradient(220.55deg, #3D52D5 0%, #0017E4 100%)';
         }
         
         isDragging = false;
@@ -247,12 +215,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const flyoutX = (choice === 'agree' ? 1 : -1) * window.innerWidth;
         const rotation = (choice === 'agree' ? 15 : -15);
         cardToProcess.classList.remove('dragging');
-        // Change card background based on choice
-        if (choice === 'agree') {
-            cardToProcess.style.background = 'linear-gradient(220.55deg, #28a745 0%, #1e7e34 100%)';
-        } else if (choice === 'disagree') {
-            cardToProcess.style.background = 'linear-gradient(220.55deg, #dc3545 0%, #bd2130 100%)';
-        }
         cardToProcess.style.transition = 'transform 0.5s ease-out, opacity 0.5s ease-out';
         cardToProcess.style.transform = `translate(${flyoutX}px, 0) rotate(${rotation}deg)`;
         cardToProcess.style.opacity = '0';
