@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
         offsetX = Math.max(Math.min(offsetX, maxOffset), -maxOffset);
         activeCard.style.transform = `translate(${offsetX}px, 0) rotate(${offsetX * 0.05}deg)`;
 
-        const opacity = Math.min(Math.abs(offsetX) / (activeCard.offsetWidth / 2.5), 1);
+        const opacity = Math.min(Math.abs(offsetX) / (activeCard.offsetWidth / 4), 1);
         const agreeOverlay = activeCard.querySelector('.card-color-overlay.agree');
         const disagreeOverlay = activeCard.querySelector('.card-color-overlay.disagree');
         const indicator = activeCard.querySelector('.card-swipe-indicator');
