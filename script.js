@@ -412,6 +412,19 @@ document.addEventListener('DOMContentLoaded', () => {
         return results.sort((a, b) => b.score - a.score);
     }
 
+    function animateNumber(element, target, duration = 1000) {
+        let current = 0;
+        const increment = target / (duration / 20);
+        const timer = setInterval(() => {
+            current += increment;
+            if (current >= target) {
+                current = target;
+                clearInterval(timer);
+            }
+            element.textContent = Math.round(current) + '%';
+        }, 20);
+    }
+
     function displayResults() {
         const results = calculateResults();
         const resultsList = document.getElementById('results-list');
@@ -425,15 +438,17 @@ document.addEventListener('DOMContentLoaded', () => {
                     <span class="name">${result.name}</span>
                     <span class="party">${result.party}</span>
                 </div>
-                <div class="result-score">${result.score}%</div>
+                <div class="result-score">0%</div>
                 <div class="result-bar-container">
                     <div class="result-bar"></div>
                 </div>
             `;
             resultsList.appendChild(item);
-            // Animate bar with delay
+            // Animate with delay
+            const scoreElement = item.querySelector('.result-score');
             const bar = item.querySelector('.result-bar');
             setTimeout(() => {
+                animateNumber(scoreElement, result.score);
                 bar.style.width = `${result.score}%`;
             }, index * 200);
         });
