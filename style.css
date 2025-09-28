@@ -42,7 +42,7 @@ body {
 
 
 /* --- Top Banner --- */
-.top-banner { display: flex; justify-content: space-between; align-items: center; padding: 0.5rem 1rem; background: #f8f9fa; border-bottom: 1px solid #dee2e6; }
+.top-banner { display: flex; justify-content: center; align-items: center; gap: 1rem; padding: 0.5rem 1rem; background: #f8f9fa; border-bottom: 1px solid #dee2e6; }
 .top-logo-rpp, .top-logo-campaign { height: 24px; width: auto; }
 
 /* --- Layout Principal --- */
