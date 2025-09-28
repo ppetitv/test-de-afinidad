@@ -416,7 +416,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const results = calculateResults();
         const resultsList = document.getElementById('results-list');
         resultsList.innerHTML = '';
-        results.forEach(result => {
+        results.forEach((result, index) => {
             const item = document.createElement('div');
             item.className = 'result-item';
             item.innerHTML = `
@@ -427,10 +427,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
                 <div class="result-score">${result.score}%</div>
                 <div class="result-bar-container">
-                    <div class="result-bar" style="width: ${result.score}%"></div>
+                    <div class="result-bar"></div>
                 </div>
             `;
             resultsList.appendChild(item);
+            // Animate bar with delay
+            const bar = item.querySelector('.result-bar');
+            setTimeout(() => {
+                bar.style.width = `${result.score}%`;
+            }, index * 200);
         });
     }
 
