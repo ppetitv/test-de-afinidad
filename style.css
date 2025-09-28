@@ -183,12 +183,12 @@ body {
 .onboarding-buttons-demo { display: flex; justify-content: center; gap: 1rem; margin-bottom: 2rem; }
 .demo-btn { width: 40px; height: 40px; border-radius: 50%; display: flex; justify-content: center; align-items: center; font-size: 1.5rem; font-weight: bold; }
 .demo-btn.red { background: var(--accent-disagree); color: white; }
-.demo-btn.yellow { background: var(--accent-neutral); color: #121212; }
+.demo-btn.yellow { background: var(--accent-neutral); color: white; }
 .demo-btn.green { background: var(--accent-agree); color: #121212; }
 
 .onboarding-source-demo { margin: 2rem 0; text-align: center; }
 .demo-card { background: linear-gradient(220.55deg, #3D52D5 0%, #0017E4 100%); color: #ffffff; border-radius: 16px; padding: 1.5rem; width: 200px; margin: 0 auto; position: relative; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
-.demo-card-text { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; }
+.demo-card-text { font-size: 1rem; font-weight: 600; margin-bottom: 1rem; color: #ffffff; }
 .demo-source-btn { position: absolute; bottom: 1rem; right: 1rem; background: rgba(255,255,255,0.1); border-radius: 50%; width: 40px; height: 40px; display: flex; justify-content: center; align-items: center; color: #ffffff; border: none; }
 .demo-source-btn:hover { background: rgba(255,255,255,0.2); }
 
