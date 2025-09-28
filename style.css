@@ -196,6 +196,10 @@ body {
 
 .results-content { flex-grow: 1; overflow-y: auto; padding: 0 1rem; -ms-overflow-style: none; scrollbar-width: none; }
 .results-content::-webkit-scrollbar { display: none; }
+
+@media (min-width: 768px) {
+    .results-content { max-width: 900px; margin: 0 auto; }
+}
 .results-list { padding-right: 0; display: flex; flex-direction: column; gap: 1.5rem; }
 
 /* --- Estilos de Gráfico de Resultados --- */
