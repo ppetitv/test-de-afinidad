@@ -22,59 +22,56 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Función para cargar datos desde Google Sheets
     async function loadData() {
-        try {
-            // Cargar candidatos
-            const candidatesResponse = await fetch(candidatesURL);
-            if (!candidatesResponse.ok) throw new Error('Error al cargar candidatos');
-            const candidatesCSV = await candidatesResponse.text();
-            const candidatesParsed = parseCSV(candidatesCSV);
-            data.candidates = candidatesParsed.rows.map(row => ({
-                id: parseInt(row.ID_Candidato),
-                name: row.Nombre_Completo,
-                party: row.Partido_Politico,
-                photo: row.URL_Foto
-            }));
+        // Cargar candidatos
+        const candidatesResponse = await fetch(candidatesURL);
+        if (!candidatesResponse.ok) throw new Error('Error al cargar candidatos');
+        const candidatesCSV = await candidatesResponse.text();
+        const candidatesParsed = parseCSV(candidatesCSV);
+        data.candidates = candidatesParsed.rows.map(row => ({
+            id: parseInt(row.ID_Candidato),
+            name: row.Nombre_Completo,
+            party: row.Partido_Politico,
+            photo: row.URL_Foto
+        }));
 
-            // Cargar propuestas
-            const proposalsResponse = await fetch(proposalsURL);
-            if (!proposalsResponse.ok) throw new Error('Error al cargar propuestas');
-            const proposalsCSV = await proposalsResponse.text();
-            const proposalsParsed = parseCSV(proposalsCSV);
-            data.proposals = proposalsParsed.rows.map(row => {
-                const stances = {};
-                data.candidates.forEach(candidate => {
-                    const stanceKey = `Candidato_${candidate.id}_Postura`;
-                    stances[candidate.id] = row[stanceKey] || 'neutral';
-                });
-                return {
-                    id: row.ID_Afirmacion,
-                    topic: row.Tema_Principal,
-                    text: row.Texto_Propuesta,
-                    stances: stances,
-                    sourceTitle: row.sourceTitle,
-                    sourceDate: row.sourceDate,
-                    sourceURL: row.sourceURL
+        // Cargar propuestas
+        const proposalsResponse = await fetch(proposalsURL);
+        if (!proposalsResponse.ok) throw new Error('Error al cargar propuestas');
+        const proposalsCSV = await proposalsResponse.text();
+        const proposalsParsed = parseCSV(proposalsCSV);
+        data.proposals = proposalsParsed.rows.map(row => {
+            const stances = {};
+            const sources = {};
+            data.candidates.forEach(candidate => {
+                const stanceKey = `Candidato_${candidate.id}_Postura`;
+                stances[candidate.id] = row[stanceKey] || 'neutral';
+                sources[candidate.id] = {
+                    title: row[`Candidato_${candidate.id}_Fuente_Titulo`] || '',
+                    date: row[`Candidato_${candidate.id}_Fuente_Fecha`] || '',
+                    url: row[`Candidato_${candidate.id}_Fuente_URL`] || ''
                 };
             });
-        } catch (error) {
-            console.error('Error cargando datos:', error);
-            // Fallback a datos demo si falla
-            data = {
-                candidates: [
-                    { id: 1, name: 'Candidato Alfa', party: 'Partido Progreso', photo: 'https://i.pravatar.cc/150?u=alfa' },
-                    { id: 2, name: 'Candidata Beta', party: 'Alianza Futuro', photo: 'https://i.pravatar.cc/150?u=beta' },
-                    { id: 3, name: 'Candidato Gamma', party: 'Unión Nacional', photo: 'https://i.pravatar.cc/150?u=gamma' },
-                    { id: 4, name: 'Candidata Delta', party: 'Renovación Cívica', photo: 'https://i.pravatar.cc/150?u=delta' }
-                ],
-                proposals: [
-                    { id: 'p1', topic: 'Economía', text: 'Aumentar el sueldo mínimo anualmente por decreto presidencial.', stances: { 1: 'agree', 2: 'disagree', 3: 'neutral', 4: 'agree' }, sourceTitle: 'Sueldo mínimo en Perú: ¿A cuánto asciende el salario actual?', sourceDate: '25/09/2025', sourceURL: 'https://rpp.pe/economia/economia/sueldo-minimo-en-peru-a-cuanto-asciende-el-salario-actual-noticia-1399123' },
-                    { id: 'p2', topic: 'Seguridad', text: 'Permitir que las Fuerzas Armadas patrullen las calles de forma permanente.', stances: { 1: 'agree', 2: 'agree', 3: 'disagree', 4: 'neutral' }, sourceTitle: 'Fuerzas Armadas en las calles: ¿Una medida necesaria?', sourceDate: '24/09/2025', sourceURL: 'https://rpp.pe/peru/actualidad/fuerzas-armadas-en-las-calles-una-medida-necesaria-o-un-riesgo-para-la-democracia-noticia-1402345' },
-                    { id: 'p3', topic: 'Medio Ambiente', text: 'Prohibir la minería a tajo abierto en cabeceras de cuenca.', stances: { 1: 'disagree', 2: 'neutral', 3: 'agree', 4: 'agree' }, sourceTitle: 'Conflictos mineros: La lucha por el agua y la tierra', sourceDate: '23/09/2025', sourceURL: 'https://rpp.pe/peru/medio-ambiente/conflictos-mineros-en-peru-la-lucha-por-el-agua-y-la-tierra-noticia-1389765' },
-                    { id: 'p4', topic: 'Educación', text: 'Implementar un sistema de vouchers para la educación básica.', stances: { 1: 'agree', 2: 'disagree', 3: 'disagree', 4: 'neutral' }, sourceTitle: 'Vouchers educativos: ¿Una alternativa para el Perú?', sourceDate: '22/09/2025', sourceURL: 'https://rpp.pe/peru/educacion/vouchers-educativos-una-alternativa-para-mejorar-la-calidad-de-la-educacion-en-el-peru-noticia-1411223' },
-                    { id: 'p5', topic: 'Salud', text: 'Unificar todos los sistemas de salud (EsSalud, MINSA, FFAA) en uno solo.', stances: { 1: 'neutral', 2: 'agree', 3: 'disagree', 4: 'agree' }, sourceTitle: 'Unificación del sistema de salud: Un desafío pendiente', sourceDate: '21/09/2025', sourceURL: 'https://rpp.pe/peru/salud/unificacion-del-sistema-de-salud-un-desafio-pendiente-para-el-peru-noticia-1398543' }
-                ]
+            return {
+                id: row.ID_Afirmacion,
+                topic: row.Tema_Principal,
+                text: row.Texto_Propuesta,
+                stances: stances,
+                sources: sources
             };
-        }
+        });
+    }
+
+    // Función para mostrar error
+    function showError(message) {
+        const swipeArea = document.getElementById('swipe-area');
+        swipeArea.innerHTML = `
+            <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; text-align: center; padding: 20px;">
+                <h2 style="color: #d32f2f; margin-bottom: 16px;">Error al cargar datos</h2>
+                <p style="margin-bottom: 16px;">${message}</p>
+                <p style="margin-bottom: 24px;">Por favor, verifica la conexión a internet y que las hojas de cálculo estén publicadas correctamente.</p>
+                <button onclick="location.reload()" style="padding: 12px 24px; background-color: #1976d2; color: white; border: none; border-radius: 4px; cursor: pointer;">Reintentar</button>
+            </div>
+        `;
     }
 
     // --- ESTADO DE LA APLICACIÓN ---
@@ -111,13 +108,18 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // --- INICIALIZACIÓN ---
     async function init() {
-        await loadData();
-        if (progressText) {
-            progressText.textContent = `0 / ${data.proposals.length}`;
+        try {
+            await loadData();
+            if (progressText) {
+                progressText.textContent = `0 / ${data.proposals.length}`;
+            }
+            createCards();
+            setupEventListeners();
+            setupOnboarding();
+        } catch (error) {
+            console.error('Error en inicialización:', error);
+            showError('No se pudieron cargar los datos desde las hojas de cálculo. ' + error.message);
         }
-        createCards();
-        setupEventListeners();
-        setupOnboarding();
     }
 
     // --- RENDERIZADO Y GESTIÓN DE TARJETAS ---
@@ -142,10 +144,14 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
                 </button>
                 <div class="card-source-tooltip">
-                    <h4>Fuente de la Afirmación</h4>
-                    <p class="tooltip-title">${proposal.sourceTitle}</p>
-                    <p class="tooltip-date">${proposal.sourceDate}</p>
-                    <a href="${proposal.sourceURL}" target="_blank" rel="noopener noreferrer">Leer en RPP.pe</a>
+                    <h4>Fuentes de la Afirmación</h4>
+                    ${Object.entries(proposal.sources).map(([id, source]) => source.title ? `
+                        <div class="source-item">
+                            <p class="tooltip-title">${source.title}</p>
+                            <p class="tooltip-date">${source.date}</p>
+                            <a href="${source.url}" target="_blank" rel="noopener noreferrer">Leer en RPP.pe</a>
+                        </div>
+                    ` : '').join('')}
                 </div>
             `;
             cardStack.prepend(card);
