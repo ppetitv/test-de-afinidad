@@ -2,22 +2,26 @@ document.addEventListener('DOMContentLoaded', async () => {
     // --- DATOS DE LA APLICACIÓN ---
     let data = { candidates: [], proposals: [] };
 
-    // URLs de Google Sheets
-    const candidatesURL = 'https://docs.google.com/spreadsheets/d/1f1S5srBhGx8Gshl3lDe-oCNaNvEcjAkaBhcQ6ts_VQU/export?format=csv&gid=0';
-    const proposalsURL = 'https://docs.google.com/spreadsheets/d/1f1S5srBhGx8Gshl3lDe-oCNaNvEcjAkaBhcQ6ts_VQU/export?format=csv&gid=1687511897';
+    // URLs de Google Sheets publicadas como web
+    const candidatesURL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vREMo0O0NCcIM8NQPQHbvHyfW-YWaUctZ0LxM4r7k1lRmSDtn3PQz3hpMgl4tKQOX6we5GTrU2YsUDh/pubhtml?gid=0&single=true';
+    const proposalsURL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vREMo0O0NCcIM8NQPQHbvHyfW-YWaUctZ0LxM4r7k1lRmSDtn3PQz3hpMgl4tKQOX6we5GTrU2YsUDh/pubhtml?gid=1687511897&single=true';
 
-    // Función para parsear CSV simple
-    function parseCSV(csv) {
-        const lines = csv.split('\n').filter(line => line.trim());
-        if (lines.length < 2) return { headers: [], rows: [] };
-        const headers = lines[0].split(',').map(h => h.trim().replace(/"/g, ''));
-        const rows = lines.slice(1).map(line => {
-            const values = line.split(',').map(v => v.trim().replace(/"/g, ''));
+    // Función para parsear tabla HTML de Google Sheets
+    function parseHTMLTable(html) {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, 'text/html');
+        const table = doc.querySelector('table');
+        if (!table) throw new Error('No se encontró tabla en el HTML publicado');
+        const rows = Array.from(table.querySelectorAll('tr'));
+        if (rows.length < 2) throw new Error('Tabla vacía o sin suficientes filas');
+        const headers = Array.from(rows[0].querySelectorAll('td, th')).map(cell => cell.textContent.trim());
+        const dataRows = rows.slice(1).map(row => {
+            const cells = Array.from(row.querySelectorAll('td')).map(cell => cell.textContent.trim());
             const obj = {};
-            headers.forEach((h, i) => obj[h] = values[i] || '');
+            headers.forEach((h, i) => obj[headers[i]] = cells[i] || '');
             return obj;
         });
-        return { headers, rows };
+        return { headers, rows: dataRows };
     }
 
     // Función para cargar datos desde Google Sheets
@@ -25,8 +29,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Cargar candidatos
         const candidatesResponse = await fetch(candidatesURL);
         if (!candidatesResponse.ok) throw new Error('Error al cargar candidatos');
-        const candidatesCSV = await candidatesResponse.text();
-        const candidatesParsed = parseCSV(candidatesCSV);
+        const candidatesHTML = await candidatesResponse.text();
+        const candidatesParsed = parseHTMLTable(candidatesHTML);
         data.candidates = candidatesParsed.rows.map(row => ({
             id: parseInt(row.ID_Candidato),
             name: row.Nombre_Completo,
@@ -37,8 +41,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Cargar propuestas
         const proposalsResponse = await fetch(proposalsURL);
         if (!proposalsResponse.ok) throw new Error('Error al cargar propuestas');
-        const proposalsCSV = await proposalsResponse.text();
-        const proposalsParsed = parseCSV(proposalsCSV);
+        const proposalsHTML = await proposalsResponse.text();
+        const proposalsParsed = parseHTMLTable(proposalsHTML);
         data.proposals = proposalsParsed.rows.map(row => {
             const stances = {};
             const sources = {};
