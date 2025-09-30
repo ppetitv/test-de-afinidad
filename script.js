@@ -1,20 +1,81 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
     // --- DATOS DE LA APLICACIÓN ---
-    const data = {
-        candidates: [
-            { id: 1, name: 'Candidato Alfa', party: 'Partido Progreso', photo: 'https://i.pravatar.cc/150?u=alfa' },
-            { id: 2, name: 'Candidata Beta', party: 'Alianza Futuro', photo: 'https://i.pravatar.cc/150?u=beta' },
-            { id: 3, name: 'Candidato Gamma', party: 'Unión Nacional', photo: 'https://i.pravatar.cc/150?u=gamma' },
-            { id: 4, name: 'Candidata Delta', party: 'Renovación Cívica', photo: 'https://i.pravatar.cc/150?u=delta' }
-        ],
-        proposals: [
-            { id: 'p1', topic: 'Economía', text: 'Aumentar el sueldo mínimo anualmente por decreto presidencial.', stances: { 1: 'agree', 2: 'disagree', 3: 'neutral', 4: 'agree' }, sourceTitle: 'Sueldo mínimo en Perú: ¿A cuánto asciende el salario actual?', sourceDate: '25/09/2025', sourceURL: 'https://rpp.pe/economia/economia/sueldo-minimo-en-peru-a-cuanto-asciende-el-salario-actual-noticia-1399123' },
-            { id: 'p2', topic: 'Seguridad', text: 'Permitir que las Fuerzas Armadas patrullen las calles de forma permanente.', stances: { 1: 'agree', 2: 'agree', 3: 'disagree', 4: 'neutral' }, sourceTitle: 'Fuerzas Armadas en las calles: ¿Una medida necesaria?', sourceDate: '24/09/2025', sourceURL: 'https://rpp.pe/peru/actualidad/fuerzas-armadas-en-las-calles-una-medida-necesaria-o-un-riesgo-para-la-democracia-noticia-1402345' },
-            { id: 'p3', topic: 'Medio Ambiente', text: 'Prohibir la minería a tajo abierto en cabeceras de cuenca.', stances: { 1: 'disagree', 2: 'neutral', 3: 'agree', 4: 'agree' }, sourceTitle: 'Conflictos mineros: La lucha por el agua y la tierra', sourceDate: '23/09/2025', sourceURL: 'https://rpp.pe/peru/medio-ambiente/conflictos-mineros-en-peru-la-lucha-por-el-agua-y-la-tierra-noticia-1389765' },
-            { id: 'p4', topic: 'Educación', text: 'Implementar un sistema de vouchers para la educación básica.', stances: { 1: 'agree', 2: 'disagree', 3: 'disagree', 4: 'neutral' }, sourceTitle: 'Vouchers educativos: ¿Una alternativa para el Perú?', sourceDate: '22/09/2025', sourceURL: 'https://rpp.pe/peru/educacion/vouchers-educativos-una-alternativa-para-mejorar-la-calidad-de-la-educacion-en-el-peru-noticia-1411223' },
-            { id: 'p5', topic: 'Salud', text: 'Unificar todos los sistemas de salud (EsSalud, MINSA, FFAA) en uno solo.', stances: { 1: 'neutral', 2: 'agree', 3: 'disagree', 4: 'agree' }, sourceTitle: 'Unificación del sistema de salud: Un desafío pendiente', sourceDate: '21/09/2025', sourceURL: 'https://rpp.pe/peru/salud/unificacion-del-sistema-de-salud-un-desafio-pendiente-para-el-peru-noticia-1398543' }
-        ]
-    };
+    let data = { candidates: [], proposals: [] };
+
+    // URLs de Google Sheets
+    const candidatesURL = 'https://docs.google.com/spreadsheets/d/1f1S5srBhGx8Gshl3lDe-oCNaNvEcjAkaBhcQ6ts_VQU/export?format=csv&gid=0';
+    const proposalsURL = 'https://docs.google.com/spreadsheets/d/1f1S5srBhGx8Gshl3lDe-oCNaNvEcjAkaBhcQ6ts_VQU/export?format=csv&gid=1687511897';
+
+    // Función para parsear CSV simple
+    function parseCSV(csv) {
+        const lines = csv.split('\n').filter(line => line.trim());
+        if (lines.length < 2) return { headers: [], rows: [] };
+        const headers = lines[0].split(',').map(h => h.trim().replace(/"/g, ''));
+        const rows = lines.slice(1).map(line => {
+            const values = line.split(',').map(v => v.trim().replace(/"/g, ''));
+            const obj = {};
+            headers.forEach((h, i) => obj[h] = values[i] || '');
+            return obj;
+        });
+        return { headers, rows };
+    }
+
+    // Función para cargar datos desde Google Sheets
+    async function loadData() {
+        try {
+            // Cargar candidatos
+            const candidatesResponse = await fetch(candidatesURL);
+            if (!candidatesResponse.ok) throw new Error('Error al cargar candidatos');
+            const candidatesCSV = await candidatesResponse.text();
+            const candidatesParsed = parseCSV(candidatesCSV);
+            data.candidates = candidatesParsed.rows.map(row => ({
+                id: parseInt(row.id),
+                name: row.name,
+                party: row.party,
+                photo: row.photo
+            }));
+
+            // Cargar propuestas
+            const proposalsResponse = await fetch(proposalsURL);
+            if (!proposalsResponse.ok) throw new Error('Error al cargar propuestas');
+            const proposalsCSV = await proposalsResponse.text();
+            const proposalsParsed = parseCSV(proposalsCSV);
+            data.proposals = proposalsParsed.rows.map(row => {
+                const stances = {};
+                data.candidates.forEach(candidate => {
+                    const stanceKey = `stance_${candidate.id}`;
+                    stances[candidate.id] = row[stanceKey] || 'neutral';
+                });
+                return {
+                    id: row.id,
+                    topic: row.topic,
+                    text: row.text,
+                    stances: stances,
+                    sourceTitle: row.sourceTitle,
+                    sourceDate: row.sourceDate,
+                    sourceURL: row.sourceURL
+                };
+            });
+        } catch (error) {
+            console.error('Error cargando datos:', error);
+            // Fallback a datos demo si falla
+            data = {
+                candidates: [
+                    { id: 1, name: 'Candidato Alfa', party: 'Partido Progreso', photo: 'https://i.pravatar.cc/150?u=alfa' },
+                    { id: 2, name: 'Candidata Beta', party: 'Alianza Futuro', photo: 'https://i.pravatar.cc/150?u=beta' },
+                    { id: 3, name: 'Candidato Gamma', party: 'Unión Nacional', photo: 'https://i.pravatar.cc/150?u=gamma' },
+                    { id: 4, name: 'Candidata Delta', party: 'Renovación Cívica', photo: 'https://i.pravatar.cc/150?u=delta' }
+                ],
+                proposals: [
+                    { id: 'p1', topic: 'Economía', text: 'Aumentar el sueldo mínimo anualmente por decreto presidencial.', stances: { 1: 'agree', 2: 'disagree', 3: 'neutral', 4: 'agree' }, sourceTitle: 'Sueldo mínimo en Perú: ¿A cuánto asciende el salario actual?', sourceDate: '25/09/2025', sourceURL: 'https://rpp.pe/economia/economia/sueldo-minimo-en-peru-a-cuanto-asciende-el-salario-actual-noticia-1399123' },
+                    { id: 'p2', topic: 'Seguridad', text: 'Permitir que las Fuerzas Armadas patrullen las calles de forma permanente.', stances: { 1: 'agree', 2: 'agree', 3: 'disagree', 4: 'neutral' }, sourceTitle: 'Fuerzas Armadas en las calles: ¿Una medida necesaria?', sourceDate: '24/09/2025', sourceURL: 'https://rpp.pe/peru/actualidad/fuerzas-armadas-en-las-calles-una-medida-necesaria-o-un-riesgo-para-la-democracia-noticia-1402345' },
+                    { id: 'p3', topic: 'Medio Ambiente', text: 'Prohibir la minería a tajo abierto en cabeceras de cuenca.', stances: { 1: 'disagree', 2: 'neutral', 3: 'agree', 4: 'agree' }, sourceTitle: 'Conflictos mineros: La lucha por el agua y la tierra', sourceDate: '23/09/2025', sourceURL: 'https://rpp.pe/peru/medio-ambiente/conflictos-mineros-en-peru-la-lucha-por-el-agua-y-la-tierra-noticia-1389765' },
+                    { id: 'p4', topic: 'Educación', text: 'Implementar un sistema de vouchers para la educación básica.', stances: { 1: 'agree', 2: 'disagree', 3: 'disagree', 4: 'neutral' }, sourceTitle: 'Vouchers educativos: ¿Una alternativa para el Perú?', sourceDate: '22/09/2025', sourceURL: 'https://rpp.pe/peru/educacion/vouchers-educativos-una-alternativa-para-mejorar-la-calidad-de-la-educacion-en-el-peru-noticia-1411223' },
+                    { id: 'p5', topic: 'Salud', text: 'Unificar todos los sistemas de salud (EsSalud, MINSA, FFAA) en uno solo.', stances: { 1: 'neutral', 2: 'agree', 3: 'disagree', 4: 'agree' }, sourceTitle: 'Unificación del sistema de salud: Un desafío pendiente', sourceDate: '21/09/2025', sourceURL: 'https://rpp.pe/peru/salud/unificacion-del-sistema-de-salud-un-desafio-pendiente-para-el-peru-noticia-1398543' }
+                ]
+            };
+        }
+    }
 
     // --- ESTADO DE LA APLICACIÓN ---
     let userAnswers = [];
@@ -49,7 +110,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const progressText = document.getElementById('progress-text');
 
     // --- INICIALIZACIÓN ---
-    function init() {
+    async function init() {
+        await loadData();
         if (progressText) {
             progressText.textContent = `0 / ${data.proposals.length}`;
         }
