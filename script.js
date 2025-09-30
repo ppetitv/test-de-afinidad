@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Configuración para Google Sheets API
     const spreadsheetId = '1f1S5srBhGx8Gshl3lDe-oCNaNvEcjAkaBhcQ6ts_VQU';
     const apiKey = 'AIzaSyBP5fnMp35bT2y7BMzO2XEVXFROXVrCjlQ'; // Reemplaza con tu clave API de Google Cloud Console
-    const candidatesURL = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/Hoja1!A:Z?key=${apiKey}`;
-    const proposalsURL = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/Hoja2!A:Z?key=${apiKey}`;
+    const candidatesURL = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/Candidatos!A:Z?key=${apiKey}`;
+    const proposalsURL = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/Afirmaciones!A:Z?key=${apiKey}`;
 
     // Función para parsear respuesta JSON de Google Sheets API
     function parseSheetJSON(json) {
