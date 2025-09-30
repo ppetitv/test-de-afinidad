@@ -367,6 +367,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         const toggleSidebar = () => {
             sidebar.classList.toggle('open');
             sidebarOverlay.classList.toggle('visible');
+            // Close sources sidebar if open
+            sourcesSidebar.classList.remove('open');
+            sourcesSidebarOverlay.classList.remove('visible');
         };
         openSidebarBtn.addEventListener('click', toggleSidebar);
         closeSidebarBtn.addEventListener('click', toggleSidebar);
@@ -428,6 +431,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function openSourcesSidebar() {
+        // Close main sidebar if open
+        sidebar.classList.remove('open');
+        sidebarOverlay.classList.remove('visible');
         sourcesSidebar.classList.add('open');
         sourcesSidebarOverlay.classList.add('visible');
     }
