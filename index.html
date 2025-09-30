@@ -12,10 +12,72 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     
     <!-- Stylesheet -->
+    <!-- Styles for sources sidebar -->
+    <style>
+        .sources-sidebar {
+            position: fixed;
+            top: 0;
+            right: -400px;
+            width: 400px;
+            height: 100%;
+            background: white;
+            z-index: 1000;
+            transition: right 0.3s ease;
+            box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+        }
+        .sources-sidebar.open {
+            right: 0;
+        }
+        .sources-sidebar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .sources-sidebar-header h3 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .sources-content {
+            padding: 20px;
+            overflow-y: auto;
+            height: calc(100% - 80px);
+        }
+        .source-item {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .source-item:last-child {
+            border-bottom: none;
+        }
+        .source-title {
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        .source-date {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .source-item a {
+            color: #1976d2;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .source-item a:hover {
+            text-decoration: underline;
+        }
+    </style>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Overlay para el sidebar -->
+    <!-- Overlay para el sidebar de fuentes -->
+    <div id="sources-sidebar-overlay" class="sidebar-overlay"></div>
     <div id="sidebar-overlay" class="sidebar-overlay"></div>
 
     <!-- Sidebar -->
@@ -31,6 +93,16 @@
         </ul>
         <ul class="sidebar-footer-links">
             <li><a href="#reporte-errores">Reporte de errores</a></li>
+    <!-- Sources Sidebar -->
+    <div id="sources-sidebar" class="sources-sidebar">
+        <div class="sources-sidebar-header">
+            <h3>Fuentes de la Afirmación</h3>
+            <button id="close-sources-sidebar" class="close-button" aria-label="Cerrar fuentes">&times;</button>
+        </div>
+        <div id="sources-content" class="sources-content">
+            <!-- Sources will be inserted here -->
+        </div>
+    </div>
             <li><a href="https://rpp.pe" target="_blank" rel="noopener noreferrer">Ir a rpp.pe</a></li>
         </ul>
     </nav>

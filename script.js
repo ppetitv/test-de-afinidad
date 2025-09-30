@@ -103,6 +103,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     const sidebarOverlay = document.getElementById('sidebar-overlay');
     const openSidebarBtn = document.getElementById('open-sidebar-button');
     const closeSidebarBtn = document.getElementById('close-sidebar-button');
+    const sourcesSidebar = document.getElementById('sources-sidebar');
+    const sourcesSidebarOverlay = document.getElementById('sources-sidebar-overlay');
+    const closeSourcesSidebarBtn = document.getElementById('close-sources-sidebar');
+    const sourcesContent = document.getElementById('sources-content');
     const onboardingOverlay = document.getElementById('onboarding');
     const progressBar = document.getElementById('progress-bar');
     const progressText = document.getElementById('progress-text');
@@ -144,16 +148,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <button class="card-source-link" aria-label="Ver fuente">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
                 </button>
-                <div class="card-source-tooltip">
-                    <h4>Fuentes de la Afirmación</h4>
-                    ${Object.entries(proposal.sources).map(([id, source]) => source.title ? `
-                        <div class="source-item">
-                            <p class="tooltip-title">${source.title}</p>
-                            <p class="tooltip-date">${source.date}</p>
-                            <a href="${source.url}" target="_blank" rel="noopener noreferrer">Leer en RPP.pe</a>
-                        </div>
-                    ` : '').join('')}
-                </div>
             `;
             cardStack.prepend(card);
         });
@@ -403,20 +397,44 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     }
 
-    function handleTooltip(e) {
+    function handleSourceClick(e) {
         const sourceLink = e.target.closest('.card-source-link');
         if (sourceLink) {
             e.preventDefault();
-            const tooltip = sourceLink.nextElementSibling;
-            if (tooltip) {
-                document.querySelectorAll('.card-source-tooltip.visible').forEach(tt => {
-                    if (tt !== tooltip) tt.classList.remove('visible');
-                });
-                tooltip.classList.toggle('visible');
+            const card = sourceLink.closest('.card');
+            const proposalId = card.dataset.proposalId;
+            const proposal = data.proposals.find(p => p.id === proposalId);
+            if (proposal) {
+                populateSourcesSidebar(proposal);
+                openSourcesSidebar();
             }
-        } else if (!e.target.closest('.card-source-tooltip')) {
-            document.querySelectorAll('.card-source-tooltip.visible').forEach(tt => tt.classList.remove('visible'));
         }
+    }
+
+    function populateSourcesSidebar(proposal) {
+        sourcesContent.innerHTML = '';
+        Object.entries(proposal.sources).forEach(([id, source]) => {
+            if (source.title) {
+                const sourceDiv = document.createElement('div');
+                sourceDiv.className = 'source-item';
+                sourceDiv.innerHTML = `
+                    <p class="source-title">${source.title}</p>
+                    <p class="source-date">${source.date}</p>
+                    <a href="${source.url}" target="_blank" rel="noopener noreferrer">Leer en RPP.pe</a>
+                `;
+                sourcesContent.appendChild(sourceDiv);
+            }
+        });
+    }
+
+    function openSourcesSidebar() {
+        sourcesSidebar.classList.add('open');
+        sourcesSidebarOverlay.classList.add('visible');
+    }
+
+    function closeSourcesSidebar() {
+        sourcesSidebar.classList.remove('open');
+        sourcesSidebarOverlay.classList.remove('visible');
     }
 
     // --- OTRAS FUNCIONES ---
@@ -555,8 +573,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         undoBtn.addEventListener('click', undoLastChoice);
         swipeArea.addEventListener('mousedown', onPointerDown);
         swipeArea.addEventListener('touchstart', onPointerDown, { passive: true });
-        document.body.addEventListener('click', handleTooltip);
+        document.body.addEventListener('click', handleSourceClick);
         setupSidebar();
+        closeSourcesSidebarBtn.addEventListener('click', closeSourcesSidebar);
+        sourcesSidebarOverlay.addEventListener('click', closeSourcesSidebar);
     }
 
     // Iniciar la aplicación
