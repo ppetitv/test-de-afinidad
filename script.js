@@ -29,10 +29,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             const candidatesCSV = await candidatesResponse.text();
             const candidatesParsed = parseCSV(candidatesCSV);
             data.candidates = candidatesParsed.rows.map(row => ({
-                id: parseInt(row.id),
-                name: row.name,
-                party: row.party,
-                photo: row.photo
+                id: parseInt(row.ID_Candidato),
+                name: row.Nombre_Completo,
+                party: row.Partido_Politico,
+                photo: row.URL_Foto
             }));
 
             // Cargar propuestas
@@ -43,13 +43,13 @@ document.addEventListener('DOMContentLoaded', async () => {
             data.proposals = proposalsParsed.rows.map(row => {
                 const stances = {};
                 data.candidates.forEach(candidate => {
-                    const stanceKey = `stance_${candidate.id}`;
+                    const stanceKey = `Candidato_${candidate.id}_Postura`;
                     stances[candidate.id] = row[stanceKey] || 'neutral';
                 });
                 return {
-                    id: row.id,
-                    topic: row.topic,
-                    text: row.text,
+                    id: row.ID_Afirmacion,
+                    topic: row.Tema_Principal,
+                    text: row.Texto_Propuesta,
                     stances: stances,
                     sourceTitle: row.sourceTitle,
                     sourceDate: row.sourceDate,
