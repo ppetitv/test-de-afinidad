@@ -173,6 +173,8 @@ body {
 .sidebar-tools-header h3 { font-size: 1.1rem; font-weight: 700; color: #212529; margin-bottom: 0.5rem; }
 .sidebar-tools-header p { font-size: 0.9rem; color: #6c757d; line-height: 1.4; }
 
+.sidebar-nav-links { margin-top: 0; }
+
 .sidebar-nav-links button { background: rgba(88, 56, 217, 0.1); color: var(--accent-neutral); border: 1px solid rgba(88, 56, 217, 0.2); border-radius: 8px; padding: 0.75rem 1rem; font-size: 1rem; font-weight: 600; width: 100%; text-align: left; cursor: pointer; transition: all 0.2s; margin-bottom: 0.5rem; }
 .sidebar-nav-links button:hover { background: rgba(88, 56, 217, 0.2); border-color: var(--accent-neutral); }
 .sidebar-nav-links button:last-child { margin-bottom: 0; }
