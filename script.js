@@ -575,12 +575,12 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function shareResults() {
-        const shareText = "¡Descubre tu afinidad electoral! Hice el test de Match Electoral y estos son mis resultados. ¡Haz el tuyo!";
+        const shareText = "¡Descubre tu afinidad electoral! Te invito a hacer el test de Match Electoral y conocer tus afinidades políticas.";
         const shareUrl = window.location.href;
         if (navigator.share) {
-            navigator.share({ title: 'Mis Resultados del Match Electoral', text: shareText, url: shareUrl }).catch(console.error);
+            navigator.share({ title: 'Match Electoral - Descubre tu Afinidad', text: shareText, url: shareUrl }).catch(console.error);
         } else {
-            alert(`Comparte tus resultados:\n${shareText}\n${shareUrl}`);
+            alert(`Invita a tus amigos:\n${shareText}\n${shareUrl}`);
         }
     }
 
