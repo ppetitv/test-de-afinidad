@@ -350,11 +350,13 @@ body {
 
 /* --- Estilos del Loader Esquelético --- */
 .card-placeholder {
-    display: block; /* Por defecto visible */
+    display: block;
     position: relative;
     width: 100%;
+    max-width: 450px;
     min-height: 400px;
     max-height: 70vh;
+    margin: 0 auto;
 }
 
 .skeleton-card {
