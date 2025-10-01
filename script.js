@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
                 </button>
             `;
-            cardStack.prepend(card);
+            cardStack.append(card);
         });
 
         Array.from(cardStack.children).forEach((card, index) => {
@@ -239,8 +239,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         } else {
             activeCard.classList.remove('dragging');
             const index = Array.from(cardStack.children).indexOf(activeCard);
-            const originalIndex = cardStack.children.length - 1 - index;
-            activeCard.style.transform = `translateY(${originalIndex * -10}px) scale(${1 - originalIndex * 0.02})`;
+            activeCard.style.transform = `translateY(${index * -10}px) scale(${1 - index * 0.02})`;
             activeCard.querySelector('.card-color-overlay.agree').style.opacity = 0;
             activeCard.querySelector('.card-color-overlay.disagree').style.opacity = 0;
             activeCard.querySelector('.card-swipe-indicator').style.opacity = 0;
@@ -349,6 +348,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         restoredCard.style.transition = 'none';
         restoredCard.style.opacity = 1;
         restoredCard.style.transform = 'translate(0,0) rotate(0)';
+        // Reset overlays and indicator
+        restoredCard.querySelector('.card-color-overlay.agree').style.opacity = 0;
+        restoredCard.querySelector('.card-color-overlay.disagree').style.opacity = 0;
+        const indicator = restoredCard.querySelector('.card-swipe-indicator');
+        indicator.style.opacity = 0;
+        indicator.classList.remove('agree', 'disagree', 'neutral');
         cardStack.prepend(restoredCard);
         
         // Re-asignar z-index y transformaciones a toda la pila
