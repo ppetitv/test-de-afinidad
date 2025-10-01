@@ -333,46 +333,72 @@ body {
 
 /* --- Estilos de Encuesta de Satisfacción --- */
 .satisfaction-survey {
-    padding: 1.5rem 1rem;
+    padding: 2rem 1.5rem;
     border-top: 1px solid #dee2e6;
-    margin-top: 1rem;
-    background: none;
+    margin-top: 2rem;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
     text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.satisfaction-survey::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--accent-agree), var(--accent-neutral), var(--accent-disagree));
 }
 
 .satisfaction-survey h3 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
     color: var(--font-color);
+    position: relative;
+    z-index: 1;
 }
 
 .satisfaction-survey p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #6c757d;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    position: relative;
+    z-index: 1;
 }
 
 .satisfaction-form {
-    max-width: 400px;
+    max-width: 450px;
     margin: 0 auto;
-    text-align: left;
+    position: relative;
+    z-index: 1;
 }
 
 .rating-group, .comments-group {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 1.25rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .rating-group label, .comments-group label {
     display: block;
     font-weight: 600;
-    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
     color: var(--font-color);
 }
 
 .rating-stars {
     display: flex;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 0.25rem;
 }
 
 .rating-stars input[type="radio"] {
@@ -380,44 +406,82 @@ body {
 }
 
 .rating-stars label {
-    font-size: 2rem;
-    color: #ddd;
+    font-size: 2.5rem;
+    color: #e0e0e0;
     cursor: pointer;
-    transition: color 0.2s;
+    transition: all 0.3s ease;
+    padding: 0.25rem;
+    border-radius: 8px;
+}
+
+.rating-stars label:hover {
+    transform: scale(1.1);
+    color: var(--accent-neutral);
 }
 
 .rating-stars input[type="radio"]:checked ~ label,
-.rating-stars label:hover,
-.rating-stars label:hover ~ label {
+.rating-stars input[type="radio"]:checked + label {
     color: var(--accent-neutral);
+    text-shadow: 0 0 8px rgba(88, 56, 217, 0.3);
 }
 
 .comments-group textarea {
     width: 100%;
-    padding: 0.75rem;
-    border: 1px solid #dee2e6;
-    border-radius: 8px;
+    padding: 1rem;
+    border: 2px solid #dee2e6;
+    border-radius: 12px;
     font-family: var(--font-family);
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     resize: vertical;
+    transition: border-color 0.3s ease;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.comments-group textarea:focus {
+    outline: none;
+    border-color: var(--accent-neutral);
+    box-shadow: 0 0 0 3px rgba(88, 56, 217, 0.1);
 }
 
 .satisfaction-submit {
-    background: var(--accent-neutral);
+    background: linear-gradient(135deg, var(--accent-neutral) 0%, #5a38e0 100%);
     color: #ffffff;
     border: none;
     border-radius: 50px;
-    padding: 0.75rem 2rem;
-    font-size: 1rem;
-    font-weight: 600;
+    padding: 0.875rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 700;
     cursor: pointer;
-    transition: background-color 0.2s;
+    transition: all 0.3s ease;
     display: block;
-    margin: 0 auto;
+    margin: 1.5rem auto 0;
+    box-shadow: 0 4px 15px rgba(88, 56, 217, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.satisfaction-submit::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+}
+
+.satisfaction-submit:hover::before {
+    left: 100%;
 }
 
 .satisfaction-submit:hover {
-    background-color: #5a38e0;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(88, 56, 217, 0.3);
+}
+
+.satisfaction-submit:active {
+    transform: translateY(0);
 }
 
 .onboarding-buttons-container {
