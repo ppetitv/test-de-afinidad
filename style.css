@@ -169,11 +169,10 @@ body {
 .sidebar-logo-campaign { height: 40px; width: auto; margin-top: 1rem; }
 .sidebar-header .close-button { position: absolute; top: -10px; right: -10px; color: #6c757d; }
 .sidebar-nav-links { list-style: none; flex-grow: 1; }
-.sidebar-tools-header { margin-bottom: 20px; }
 .sidebar-tools-header h3 { font-size: 1.1rem; font-weight: 700; color: #212529; margin-bottom: 0.5rem; }
 .sidebar-tools-header p { font-size: 0.9rem; color: #6c757d; line-height: 1.4; }
 
-.sidebar-nav-links { margin-top: 0; }
+.sidebar-nav-links { margin-top: 20px; }
 
 .sidebar-nav-links button { background: rgba(88, 56, 217, 0.1); color: var(--accent-neutral); border: 1px solid rgba(88, 56, 217, 0.2); border-radius: 8px; padding: 0.75rem 1rem; font-size: 1rem; font-weight: 600; width: 100%; text-align: left; cursor: pointer; transition: all 0.2s; margin-bottom: 0.5rem; }
 .sidebar-nav-links button:hover { background: rgba(88, 56, 217, 0.2); border-color: var(--accent-neutral); }
