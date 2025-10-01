@@ -363,6 +363,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             card.classList.remove('dragging');
         });
 
+        // Flash effect para indicar restauración
+        restoredCard.classList.add('flash');
+        setTimeout(() => restoredCard.classList.remove('flash'), 500);
+
         updateProgress();
         lastAnswer = null;
     }
