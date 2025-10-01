@@ -397,6 +397,7 @@ body {
 
 .rating-stars {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
     gap: 0.25rem;
 }
