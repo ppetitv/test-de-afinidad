@@ -426,6 +426,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const sourceDiv = document.createElement('div');
                 sourceDiv.className = 'source-item';
                 sourceDiv.innerHTML = `
+                    <div class="source-verification">
+                        <img src="images/logo_rpp.svg" alt="RPP" class="verification-logo">
+                        <span class="divider">|</span>
+                        <span class="verification-text">fuente verificada</span>
+                        <span class="check-icon">✓</span>
+                    </div>
                     <p class="source-title">${source.title}</p>
                     <p class="source-date">${source.date}</p>
                     <a href="${source.url}" target="_blank" rel="noopener noreferrer">Leer en RPP.pe</a>
