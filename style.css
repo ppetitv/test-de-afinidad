@@ -331,6 +331,95 @@ body {
     opacity: 1;
 }
 
+/* --- Estilos de Encuesta de Satisfacción --- */
+.satisfaction-survey {
+    padding: 1.5rem 1rem;
+    border-top: 1px solid #dee2e6;
+    margin-top: 1rem;
+    background: none;
+    text-align: center;
+}
+
+.satisfaction-survey h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--font-color);
+}
+
+.satisfaction-survey p {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 1.5rem;
+}
+
+.satisfaction-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.rating-group, .comments-group {
+    margin-bottom: 1rem;
+}
+
+.rating-group label, .comments-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--font-color);
+}
+
+.rating-stars {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.rating-stars input[type="radio"] {
+    display: none;
+}
+
+.rating-stars label {
+    font-size: 2rem;
+    color: #ddd;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.rating-stars input[type="radio"]:checked ~ label,
+.rating-stars label:hover,
+.rating-stars label:hover ~ label {
+    color: var(--accent-neutral);
+}
+
+.comments-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    font-family: var(--font-family);
+    font-size: 0.9rem;
+    resize: vertical;
+}
+
+.satisfaction-submit {
+    background: var(--accent-neutral);
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    display: block;
+    margin: 0 auto;
+}
+
+.satisfaction-submit:hover {
+    background-color: #5a38e0;
+}
+
 .onboarding-buttons-container {
     display: flex;
     gap: 1rem;
