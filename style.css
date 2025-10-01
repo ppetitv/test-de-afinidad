@@ -367,7 +367,7 @@ body {
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    justify-content: space-between;
     position: relative;
     overflow: hidden;
 }
@@ -397,6 +397,7 @@ body {
 .skeleton-text {
     width: 90%;
     height: 2rem;
+    flex-grow: 1;
 }
 
 .skeleton-text.short {
