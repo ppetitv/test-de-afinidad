@@ -1,0 +1,417 @@
+[
+  {
+    "subtopico": "1. Creación del Ministerio de Ciencia, Tecnología e Innovación (MCTI)",
+    "Frase para el usuario": "Crear un Ministerio dedicado exclusivamente a rectorar las políticas de ciencia y tecnología...",
+    "matches": [
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Creación del Ministerio de Ciencia y Tecnología para articular la investigación a las demandas y aspiraciones de la ciudadanía",
+        "paginas": "43"
+      },
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Impulsar la ciencia, tecnología e innovación con un nuevo Ministerio de Ciencia y Tecnología",
+        "paginas": "62"
+      },
+      {
+        "partido": "PARTIDO DEL BUEN GOBIERNO",
+        "sustento": "Establecer un Ministerio de Ciencia, Tecnología e Innovación como ente rector del ecosistema CTI",
+        "paginas": "56"
+      },
+      {
+        "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+        "sustento": "La creación de un Ministerio de Ciencia, Tecnología e Innovación (MCTI), que reciba directamente el encargo político del Consejo de ministros",
+        "paginas": "20"
+      },
+      {
+        "partido": "PARTIDO POLITICO COOPERACION POPULAR",
+        "sustento": "Crear el Ministerio de Ciencia y Tecnología en base al Instituto Nacional de Calidad (INACAL)",
+        "paginas": "11"
+      }
+    ]
+  },
+  {
+    "subtopico": "2. Aumento de la inversión en I+D+i (Meta del 1% al 3% del PBI)",
+    "Frase para el usuario": "Incrementar el presupuesto nacional en investigación y desarrollo para alcanzar niveles competitivos...",
+    "matches": [
+      {
+        "partido": "PARTIDO MORADO",
+        "sustento": "Política Nacional de Ciencia, Tecnología e Innovación con 1% del PBI",
+        "paginas": "39"
+      },
+      {
+        "partido": "FUERZA Y LIBERTAD",
+        "sustento": "Elevar la inversión en ciencia, tecnología e innovación al 2% del PBI",
+        "paginas": "70"
+      },
+      {
+        "partido": "SALVEMOS AL PERU",
+        "sustento": "Se incrementará el bajo porcentaje del PBI destinado a I+D+i... hasta un valor de 1.0%",
+        "paginas": "42"
+      },
+      {
+        "partido": "PARTIDO DEL BUEN GOBIERNO",
+        "sustento": "Inversión progresiva hasta 0.6% del PBI en I+D+i al 2030 y hoja de ruta para alcanzar el 1%",
+        "paginas": "58"
+      },
+      {
+        "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+        "sustento": "Elevar la inversión en I+D al 1% del PBI al 2031",
+        "paginas": "45"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Inversión en I+D: Del 0.3% al 3% del PBI",
+        "paginas": "26"
+      },
+      {
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "Incrementar la inversión nacional en I+I+D del 0,16 % al 0,5 % del PBI al año 2031",
+        "paginas": "71"
+      }
+    ]
+  },
+  {
+    "subtopico": "3. Repatriación de Talentos y Científicos (\"Brain Gain\")",
+    "Frase para el usuario": "Crear incentivos tributarios y laborales para que los científicos peruanos en el extranjero regresen al país...",
+    "matches": [
+      {
+        "partido": "PARTIDO DEL BUEN GOBIERNO",
+        "sustento": "Implementar mecanismos y/o programas para pasar 'del Brain Drain al Brain Gain' facilitando el retorno de peruanos altamente calificados",
+        "paginas": "97"
+      },
+      {
+        "partido": "PARTIDO MORADO",
+        "sustento": "Programa de atracción de talento peruano en el exterior",
+        "paginas": "39"
+      },
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Programa de 'Visa de Retorno y talento' para peruanos en el exterior y atracción de extranjeros especialistas",
+        "paginas": "93"
+      },
+      {
+        "partido": "PARTIDO POLITICO COOPERACION POPULAR",
+        "sustento": "Becas internacionales estudiantes... y compra de un satélite de telecomunicaciones",
+        "paginas": "5"
+      }
+    ]
+  },
+  {
+    "subtopico": "4. Internet como Derecho Humano y Servicio Público Esencial",
+    "Frase para el usuario": "Declarar el acceso a internet como un derecho fundamental garantizado por el Estado...",
+    "matches": [
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "¡Internet para todas y todos, un derecho humano innegociable!",
+        "paginas": "4"
+      },
+      {
+        "partido": "PARTIDO POLITICO PRIN",
+        "sustento": "Garantizaremos la conectividad digital universal móvil y fija... como parte del derecho al desarrollo",
+        "paginas": "24"
+      },
+      {
+        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
+        "sustento": "El acceso a Internet de calidad será reconocido como un servicio público esencial y estratégico",
+        "paginas": "141"
+      },
+      {
+        "partido": "PROGRESEMOS",
+        "sustento": "El acceso a la conectividad se considerará un servicio básico esencial en todas las regiones del Perú",
+        "paginas": "26"
+      }
+    ]
+  },
+  {
+    "subtopico": "5. Red Dorsal Nacional de Fibra Óptica (RDNFO) Operativa al 100%",
+    "Frase para el usuario": "Que el Estado tome el control o concesione la Red Dorsal para asegurar internet en cada distrito...",
+    "matches": [
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Rediseño de la gestión de la Red Dorsal Nacional de Fibra Óptica mediante concesión supervisada, garantizando uso efectivo",
+        "paginas": "48"
+      },
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "APP para la Red Dorsal Nacional de Fibra Óptica",
+        "paginas": "148"
+      },
+      {
+        "partido": "FUERZA Y LIBERTAD",
+        "sustento": "Expansión de la Red Dorsal de Fibra Óptica, optimizando su operación con inversión privada a través de APP",
+        "paginas": "32"
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
+        "sustento": "Avanzar en el despliegue de la Red Dorsal Nacional de fibra óptica... para lograr cobertura más eficiente",
+        "paginas": "12"
+      }
+    ]
+  },
+  {
+    "subtopico": "6. Despliegue masivo de Tecnología 5G",
+    "Frase para el usuario": "Acelerar la licitación y el despliegue de redes 5G para mejorar la competitividad industrial...",
+    "matches": [
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Implementaremos un Plan Nacional de Despliegue 5G con enfoque soberano",
+        "paginas": "37"
+      },
+      {
+        "partido": "PARTIDO APRISTA PERUANO",
+        "sustento": "100% de capitales regionales con 5G",
+        "paginas": "158"
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Buscaremos implementar y aprobar la adjudicación del espectro radioeléctrico 5G",
+        "paginas": "69"
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
+        "sustento": "Lograr que para diciembre de 2026, el Gobierno Digital esté conectado... cobertura 4G/5G en zonas remotas",
+        "paginas": "12"
+      }
+    ]
+  },
+  {
+    "subtopico": "7. Internet Satelital para Zonas Rurales y Fronteras",
+    "Frase para el usuario": "Usar tecnología satelital para conectar a las comunidades más aisladas de la selva y la sierra...",
+    "matches": [
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "Satélites LEO (Starlink, OneWeb) para zonas remotas... garantizando conectividad en territorios de difícil acceso",
+        "paginas": "148"
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Implementación de un Plan de Cobertura Universal de Internet Satelital... especialmente para comunidades amazónicas",
+        "paginas": "48"
+      },
+      {
+        "partido": "PARTIDO POLITICO COOPERACION POPULAR",
+        "sustento": "La compra del satélite debe efectuarse el primer trimestre del año 2027",
+        "paginas": "5"
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
+        "sustento": "Uso de tecnología satelital (ej. Starlink) para dotar de internet a centros poblados aislados",
+        "paginas": "26"
+      }
+    ]
+  },
+  {
+    "subtopico": "8. Ciudadanía Digital e Identidad Digital (DNI Electrónico)",
+    "Frase para el usuario": "El DNI electrónico sea la herramienta única para realizar todos los trámites del Estado sin presencia física...",
+    "matches": [
+      {
+        "partido": "PARTIDO MORADO",
+        "sustento": "Identidad digital única y segura; eliminación del 80% de trámites presenciales",
+        "paginas": "37"
+      },
+      {
+        "partido": "PARTIDO PAIS PARA TODOS",
+        "sustento": "Identidad digital única para trámites seguros, firma de documentos y realizar pagos",
+        "paginas": "24"
+      },
+      {
+        "partido": "SALVEMOS AL PERU",
+        "sustento": "Sistema Nacional de Identidad Digital, permitiendo la realización de trámites mediante autenticación biométrica",
+        "paginas": "33"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "sustento": "Uso generalizado de identidad digital para trámites y pagos públicos",
+        "paginas": "25"
+      }
+    ]
+  },
+  {
+    "subtopico": "9. Cero Papel en el Estado (Digitalización de Expedientes)",
+    "Frase para el usuario": "Eliminar totalmente el uso de papel en las entidades públicas, digitalizando todos los archivos y trámites...",
+    "matches": [
+      {
+        "partido": "AHORA NACION - AN",
+        "sustento": "Digitalizando la gestión... e implementando un portal de datos abiertos",
+        "paginas": "101"
+      },
+      {
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "Digitalizar el 100% de los procesos institucionales... estableciendo oficinas regionales interoperables",
+        "paginas": "57"
+      },
+      {
+        "partido": "PARTIDO PATRIOTICO DEL PERU",
+        "sustento": "Digitalizar la totalidad de las acciones y operaciones del Estado",
+        "paginas": "21"
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Estrategia nacional 'Cero Colas', que obligue a todas las entidades públicas a ofrecer atención 100% digital",
+        "paginas": "28"
+      },
+      {
+        "partido": "PERU MODERNO",
+        "sustento": "El Estado digitalizará el 100% de sus trámites (Cero Papel)",
+        "paginas": "31"
+      }
+    ]
+  },
+  {
+    "subtopico": "10. Voto Electrónico y Participación Digital",
+    "Frase para el usuario": "Implementar el voto electrónico para agilizar el conteo y facilitar la participación desde cualquier lugar...",
+    "matches": [
+      {
+        "partido": "PARTIDO MORADO",
+        "sustento": "Implementar voto electrónico seguro para elecciones que permita participación sin desplazamientos",
+        "paginas": "90"
+      },
+      {
+        "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+        "sustento": "Participación de la ciudadanía en la evaluación de metas mediante plataformas digitales",
+        "paginas": "11"
+      },
+      {
+        "partido": "PARTIDO CIVICO OBRAS",
+        "sustento": "La Plataforma Digital Única de Obras Públicas será de acceso público y permitirá reportar incidencias",
+        "paginas": "23"
+      }
+    ]
+  },
+  {
+    "subtopico": "11. Creación de una Agencia / Comando de Ciberseguridad",
+    "Frase para el usuario": "Crear una agencia especializada que proteja los datos críticos del país y combata el cibercrimen...",
+    "matches": [
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Establecer el Comando de Ciberdefensa con autonomía y que reporte al Comando Conjunto",
+        "paginas": "131"
+      },
+      {
+        "partido": "PARTIDO APRISTA PERUANO",
+        "sustento": "Crear la Fuerza de Operaciones de Información y Ciberdefensa (FOIDEF)",
+        "paginas": "156"
+      },
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "Centro Nacional de Ciberseguridad y Respuesta a Incidentes (CERT-Perú)",
+        "paginas": "150"
+      },
+      {
+        "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
+        "sustento": "Capacidad operativa de ciberdefensa y protección de infraestructuras críticas",
+        "paginas": "21"
+      }
+    ]
+  },
+  {
+    "subtopico": "12. Ley de Fomento al Ecosistema Startup e Innovación",
+    "Frase para el usuario": "Leyes que den incentivos fiscales y capital semilla a los emprendimientos de base tecnológica...",
+    "matches": [
+      {
+        "partido": "PODEMOS PERU",
+        "sustento": "Creación de un fondo no reembolsable de S/ 100 millones, dirigido a startups y emprendimientos digitales",
+        "paginas": "39"
+      },
+      {
+        "partido": "FUERZA Y LIBERTAD",
+        "sustento": "Fomento de startups tecnológicas peruanas, a través de incentivos fiscales, fondos de inversión y programas de incubación",
+        "paginas": "35"
+      },
+      {
+        "partido": "PERU MODERNO",
+        "sustento": "Atraer a los capitales de riesgo (Venture Capital)... suministrando el financiamiento para nuevos startups",
+        "paginas": "44"
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
+        "sustento": "Fomento de startups mediante capital semilla público-privado, incubadoras universitarias y simplificación legal",
+        "paginas": "22"
+      }
+    ]
+  },
+  {
+    "subtopico": "13. Regulación y uso de Blockchain y Criptoactivos",
+    "Frase para el usuario": "Estoy a favor de usar la tecnología Blockchain para evitar la manipulación de datos en contratos y licitaciones del Estado...",
+    "matches": [
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Inicio de la transición hacia una criptomoneda estatal para transacciones públicas, asegurando trazabilidad total",
+        "paginas": "27"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "sustento": "Sistema de compras públicas con blockchain y trazabilidad total de alimentos",
+        "paginas": "46"
+      },
+      {
+        "partido": "PARTIDO MORADO",
+        "sustento": "Blockchain para contratos mayores: contratos del Estado por más de S/ 1 millón se registran en blockchain inalterable",
+        "paginas": "61"
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Blockchain para mejorar la trazabilidad del mineral garantizando trabajos responsables",
+        "paginas": "94"
+      },
+      {
+        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
+        "sustento": "Sistema Nacional de Trazabilidad Farmacéutica, basado en blockchain para evitar falsificación",
+        "paginas": "81"
+      }
+    ]
+  },
+  {
+    "subtopico": "14. Estrategia Nacional de Inteligencia Artificial (IA)",
+    "Frase para el usuario": "Implementar una estrategia para el uso productivo de la IA en salud, seguridad y justicia...",
+    "matches": [
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Aprobar una ley marco de IA responsable con principios de transparencia... y una Estrategia Nacional de IA",
+        "paginas": "92"
+      },
+      {
+        "partido": "PARTIDO PATRIOTICO DEL PERU",
+        "sustento": "Impulsando el aprendizaje y uso de la IA Inteligencia Artificial",
+        "paginas": "3"
+      },
+      {
+        "partido": "PARTIDO SICREO",
+        "sustento": "Implementar una plataforma digital y herramientas de IA para el seguimiento en tiempo real de medicinas",
+        "paginas": "27"
+      },
+      {
+        "partido": "PROGRESEMOS",
+        "sustento": "Laboratorios de Innovación Temprana... equiparán las aulas con kits de robótica e IA",
+        "paginas": "50"
+      }
+    ]
+  },
+  {
+    "subtopico": "15. Parques Científicos y Tecnológicos (Hubs Regionales)",
+    "Frase para el usuario": "Crear parques tecnológicos regionales que unan a universidades y empresas para crear nuevos productos...",
+    "matches": [
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Silicon Valley Amazónico: 5 polos de biotecnología y software",
+        "paginas": "26"
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Modernización y aceleración de la ejecución de Parques Industriales Tecnológicos regionales",
+        "paginas": "41"
+      },
+      {
+        "partido": "PARTIDO DEL BUEN GOBIERNO",
+        "sustento": "Creación de 6 parques científicos y tecnológicos en Lima, Costa, Sierra y Selva",
+        "paginas": "58"
+      },
+      {
+        "partido": "UN CAMINO DIFERENTE",
+        "sustento": "Integrar las zonas rurales a la tecnología... creando un instituto de habilidades especiales",
+        "paginas": "11"
+      }
+    ]
+  }
+]

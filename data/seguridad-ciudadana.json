@@ -1,0 +1,522 @@
+[
+  {
+    "subtopico": "1. Pena de Muerte para delitos de extrema gravedad",
+    "Frase para el usuario": "Aplicar la pena de muerte para violadores de menores, sicarios y terroristas...",
+    "matches": [
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Propone restaurar la pena de muerte para sicariato, violación de menores seguida de muerte y traición a la patria.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+        "sustento": "Plantea someter a referéndum la instauración de la pena de muerte.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU ACCION",
+        "sustento": "Propone la pena de muerte para presidentes corruptos, asesinos, sicarios y violadores.",
+        "paginas": ""
+      },
+      {
+        "partido": "PERU MODERNO",
+        "sustento": "Afirma la aplicación de la pena de muerte para delitos de extrema gravedad una vez retirados de la CIDH.",
+        "paginas": ""
+      },
+      {
+        "partido": "PROGRESEMOS",
+        "sustento": "Propone el restablecimiento de la pena de muerte para violación de menores de 13 años, terrorismo y sicariato.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "2. Salida del Pacto de San José (Corte IDH)",
+    "Frase para el usuario": "Denunciar el Pacto de San José para recuperar soberanía jurídica y endurecer penas...",
+    "matches": [
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Iniciar el proceso de retiro de la Corte Interamericana para restaurar la pena de muerte.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+        "sustento": "Propone el retiro de la Convención Americana de Derechos Humanos vía referéndum.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU ACCION",
+        "sustento": "Plantea la salida de la CIDH como primer paso para reestructurar el sistema penal y judicial.",
+        "paginas": ""
+      },
+      {
+        "partido": "PROGRESEMOS",
+        "sustento": "Ejercer soberanía jurídica mediante la salida de la Corte IDH para aplicar sanciones severas.",
+        "paginas": ""
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Propicia el debate sobre la actuación de la CIDH y liderar reformas, evaluando la permanencia por \"sesgos ideológicos\".",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "3. Militarización de la Seguridad Ciudadana (Apoyo de las FF.AA.)",
+    "Frase para el usuario": "Que las Fuerzas Armadas patrullen las calles y apoyen a la policía en zonas críticas",
+    "matches": [
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Propone un control militar efectivo en las fronteras y apoyo en seguridad.",
+        "paginas": ""
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Establecimiento de un Comando Unificado Permanente que incluya a las FF.AA. en el combate al crimen.",
+        "paginas": ""
+      },
+      {
+        "partido": "PODEMOS PERU",
+        "sustento": "Propone el despliegue de las Fuerzas Armadas en apoyo a la Policía Nacional.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO POLITICO PRIN",
+        "sustento": "Establecer control territorial y militarización estratégica en zonas críticas como el VRAEM y Madre de Dios.",
+        "paginas": ""
+      },
+      {
+        "partido": "UN CAMINO DIFERENTE",
+        "sustento": "Plantea que los grupos de inteligencia policial cuenten con mil efectivos de las FF.AA. cada uno.",
+        "paginas": ""
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Uso de un comando militar-policial para terminar con organizaciones criminales en zonas de minería ilegal.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "4. Ley de Protección Legal Policial (\"Amparo al Policía\")",
+    "Frase para el usuario": "Otorgar protección legal y exención de responsabilidad al policía que use su arma de reglamento",
+    "matches": [
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Garantizar seguridad jurídica para la policía en el ejercicio de sus funciones.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO PATRIOTICO DEL PERU",
+        "sustento": "Proteger al servidor público que se enfrente a la corrupción y el crimen.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO PAIS PARA TODOS",
+        "sustento": "Propone garantizar la seguridad jurídica para policías que enfrenten bandas criminales.",
+        "paginas": ""
+      },
+      {
+        "partido": "UN CAMINO DIFERENTE",
+        "sustento": "Propone la \"Ley de Amparo al Policía en Enfrentamiento\".",
+        "paginas": ""
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Ratificar la legislación que protege al policía por el uso correcto de su arma contra delincuentes sin persecución política.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "5. Construcción de Mega-Cárceles de Máxima Seguridad",
+    "Frase para el usuario": "Construir mega-penales en zonas remotas o de altura para aislar a líderes criminales",
+    "matches": [
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Construcción de cinco nuevas mega-cárceles con mayores estándares de seguridad.",
+        "paginas": ""
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Construcción de cuatro mega-penales de máxima seguridad bajo administración temporal de las FF.AA..",
+        "paginas": ""
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Construcción de cárceles en zonas remotas (ej. Cordillera de La Viuda) sin señal de celular.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU ACCION",
+        "sustento": "Construcción inmediata de 12 mega-cárceles en zonas alejadas y remotas del Perú.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
+        "sustento": "Construcción de nuevas cárceles de máxima seguridad en Puno (4,000 msnm) y zonas fronterizas.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO SICREO",
+        "sustento": "Construcción de al menos tres nuevos penales de máxima seguridad en zonas alejadas (Chincha, Arequipa, Pucallpa).",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Propone la creación de un Sistema Penitenciario Federal que incluye la construcción de 12 prisiones de máxima seguridad, distribuidas a razón de una por cada región federal. Estas instalaciones contarán con tecnología de vanguardia y una capacidad total estimada de 30,000 internos.",
+        "paginas": "56, 57"
+      }
+    ]
+  },
+  {
+    "subtopico": "6. Trabajo Obligatorio para Presos (Cárceles Productivas)",
+    "Frase para el usuario": "Que los presos trabajen obligatoriamente para pagar su propia manutención",
+    "matches": [
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Establecer nuevos penales para delincuentes menores en régimen de trabajo obligatorio.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+        "sustento": "El reo para comer deberá trabajar; creación de mega-cárceles industriales y productivas.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATA VERDE",
+        "sustento": "Fomentar la implantación de cárceles productivas y programas laborales reales.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO PATRIOTICO DEL PERU",
+        "sustento": "Transformar los establecimientos penitenciarios en cárceles productivas para cubrir costos de mantenimiento.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU ACCION",
+        "sustento": "Régimen carcelario extremo que incluya trabajos forzados para resarcir a la víctima.",
+        "paginas": ""
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Propone penales productivos donde el interno trabaje para su mantenimiento y tecnificación.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "7. Privatización o Concesión de la Gestión de Penales",
+    "Frase para el usuario": "El sector privado participe en la construcción y gestión de los servicios de las cárceles",
+    "matches": [
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "Ejecutar cárceles bajo las modalidades de Obras por Impuestos (OXI) y APP.",
+        "paginas": ""
+      },
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Promover alianzas público-privadas para la regeneración y gestión penitenciaria.",
+        "paginas": ""
+      },
+      {
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "Concesionar la seguridad externa, logística y servicios (alimentación, salud) en los penales.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO SICREO",
+        "sustento": "Propone la licitación internacional para la privatización de la videovigilancia en penales.",
+        "paginas": ""
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Promover la construcción y ampliación de penales incluyendo la participación privada mediante APPs.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "El financiamiento y gestión del sistema penitenciario contempla explícitamente el uso de Asociaciones Público-Privadas (APP), destinando un presupuesto de inversión inicial de 2,000 millones de dólares bajo esta modalidad.",
+        "paginas": "57, 73"
+      }
+    ]
+  },
+  {
+    "subtopico": "8. Bloqueo Total de Señal Celular en Penales",
+    "Frase para el usuario": "Implementar tecnología que bloquee al 100% las comunicaciones de los presos",
+    "matches": [
+      {
+        "partido": "AHORA NACION - AN",
+        "sustento": "Mejorar el sistema de bloqueadores de celulares en penales con tecnología de punta.",
+        "paginas": ""
+      },
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Plan de control de comunicaciones en penales con bloqueo legal y tecnológico de teléfonos e internet.",
+        "paginas": ""
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Implementar un sistema integral de bloqueo de señales móviles en todos los establecimientos del país.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO PAIS PARA TODOS",
+        "sustento": "Inhabilitación efectiva de la señal de telecomunicaciones dentro y en el perímetro de los penales.",
+        "paginas": ""
+      },
+      {
+        "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
+        "sustento": "Asegurar que el 90% o más de los penales tengan control efectivo de comunicaciones.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "sustento": "Bloqueo total de señales de telefonía celular en penales de máxima y media seguridad.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "9. Reforma y Depuración de la Policía Nacional",
+    "Frase para el usuario": "Una reorganización total de la policía para expulsar a los malos elementos y corruptos",
+    "matches": [
+      {
+        "partido": "AHORA NACION - AN",
+        "sustento": "Consolidar una policía íntegra mediante filtros estrictos de selección y cero tolerancia a la corrupción.",
+        "paginas": ""
+      },
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Depurar de manera definitiva la corrupción infiltrada dentro de la policía desde las escuelas.",
+        "paginas": ""
+      },
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Reorganización inmediata y depuración de mandos comprometidos con la corrupción y redes criminales.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO APRISTA PERUANO",
+        "sustento": "Reformar el currículo de escuelas policiales con polígrafos para personal en actividad y aspirantes.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
+        "sustento": "Reforma integral de la PNP y creación de una Unidad Élite Interinstitucional contra la corrupción.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Plantea una reforma institucional profunda mediante la creación de la Policía Federal (80,000 efectivos), la cual contará con una Unidad Anticorrupción especializada en la investigación de redes criminales y corrupción sistémica, además de someterse a auditorías internacionales anuales de organismos como la ONU y OEA.",
+        "paginas": "56, 60"
+      }
+    ]
+  },
+  {
+    "subtopico": "10. Uso masivo de Tecnología (IA, Reconocimiento Facial, Drones)",
+    "Frase para el usuario": "El uso intensivo de Inteligencia Artificial y reconocimiento facial para prevenir el delito",
+    "matches": [
+      {
+        "partido": "AHORA NACION - AN",
+        "sustento": "Implementar un shock de inversiones en tecnología policial, incluyendo software de acceso a mensajería.",
+        "paginas": ""
+      },
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "Plataforma unificada de inteligencia criminal usando IA para análisis predictivo.",
+        "paginas": ""
+      },
+      {
+        "partido": "FUERZA Y LIBERTAD",
+        "sustento": "Implementar IA y Big Data para la detección temprana de patrones criminales como la extorsión.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEL BUEN GOBIERNO",
+        "sustento": "Incorporación de herramientas de IA y Big Data para el análisis y prevención del delito.",
+        "paginas": ""
+      },
+      {
+        "partido": "PODEMOS PERU",
+        "sustento": "Uso intensivo de drones, IA y reconocimiento facial mediante el programa \"Comando Perú\".",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "sustento": "Implementar un sistema de monitoreo con IA para detectar comunicaciones ilícitas.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Establece el uso intensivo de tecnología a través de una Plataforma Única de Seguridad Federal que incluye: sistemas de reconocimiento biométrico, una red de 50,000 cámaras de videovigilancia inteligente, el despliegue de 500 drones (UAVs) para vigilancia aérea y la aplicación de Inteligencia Artificial mediante un Sistema Predictivo Criminal.",
+        "paginas": "57, 58"
+      }
+    ]
+  },
+  {
+    "subtopico": "11. Fortalecimiento de Inteligencia (GEIN / DINI / Unidades de Élite)",
+    "Frase para el usuario": "Crear unidades de élite de inteligencia (tipo GEIN) para descabezar mafias",
+    "matches": [
+      {
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "Creación de un \"Comando Unificado Las Palmas\" con un grupo de élite rigurosamente filtrado tipo GEIN.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO MORADO",
+        "sustento": "Crear unidades de élite antiextorsión y anti-sicariato (modelo GOPE chileno) con inteligencia financiera.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO PATRIOTICO DEL PERU",
+        "sustento": "Creación de la Unidad Élite contra la Extorsión altamente tecnificada.",
+        "paginas": ""
+      },
+      {
+        "partido": "RENOVACION POPULAR",
+        "sustento": "Convenio con el Gobierno de EE.UU. para servicios de inteligencia y tecnología de punta.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "sustento": "Crear el Centro Nacional de Inteligencia contra el Crimen Organizado integrando PNP, UIF y Fiscalía.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Propone la creación de una unidad de Inteligencia Criminal enfocada en la prevención delictiva y el análisis criminal estratégico, apoyada por 12 laboratorios regionales de criminalística y forense digital para el desmantelamiento de organizaciones criminales.",
+        "paginas": "56, 57"
+      }
+    ]
+  },
+  {
+    "subtopico": "12. Mejora Salarial y Logística para la PNP",
+    "Frase para el usuario": "Estoy a favor de aumentar el sueldo a los policías y renovar todo su equipamiento logístico...",
+    "matches": [
+      {
+        "partido": "AHORA NACION - AN",
+        "sustento": "Implementar el Bono Anticrimen para investigadores y aumentar el pago por día franco.",
+        "paginas": ""
+      },
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Realizar un \"shock de inversiones\" para el equipamiento integral (Plan Mariano Santos) y mejora de sueldos.",
+        "paginas": ""
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Financiar 1,000 patrulleros inteligentes y modernizar 200 comisarías en los primeros 100 días.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO PATRIOTICO DEL PERU",
+        "sustento": "Reestructurar el presupuesto nacional para priorizar el gasto en seguridad y bienestar policial.",
+        "paginas": ""
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Actualizar el Plan Mariano Santos para cerrar brechas de personal, salud y equipamiento.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "13. Expulsión Inmediata de Extranjeros Delincuentes",
+    "Frase para el usuario": "Expulsar inmediatamente a cualquier extranjero que cometa un delito en el país",
+    "matches": [
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Verificación del estatus migratorio y expulsión de los extranjeros con sentencias.",
+        "paginas": ""
+      },
+      {
+        "partido": "FUERZA Y LIBERTAD",
+        "sustento": "Ejecutar un plan de control y expulsión inmediata de inmigrantes irregulares que cometan delitos.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO APRISTA PERUANO",
+        "sustento": "Aplicar la deportación inmediata de extranjeros implicados en delitos violentos.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU ACCION",
+        "sustento": "Búsqueda, captura y expulsión de TODO inmigrante ilegal, trasladándolos a centros de detención militarizados en la frontera.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Implementa la 'Ley Patriota' que incluye la deportación automática de extranjeros condenados y medidas estrictas de control migratorio",
+        "paginas": "72, 77"
+      }
+    ]
+  },
+  {
+    "subtopico": "14. Militarización de Fronteras contra el Ingreso Ilegal",
+    "Frase para el usuario": "Estoy a favor de que los militares vigilen las fronteras para impedir el ingreso de ilegales...",
+    "matches": [
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Impulsar la coordinación para el control militar efectivo en las fronteras.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU ACCION",
+        "sustento": "Declaración de Emergencia en las fronteras y militarización completa para evitar el ingreso ilegal.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO SICREO",
+        "sustento": "Implementar un \"muro digital\" y fortalecer puestos de vigilancia con drones y apoyo militar en fronteras.",
+        "paginas": ""
+      },
+      {
+        "partido": "UN CAMINO DIFERENTE",
+        "sustento": "Cerrar fronteras con control militar y policial las 24 horas del día.",
+        "paginas": ""
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Reforzar el control de fronteras con personal especializado, tecnología y apoyo militar.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "15. Programas de Prevención Social (\"Barrio Seguro\" y Jóvenes)",
+    "Frase para el usuario": "Invertir en deporte, empleo y cultura para jóvenes en riesgo para alejarlos del crimen",
+    "matches": [
+      {
+        "partido": "AHORA NACION - AN",
+        "sustento": "Priorizar un enfoque preventivo y comunitario articulando fuerzas del orden con políticas sociales y educativas.",
+        "paginas": ""
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Lanzamiento del \"Programa Nacional de Prevención Temprana\" con deporte y formación técnica en zonas vulnerables.",
+        "paginas": ""
+      },
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Planes locales de seguridad con participación de juntas vecinales y recuperación de barrios.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEL BUEN GOBIERNO",
+        "sustento": "Duplicar la cobertura de programas de prevención del delito escolar y comunitario en regiones críticas.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "sustento": "Programas de intervención integral (educación, empleo, deporte) en los 50 barrios con mayor riesgo de reclutamiento criminal.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Implementará un modelo de Policía de Proximidad, donde el 30% de los efectivos totales se dedicarán exclusivamente a labores de prevención comunitaria, integrando además el deporte y el arte como herramientas de desarrollo para la juventud en los centros de salud y educación regional",
+        "paginas": "26, 60"
+      }
+    ]
+  }
+]

@@ -1,0 +1,337 @@
+[
+  {
+    "subtopico": "1. Cierre de brechas: Agua y Saneamiento al 100%",
+    "Frase para el usuario": "Priorizar la inversión pública para que el 100% de hogares peruanos cuente con conexión domiciliaria de agua y desagüe...",
+    "matches": [
+      {
+        "partido": "AHORA NACION - AN",
+        "sustento": "Al 2031, todas las personas que vivan en el país contarán con acceso universal a servicios seguros y sostenibles de agua potable",
+        "paginas": "32"
+      },
+      {
+        "partido": "FUERZA Y LIBERTAD",
+        "sustento": "Al 2031, el Estado peruano habrá alcanzado la cobertura universal de agua potable en zonas urbanas (100 %)",
+        "paginas": "193"
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Alcanzar 100% de cobertura nacional de agua potable y alcantarillado, priorizando zonas rurales y periurbanas",
+        "paginas": "115"
+      },
+      {
+        "partido": "PARTIDO DEL BUEN GOBIERNO",
+        "sustento": "Acceso agua potable 98% urbano / 85% rural",
+        "paginas": "36"
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
+        "sustento": "Programa Nacional 'Agua 100' que permitirá la cobertura universal de agua potable segura al 2031",
+        "paginas": "127"
+      }
+    ]
+  },
+  {
+    "subtopico": "2. Privatización o Concesión de la gestión del agua (EPS/SEDAPAL)",
+    "Frase para el usuario": "Involucrar al sector privado en la administración de las empresas de agua para mejorar su eficiencia",
+    "matches": [
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "Incursión del sector privado experto... para que se hagan cargo de parte o de la totalidad de las empresas [EPS], inyectando capital y aportando know how",
+        "paginas": "153"
+      },
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Establecimiento de una Alianza Público Privada para la gestión de SEDAPAL, con participación del Estado [y] la empresa privada",
+        "paginas": "46"
+      },
+      {
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "Establecer operadores especializados en áreas urbanas críticas\" para servicios de agua (Fuente: Pág. 32).",
+        "paginas": "32"
+      }
+    ]
+  },
+  {
+    "subtopico": "3. Fortalecimiento de la gestión pública del agua (No privatización)",
+    "Frase para el usuario": "Estoy a favor de que el agua sea gestionada exclusivamente por el Estado, fortaleciendo las EPS públicas y prohibiendo su venta a privados...",
+    "matches": [
+      {
+        "partido": "AHORA NACION - AN",
+        "sustento": "Se garantizará la calidad, continuidad y sostenibilidad del servicio, fortaleciendo la gestión pública y comunitaria",
+        "paginas": "13"
+      },
+      {
+        "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+        "sustento": "Proponen garantizando la autonomía y la NO Privatización de estos servicios públicos",
+        "paginas": "37"
+      },
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Proponen retomar el control de la gestión del agua \"en favor de las políticas públicas que favorezca a los sectores más pobres o excluidos\"",
+        "paginas": "45"
+      }
+    ]
+  },
+  {
+    "subtopico": "4. Sistemas no convencionales: Atrapanieblas y Camiones Cisterna",
+    "Frase para el usuario": "Usar tecnologías alternativas como atrapanieblas o camiones cisterna subsidiados en zonas donde no hay redes",
+    "matches": [
+      {
+        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "sustento": "Implementar 5,000 sistemas atrapanieblas en lomas costeras de Lima y costa norte",
+        "paginas": "1205"
+      },
+      {
+        "partido": "RENOVACION POPULAR",
+        "sustento": "Implementaremos el servicio de tanques de agua para facilitar a la ciudadanía este servicio básico... en zonas de extrema pobreza",
+        "paginas": "5"
+      },
+      {
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "Las EPS puedan utilizar camiones cisterna para brindar el servicio de agua potable",
+        "paginas": "32"
+      }
+    ]
+  },
+  {
+    "subtopico": "5. Titulación Masiva de Predios (COFOPRI)",
+    "Frase para el usuario": "Acelerar la entrega masiva de títulos de propiedad para formalizar viviendas en sectores populares...",
+    "matches": [
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Emitir 1 millón de títulos de propiedad digitales, fortaleciendo COFOPRI e integrando catastros municipales con SUNARP",
+        "paginas": "110"
+      },
+      {
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "Implementaremos el programa 'Mi Título, Mi Hogar Seguro', para garantizar el derecho a la propiedad mediante la titulación masiva",
+        "paginas": "21"
+      },
+      {
+        "partido": "PROGRESEMOS",
+        "sustento": "Entregar más de 500,000 títulos de propiedad para reducir el déficit habitacional",
+        "paginas": "62"
+      },
+      {
+        "partido": "PARTIDO APRISTA PERUANO",
+        "sustento": "Aumentar títulos de propiedad otorgados con meta de 250 mil para el periodo 2026-2031",
+        "paginas": "79"
+      }
+    ]
+  },
+  {
+    "subtopico": "6. Construcción masiva de Viviendas de Interés Social",
+    "Frase para el usuario": "Que el Estado financie y construya masivamente viviendas de bajo costo para familias pobres",
+    "matches": [
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "244 mil viviendas nuevas por año para cerrar el déficit cuantitativo... impulsando Vivienda de Interés Social",
+        "paginas": "151"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATA VERDE",
+        "sustento": "Meta 2030: 120,000 viviendas sociales por año",
+        "paginas": "132"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "VIVIENDAS NUEVAS: 1,000,000 unidades",
+        "paginas": "1154"
+      },
+      {
+        "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+        "sustento": "Programa de vivienda digna... Meta: 1 millón de hogares",
+        "paginas": "14"
+      }
+    ]
+  },
+  {
+    "subtopico": "7. Programa de Vivienda para Jóvenes",
+    "Frase para el usuario": "Crear bonos de alquiler o programas de acceso a vivienda específicos para jóvenes que buscan independencia",
+    "matches": [
+      {
+        "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+        "sustento": "Crear el programa de VIVIENDA JOVEN y continuar con MiVIVIENDA",
+        "paginas": "26"
+      },
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "Incentivos para desarrollar el mercado de alquiler de vivienda formal; fomentar el mercado de alquileres para jóvenes",
+        "paginas": "152"
+      },
+      {
+        "partido": "PARTIDO MORADO",
+        "sustento": "vivienda cooperativa y comunitaria para jóvenes, madres solteras y adultos mayores",
+        "paginas": "124"
+      }
+    ]
+  },
+  {
+    "subtopico": "8. Reubicación de familias en zonas de riesgo",
+    "Frase para el usuario": "Trasladar obligatoriamente a familias que viven en zonas de alto riesgo (quebradas) hacia zonas seguras",
+    "matches": [
+      {
+        "partido": "AHORA NACION - AN",
+        "sustento": "Reubicando progresivamente a las familias que viven en zonas de riesgo no mitigable... meta de 50,000 viviendas",
+        "paginas": "29"
+      },
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Prohibición por norma legal de edificar en zonas consideradas de riesgo y promoción a la reinserción de poblaciones... a nuevos proyectos urbanos",
+        "paginas": "47"
+      },
+      {
+        "partido": "PARTIDO PATRIOTICO DEL PERU",
+        "sustento": "Implementar un programa de reubicación para que las familias que habitan en zonas de alto riesgo... puedan trasladarse a zonas de producción desarrolladas",
+        "paginas": "27"
+      }
+    ]
+  },
+  {
+    "subtopico": "9. Masificación del Gas Natural a domicilio",
+    "Frase para el usuario": "Acelerar la construcción de gasoductos para que el gas natural llegue directamente a todas las cocinas del Perú",
+    "matches": [
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Construir una red nacional de gasoductos lo que permitirá tener un solo precio, más barato y más justo",
+        "paginas": "34"
+      },
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Ampliación de redes de suministro de GN a la mayoría de las ciudades del país... destrabar la construcción del gasoducto del sur",
+        "paginas": "12"
+      },
+      {
+        "partido": "RENOVACION POPULAR",
+        "sustento": "Promoveremos la construcción de gasoductos regionales para satisfacer la demanda con concesiones de distribución del gas hasta la puerta de cada casa",
+        "paginas": "24"
+      }
+    ]
+  },
+  {
+    "subtopico": "10. Subsidio a la Tarifa Eléctrica para los más pobres",
+    "Frase para el usuario": "Aplicar tarifas sociales o bonos para que las familias de menores ingresos paguen menos por la luz",
+    "matches": [
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Aplicación de tarifas sociales reducidas en agua y electricidad... para adultos mayores en situación de vulnerabilidad",
+        "paginas": "109"
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
+        "sustento": "Expandir el GLP y gas natural a zonas rurales y periurbanas con subsidios focalizados",
+        "paginas": "191"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+        "sustento": "Implementar subsidio a la demanda para aquellas familias que lo requieran\" en energía y gas (Fuente: Pág. 13).",
+        "paginas": "13"
+      }
+    ]
+  },
+  {
+    "subtopico": "11. Electrificación Rural al 100%",
+    "Frase para el usuario": "Que el Estado garantice electricidad en el 100% de zonas rurales, usando paneles solares en las comunidades más alejadas",
+    "matches": [
+      {
+        "partido": "PARTIDO APRISTA PERUANO",
+        "sustento": "Alcanzar al menos 95% de cobertura rural al 2031... mediante sistemas fotovoltaicos domiciliarios y microrredes",
+        "paginas": "84"
+      },
+      {
+        "partido": "PARTIDO POLITICO PRIN",
+        "sustento": "Garantizaremos el acceso universal a los servicios de electricidad... con especial atención a las poblaciones rurales",
+        "paginas": "47"
+      },
+      {
+        "partido": "FUERZA Y LIBERTAD",
+        "sustento": "Alcanzar una cobertura eléctrica rural del 95 %, priorizando la Amazonía... combinando sistemas fotovoltaicos y soluciones híbridas",
+        "paginas": "199"
+      }
+    ]
+  },
+  {
+    "subtopico": "12. Internet como Derecho Humano Constitucional",
+    "Frase para el usuario": "Modificar la Constitución para declarar el acceso a internet como un derecho humano fundamental e innegociable",
+    "matches": [
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "¡Internet para todas y todos, un derecho humano innegociable!",
+        "paginas": "36"
+      },
+      {
+        "partido": "PARTIDO MORADO",
+        "sustento": "El acceso a internet será asegurado como un \"derecho fundamental\" en todo el territorio",
+        "paginas": "30"
+      },
+      {
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "Propone que la conectividad digital \"no es un 'lujo' sino un derecho percibido\" que debe garantizarse",
+        "paginas": "91"
+      }
+    ]
+  },
+  {
+    "subtopico": "13. Red Dorsal y WiFi gratuito en Plazas/Escuelas",
+    "Frase para el usuario": "Proveer internet gratuito en todas las plazas públicas y colegios estatales del país",
+    "matches": [
+      {
+        "partido": "PARTIDO PAIS PARA TODOS",
+        "sustento": "Alcanzar cobertura 4G en 100% de capitales de provincia y avanzar a 5G donde sea viable",
+        "paginas": "38"
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
+        "sustento": "100% de instituciones educativas de primaria o secundaria que cuentan con acceso al servicio de internet; de preferencia gratuita",
+        "paginas": "125"
+      },
+      {
+        "partido": "PROGRESEMOS",
+        "sustento": "Instalar más de 10,000 puntos de Wi-Fi rural en plazas, postas y escuelas",
+        "paginas": "62"
+      }
+    ]
+  },
+  {
+    "subtopico": "14. Bono de Conectividad y Dispositivos (Tablets/Laptops)",
+    "Frase para el usuario": "Entregar tablets o laptops con datos gratuitos a estudiantes de bajos recursos para cerrar la brecha digital",
+    "matches": [
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Adquisición de 6 millones de laptops o tablets con conexión a internet para niños en edad escolar",
+        "paginas": "91"
+      },
+      {
+        "partido": "FUERZA Y LIBERTAD",
+        "sustento": "Se creará la Beca [Perú Digital] y se garantizará laptops, conectividad gratuita y desarrollo de habilidades",
+        "paginas": "29"
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Relanzaremos el Programa UNA LAPTOP UN NIÑO... para que las poblaciones más pobres y alejadas accedan a la tecnología",
+        "paginas": "119"
+      }
+    ]
+  },
+  {
+    "subtopico": "15. Internet Satelital masivo para Fronteras y Selva",
+    "Frase para el usuario": "Contratar internet satelital de alta velocidad para conectar las comunidades más remotas de la selva y zonas de frontera",
+    "matches": [
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Incrementar como mínimo en un 20% la cobertura en todo el país facilitando la implementación de antenas y el uso de internet satelital",
+        "paginas": "14"
+      },
+      {
+        "partido": "PARTIDO DEL BUEN GOBIERNO",
+        "sustento": "Existencia y operación de un satélite nacional (antes de 2028) para garantizar conectividad",
+        "paginas": "74"
+      },
+      {
+        "partido": "PROGRESEMOS",
+        "sustento": "Utilicen tecnología satelital de baja órbita para dotar de Wi-Fi gratuito de alta velocidad a las plazas principales de centros poblados aislados",
+        "paginas": "26"
+      }
+    ]
+  }
+]

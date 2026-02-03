@@ -1,0 +1,392 @@
+[
+  {
+    "subtopico": "1. Sistema de Vouchers Educativos (Subsidio a la demanda)",
+    "Frase para el usuario": "Estado entregue un cheque o bono directamente a las familias para que elijan entre educación pública o privada...",
+    "matches": [
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Fomento de la participación del sector privado en el Programa Cuna Más mediante convenios o contratación de servicios para que las madres puedan acceder a centros de cuidado privados o comunitarios regulados (modelo de subsidio a la demanda).",
+        "paginas": "173"
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Autorizar la privatización de servicios educativos para atender la diversidad de credos... se promoverá el sistema cooperativo de las familias... siempre bajo la supervisión del sistema nacional",
+        "paginas": "2284"
+      },
+      {
+        "partido": "PARTIDO SICREO",
+        "sustento": "Programa de Bono Educativo para devolver el dinero a las familias y que sean ellas quienes elijan dónde 'canjear' el bono. El monto se entregará en forma de becas parciales",
+        "paginas": "1917"
+      }
+    ]
+  },
+  {
+    "subtopico": "2. Expansión de Colegios COAR o Escuelas Bicentenario",
+    "Frase para el usuario": "Masificar los Colegios de Alto Rendimiento (COAR) o el modelo de Escuelas Bicentenario para alumnos destacados",
+    "matches": [
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "Un COAR en cada región",
+        "paginas": "121"
+      },
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Masificación de Colegios de alto rendimiento (COAR) para que los estudiantes de alto rendimiento académico y de bajos recursos potencien sus capacidades",
+        "paginas": "96"
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Construcción de Colegios de Alto Rendimiento (COAR) y colegios de educación básica regular en distintas regiones... Construcción del PEIP Escuelas Bicentenario",
+        "paginas": "279"
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Se continuará impulsando una educación de excelencia para alumnos del más alto rendimiento, tanto en el Colegio Mayor como en los COAR descentralizados",
+        "paginas": "2289"
+      }
+    ]
+  },
+  {
+    "subtopico": "3. Infraestructura Básica: Agua, Desagüe e Internet en 100% de Escuelas Rurales",
+    "Frase para el usuario": "Declarar en emergencia la infraestructura rural para garantizar servicios básicos y conectividad en todas las escuelas",
+    "matches": [
+      {
+        "partido": "AHORA NACION - AN",
+        "sustento": "Establecer estándares nacionales para condiciones mínimas de educabilidad: acceso a agua, luz, conectividad... Lograr el 100% de locales de EB con acceso a agua, alcantarillado y electricidad",
+        "paginas": "14, 28"
+      },
+      {
+        "partido": "FUERZA Y LIBERTAD",
+        "sustento": "Infraestructura educativa digna: colegios seguros en zonas rurales, equipados con laboratorios, acceso a internet",
+        "paginas": "319"
+      },
+      {
+        "partido": "PODEMOS PERU",
+        "sustento": "Programa de conectividad educativa y equipamiento digital... Intervención priorizada de infraestructura escolar en locales en condiciones inadecuadas",
+        "paginas": "2001"
+      },
+      {
+        "partido": "PARTIDO CIVICO OBRAS",
+        "sustento": "Mejorar la infraestructura educativa en áreas urbanas en un 55% en cinco años y un 40% en áreas rurales... revertir brechas en áreas rurales y marginales",
+        "paginas": "718, 719"
+      },
+      {
+        "partido": "SALVEMOS AL PERU",
+        "sustento": "Garantizar servicios básicos y conectividad funcional en todos los colegios priorizados... Reducir en 50% la brecha de infraestructura",
+        "paginas": "284"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Propone dotar al 50% de los locales escolares con infraestructura tecnológica 4.0 y ejecutar el programa \"Perú Conectado 2030\" mediante fibra óptica nacional y satélite propio; asimismo, establece la meta de cubrir al 80% de los hogares rurales con internet, agua y energía para garantizar la justicia social y la integración económica",
+        "paginas": "63, 102, 120"
+      }
+    ]
+  },
+  {
+    "subtopico": "4. Jornada Escolar Completa (Aumento de horas lectivas)",
+    "Frase para el usuario": "Ampliar las horas de clase mediante la implementación de la Jornada Escolar Completa en todos los colegios secundarios",
+    "matches": [
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "Porcentaje de estudiantes con jornada escolar completa... Meta 2030-2031: 90%",
+        "paginas": "128, 130"
+      }
+    ]
+  },
+  {
+    "subtopico": "5. Implementación del Enfoque de Género y Educación Sexual Integral (ESI)",
+    "Frase para el usuario": "El currículo escolar incluya obligatoriamente el enfoque de género y educación sexual integral científica",
+    "matches": [
+      {
+        "partido": "AHORA NACION - AN",
+        "sustento": "Garantizar su desarrollo pleno a través de una educación sexual... el 100% de estudiantes de Educación Básica logran sólidas competencias del cuidado del cuerpo",
+        "paginas": "14, 16"
+      },
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Fortalecer la Educación Sexual Integral (ESI)... para disminuir los casos de embarazo adolescente",
+        "paginas": "572"
+      },
+      {
+        "partido": "PARTIDO MORADO",
+        "sustento": "Educación Sexual Integral (modelo OCDE): Currículo científico, laico, basado en derechos desde inicial hasta secundaria",
+        "paginas": "1224"
+      },
+      {
+        "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
+        "sustento": "Prevenir y erradicar la violencia de género... garantizando igualdad sustantiva",
+        "paginas": "2024"
+      },
+      {
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "Garantizar la implementación efectiva de la ESI con enfoque científico y de derechos, adecuada a cada etapa educativa",
+        "paginas": "602"
+      }
+    ]
+  },
+  {
+    "subtopico": "6. Eliminación de la \"Ideología de Género\" / Pin Parental",
+    "Frase para el usuario": "Eliminar el enfoque de género de los textos escolares y devolver a los padres el control sobre la educación sexual",
+    "matches": [
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Eliminaremos filtros deficientes... reemplazando la ESI por una educación sexual en valores, sin ideología de género... nuestros niños merecen educación empezando en la familia",
+        "paginas": "2278"
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU ACCION",
+        "sustento": "Eliminación de la 'ideología de género' en las escuelas para dar paso a la doctrina del desarrollo y valores propios de nuestro Perú",
+        "paginas": "1678"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+        "sustento": "Se eliminará la ideología de género... se implementará la educación en valores y el respeto a la familia",
+        "paginas": "793"
+      }
+    ]
+  },
+  {
+    "subtopico": "7. Curso Obligatorio de Constitución, Cívica o Historia del Terrorismo",
+    "Frase para el usuario": "Reincorporar cursos de educación cívica, valores patrióticos e historia del terrorismo en el currículo nacional",
+    "matches": [
+      {
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
+        "sustento": "Implementar una currícula que contemple educación ciudadana y educación cívica, en respeto a la ley y cultura de legalidad",
+        "paginas": "1788"
+      },
+      {
+        "partido": "PERU MODERNO",
+        "sustento": "Cultivar los valores cívicos en los educandos... retorno de la educación cívica",
+        "paginas": "1943, 1949"
+      },
+      {
+        "partido": "PROGRESEMOS",
+        "sustento": "Inclusión de cursos como Educación Cívica... curso obligatorio de 'Ética para el Progreso' mediante talleres prácticos de honestidad",
+        "paginas": "2033, 2102"
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Reforzamiento integral de la currícula... para fortalecer la formación en educación cívica y ciudadana... valores cívico-patrióticos",
+        "paginas": "277"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Implementará el área de \"Civismo y Ética Federal\" como componente fundamental del currículo, incluyendo la enseñanza de la Constitución Federal estudiantil, el fomento de gobiernos escolares electos y el estudio de casos prácticos anticorrupción para fortalecer la transparencia",
+        "paginas": "79"
+      }
+    ]
+  },
+  {
+    "subtopico": "8. Enseñanza Obligatoria de Inglés desde Educación Inicial",
+    "Frase para el usuario": "El idioma inglés sea obligatorio e intensivo desde el jardín de infancia en todas las escuelas públicas",
+    "matches": [
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "Certificación de dominio del inglés... en educación primaria y secundaria",
+        "paginas": "118"
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Actualización de la Política Nacional 'Inglés, Puertas al Mundo'... meta de que todos los estudiantes logren certificación básica (A2)",
+        "paginas": "279"
+      },
+      {
+        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
+        "sustento": "Plan Nacional de Segunda Lengua, donde el inglés será obligatorio como competencia transversal desde primaria",
+        "paginas": "1503"
+      },
+      {
+        "partido": "PARTIDO PATRIOTICO DEL PERU",
+        "sustento": "Aplicar metodologías de súper aprendizaje... impulsando el aprendizaje del idioma quechua e inglés... alcanzando al 100% de instituciones",
+        "paginas": "1387, 1388"
+      }
+    ]
+  },
+  {
+    "subtopico": "9. Ingreso Libre a Universidades Públicas",
+    "Frase para el usuario": "Eliminar el examen de admisión y garantizar el ingreso libre de los jóvenes a las universidades del Estado",
+    "matches": [
+      {
+        "partido": "PODEMOS PERU",
+        "sustento": "Duplicar las vacantes universitarias públicas a nivel nacional para reducir la exclusión educativa",
+        "paginas": "1996"
+      },
+      {
+        "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+        "sustento": "Democratizar el acceso a la educación superior... eliminar el ingreso restringido y mercantilizado... Ingreso libre a las universidades",
+        "paginas": "1646, 1654"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+        "sustento": "Ingreso libre a las universidades públicas... será gratuito",
+        "paginas": "793"
+      },
+      {
+        "partido": "UN CAMINO DIFERENTE",
+        "sustento": "Ampliación de vacantes en todas las universidades nacionales",
+        "paginas": "2213"
+      }
+    ]
+  },
+  {
+    "subtopico": "10. Fortalecimiento de la SUNEDU (Fiscalización Estricta)",
+    "Frase para el usuario": "Fortalecer las facultades de la SUNEDU para supervisar la calidad de todas las universidades y cerrar las que no cumplan",
+    "matches": [
+      {
+        "partido": "PARTIDO MORADO",
+        "sustento": "Restauraremos las funciones originales de SUNEDU... restitución del licenciamiento obligatorio y renovable cada 6-8 años",
+        "paginas": "1202"
+      },
+      {
+        "partido": "PARTIDO DEL BUEN GOBIERNO",
+        "sustento": "Fortalecer SUNEDU y el sistema nacional de ciencia, tecnología e innovación",
+        "paginas": "753"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "sustento": "Consolidar el licenciamiento universitario y extenderlo a institutos tecnológicos",
+        "paginas": "1044"
+      }
+    ]
+  },
+  {
+    "subtopico": "11. Reforma de SUNEDU (Autonomía / Segunda Oportunidad)",
+    "Frase para el usuario": "Reformar la SUNEDU para garantizar la autonomía de las universidades y dar una segunda oportunidad a instituciones observadas",
+    "matches": [
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Modificación de las funciones del SINEACE para certificar y acreditar programas educativos que cumplan realmente con estándares de calidad",
+        "paginas": "190"
+      },
+      {
+        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
+        "sustento": "Reconstituir el Consejo Directivo de SUNEDU... garantizando participación de comunidades universitarias",
+        "paginas": "1497, 1507"
+      }
+    ]
+  },
+  {
+    "subtopico": "12. Creación Masiva de Institutos Tecnológicos (Educación Dual)",
+    "Frase para el usuario": "Priorizar la creación de institutos tecnológicos en provincias con un modelo de formación dual (estudio y trabajo)",
+    "matches": [
+      {
+        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "sustento": "Modelo de formación dual: Implementar sistema de alternancia con 50% práctica en empresas desde el primer año",
+        "paginas": "1043"
+      },
+      {
+        "partido": "FUERZA Y LIBERTAD",
+        "sustento": "Centros de Formación Dual que articulen enseñanza académica con prácticas laborales certificadas",
+        "paginas": "381"
+      },
+      {
+        "partido": "SALVEMOS AL PERU",
+        "sustento": "Alcanzar una tasa de inserción laboral del 50% de egresados técnicos... mediante vinculación productiva",
+        "paginas": "284"
+      },
+      {
+        "partido": "PERU MODERNO",
+        "sustento": "Transformar la educación secundaria en una etapa de formación dual, académica y técnica (del 3ro al 5to año)",
+        "paginas": "1946"
+      },
+      {
+        "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+        "sustento": "Reformar universidades e institutos públicos... subir 20 posiciones en Latinoamérica",
+        "paginas": "724"
+      }
+    ]
+  },
+  {
+    "subtopico": "13. Aumento de Sueldo Base al Magisterio (Ej: 1 UIT)",
+    "Frase para el usuario": "Un aumento significativo y progresivo del sueldo base de los maestros para dignificar su labor",
+    "matches": [
+      {
+        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "sustento": "Elevar el piso salarial docente de S/ 3,100 a S/ 4,000 al 2031",
+        "paginas": "1040"
+      },
+      {
+        "partido": "PARTIDO MORADO",
+        "sustento": "Incremento salarial progresivo... incremento de S/ 800/mes promedio",
+        "paginas": "1227"
+      },
+      {
+        "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+        "sustento": "Mejorar ingresos de los docentes a través de aumentos anuales diferenciados",
+        "paginas": "1101"
+      },
+      {
+        "partido": "PERU MODERNO",
+        "sustento": "El maestro podrá empezar su actividad en el sistema educativo nacional con un básico de 4,500 soles",
+        "paginas": "1948"
+      }
+    ]
+  },
+  {
+    "subtopico": "14. Evaluación de Desempeño Docente Estricta (Meritocracia)",
+    "Frase para el usuario": "Los ascensos y la permanencia de los maestros dependan estrictamente de evaluaciones de desempeño periódicas",
+    "matches": [
+      {
+        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
+        "sustento": "Meritocracia efectiva: Fortalecer evaluaciones de desempeño docente... vinculando resultados a ascensos de escala",
+        "paginas": "1493, 1496"
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Nombramientos y ascensos de los docentes deben ser por mérito, NO por presión sindical... evaluación docente por resultados",
+        "paginas": "2281"
+      },
+      {
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "Formación y Certificación Docente: Implementar programa... vinculado a incentivos por desempeño",
+        "paginas": "600"
+      },
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Modificar los parámetros de evaluación de la Carrera Pública Magisterial para centrarlos en habilidades pedagógicas prácticas",
+        "paginas": "160"
+      }
+    ]
+  },
+  {
+    "subtopico": "15. Educación Intercultural Bilingüe (EIB) e Inclusiva",
+    "Frase para el usuario": "Garantizar que los niños indígenas estudien en su lengua materna y que se incluyan especialistas para niños con discapacidad",
+    "matches": [
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Educación intercultural con enfoque de género... y educación rural-intercultural-bilingüe de los pueblos originarios",
+        "paginas": "66"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "sustento": "Educación Básica Especial (EBE): garantizar infraestructura accesible, tecnologías de apoyo y docentes capacitados",
+        "paginas": "1013, 1014"
+      },
+      {
+        "partido": "PARTIDO POLITICO PRIN",
+        "sustento": "Promoveremos la educación intercultural bilingüe (EIB) con la participación activa de las comunidades originarias",
+        "paginas": "1882"
+      },
+      {
+        "partido": "PARTIDO POLITICO COOPERACION POPULAR",
+        "sustento": "Capacitación del magisterio nacional... en beneficio de una educación de calidad para todos",
+        "paginas": "1403, 1404"
+      },
+      {
+        "partido": "PARTIDO PAIS PARA TODOS",
+        "sustento": "Escuelas seguras y conectadas... incluyendo educación cívica e intercultural",
+        "paginas": "1362"
+      },
+      {
+        "partido": "FE EN EL PERU",
+        "sustento": "Acceso equitativo a tecnologías educativas... reducir brechas territoriales",
+        "paginas": "257"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Propone un currículo federal que incluye la enseñanza obligatoria de la lengua originaria de cada región; además, contempla la adecuación de los contenidos pedagógicos a cada realidad geográfica para potenciar las vocaciones productivas locales y respetar la identidad de la \"nación de naciones\" (Fuente: Pág. 47, 80, 102 del PDF).",
+        "paginas": "47, 80, 102"
+      }
+    ]
+  }
+]

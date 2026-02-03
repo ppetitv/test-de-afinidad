@@ -1,0 +1,357 @@
+[
+  {
+    "subtopico": "1. Convocar a una Asamblea Constituyente para una Nueva Constitución",
+    "Frase para el usuario": "Convocar a una Asamblea Constituyente para redactar una nueva Constitución que reemplace a la de 1993...",
+    "matches": [
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Convocar mediante referéndum a una Asamblea Constituyente plurinacional",
+        "paginas": "14"
+      },
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "La reforma de la Constitución debe hacerse por una Asamblea Constituyente convocada para esa finalidad expresa",
+        "paginas": "18"
+      },
+      {
+        "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+        "sustento": "Refundar el Estado mediante una Asamblea Constituyente que redacte una nueva Constitución",
+        "paginas": "64"
+      },
+      {
+        "partido": "PARTIDO POLITICO COOPERACION POPULAR",
+        "sustento": "Aprobación de una nueva Constitución a través de una Asamblea Constituyente",
+        "paginas": "10"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Propone convocar a una Asamblea Constituyente en 2026 conformada por 200 representantes (150 territoriales y 50 funcionales) para redactar una Nueva Constitución Federal, la cual sería sometida a un referéndum ratificatorio en julio de 2028",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "2. Mantener la Constitución de 1993 (con reformas parciales)",
+    "Frase para el usuario": "Mantener el marco constitucional de 1993, realizando únicamente las reformas necesarias para modernizar el Estado...",
+    "matches": [
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "Dicho sistema está basado en la Constitución Política, ratificada por referéndum el 31 de octubre del año 1993",
+        "paginas": "1"
+      },
+      {
+        "partido": "PODEMOS PERU",
+        "sustento": "Planteamos un proyecto político... que se enmarca en los principios del Estado constitucional de derecho (refiriéndose al vigente)",
+        "paginas": "11"
+      },
+      {
+        "partido": "PARTIDO SICREO",
+        "sustento": "El plan se enmarca en la defensa del sistema democrático vigente, proponiendo reformas estructurales sin asamblea constituyente",
+        "paginas": "1"
+      },
+      {
+        "partido": "AHORA NACION - AN",
+        "sustento": "Reconoce la igualdad ante la ley según \"reconoce la Constitución política del Perú\" actual",
+        "paginas": "10"
+      }
+    ]
+  },
+  {
+    "subtopico": "3. Salida del Pacto de San José (Corte IDH) y Aplicación de Pena de Muerte",
+    "Frase para el usuario": "El Perú se retire de la competencia de la Corte IDH para poder aplicar la pena de muerte a criminales peligrosos...",
+    "matches": [
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Iniciaremos también el proceso de retiro de la Corte Interamericana de Derechos humanos... para restaurar la pena de muerte",
+        "paginas": "18"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+        "sustento": "El Retiro de la Convención Americana de Derechos Humanos, la pena de muerte... serán sometido a referéndum",
+        "paginas": "2"
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU ACCION",
+        "sustento": "Implementación del programa 'Mano de Hierro', teniendo como primer objetivo la salida de la CIDH... y proponer pena de muerte",
+        "paginas": "8"
+      },
+      {
+        "partido": "PROGRESEMOS",
+        "sustento": "Salida del Perú de la Corte Interamericana de Derechos Humanos. Esto restituye la plena autonomía del Estado para legislar y aplicar sanciones severas",
+        "paginas": "15"
+      }
+    ]
+  },
+  {
+    "subtopico": "4. Reforma drástica o eliminación de la Junta Nacional de Justicia (JNJ)",
+    "Frase para el usuario": "Reformar profundamente la JNJ para asegurar que la selección de jueces y fiscales sea técnica y no política...",
+    "matches": [
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Se requiere evaluar la funcionalidad de la Junta Nacional de Justicia para reducir la provisionalidad de magistrados",
+        "paginas": "16"
+      },
+      {
+        "partido": "SALVEMOS AL PERU",
+        "sustento": "Propone reforzar la independencia, meritocracia y capacitación continua tras diagnosticar el desprestigio de los procesos actuales",
+        "paginas": "26"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "sustento": "Fortalecimiento constitucional de la Junta Nacional de Justicia... con requisitos más estrictos y veeduría internacional",
+        "paginas": "41"
+      },
+      {
+        "partido": "UN CAMINO DIFERENTE",
+        "sustento": "Reestructuración total de la Junta Nacional de Justicia",
+        "paginas": "24"
+      }
+    ]
+  },
+  {
+    "subtopico": "5. Retorno a la reelección inmediata de alcaldes y gobernadores",
+    "Frase para el usuario": "Permitir que las autoridades locales y regionales puedan ser reelegidas para dar continuidad a sus proyectos...",
+    "matches": [
+      {
+        "partido": "PARTIDO APRISTA PERUANO",
+        "sustento": "Recomendar la reelección de Alcaldes y Gobernadores por una vez",
+        "paginas": "35"
+      }
+    ]
+  },
+  {
+    "subtopico": "6. Renovación del Congreso por mitades o tercios",
+    "Frase para el usuario": "Renovar el Congreso a mitad del mandato para que los ciudadanos premien o sancionen el desempeño legislativo...",
+    "matches": [
+      {
+        "partido": "FUERZA Y LIBERTAD",
+        "sustento": "Establece la renovación del 50 % del Congreso a mitad del mandato para que el ciudadano evalúe y sancione el mal desempeño",
+        "paginas": "102"
+      },
+      {
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "Renovación escalonada por tercios del Congreso para introducir estabilidad y memoria institucional",
+        "paginas": "40"
+      },
+      {
+        "partido": "PARTIDO PATRIOTICO DEL PERU",
+        "sustento": "La renovación de un tercio de congresistas se realizará a la mitad del mandato congresal",
+        "paginas": "30"
+      }
+    ]
+  },
+  {
+    "subtopico": "7. Voto Voluntario y Reinstauración de las PASO",
+    "Frase para el usuario": "Eliminar la obligatoriedad del voto y/o asegurar que los candidatos sean elegidos por la ciudadanía en primarias abiertas...",
+    "matches": [
+      {
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
+        "sustento": "Reinstaurar las elecciones primarias abiertas, simultáneas y obligatorias (PASO) supervisadas por la ONPE",
+        "paginas": "30"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "sustento": "Reducir firmas para iniciativa legislativa ciudadana... Crear referéndum derogatorio ciudadano",
+        "paginas": "40"
+      }
+    ]
+  },
+  {
+    "subtopico": "8. Eliminación de la Inmunidad Parlamentaria (Sin Antejuicio para delitos comunes)",
+    "Frase para el usuario": "Eliminar totalmente la inmunidad parlamentaria para que los congresistas sean procesados como cualquier ciudadano...",
+    "matches": [
+      {
+        "partido": "PARTIDO MORADO",
+        "sustento": "Inmunidad NO cubre delitos comunes... Fiscal solicita directamente a juez apertura investigación sin pasar por Congreso",
+        "paginas": "93"
+      },
+      {
+        "partido": "PERU MODERNO",
+        "sustento": "Eliminar la Inmunidad Presidencial por casos de corrupción. Una autoridad honesta no requiere coraza",
+        "paginas": "21"
+      },
+      {
+        "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+        "sustento": "Eliminación de la inmunidad Presidencial, Congresal y de todas las altas autoridades del Estado",
+        "paginas": "1"
+      }
+    ]
+  },
+  {
+    "subtopico": "9. Muerte Civil para funcionarios corruptos (Inhabilitación Perpetua)",
+    "Frase para el usuario": "Prohibir de por vida que cualquier persona condenada por corrupción vuelva a trabajar o contratar con el Estado...",
+    "matches": [
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Muerte Civil inmediata para autoridades y funcionarios condenados por corrupción, con prohibición absoluta de empleo público",
+        "paginas": "19"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "sustento": "Inhabilitación perpetua para cargos públicos (muerte civil) para condenados por corrupción",
+        "paginas": "42"
+      },
+      {
+        "partido": "PARTIDO POLITICO PRIN",
+        "sustento": "Aprobar la muerte civil para quienes delinquen como funcionarios o servidores públicos",
+        "paginas": "13"
+      },
+      {
+        "partido": "PARTIDO CIVICO OBRAS",
+        "sustento": "Los funcionarios sentenciados serán inhabilitados a perpetuidad",
+        "paginas": "10"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Plantea la aplicación de la Muerte Civil para funcionarios corruptos dentro de su \"Ley Patriota\", buscando cambiar el paradigma hacia un modelo preventivo que blinde los recursos del Estado.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "10. Imprescriptibilidad de los delitos de corrupción",
+    "Frase para el usuario": "Estoy a favor de que los delitos de corrupción no caduquen nunca, permitiendo procesar a los responsables sin importar el tiempo transcurrido...",
+    "matches": [
+      {
+        "partido": "PARTIDO MORADO",
+        "sustento": "Se modificará el Código Penal para declarar imprescriptibles el peculado, colusión, cohecho... cuando son cometidos por funcionarios",
+        "paginas": "43"
+      },
+      {
+        "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+        "sustento": "Imprescriptibilidad de los delitos de corrupción de funcionarios, terrorismo, lesa humanidad",
+        "paginas": "50"
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU ACCION",
+        "sustento": "Instauración de cadena perpetua para cualquier delito de corrupción cometido por funcionarios",
+        "paginas": "9"
+      }
+    ]
+  },
+  {
+    "subtopico": "11. Fortalecimiento de la Contraloría (Capacidad Sancionadora Vinculante)",
+    "Frase para el usuario": "Darle a la Contraloría el poder de sancionar y destituir directamente a los funcionarios corruptos...",
+    "matches": [
+      {
+        "partido": "PODEMOS PERU",
+        "sustento": "Refundar el ente de control institucional, a nivel constitucional; así como, reglamentar una metodología para garantizar la rendición de cuentas",
+        "paginas": "9"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "sustento": "Modificaciones a Ley 31358: ... creación de mecanismos vinculantes para sanción administrativa, civil y penal de funcionarios corruptos",
+        "paginas": "13"
+      },
+      {
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "Propone reformar el control concurrente y establecer la \"autorización de exhibición de cuentas bancarias por parte de todo funcionario\"",
+        "paginas": "42"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Propone la creación de una Contraloría Ciudadana basada en veedurías populares con poder de veto, además de establecer una Contraloría General Federal como organismo de evaluación independiente.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "12. Juicio por Jurados y Veedurías Ciudadanas",
+    "Frase para el usuario": "Ciudadanos comunes participen en los juicios o vigilen directamente las obras y procesos judiciales...",
+    "matches": [
+      {
+        "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+        "sustento": "Ley de creación de los Jurados en la administración de justicia",
+        "paginas": "2"
+      },
+      {
+        "partido": "PARTIDO POLITICO PRIN",
+        "sustento": "Empoderaremos a la ciudadanía para el control y fiscalización... implementará instrumentos y mecanismos de control estadístico de las opiniones de la población",
+        "paginas": "15"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Establece un sistema de Veeduría Ciudadana Federal para el control social efectivo y la fiscalización de recursos, otorgando a estas organizaciones ciudadanas capacidad de control y participación en la toma de decisiones.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "13. Elección popular de jueces y fiscales",
+    "Frase para el usuario": "Los jueces y fiscales sean elegidos por el voto de los ciudadanos para asegurar su rendición de cuentas ante el pueblo...",
+    "matches": [
+      {
+        "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+        "sustento": "Se creará los juzgados de ejecución sumarios en las comisarías... Retiro de la CIDH... y cambio constitucional serán sometido a referéndum (plantea control popular de magistrados)",
+        "paginas": "2"
+      },
+      {
+        "partido": "UN CAMINO DIFERENTE",
+        "sustento": "Piloto de jueces y fiscales elegidos por voto popular para control interno",
+        "paginas": "24"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Dentro de su estructura de mando para el sistema judicial federal, propone que el Fiscal General de la Nación sea electo popularmente.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "14. Digitalización total del sistema judicial (Justicia Smart)",
+    "Frase para el usuario": "Eliminar el uso de papel en los juicios y usar inteligencia artificial para acelerar las sentencias y evitar archivos injustos...",
+    "matches": [
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "Digitalización total de trámites públicos... Estado 100 % transaccional en línea\" (incluyendo justicia)",
+        "paginas": "17"
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Instauración de la obligatoriedad del Expediente Judicial Electrónico (EJE) para la gestión documental y notificaciones",
+        "paginas": "27"
+      },
+      {
+        "partido": "PARTIDO PAIS PARA TODOS",
+        "sustento": "Acelerar la justicia... con gestión, tecnología, e inteligencia artificial",
+        "paginas": "25"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATA VERDE",
+        "sustento": "Establecer la interoperabilidad digital entre todas las instituciones de justicia... implementar el expediente judicial electrónico",
+        "paginas": "24, 25"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Impulsa una reforma integral que incluye la digitalización procesal y la modernización de despachos para garantizar una justicia predecible, oportuna y transparente.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "15. Privatización o Concesión de la Administración de Cárceles",
+    "Frase para el usuario": "Las empresas privadas construyan y administren las cárceles para reducir el hacinamiento y asegurar que los presos trabajen...",
+    "matches": [
+      {
+        "partido": "PARTIDO APRISTA PERUANO",
+        "sustento": "Gestión temporal privada de los nuevos penales mientras se implementa la reforma... Debatir entregar en administración a los privados",
+        "paginas": "22"
+      },
+      {
+        "partido": "PARTIDO SICREO",
+        "sustento": "Licitación internacional para la privatización e instalación y operación de cámaras de seguridad en los penales",
+        "paginas": "14"
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Cárceles productivas... a costo cero para el Estado por medio de asociaciones público-privadas",
+        "paginas": "18"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Propone un sistema penitenciario federal con 12 prisiones de máxima seguridad (una por región) cuya inversión y gestión se realizaría mediante la modalidad de Asociación Público-Privada (APP) en conjunto con el presupuesto federal.",
+        "paginas": ""
+      }
+    ]
+  }
+]

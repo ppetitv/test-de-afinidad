@@ -1,0 +1,307 @@
+[
+  {
+    "subtopico": "1. Aprobar el Matrimonio Igualitario o Unión Civil",
+    "Frase para el usuario": "Legalizar el matrimonio o la unión civil para parejas del mismo sexo",
+    "matches": [
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Garantizaremos la igualdad ante la ley para todas y todos, en especial garantizar el derecho a la identidad, salud, educación y trabajo para la diversidad.",
+        "paginas": "45"
+      },
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Garantizar igualdad de derechos para... población LGTBIQ+.",
+        "paginas": "20"
+      },
+      {
+        "partido": "PARTIDO POLITICO COOPERACION POPULAR",
+        "sustento": "Crear marco jurídico para unión de parejas del mismo sexo.",
+        "paginas": "10"
+      },
+      {
+        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
+        "sustento": "Garantizar la protección efectiva, trato digno e igualdad de oportunidades para los miembros de la comunidad LGTBQ+.",
+        "paginas": "153"
+      }
+    ]
+  },
+  {
+    "subtopico": "2. Despenalizar el aborto (causales o violación)",
+    "Frase para el usuario": "Las mujeres puedan acceder al aborto legal en casos de violación o salud",
+    "matches": [
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Actualización y fortalecimiento de la política de aborto terapéutico... y de manera prioritaria accedan consentidamente niñas víctimas de violación sexual.",
+        "paginas": "47"
+      },
+      {
+        "partido": "PARTIDO POLITICO COOPERACION POPULAR",
+        "sustento": "Excepcionalmente el aborto terapéutico y violaciones a menores.",
+        "paginas": "10"
+      }
+    ]
+  },
+  {
+    "subtopico": "3. Ley de Identidad de Género",
+    "Frase para el usuario": "Una ley que permita el cambio de identidad de género en documentos oficiales",
+    "matches": [
+      {
+        "partido": "PARTIDO MORADO",
+        "sustento": "Identidad de Género Auto percibida: Opción de registrar género auto percibido (masculino, femenino, no binario...) en DNI digital sin proceso judicial.",
+        "paginas": "271"
+      },
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Garantizaremos la igualdad ante la ley... en especial garantizar el derecho a la identidad... para la diversidad.",
+        "paginas": "45"
+      }
+    ]
+  },
+  {
+    "subtopico": "4. Eutanasia o Muerte Digna",
+    "Frase para el usuario": "Reconocer el derecho a una muerte digna en casos de enfermedades terminales",
+    "matches": [
+      {
+        "partido": "PARTIDO DEL BUEN GOBIERNO",
+        "sustento": "Abrir un amplio debate para reconocer y proteger el derecho a una muerte digna, y proponer cambios en las normas correspondientes.",
+        "paginas": "25"
+      },
+      {
+        "partido": "PARTIDO POLITICO COOPERACION POPULAR",
+        "sustento": "La eutanasia debidamente probada.",
+        "paginas": "10"
+      }
+    ]
+  },
+  {
+    "subtopico": "5. Enfoque de Género Transversal en el Estado",
+    "Frase para el usuario": "El enfoque de género se aplique en todas las políticas y presupuestos públicos",
+    "matches": [
+      {
+        "partido": "AHORA NACION - AN",
+        "sustento": "Incorporando de manera transversal el enfoque de género, entendido como la igualdad entre hombres y mujeres, en todas las políticas públicas.",
+        "paginas": "12"
+      },
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Garantizaremos la aplicación del enfoque de género en las políticas públicas.",
+        "paginas": "11"
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
+        "sustento": "Transversalizar el enfoque de género en todas las políticas sociales y económicas.",
+        "paginas": "40"
+      }
+    ]
+  },
+  {
+    "subtopico": "6. Defender la vida desde la concepción",
+    "Frase para el usuario": "Proteger el derecho a la vida de manera absoluta desde el momento de la concepción",
+    "matches": [
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Protegemos decididamente el derecho a la vida desde su concepción.",
+        "paginas": "1"
+      },
+      {
+        "partido": "PODEMOS PERU",
+        "sustento": "El ser humano debe ser respetado y tratado como persona, desde el instante de su concepción.",
+        "paginas": "10"
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU ACCION",
+        "sustento": "Pena de muerte para... violadores... proteger la vida en todas sus formas. (Referencia al blindaje punitivo de la vida)",
+        "paginas": "9"
+      }
+    ]
+  },
+  {
+    "subtopico": "7. Prohibir la \"Ideología de Género\" en Escuelas",
+    "Frase para el usuario": "Eliminar contenidos de ideología de género en el currículo escolar",
+    "matches": [
+      {
+        "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+        "sustento": "Se eliminará la ideología de género [de la currícula educativa].",
+        "paginas": "3"
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Reemplazando la ESI por una educación sexual en valores, sin ideología de género en el sistema educativo.",
+        "paginas": "124"
+      }
+    ]
+  },
+  {
+    "subtopico": "8. Creación de un Ministerio de la Familia (o Fortalecimiento)",
+    "Frase para el usuario": "Priorizar a la familia como núcleo central de las políticas sociales",
+    "matches": [
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Implementación de políticas públicas que promuevan un Estado defensor de las mujeres y aliado de la familia.",
+        "paginas": "39"
+      },
+      {
+        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
+        "sustento": "Reconocemos a la familia como el núcleo básico de la sociedad, la cual el Estado debe proteger promoviendo políticas públicas orientadas a este fin.",
+        "paginas": "7"
+      },
+      {
+        "partido": "SALVEMOS AL PERU",
+        "sustento": "Fortalecimiento de la familia como unidad celular principal de la sociedad.",
+        "paginas": "4"
+      }
+    ]
+  },
+  {
+    "subtopico": "9. Libertad Religiosa y de Culto como Eje de Gobierno",
+    "Frase para el usuario": "El Estado garantice y respete activamente la libertad religiosa de los ciudadanos",
+    "matches": [
+      {
+        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
+        "sustento": "Donde se respete la libertad religiosa y de culto.",
+        "paginas": "8"
+      },
+      {
+        "partido": "RENOVACION POPULAR",
+        "sustento": "El Partido se define como una organización política humanista y cristiana.",
+        "paginas": "2"
+      }
+    ]
+  },
+  {
+    "subtopico": "10. Sistema Nacional de Cuidados (Guarderías y Cuidado de Ancianos)",
+    "Frase para el usuario": "Crear un sistema estatal que asuma el cuidado de niños y personas dependientes",
+    "matches": [
+      {
+        "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
+        "sustento": "Crear e implementar un Sistema Nacional de Cuidados con enfoque de género e intercultural.",
+        "paginas": "8"
+      },
+      {
+        "partido": "PARTIDO PAIS PARA TODOS",
+        "sustento": "Sistema Nacional de Cuidados con: expansión de los servicios de cuidado e integración con empleo formal.",
+        "paginas": "15"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATA VERDE",
+        "sustento": "Sistema Nacional de Cuidados con enfoque comunitario... Centros de Vida en todos los territorios.",
+        "paginas": "153"
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Creación del Sistema Nacional de Cuidados como política de Estado, para atender integralmente a adultos mayores, personas con discapacidad, niños.",
+        "paginas": "68"
+      }
+    ]
+  },
+  {
+    "subtopico": "11. Cuotas Laborales para Personas con Discapacidad",
+    "Frase para el usuario": "Exigir cuotas de empleo obligatorias para personas con discapacidad en el sector público y privado",
+    "matches": [
+      {
+        "partido": "PARTIDO MORADO",
+        "sustento": "Cuotas Laborales Reforzadas: Sector público 10%... Empresas privadas +100 trabajadores: 5% obligatorio.",
+        "paginas": "272"
+      },
+      {
+        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
+        "sustento": "La cuota de empleo del 3 % en sector privado y 5 % en sector público será fiscalizada con inspectores especializados.",
+        "paginas": "149"
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Haremos cumplir la Ley de Presupuesto en Accesibilidad y atención de personas con discapacidad... de manera obligatoria.",
+        "paginas": "138"
+      }
+    ]
+  },
+  {
+    "subtopico": "12. Pensión o Programas para la Mujer Rural",
+    "Frase para el usuario": "Crear programas específicos de apoyo económico para mujeres agricultoras y rurales",
+    "matches": [
+      {
+        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "sustento": "Plan de empoderamiento económico de la mujer rural... acceso a créditos especiales.",
+        "paginas": "87"
+      },
+      {
+        "partido": "PARTIDO PATRIOTICO DEL PERU",
+        "sustento": "Créditos preferenciales para mujeres emprendedoras y rurales.",
+        "paginas": "12"
+      }
+    ]
+  },
+  {
+    "subtopico": "13. Lucha contra la Anemia y Desnutrición Infantil",
+    "Frase para el usuario": "El Estado priorice la eliminación de la anemia y desnutrición infantil como meta nacional absoluta",
+    "matches": [
+      {
+        "partido": "SALVEMOS AL PERU",
+        "sustento": "Objetivo de cero anemia y desnutrición infantil, mediante una estrategia intersectorial que articule salud, educación, protección social.",
+        "paginas": "10"
+      },
+      {
+        "partido": "PODEMOS PERU",
+        "sustento": "Protección integral de la primera infancia: 'Anemia Cero'.",
+        "paginas": "62"
+      },
+      {
+        "partido": "PARTIDO PAIS PARA TODOS",
+        "sustento": "Garantizar que ningún niño vuelva a crecer con anemia o desnutrición... con servicios integrados.",
+        "paginas": "45"
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Lanzamiento de un Programa Nacional de Prevención de la Anemia y la Desnutrición Infantil.",
+        "paginas": "68"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "El partido establece como una meta social prioritaria reducir la anemia infantil del 40% (línea base) al 15% para el año 2031. Para ello, propone la ejecución de un plan enfocado en la protección del capital humano desde sus etapas iniciales, fundamentando que asegurar estos indicadores sanitarios es indispensable para el rendimiento académico y productivo de las nuevas generaciones. Asimismo, su programa \"Madre-Niño 0-1,335 días\" incluye la suplementación con multimicronutrientes y tres comidas diarias en escuelas públicas.",
+        "paginas": "32, 53, 54 del PDF"
+      }
+    ]
+  },
+  {
+    "subtopico": "14. Erradicación de la Violencia de Género (Feminicidios)",
+    "Frase para el usuario": "Declarar en emergencia la lucha contra la violencia hacia la mujer con medidas más drásticas",
+    "matches": [
+      {
+        "partido": "PARTIDO PATRIOTICO DEL PERU",
+        "sustento": "Endurecimiento de penas para agresores y feminicidas.",
+        "paginas": "13"
+      },
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Sistema Nacional Especializado de Justicia para la Protección y Sanción de la Violencia contra las Mujeres.",
+        "paginas": "64"
+      },
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Incremento del presupuesto para el Plan Nacional contra la Violencia de Género y creación de casas refugio.",
+        "paginas": "46"
+      }
+    ]
+  },
+  {
+    "subtopico": "15. Juventudes: Becas y Primer Empleo",
+    "Frase para el usuario": "El Estado debe garantizar el acceso de los jóvenes al mercado laboral y a la educación superior mediante becas y subsidios...",
+    "matches": [
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "Beca 18.0 para todos: Universalización de becas para educación superior técnica y universitaria.",
+        "paginas": "35"
+      },
+      {
+        "partido": "PARTIDO PATRIOTICO DEL PERU",
+        "sustento": "Ley del Primer Empleo Joven con incentivos tributarios a empresas.",
+        "paginas": "14"
+      },
+      {
+        "partido": "FE EN EL PERU",
+        "sustento": "Programa 'Chamba Joven' para insertar a egresados en el mercado laboral formal.",
+        "paginas": "22"
+      }
+    ]
+  }
+]

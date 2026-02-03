@@ -1,0 +1,447 @@
+[
+  {
+    "subtopico": "1. Cambio del Modelo Económico / Nueva Constitución Económica",
+    "Frase para el usuario": "Cambiar el modelo económico actual y/o la Constitución para que el Estado tenga un rol empresarial en sectores estratégicos...",
+    "matches": [
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Propone una \"Nueva Constitución plurinacional, democrática y nacida del Pueblo\" que refuerce el rol del Estado como planificador estratégico.",
+        "paginas": ""
+      },
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Busca una \"Nueva Constitución Soberana\" para recuperar la soberanía sobre recursos naturales y permitir que el Estado emprenda proyectos empresariales.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+        "sustento": "Promueve una reforma total del Estado y cambios en el modelo hacia un \"capitalismo popular\" con un Estado fuerte en sectores estratégicos.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO POLITICO COOPERACION POPULAR",
+        "sustento": "Plantea la aprobación de una nueva Constitución a través de una Asamblea Constituyente para lograr justicia social.",
+        "paginas": ""
+      },
+      {
+        "partido": "PODEMOS PERU",
+        "sustento": "Propone recuperar la soberanía sobre recursos naturales y que el Estado asuma un rol fuerte y regulador en la economía.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "2. Blindaje del Modelo de Libre Mercado",
+    "Frase para el usuario": "Blindar el modelo de libre mercado, garantizando el respeto absoluto a la propiedad privada y la estabilidad jurídica de los contratos...",
+    "matches": [
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Defiende el libre mercado, la propiedad privada y la libre empresa como base de su ideología.",
+        "paginas": ""
+      },
+      {
+        "partido": "FE EN EL PERU",
+        "sustento": "Adopta el \"verdadero libre mercado\" como principal motor de riqueza y generación de empleo.",
+        "paginas": ""
+      },
+      {
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "Cree en un régimen económico sustentado en la libertad y la iniciativa privada como fuente de riqueza.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO SICREO",
+        "sustento": "Sostiene los principios de libre mercado y libre comercio para impulsar el crecimiento y eliminar la pobreza.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
+        "sustento": "Apuesta por la economía social de mercado y la promoción de la iniciativa privada y la libre competencia.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "3. Industrialización por Sustitución de Importaciones y Valor Agregado",
+    "Frase para el usuario": "Impulsar la industrialización nacional para transformar nuestras materias primas y dejar de ser un país meramente exportador de recursos...",
+    "matches": [
+      {
+        "partido": "AHORA NACION - AN",
+        "sustento": "Propone desarrollar un sistema industrial descentralizado para generar productos con alto valor agregado in situ.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Plantea industrializar el país con 30 parques industriales para agregar valor a los recursos naturales.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO PATRIOTICO DEL PERU",
+        "sustento": "Busca industrializar todos los sectores productivos en todas las regiones para desarrollar el país.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO APRISTA PERUANO",
+        "sustento": "Propone industrializar minerales en polos regionales para capturar más valor local.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO POLITICO PRIN",
+        "sustento": "Impulsa la industrialización de la agricultura mediante transferencia tecnológica.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "4. Reducción del Tamaño del Estado y Austeridad",
+    "Frase para el usuario": "Reducir el tamaño del aparato estatal, eliminando ministerios duplicados y recortando el gasto en burocracia...",
+    "matches": [
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "Propone reducir el Poder Ejecutivo de 19 a solo 10 ministerios para eliminar duplicidades.",
+        "paginas": ""
+      },
+      {
+        "partido": "UN CAMINO DIFERENTE",
+        "sustento": "Plantea reducir progresivamente el número de ministerios de 19 a solo 8 para mejorar la eficiencia.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO MORADO",
+        "sustento": "Reorganizará el Ejecutivo fusionando ministerios de 19 a 12 entidades.",
+        "paginas": ""
+      },
+      {
+        "partido": "PODEMOS PERU",
+        "sustento": "Modernizará la estructura del Ejecutivo mediante la fusión de al menos 4 ministerios.",
+        "paginas": ""
+      },
+      {
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "Busca un Estado \"liviano y ágil\", reduciendo el número de entidades públicas en un 15%.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "5. Reforma Tributaria Progresiva (Impuesto a la Riqueza / Grandes Fortunas)",
+    "Frase para el usuario": "Quienes tienen más paguen más, implementando impuestos a las grandes fortunas o sobreganancias mineras...",
+    "matches": [
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Propone establecer un impuesto a las grandes fortunas (patrimonios > US$ 100 millones) y a los bienes de lujo.",
+        "paginas": ""
+      },
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Plantea un sistema tributario progresivo con impuestos a las grandes fortunas y sobreganancias mineras.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Implementará un impuesto a las sobreganancias mineras y al \"lujo ecológico\".",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO MORADO",
+        "sustento": "Propone un sistema de siete tramos de impuesto a la renta más progresivo y un impuesto solidario a patrimonios > US$ 5 millones.",
+        "paginas": ""
+      },
+      {
+        "partido": "PODEMOS PERU",
+        "sustento": "Revisa y elimina beneficios tributarios regresivos que favorecen a grupos económicos concentrados.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "6. Reducción de Impuestos (IGV o Renta)",
+    "Frase para el usuario": "Bajar impuestos como el IGV o el Impuesto a la Renta para aliviar a las familias y reactivar el consumo...",
+    "matches": [
+      {
+        "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+        "sustento": "Propone reducir progresivamente el IGV hasta llegar al 10% y eliminar el impuesto de quinta categoría.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO SICREO",
+        "sustento": "Busca simplificar y reducir impuestos como el IR, IGV e ITF para devolver dinero a las familias.",
+        "paginas": ""
+      },
+      {
+        "partido": "RENOVACION POPULAR",
+        "sustento": "Reducirá la tasa del IGV para incentivar que los informales opten por la formalización.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO APRISTA PERUANO",
+        "sustento": "Propone reducir el IGV al 16% (1.5% base y 0.5% IPM).",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
+        "sustento": "Plantea reducir el IGV al 10% para el año 2031.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "7. Amnistía Tributaria o Facilidades para PYMES",
+    "Frase para el usuario": "Otorgar amnistías tributarias o condonación de multas para que las PYMES con deudas puedan formalizarse...",
+    "matches": [
+      {
+        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "sustento": "Ofrecerá condonación de multas e intereses para MYPES informales que se formalicen en los primeros 2 años.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Propone una amnistía tributaria y laboral para facilitar la formalización masiva.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
+        "sustento": "Establecerá un programa de pago inmediato de deudas con descuentos del 10-30% en intereses.",
+        "paginas": ""
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Implementará un beneficio de cero tributos iniciales que incluye regularización de deudas para distritos pobres.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "8. Obras por Impuestos (Ampliación del Mecanismo)",
+    "Frase para el usuario": "Ampliar el mecanismo de Obras por Impuestos para agilizar la construcción de infraestructura en las regiones...",
+    "matches": [
+      {
+        "partido": "AHORA NACION - AN",
+        "sustento": "Utilizará Obras por Impuestos para financiar infraestructura urbana (pistas, veredas, losas).",
+        "paginas": ""
+      },
+      {
+        "partido": "FUERZA Y LIBERTAD",
+        "sustento": "Implementará una Ventanilla Única Nacional para agilizar las Obras por Impuestos.",
+        "paginas": ""
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Impulsará este mecanismo para infraestructura en áreas vinculadas a proyectos mineros.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO SICREO",
+        "sustento": "Flexibilizará los programas de Obras por Impuestos eliminando cuellos de botella.",
+        "paginas": ""
+      },
+      {
+        "partido": "SALVEMOS AL PERU",
+        "sustento": "Propone usar este esquema para ejecutar inversiones con impacto social.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "9. Aumento del Sueldo Mínimo Vital (RMV)",
+    "Frase para el usuario": "Aumentar el sueldo mínimo para que cubra el costo real de la canasta básica familiar...",
+    "matches": [
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Propone incrementar la RMV hasta cubrir la canasta básica de S/ 1,816.",
+        "paginas": ""
+      },
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Establece como objetivo el aumento de salarios y modificar mecanismos para el ajuste de la RMV.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO APRISTA PERUANO",
+        "sustento": "Automatizará la actualización del sueldo mínimo mediante un Código Laboral moderno.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+        "sustento": "Establece como meta la dignificación del trabajo mediante la formalización y mejores ingresos.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "10. Eliminación del Régimen CAS y Tercerización",
+    "Frase para el usuario": "Eliminar el régimen CAS y la tercerización laboral para que todos los trabajadores pasen a planilla con derechos plenos...",
+    "matches": [
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Propone una reforma laboral para eliminar la tercerización y acelerar el tránsito de los CAS al régimen civil.",
+        "paginas": ""
+      },
+      {
+        "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
+        "sustento": "Reducirá los servidores CAS a menos del 17% para 2031, priorizando su tránsito a regímenes con derechos plenos.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Generará 3 millones de puestos de trabajo dignos eliminando regímenes precarios.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+        "sustento": "Propone reestructurar la carrera pública para eliminar instituciones obsoletas y precariedad.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "11. Flexibilización Laboral y Regímenes Especiales",
+    "Frase para el usuario": "Crear regímenes laborales más flexibles para reducir los costos de contratación y facilitar el empleo juvenil...",
+    "matches": [
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Implementará contratos flexibles y modelos de jornada parcial en zonas urbanas.",
+        "paginas": ""
+      },
+      {
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "Creará un régimen laboral para MIPYME que sea flexible y formalizador.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO SICREO",
+        "sustento": "Propone una reforma laboral flexibilizadora que promueva la contratación reduciendo sobrecostos.",
+        "paginas": ""
+      },
+      {
+        "partido": "PROGRESEMOS",
+        "sustento": "Generará marcos regulatorios flexibles para autoempleo y nuevas formas de trabajo (plataformas).",
+        "paginas": ""
+      },
+      {
+        "partido": "RENOVACION POPULAR",
+        "sustento": "Impulsará una reforma para reducir costos no salariales y dinamizar el mercado laboral.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "12. Créditos Baratos para Emprendedores (Banco de Fomento)",
+    "Frase para el usuario": "Que el Estado otorgue créditos con tasas de interés bajas a través de un Banco de Fomento para MYPES y agricultores...",
+    "matches": [
+      {
+        "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
+        "sustento": "Su meta es apoyar a 1 millón de emprendedores con crédito y asistencia técnica.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATA UNIDO PERU",
+        "sustento": "Creará el \"Banco Mypes\" para dar apoyo directo a los emprendedores.",
+        "paginas": ""
+      },
+      {
+        "partido": "RENOVACION POPULAR",
+        "sustento": "Propone la creación del \"Banco PYME\" para incentivar el emprendimiento.",
+        "paginas": ""
+      },
+      {
+        "partido": "PERU MODERNO",
+        "sustento": "Creará el \"Banco de Fomento\" usando la infraestructura del Banco de la Nación.",
+        "paginas": ""
+      },
+      {
+        "partido": "SALVEMOS AL PERU",
+        "sustento": "Financiará a las MIPYMES a través de fondos concursables y créditos de fácil acceso.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "13. Cero Impuestos los Primeros Años (Marcha Blanca)",
+    "Frase para el usuario": "Exonerar de todo impuesto a las empresas nuevas durante sus primeros años de vida para que puedan crecer...",
+    "matches": [
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Ofrece exoneración total de impuestos por 10 años para nuevas MYPES.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "sustento": "Propone un \"Bono de Formalización\" y tasa única de 1% para microempresas, con beneficios escalonados.",
+        "paginas": ""
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Otorgará beneficio de cero tributos iniciales que incluye regularización de deudas para distritos pobres.",
+        "paginas": ""
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Propone exonerar del Impuesto a la Renta por tres años a jóvenes emprendedores.",
+        "paginas": ""
+      },
+      {
+        "partido": "PERU MODERNO",
+        "sustento": "Bajará el impuesto corporativo a las Pymes al 10% y dará beneficios por reinversión.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "14. Compras Estatales Obligatorias a MYPES",
+    "Frase para el usuario": "Que el Estado esté obligado a comprar una parte importante de sus insumos (ej. 40%) exclusivamente a las MYPES locales...",
+    "matches": [
+      {
+        "partido": "AHORA NACION - AN",
+        "sustento": "Priorizará compras públicas a sectores con potencial exportador y MYPES regionales.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "sustento": "Establecerá una cuota obligatoria del 50% de las compras estatales para las MYPES.",
+        "paginas": ""
+      },
+      {
+        "partido": "PODEMOS PERU",
+        "sustento": "Ampliará la cobertura del programa \"Cómprale a MYPE\" para favorecer la industria nacional.",
+        "paginas": ""
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Fortalecerá \"Compras a MyPerú\" con un presupuesto anual mínimo de S/ 1,000 millones.",
+        "paginas": ""
+      }
+    ]
+  },
+  {
+    "subtopico": "15. Reforma Integral del Sistema de Pensiones (Pensión Universal)",
+    "Frase para el usuario": "Crear un sistema de pensiones único o universal que garantice una jubilación digna para todos los peruanos, incluyendo informales...",
+    "matches": [
+      {
+        "partido": "PARTIDO MORADO",
+        "sustento": "Propone un sistema multipilar con una \"Pensión Básica Universal\" de 1 RMV para mayores de 65 años.",
+        "paginas": ""
+      },
+      {
+        "partido": "PODEMOS PERU",
+        "sustento": "Implementará una pensión basada en un \"Capital Semilla\" al nacer y devolución de IGV por consumo.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO PAIS PARA TODOS",
+        "sustento": "Propone un pilar de \"Protección Básica Universal\" no contributiva financiada por el Estado.",
+        "paginas": ""
+      },
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Creará un nuevo sistema de pensiones solidario y sostenible, rompiendo el oligopolio de las AFP.",
+        "paginas": ""
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Asegurará una vejez digna mediante un fondo administrado por privados con respaldo estatal.",
+        "paginas": ""
+      }
+    ]
+  }
+]
