@@ -1,7 +1,7 @@
 [
   {
     "subtopico": "1. Cierre de brechas: Agua y Saneamiento al 100%",
-    "Frase para el usuario": "Priorizar la inversión pública para que el 100% de hogares peruanos cuente con conexión domiciliaria de agua y desagüe...",
+    "phrase": "Priorizar la inversión pública para que el 100% de hogares peruanos cuente con conexión domiciliaria de agua y desagüe...",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -32,7 +32,7 @@
   },
   {
     "subtopico": "2. Privatización o Concesión de la gestión del agua (EPS/SEDAPAL)",
-    "Frase para el usuario": "Involucrar al sector privado en la administración de las empresas de agua para mejorar su eficiencia",
+    "phrase": "Involucrar al sector privado en la administración de las empresas de agua para mejorar su eficiencia",
     "matches": [
       {
         "partido": "ALIANZA PARA EL PROGRESO",
@@ -53,7 +53,7 @@
   },
   {
     "subtopico": "3. Fortalecimiento de la gestión pública del agua (No privatización)",
-    "Frase para el usuario": "Estoy a favor de que el agua sea gestionada exclusivamente por el Estado, fortaleciendo las EPS públicas y prohibiendo su venta a privados...",
+    "phrase": "Estoy a favor de que el agua sea gestionada exclusivamente por el Estado, fortaleciendo las EPS públicas y prohibiendo su venta a privados...",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -74,7 +74,7 @@
   },
   {
     "subtopico": "4. Sistemas no convencionales: Atrapanieblas y Camiones Cisterna",
-    "Frase para el usuario": "Usar tecnologías alternativas como atrapanieblas o camiones cisterna subsidiados en zonas donde no hay redes",
+    "phrase": "Usar tecnologías alternativas como atrapanieblas o camiones cisterna subsidiados en zonas donde no hay redes",
     "matches": [
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
@@ -95,7 +95,7 @@
   },
   {
     "subtopico": "5. Titulación Masiva de Predios (COFOPRI)",
-    "Frase para el usuario": "Acelerar la entrega masiva de títulos de propiedad para formalizar viviendas en sectores populares...",
+    "phrase": "Acelerar la entrega masiva de títulos de propiedad para formalizar viviendas en sectores populares...",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
@@ -121,7 +121,7 @@
   },
   {
     "subtopico": "6. Construcción masiva de Viviendas de Interés Social",
-    "Frase para el usuario": "Que el Estado financie y construya masivamente viviendas de bajo costo para familias pobres",
+    "phrase": "Que el Estado financie y construya masivamente viviendas de bajo costo para familias pobres",
     "matches": [
       {
         "partido": "ALIANZA PARA EL PROGRESO",
@@ -147,7 +147,7 @@
   },
   {
     "subtopico": "7. Programa de Vivienda para Jóvenes",
-    "Frase para el usuario": "Crear bonos de alquiler o programas de acceso a vivienda específicos para jóvenes que buscan independencia",
+    "phrase": "Crear bonos de alquiler o programas de acceso a vivienda específicos para jóvenes que buscan independencia",
     "matches": [
       {
         "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
@@ -168,7 +168,7 @@
   },
   {
     "subtopico": "8. Reubicación de familias en zonas de riesgo",
-    "Frase para el usuario": "Trasladar obligatoriamente a familias que viven en zonas de alto riesgo (quebradas) hacia zonas seguras",
+    "phrase": "Trasladar obligatoriamente a familias que viven en zonas de alto riesgo (quebradas) hacia zonas seguras",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -189,7 +189,7 @@
   },
   {
     "subtopico": "9. Masificación del Gas Natural a domicilio",
-    "Frase para el usuario": "Acelerar la construcción de gasoductos para que el gas natural llegue directamente a todas las cocinas del Perú",
+    "phrase": "Acelerar la construcción de gasoductos para que el gas natural llegue directamente a todas las cocinas del Perú",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -210,7 +210,7 @@
   },
   {
     "subtopico": "10. Subsidio a la Tarifa Eléctrica para los más pobres",
-    "Frase para el usuario": "Aplicar tarifas sociales o bonos para que las familias de menores ingresos paguen menos por la luz",
+    "phrase": "Aplicar tarifas sociales o bonos para que las familias de menores ingresos paguen menos por la luz",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
@@ -231,7 +231,7 @@
   },
   {
     "subtopico": "11. Electrificación Rural al 100%",
-    "Frase para el usuario": "Que el Estado garantice electricidad en el 100% de zonas rurales, usando paneles solares en las comunidades más alejadas",
+    "phrase": "Que el Estado garantice electricidad en el 100% de zonas rurales, usando paneles solares en las comunidades más alejadas",
     "matches": [
       {
         "partido": "PARTIDO APRISTA PERUANO",
@@ -252,7 +252,7 @@
   },
   {
     "subtopico": "12. Internet como Derecho Humano Constitucional",
-    "Frase para el usuario": "Modificar la Constitución para declarar el acceso a internet como un derecho humano fundamental e innegociable",
+    "phrase": "Modificar la Constitución para declarar el acceso a internet como un derecho humano fundamental e innegociable",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -273,7 +273,7 @@
   },
   {
     "subtopico": "13. Red Dorsal y WiFi gratuito en Plazas/Escuelas",
-    "Frase para el usuario": "Proveer internet gratuito en todas las plazas públicas y colegios estatales del país",
+    "phrase": "Proveer internet gratuito en todas las plazas públicas y colegios estatales del país",
     "matches": [
       {
         "partido": "PARTIDO PAIS PARA TODOS",
@@ -294,7 +294,7 @@
   },
   {
     "subtopico": "14. Bono de Conectividad y Dispositivos (Tablets/Laptops)",
-    "Frase para el usuario": "Entregar tablets o laptops con datos gratuitos a estudiantes de bajos recursos para cerrar la brecha digital",
+    "phrase": "Entregar tablets o laptops con datos gratuitos a estudiantes de bajos recursos para cerrar la brecha digital",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
@@ -315,7 +315,7 @@
   },
   {
     "subtopico": "15. Internet Satelital masivo para Fronteras y Selva",
-    "Frase para el usuario": "Contratar internet satelital de alta velocidad para conectar las comunidades más remotas de la selva y zonas de frontera",
+    "phrase": "Contratar internet satelital de alta velocidad para conectar las comunidades más remotas de la selva y zonas de frontera",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",

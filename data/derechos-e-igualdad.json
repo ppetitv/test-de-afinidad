@@ -1,7 +1,7 @@
 [
   {
     "subtopico": "1. Aprobar el Matrimonio Igualitario o Unión Civil",
-    "Frase para el usuario": "Legalizar el matrimonio o la unión civil para parejas del mismo sexo",
+    "phrase": "Legalizar el matrimonio o la unión civil para parejas del mismo sexo",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -27,7 +27,7 @@
   },
   {
     "subtopico": "2. Despenalizar el aborto (causales o violación)",
-    "Frase para el usuario": "Las mujeres puedan acceder al aborto legal en casos de violación o salud",
+    "phrase": "Las mujeres puedan acceder al aborto legal en casos de violación o salud",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -43,7 +43,7 @@
   },
   {
     "subtopico": "3. Ley de Identidad de Género",
-    "Frase para el usuario": "Una ley que permita el cambio de identidad de género en documentos oficiales",
+    "phrase": "Una ley que permita el cambio de identidad de género en documentos oficiales",
     "matches": [
       {
         "partido": "PARTIDO MORADO",
@@ -59,7 +59,7 @@
   },
   {
     "subtopico": "4. Eutanasia o Muerte Digna",
-    "Frase para el usuario": "Reconocer el derecho a una muerte digna en casos de enfermedades terminales",
+    "phrase": "Reconocer el derecho a una muerte digna en casos de enfermedades terminales",
     "matches": [
       {
         "partido": "PARTIDO DEL BUEN GOBIERNO",
@@ -75,7 +75,7 @@
   },
   {
     "subtopico": "5. Enfoque de Género Transversal en el Estado",
-    "Frase para el usuario": "El enfoque de género se aplique en todas las políticas y presupuestos públicos",
+    "phrase": "El enfoque de género se aplique en todas las políticas y presupuestos públicos",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -96,7 +96,7 @@
   },
   {
     "subtopico": "6. Defender la vida desde la concepción",
-    "Frase para el usuario": "Proteger el derecho a la vida de manera absoluta desde el momento de la concepción",
+    "phrase": "Proteger el derecho a la vida de manera absoluta desde el momento de la concepción",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
@@ -117,7 +117,7 @@
   },
   {
     "subtopico": "7. Prohibir la \"Ideología de Género\" en Escuelas",
-    "Frase para el usuario": "Eliminar contenidos de ideología de género en el currículo escolar",
+    "phrase": "Eliminar contenidos de ideología de género en el currículo escolar",
     "matches": [
       {
         "partido": "PARTIDO DEMOCRATA UNIDO PERU",
@@ -133,7 +133,7 @@
   },
   {
     "subtopico": "8. Creación de un Ministerio de la Familia (o Fortalecimiento)",
-    "Frase para el usuario": "Priorizar a la familia como núcleo central de las políticas sociales",
+    "phrase": "Priorizar a la familia como núcleo central de las políticas sociales",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -154,7 +154,7 @@
   },
   {
     "subtopico": "9. Libertad Religiosa y de Culto como Eje de Gobierno",
-    "Frase para el usuario": "El Estado garantice y respete activamente la libertad religiosa de los ciudadanos",
+    "phrase": "El Estado garantice y respete activamente la libertad religiosa de los ciudadanos",
     "matches": [
       {
         "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
@@ -170,7 +170,7 @@
   },
   {
     "subtopico": "10. Sistema Nacional de Cuidados (Guarderías y Cuidado de Ancianos)",
-    "Frase para el usuario": "Crear un sistema estatal que asuma el cuidado de niños y personas dependientes",
+    "phrase": "Crear un sistema estatal que asuma el cuidado de niños y personas dependientes",
     "matches": [
       {
         "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
@@ -196,7 +196,7 @@
   },
   {
     "subtopico": "11. Cuotas Laborales para Personas con Discapacidad",
-    "Frase para el usuario": "Exigir cuotas de empleo obligatorias para personas con discapacidad en el sector público y privado",
+    "phrase": "Exigir cuotas de empleo obligatorias para personas con discapacidad en el sector público y privado",
     "matches": [
       {
         "partido": "PARTIDO MORADO",
@@ -217,7 +217,7 @@
   },
   {
     "subtopico": "12. Pensión o Programas para la Mujer Rural",
-    "Frase para el usuario": "Crear programas específicos de apoyo económico para mujeres agricultoras y rurales",
+    "phrase": "Crear programas específicos de apoyo económico para mujeres agricultoras y rurales",
     "matches": [
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
@@ -233,7 +233,7 @@
   },
   {
     "subtopico": "13. Lucha contra la Anemia y Desnutrición Infantil",
-    "Frase para el usuario": "El Estado priorice la eliminación de la anemia y desnutrición infantil como meta nacional absoluta",
+    "phrase": "El Estado priorice la eliminación de la anemia y desnutrición infantil como meta nacional absoluta",
     "matches": [
       {
         "partido": "SALVEMOS AL PERU",
@@ -264,7 +264,7 @@
   },
   {
     "subtopico": "14. Erradicación de la Violencia de Género (Feminicidios)",
-    "Frase para el usuario": "Declarar en emergencia la lucha contra la violencia hacia la mujer con medidas más drásticas",
+    "phrase": "Declarar en emergencia la lucha contra la violencia hacia la mujer con medidas más drásticas",
     "matches": [
       {
         "partido": "PARTIDO PATRIOTICO DEL PERU",
@@ -285,7 +285,7 @@
   },
   {
     "subtopico": "15. Juventudes: Becas y Primer Empleo",
-    "Frase para el usuario": "El Estado debe garantizar el acceso de los jóvenes al mercado laboral y a la educación superior mediante becas y subsidios...",
+    "phrase": "El Estado debe garantizar el acceso de los jóvenes al mercado laboral y a la educación superior mediante becas y subsidios...",
     "matches": [
       {
         "partido": "ALIANZA PARA EL PROGRESO",

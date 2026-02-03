@@ -1,7 +1,7 @@
 [
   {
     "subtopico": "1. Promoción de la inversión minera y petrolera (Destrabe de proyectos)",
-    "Frase para el usuario": "Destrabar grandes proyectos extractivos para impulsar el crecimiento económico...",
+    "phrase": "Destrabar grandes proyectos extractivos para impulsar el crecimiento económico...",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
@@ -32,7 +32,7 @@
   },
   {
     "subtopico": "2. Renegociación de contratos y mayor carga fiscal (Canon directo)",
-    "Frase para el usuario": "Estoy a favor de renegociar contratos ley y asegurar que la renta de recursos naturales beneficie directamente al pueblo...",
+    "phrase": "Estoy a favor de renegociar contratos ley y asegurar que la renta de recursos naturales beneficie directamente al pueblo...",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -63,7 +63,7 @@
   },
   {
     "subtopico": "3. Formalización de la minería artesanal e informal",
-    "Frase para el usuario": "Formalización real del pequeño minero con apoyo técnico y financiero del Estado...",
+    "phrase": "Formalización real del pequeño minero con apoyo técnico y financiero del Estado...",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -94,7 +94,7 @@
   },
   {
     "subtopico": "4. Masificación del Gas Natural a nivel nacional",
-    "Frase para el usuario": "Masificar el gas natural mediante ductos y redes regionales en todo el país...",
+    "phrase": "Masificar el gas natural mediante ductos y redes regionales en todo el país...",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -120,7 +120,7 @@
   },
   {
     "subtopico": "5. Programa masivo de \"Siembra y Cosecha de Agua\" (Qochas)",
-    "Frase para el usuario": "Construir qochas y reservorios en zonas altoandinas para garantizar agua todo el año...",
+    "phrase": "Construir qochas y reservorios en zonas altoandinas para garantizar agua todo el año...",
     "matches": [
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
@@ -151,7 +151,7 @@
   },
   {
     "subtopico": "6. Construcción de grandes represas y proyectos de irrigación",
-    "Frase para el usuario": "Ejecutar grandes proyectos hidráulicos como Chavimochic, Majes Siguas y Chinecas...",
+    "phrase": "Ejecutar grandes proyectos hidráulicos como Chavimochic, Majes Siguas y Chinecas...",
     "matches": [
       {
         "partido": "PARTIDO POLITICO PERU ACCION",
@@ -182,7 +182,7 @@
   },
   {
     "subtopico": "7. Protección de cabeceras de cuenca (Prohibición de minería)",
-    "Frase para el usuario": "Declarar intangibles las cabeceras de cuenca y prohibir actividades extractivas en ellas...",
+    "phrase": "Declarar intangibles las cabeceras de cuenca y prohibir actividades extractivas en ellas...",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
@@ -213,7 +213,7 @@
   },
   {
     "subtopico": "8. Tratamiento del 100% de aguas residuales (PTAR)",
-    "Frase para el usuario": "Construir plantas de tratamiento para evitar que los desagües contaminen nuestros ríos y lagos...",
+    "phrase": "Construir plantas de tratamiento para evitar que los desagües contaminen nuestros ríos y lagos...",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -239,7 +239,7 @@
   },
   {
     "subtopico": "9. Transición a Energías Renovables (Matriz solar/eólica)",
-    "Frase para el usuario": "Cambiar la matriz energética hacia fuentes limpias como el sol y el viento...",
+    "phrase": "Cambiar la matriz energética hacia fuentes limpias como el sol y el viento...",
     "matches": [
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
@@ -270,7 +270,7 @@
   },
   {
     "subtopico": "10. Lucha contra la Tala Ilegal y Deforestación",
-    "Frase para el usuario": "Usar tecnología (drones y satélites) para erradicar la tala ilegal en la Amazonía...",
+    "phrase": "Usar tecnología (drones y satélites) para erradicar la tala ilegal en la Amazonía...",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -301,7 +301,7 @@
   },
   {
     "subtopico": "11. Electromobilidad y Transporte Público Limpio",
-    "Frase para el usuario": "Incentivar el uso de vehículos eléctricos para reducir la contaminación en las ciudades...",
+    "phrase": "Incentivar el uso de vehículos eléctricos para reducir la contaminación en las ciudades...",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -327,7 +327,7 @@
   },
   {
     "subtopico": "12. Economía Circular e Industrialización de la Basura",
-    "Frase para el usuario": "Que los residuos se transformen en recursos mediante plantas de reciclaje industrial...",
+    "phrase": "Que los residuos se transformen en recursos mediante plantas de reciclaje industrial...",
     "matches": [
       {
         "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
@@ -353,7 +353,7 @@
   },
   {
     "subtopico": "13. Ley de Protección y Bienestar Animal",
-    "Frase para el usuario": "Crear hospitales veterinarios públicos y sancionar con cárcel el maltrato animal...",
+    "phrase": "Crear hospitales veterinarios públicos y sancionar con cárcel el maltrato animal...",
     "matches": [
       {
         "partido": "PROGRESEMOS",
@@ -379,7 +379,7 @@
   },
   {
     "subtopico": "14. Nuevas Áreas Naturales Protegidas y Zonificación Ecológica",
-    "Frase para el usuario": "Ampliar las áreas protegidas y hacer que la zonificación ecológica sea obligatoria...",
+    "phrase": "Ampliar las áreas protegidas y hacer que la zonificación ecológica sea obligatoria...",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -410,7 +410,7 @@
   },
   {
     "subtopico": "15. Consulta Previa vinculante para proyectos extractivos",
-    "Frase para el usuario": "Que el resultado de la consulta previa sea vinculante para la aprobación de proyectos mineros o petroleros...",
+    "phrase": "Que el resultado de la consulta previa sea vinculante para la aprobación de proyectos mineros o petroleros...",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",

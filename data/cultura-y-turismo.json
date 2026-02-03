@@ -1,7 +1,7 @@
 [
   {
     "subtopico": "1. Mega-infraestructura y Conectividad Multimodal",
-    "Frase para el usuario": "Inversión masiva en trenes de cercanías, aeropuertos regionales de talla internacional y corredores logísticos para conectar los destinos turísticos del país.",
+    "phrase": "Apoyo una inversión masiva en trenes de cercanías, aeropuertos regionales de talla internacional y corredores logísticos para conectar los destinos turísticos del país.",
     "matches": [
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
@@ -57,7 +57,7 @@
   },
   {
     "subtopico": "2. Descentralización y Reforma Institucional de la Cultura",
-    "Frase para el usuario": "El Ministerio de Cultura debe reestructurarse, ser menos burocrático o trasladar su sede principal fuera de Lima para estar más cerca del patrimonio.",
+    "phrase": "El Ministerio de Cultura debe reestructurarse, ser menos burocrático o trasladar su sede principal fuera de Lima para estar más cerca del patrimonio.",
     "matches": [
       {
         "partido": "PODEMOS PERU",
@@ -93,7 +93,7 @@
   },
   {
     "subtopico": "3. Industrias Creativas y Economía Naranja",
-    "Frase para el usuario": "Apoyo a los artistas y creativos peruanos mediante fondos concursables, protección social y la exportación de sus servicios al mundo.",
+    "phrase": "Apoyo el impulso a los artistas y creativos peruanos mediante fondos concursables, protección social y la exportación de sus servicios al mundo.",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -129,7 +129,7 @@
   },
   {
     "subtopico": "4. Interculturalidad y Estado Plurinacional",
-    "Frase para el usuario": "Quiero un Estado que reconozca constitucionalmente al Perú como plurinacional, valorando las lenguas originarias y los saberes ancestrales en la gestión pública.",
+    "phrase": "Apoyo un estado que reconozca constitucionalmente al Perú como plurinacional, valorando las lenguas originarias y los saberes ancestrales en la gestión pública.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
@@ -165,7 +165,7 @@
   },
   {
     "subtopico": "5. Puesta en Valor de Huacas y Patrimonio Arqueológico",
-    "Frase para el usuario": "Apoyo la inversión (pública o privada) para recuperar sitios arqueológicos y museos, integrándolos a la vida urbana y al turismo sostenible.",
+    "phrase": "Apoyo la inversión (pública o privada) para recuperar sitios arqueológicos y museos, integrándolos a la vida urbana y al turismo sostenible.",
     "matches": [
       {
         "partido": "LIBERTAD POPULAR",
@@ -196,7 +196,7 @@
   },
   {
     "subtopico": "6. Turismo Social e Inclusivo",
-    "Frase para el usuario": "El Estado debe facilitar que niños, jóvenes y adultos mayores tengan acceso a viajes y recreación mediante descuentos y subsidios.",
+    "phrase": "El Estado debe facilitar que niños, jóvenes y adultos mayores tengan acceso a viajes y recreación mediante descuentos y subsidios.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
@@ -222,7 +222,7 @@
   },
   {
     "subtopico": "7. Gastronomía como Motor de Desarrollo",
-    "Frase para el usuario": "Potenciar la gastronomía no solo como marca, sino integrando a los agricultores locales con rutas culinarias certificadas.",
+    "phrase": "Potenciar la gastronomía no solo como marca, sino integrando a los agricultores locales con rutas culinarias certificadas.",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -253,7 +253,7 @@
   },
   {
     "subtopico": "8. Turismo Rural y Comunitario (TRC)",
-    "Frase para el usuario": "Las comunidades nativas y campesinas deben ser las dueñas y gestoras de los proyectos turísticos en sus territorios.",
+    "phrase": "Las comunidades nativas y campesinas deben ser las dueñas y gestoras de los proyectos turísticos en sus territorios.",
     "matches": [
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
@@ -284,7 +284,7 @@
   },
   {
     "subtopico": "9. Digitalización de la Memoria y Museos Virtuales",
-    "Frase para el usuario": "Usar la tecnología para digitalizar todo nuestro patrimonio documental y arqueológico, permitiendo el acceso virtual desde cualquier lugar.",
+    "phrase": "Usar la tecnología para digitalizar todo nuestro patrimonio documental y arqueológico, permitiendo el acceso virtual desde cualquier lugar.",
     "matches": [
       {
         "partido": "PARTIDO MORADO",
@@ -310,7 +310,7 @@
   },
   {
     "subtopico": "10. Desconcentración del Turismo (Más allá del Cusco)",
-    "Frase para el usuario": "El Estado debe promocionar activamente nuevas rutas en la Amazonía y el Norte para evitar el colapso de Machu Picchu y diversificar los ingresos.",
+    "phrase": "El Estado debe promocionar activamente nuevas rutas en la Amazonía y el Norte para evitar el colapso de Machu Picchu y diversificar los ingresos.",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -341,7 +341,7 @@
   },
   {
     "subtopico": "11. Educación Técnica en Turismo y Patrimonio",
-    "Frase para el usuario": "La educación secundaria y técnica debe incluir módulos obligatorios de turismo, artesanía y gestión cultural para generar empleo juvenil inmediato.",
+    "phrase": "La educación secundaria y técnica debe incluir módulos obligatorios de turismo, artesanía y gestión cultural para generar empleo juvenil inmediato.",
     "matches": [
       {
         "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
@@ -372,7 +372,7 @@
   },
   {
     "subtopico": "12. Fomento a la Lectura y Bibliotecas Públicas",
-    "Frase para el usuario": "Apoyo la creación de bibliotecas modernas y gratuitas en parques y plazas de todos los distritos para democratizar el acceso al libro.",
+    "phrase": "Apoyo la creación de bibliotecas modernas y gratuitas en parques y plazas de todos los distritos para democratizar el acceso al libro.",
     "matches": [
       {
         "partido": "PARTIDO APRISTA PERUANO",
@@ -403,7 +403,7 @@
   },
   {
     "subtopico": "13. Vínculo Cultural con la Diáspora (PEX)",
-    "Frase para el usuario": "El Estado debe proteger y promover la identidad peruana entre los compatriotas que viven en el extranjero, incluyéndolos en la gestión cultural.",
+    "phrase": "El Estado debe proteger y promover la identidad peruana entre los compatriotas que viven en el extranjero, incluyéndolos en la gestión cultural.",
     "matches": [
       {
         "partido": "FE EN EL PERU",
@@ -424,7 +424,7 @@
   },
   {
     "subtopico": "14. Seguridad Turística y Policía Especializada",
-    "Frase para el usuario": "Para recuperar el turismo, necesitamos garantizar corredores seguros con una policía turística especializada y tecnología de vigilancia.",
+    "phrase": "Necesitamos garantizar corredores seguros con una policía turística especializada y tecnología de vigilancia.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
@@ -445,7 +445,7 @@
   },
   {
     "subtopico": "15. Grandes Eventos y Proyección Mundial",
-    "Frase para el usuario": "Apoyo que el Perú sea sede de grandes eventos internacionales (MICE) y juegos deportivos mundiales para dinamizar la economía local.",
+    "phrase": "Apoyo que el Perú sea sede de grandes eventos internacionales (MICE) y juegos deportivos mundiales para dinamizar la economía local.",
     "matches": [
       {
         "partido": "PARTIDO SICREO",

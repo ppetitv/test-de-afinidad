@@ -1,7 +1,7 @@
 [
   {
     "subtopico": "1. Sistema de Vouchers Educativos (Subsidio a la demanda)",
-    "Frase para el usuario": "Estado entregue un cheque o bono directamente a las familias para que elijan entre educación pública o privada...",
+    "phrase": "Estado entregue un cheque o bono directamente a las familias para que elijan entre educación pública o privada...",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -22,7 +22,7 @@
   },
   {
     "subtopico": "2. Expansión de Colegios COAR o Escuelas Bicentenario",
-    "Frase para el usuario": "Masificar los Colegios de Alto Rendimiento (COAR) o el modelo de Escuelas Bicentenario para alumnos destacados",
+    "phrase": "Masificar los Colegios de Alto Rendimiento (COAR) o el modelo de Escuelas Bicentenario para alumnos destacados",
     "matches": [
       {
         "partido": "ALIANZA PARA EL PROGRESO",
@@ -48,7 +48,7 @@
   },
   {
     "subtopico": "3. Infraestructura Básica: Agua, Desagüe e Internet en 100% de Escuelas Rurales",
-    "Frase para el usuario": "Declarar en emergencia la infraestructura rural para garantizar servicios básicos y conectividad en todas las escuelas",
+    "phrase": "Declarar en emergencia la infraestructura rural para garantizar servicios básicos y conectividad en todas las escuelas",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -84,7 +84,7 @@
   },
   {
     "subtopico": "4. Jornada Escolar Completa (Aumento de horas lectivas)",
-    "Frase para el usuario": "Ampliar las horas de clase mediante la implementación de la Jornada Escolar Completa en todos los colegios secundarios",
+    "phrase": "Ampliar las horas de clase mediante la implementación de la Jornada Escolar Completa en todos los colegios secundarios",
     "matches": [
       {
         "partido": "ALIANZA PARA EL PROGRESO",
@@ -95,7 +95,7 @@
   },
   {
     "subtopico": "5. Implementación del Enfoque de Género y Educación Sexual Integral (ESI)",
-    "Frase para el usuario": "El currículo escolar incluya obligatoriamente el enfoque de género y educación sexual integral científica",
+    "phrase": "El currículo escolar incluya obligatoriamente el enfoque de género y educación sexual integral científica",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -126,7 +126,7 @@
   },
   {
     "subtopico": "6. Eliminación de la \"Ideología de Género\" / Pin Parental",
-    "Frase para el usuario": "Eliminar el enfoque de género de los textos escolares y devolver a los padres el control sobre la educación sexual",
+    "phrase": "Eliminar el enfoque de género de los textos escolares y devolver a los padres el control sobre la educación sexual",
     "matches": [
       {
         "partido": "UNIDAD NACIONAL",
@@ -147,7 +147,7 @@
   },
   {
     "subtopico": "7. Curso Obligatorio de Constitución, Cívica o Historia del Terrorismo",
-    "Frase para el usuario": "Reincorporar cursos de educación cívica, valores patrióticos e historia del terrorismo en el currículo nacional",
+    "phrase": "Reincorporar cursos de educación cívica, valores patrióticos e historia del terrorismo en el currículo nacional",
     "matches": [
       {
         "partido": "PARTIDO POLITICO PERU PRIMERO",
@@ -178,7 +178,7 @@
   },
   {
     "subtopico": "8. Enseñanza Obligatoria de Inglés desde Educación Inicial",
-    "Frase para el usuario": "El idioma inglés sea obligatorio e intensivo desde el jardín de infancia en todas las escuelas públicas",
+    "phrase": "El idioma inglés sea obligatorio e intensivo desde el jardín de infancia en todas las escuelas públicas",
     "matches": [
       {
         "partido": "ALIANZA PARA EL PROGRESO",
@@ -204,7 +204,7 @@
   },
   {
     "subtopico": "9. Ingreso Libre a Universidades Públicas",
-    "Frase para el usuario": "Eliminar el examen de admisión y garantizar el ingreso libre de los jóvenes a las universidades del Estado",
+    "phrase": "Eliminar el examen de admisión y garantizar el ingreso libre de los jóvenes a las universidades del Estado",
     "matches": [
       {
         "partido": "PODEMOS PERU",
@@ -230,7 +230,7 @@
   },
   {
     "subtopico": "10. Fortalecimiento de la SUNEDU (Fiscalización Estricta)",
-    "Frase para el usuario": "Fortalecer las facultades de la SUNEDU para supervisar la calidad de todas las universidades y cerrar las que no cumplan",
+    "phrase": "Fortalecer las facultades de la SUNEDU para supervisar la calidad de todas las universidades y cerrar las que no cumplan",
     "matches": [
       {
         "partido": "PARTIDO MORADO",
@@ -251,7 +251,7 @@
   },
   {
     "subtopico": "11. Reforma de SUNEDU (Autonomía / Segunda Oportunidad)",
-    "Frase para el usuario": "Reformar la SUNEDU para garantizar la autonomía de las universidades y dar una segunda oportunidad a instituciones observadas",
+    "phrase": "Reformar la SUNEDU para garantizar la autonomía de las universidades y dar una segunda oportunidad a instituciones observadas",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -267,7 +267,7 @@
   },
   {
     "subtopico": "12. Creación Masiva de Institutos Tecnológicos (Educación Dual)",
-    "Frase para el usuario": "Priorizar la creación de institutos tecnológicos en provincias con un modelo de formación dual (estudio y trabajo)",
+    "phrase": "Priorizar la creación de institutos tecnológicos en provincias con un modelo de formación dual (estudio y trabajo)",
     "matches": [
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
@@ -298,7 +298,7 @@
   },
   {
     "subtopico": "13. Aumento de Sueldo Base al Magisterio (Ej: 1 UIT)",
-    "Frase para el usuario": "Un aumento significativo y progresivo del sueldo base de los maestros para dignificar su labor",
+    "phrase": "Un aumento significativo y progresivo del sueldo base de los maestros para dignificar su labor",
     "matches": [
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
@@ -324,7 +324,7 @@
   },
   {
     "subtopico": "14. Evaluación de Desempeño Docente Estricta (Meritocracia)",
-    "Frase para el usuario": "Los ascensos y la permanencia de los maestros dependan estrictamente de evaluaciones de desempeño periódicas",
+    "phrase": "Los ascensos y la permanencia de los maestros dependan estrictamente de evaluaciones de desempeño periódicas",
     "matches": [
       {
         "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
@@ -350,7 +350,7 @@
   },
   {
     "subtopico": "15. Educación Intercultural Bilingüe (EIB) e Inclusiva",
-    "Frase para el usuario": "Garantizar que los niños indígenas estudien en su lengua materna y que se incluyan especialistas para niños con discapacidad",
+    "phrase": "Garantizar que los niños indígenas estudien en su lengua materna y que se incluyan especialistas para niños con discapacidad",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",

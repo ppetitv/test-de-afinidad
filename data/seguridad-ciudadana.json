@@ -1,7 +1,7 @@
 [
   {
     "subtopico": "1. Pena de Muerte para delitos de extrema gravedad",
-    "Frase para el usuario": "Aplicar la pena de muerte para violadores de menores, sicarios y terroristas...",
+    "phrase": "Aplicar la pena de muerte para violadores de menores, sicarios y terroristas...",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -32,7 +32,7 @@
   },
   {
     "subtopico": "2. Salida del Pacto de San José (Corte IDH)",
-    "Frase para el usuario": "Denunciar el Pacto de San José para recuperar soberanía jurídica y endurecer penas...",
+    "phrase": "Denunciar el Pacto de San José para recuperar soberanía jurídica y endurecer penas...",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -63,7 +63,7 @@
   },
   {
     "subtopico": "3. Militarización de la Seguridad Ciudadana (Apoyo de las FF.AA.)",
-    "Frase para el usuario": "Que las Fuerzas Armadas patrullen las calles y apoyen a la policía en zonas críticas",
+    "phrase": "Que las Fuerzas Armadas patrullen las calles y apoyen a la policía en zonas críticas",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -99,7 +99,7 @@
   },
   {
     "subtopico": "4. Ley de Protección Legal Policial (\"Amparo al Policía\")",
-    "Frase para el usuario": "Otorgar protección legal y exención de responsabilidad al policía que use su arma de reglamento",
+    "phrase": "Otorgar protección legal y exención de responsabilidad al policía que use su arma de reglamento",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -130,7 +130,7 @@
   },
   {
     "subtopico": "5. Construcción de Mega-Cárceles de Máxima Seguridad",
-    "Frase para el usuario": "Construir mega-penales en zonas remotas o de altura para aislar a líderes criminales",
+    "phrase": "Construir mega-penales en zonas remotas o de altura para aislar a líderes criminales",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -171,7 +171,7 @@
   },
   {
     "subtopico": "6. Trabajo Obligatorio para Presos (Cárceles Productivas)",
-    "Frase para el usuario": "Que los presos trabajen obligatoriamente para pagar su propia manutención",
+    "phrase": "Que los presos trabajen obligatoriamente para pagar su propia manutención",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -207,7 +207,7 @@
   },
   {
     "subtopico": "7. Privatización o Concesión de la Gestión de Penales",
-    "Frase para el usuario": "El sector privado participe en la construcción y gestión de los servicios de las cárceles",
+    "phrase": "El sector privado participe en la construcción y gestión de los servicios de las cárceles",
     "matches": [
       {
         "partido": "ALIANZA PARA EL PROGRESO",
@@ -243,7 +243,7 @@
   },
   {
     "subtopico": "8. Bloqueo Total de Señal Celular en Penales",
-    "Frase para el usuario": "Implementar tecnología que bloquee al 100% las comunicaciones de los presos",
+    "phrase": "Implementar tecnología que bloquee al 100% las comunicaciones de los presos",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -279,7 +279,7 @@
   },
   {
     "subtopico": "9. Reforma y Depuración de la Policía Nacional",
-    "Frase para el usuario": "Una reorganización total de la policía para expulsar a los malos elementos y corruptos",
+    "phrase": "Una reorganización total de la policía para expulsar a los malos elementos y corruptos",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -315,7 +315,7 @@
   },
   {
     "subtopico": "10. Uso masivo de Tecnología (IA, Reconocimiento Facial, Drones)",
-    "Frase para el usuario": "El uso intensivo de Inteligencia Artificial y reconocimiento facial para prevenir el delito",
+    "phrase": "El uso intensivo de Inteligencia Artificial y reconocimiento facial para prevenir el delito",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -356,7 +356,7 @@
   },
   {
     "subtopico": "11. Fortalecimiento de Inteligencia (GEIN / DINI / Unidades de Élite)",
-    "Frase para el usuario": "Crear unidades de élite de inteligencia (tipo GEIN) para descabezar mafias",
+    "phrase": "Crear unidades de élite de inteligencia (tipo GEIN) para descabezar mafias",
     "matches": [
       {
         "partido": "LIBERTAD POPULAR",
@@ -392,7 +392,7 @@
   },
   {
     "subtopico": "12. Mejora Salarial y Logística para la PNP",
-    "Frase para el usuario": "Estoy a favor de aumentar el sueldo a los policías y renovar todo su equipamiento logístico...",
+    "phrase": "Estoy a favor de aumentar el sueldo a los policías y renovar todo su equipamiento logístico...",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -423,7 +423,7 @@
   },
   {
     "subtopico": "13. Expulsión Inmediata de Extranjeros Delincuentes",
-    "Frase para el usuario": "Expulsar inmediatamente a cualquier extranjero que cometa un delito en el país",
+    "phrase": "Expulsar inmediatamente a cualquier extranjero que cometa un delito en el país",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -454,7 +454,7 @@
   },
   {
     "subtopico": "14. Militarización de Fronteras contra el Ingreso Ilegal",
-    "Frase para el usuario": "Estoy a favor de que los militares vigilen las fronteras para impedir el ingreso de ilegales...",
+    "phrase": "Estoy a favor de que los militares vigilen las fronteras para impedir el ingreso de ilegales...",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -485,7 +485,7 @@
   },
   {
     "subtopico": "15. Programas de Prevención Social (\"Barrio Seguro\" y Jóvenes)",
-    "Frase para el usuario": "Invertir en deporte, empleo y cultura para jóvenes en riesgo para alejarlos del crimen",
+    "phrase": "Invertir en deporte, empleo y cultura para jóvenes en riesgo para alejarlos del crimen",
     "matches": [
       {
         "partido": "AHORA NACION - AN",

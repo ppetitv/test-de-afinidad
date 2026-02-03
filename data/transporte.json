@@ -1,7 +1,7 @@
 [
   {
     "subtopico": "1. Aceleración de Líneas del Metro",
-    "Frase para el usuario": "Acelerar la construcción simultánea de las líneas del Metro de Lima y Callao (Líneas 2, 3 y 4) mediante mecanismos de Gobierno a Gobierno o inversión privada.",
+    "phrase": "Acelerar la construcción simultánea de las líneas del Metro de Lima y Callao (Líneas 2, 3 y 4) mediante mecanismos de Gobierno a Gobierno o inversión privada.",
     "matches": [
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
@@ -47,7 +47,7 @@
   },
   {
     "subtopico": "2. Implementación de Teleféricos Urbanos",
-    "Frase para el usuario": "Implementar teleféricos urbanos como solución de transporte en los cerros de Lima y en las capitales de provincia con geografía difícil.",
+    "phrase": "Implementar teleféricos urbanos como solución de transporte en los cerros de Lima y en las capitales de provincia con geografía difícil.",
     "matches": [
       {
         "partido": "ALIANZA PARA EL PROGRESO",
@@ -78,7 +78,7 @@
   },
   {
     "subtopico": "3. Reforma y Fortalecimiento de la ATU",
-    "Frase para el usuario": "Reestructurar o fortalecer la Autoridad de Transporte Urbano (ATU) para que tenga autonomía real y capacidad de ordenar el transporte.",
+    "phrase": "Reestructurar o fortalecer la Autoridad de Transporte Urbano (ATU) para que tenga autonomía real y capacidad de ordenar el transporte.",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -104,7 +104,7 @@
   },
   {
     "subtopico": "4. Sistema Integrado de Recaudo (Tarjeta Única)",
-    "Frase para el usuario": "Implementar una tarjeta única de pago para el metro, metropolitano y corredores, con transbordos gratuitos o subsidiados.",
+    "phrase": "Implementar una tarjeta única de pago para el metro, metropolitano y corredores, con transbordos gratuitos o subsidiados.",
     "matches": [
       {
         "partido": "PARTIDO MORADO",
@@ -130,7 +130,7 @@
   },
   {
     "subtopico": "5. Formalización del Taxi Colectivo",
-    "Frase para el usuario": "Formalizar y regular el servicio de taxi colectivo para que opere bajo estándares de seguridad y en rutas complementarias.",
+    "phrase": "Formalizar y regular el servicio de taxi colectivo para que opere bajo estándares de seguridad y en rutas complementarias.",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -151,7 +151,7 @@
   },
   {
     "subtopico": "6. Regulación Amigable para Mototaxis",
-    "Frase para el usuario": "Reconocer al mototaxi como transporte vecinal y otorgar un marco regulatorio que facilite su registro y seguridad.",
+    "phrase": "Reconocer al mototaxi como transporte vecinal y otorgar un marco regulatorio que facilite su registro y seguridad.",
     "matches": [
       {
         "partido": "UNIDAD NACIONAL",
@@ -172,7 +172,7 @@
   },
   {
     "subtopico": "7. Tren de la Costa (Tumbes a Tacna)",
-    "Frase para el usuario": "Construir un Tren de la Costa de alta velocidad que una Tumbes con Tacna.",
+    "phrase": "Construir un Tren de la Costa de alta velocidad que una Tumbes con Tacna.",
     "matches": [
       {
         "partido": "PARTIDO DEMOCRATICO FEDERAL",
@@ -203,7 +203,7 @@
   },
   {
     "subtopico": "8. Trenes de Cercanías y Tren Macho",
-    "Frase para el usuario": "Impulsar los trenes de cercanías (Lima-Ica / Lima-Barranca) y la modernización del Tren Macho.",
+    "phrase": "Impulsar los trenes de cercanías (Lima-Ica / Lima-Barranca) y la modernización del Tren Macho.",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -234,7 +234,7 @@
   },
   {
     "subtopico": "9. Hub Portuario (Chancay y Corío)",
-    "Frase para el usuario": "Potenciar a Chancay y Corío como grandes hubs portuarios de Sudamérica, conectándolos con zonas económicas especiales.",
+    "phrase": "Potenciar a Chancay y Corío como grandes hubs portuarios de Sudamérica, conectándolos con zonas económicas especiales.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
@@ -260,7 +260,7 @@
   },
   {
     "subtopico": "10. Nueva Carretera Central",
-    "Frase para el usuario": "Ejecución inmediata de la Nueva Carretera Central de doble calzada con túneles y viaductos.",
+    "phrase": "Ejecución inmediata de la Nueva Carretera Central de doble calzada con túneles y viaductos.",
     "matches": [
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
@@ -286,7 +286,7 @@
   },
   {
     "subtopico": "11. Asfaltado 100% de Vías Vecinales (Revolución del Asfalto)",
-    "Frase para el usuario": "Programa nacional para asfaltar o pavimentar la totalidad de los caminos vecinales y rutas rurales del Perú.",
+    "phrase": "Programa nacional para asfaltar o pavimentar la totalidad de los caminos vecinales y rutas rurales del Perú.",
     "matches": [
       {
         "partido": "PARTIDO CIVICO OBRAS",
@@ -317,7 +317,7 @@
   },
   {
     "subtopico": "12. Autopistas de Doble Calzada (Panamericana)",
-    "Frase para el usuario": "Ampliar la Carretera Panamericana a doble calzada y cuatro carriles en toda su extensión (Norte y Sur).",
+    "phrase": "Ampliar la Carretera Panamericana a doble calzada y cuatro carriles en toda su extensión (Norte y Sur).",
     "matches": [
       {
         "partido": "PARTIDO POLITICO COOPERACION POPULAR",
@@ -343,7 +343,7 @@
   },
   {
     "subtopico": "13. Línea Aérea de Bandera Nacional",
-    "Frase para el usuario": "Crear una aerolínea estatal o de bandera nacional para mejorar la conectividad a precios competitivos y soberanía aérea.",
+    "phrase": "Crear una aerolínea estatal o de bandera nacional para mejorar la conectividad a precios competitivos y soberanía aérea.",
     "matches": [
       {
         "partido": "PARTIDO PATRIOTICO DEL PERU",
@@ -359,7 +359,7 @@
   },
   {
     "subtopico": "14. Electromovilidad Masiva (Buses Eléctricos)",
-    "Frase para el usuario": "Renovar el parque automotor del transporte público con buses eléctricos y promover estaciones de carga en todo el país.",
+    "phrase": "Renovar el parque automotor del transporte público con buses eléctricos y promover estaciones de carga en todo el país.",
     "matches": [
       {
         "partido": "PARTIDO APRISTA PERUANO",
@@ -385,7 +385,7 @@
   },
   {
     "subtopico": "15. Promoción del Uso de la Bicicleta (Ciclovías)",
-    "Frase para el usuario": "Construir una red interconectada de ciclovías seguras en las ciudades y promover la bicicleta como medio de transporte principal.",
+    "phrase": "Construir una red interconectada de ciclovías seguras en las ciudades y promover la bicicleta como medio de transporte principal.",
     "matches": [
       {
         "partido": "PARTIDO MORADO",

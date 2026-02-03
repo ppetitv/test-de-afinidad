@@ -1,7 +1,7 @@
 [
   {
     "subtopico": "1. Fortalecimiento masivo de Techo Propio / Mivivienda",
-    "Frase para el usuario": "Ampliar los subsidios estatales (Bonos) para que más familias accedan a una vivienda digna a través de Techo Propio o Mivivienda...",
+    "phrase": "Ampliar los subsidios estatales (Bonos) para que más familias accedan a una vivienda digna a través de Techo Propio o Mivivienda...",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -37,7 +37,7 @@
   },
   {
     "subtopico": "2. Vivienda para Jóvenes (Alquiler-Venta o Renta Joven)",
-    "Frase para el usuario": "Crear programas específicos de alquiler-venta o subsidios de renta dirigidos exclusivamente a jóvenes que buscan su independencia...",
+    "phrase": "Crear programas específicos de alquiler-venta o subsidios de renta dirigidos exclusivamente a jóvenes que buscan su independencia...",
     "matches": [
       {
         "partido": "ALIANZA PARA EL PROGRESO",
@@ -63,7 +63,7 @@
   },
   {
     "subtopico": "3. Construcción directa por el Estado (Reactivación de núcleos o empresas estatales)",
-    "Frase para el usuario": "Que el Estado asuma un rol constructor directo de complejos habitacionales, en lugar de solo otorgar subsidios a privados...",
+    "phrase": "Que el Estado asuma un rol constructor directo de complejos habitacionales, en lugar de solo otorgar subsidios a privados...",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -89,7 +89,7 @@
   },
   {
     "subtopico": "4. Vivienda Rural / Bioclimática (Casitas Calientes / Confort Térmico)",
-    "Frase para el usuario": "Priorizar la construcción de viviendas rurales bioclimáticas que protejan a las familias de las heladas y el friaje extremo...",
+    "phrase": "Priorizar la construcción de viviendas rurales bioclimáticas que protejan a las familias de las heladas y el friaje extremo...",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -125,7 +125,7 @@
   },
   {
     "subtopico": "5. Titulación Masiva Express (Fortalecimiento de COFOPRI)",
-    "Frase para el usuario": "Programa de titulación masiva y digital que entregue títulos de propiedad de forma acelerada y gratuita...",
+    "phrase": "Programa de titulación masiva y digital que entregue títulos de propiedad de forma acelerada y gratuita...",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -161,7 +161,7 @@
   },
   {
     "subtopico": "6. Formalización de Asentamientos Humanos (Saneamiento físico-legal urbano)",
-    "Frase para el usuario": "Reconocer y formalizar las posesiones informales en barrios populares para integrarlos a la ciudad con servicios básicos...",
+    "phrase": "Reconocer y formalizar las posesiones informales en barrios populares para integrarlos a la ciudad con servicios básicos...",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -187,7 +187,7 @@
   },
   {
     "subtopico": "7. Saneamiento de predios rurales y comunidades campesinas",
-    "Frase para el usuario": "Acelerar el saneamiento físico-legal y la titulación de tierras para comunidades nativas y campesinas para darles seguridad jurídica...",
+    "phrase": "Acelerar el saneamiento físico-legal y la titulación de tierras para comunidades nativas y campesinas para darles seguridad jurídica...",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -213,7 +213,7 @@
   },
   {
     "subtopico": "8. Tasas de interés preferenciales y garantías estatales",
-    "Frase para el usuario": "Que el Estado garantice tasas de interés muy bajas (entre 2% y 4%) para créditos hipotecarios de vivienda social...",
+    "phrase": "Que el Estado garantice tasas de interés muy bajas (entre 2% y 4%) para créditos hipotecarios de vivienda social...",
     "matches": [
       {
         "partido": "PARTIDO DEMOCRATICO FEDERAL",
@@ -244,7 +244,7 @@
   },
   {
     "subtopico": "9. Bono Verde / Subsidio para viviendas eco-amigables",
-    "Frase para el usuario": "Otorgar subsidios adicionales o mejores tasas a quienes construyan o compren viviendas con criterios eco-amigables (paneles solares, ahorro de agua)...",
+    "phrase": "Otorgar subsidios adicionales o mejores tasas a quienes construyan o compren viviendas con criterios eco-amigables (paneles solares, ahorro de agua)...",
     "matches": [
       {
         "partido": "ALIANZA PARA EL PROGRESO",
@@ -270,7 +270,7 @@
   },
   {
     "subtopico": "10. Uso del Canon para financiar vivienda social en regiones",
-    "Frase para el usuario": "Una parte del canon minero o petrolero se use directamente para construir viviendas sociales en las regiones donde se extrae el recurso...",
+    "phrase": "Una parte del canon minero o petrolero se use directamente para construir viviendas sociales en las regiones donde se extrae el recurso...",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -296,7 +296,7 @@
   },
   {
     "subtopico": "11. Creación de un Banco de Suelos Público",
-    "Frase para el usuario": "Terrenos eriazos o subutilizados del Estado sean destinados exclusivamente a un Banco de Suelos para vivienda social...",
+    "phrase": "Terrenos eriazos o subutilizados del Estado sean destinados exclusivamente a un Banco de Suelos para vivienda social...",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -322,7 +322,7 @@
   },
   {
     "subtopico": "12. Densificación Urbana (Incentivos para edificios multifamiliares)",
-    "Frase para el usuario": "Promover que las ciudades crezcan 'hacia arriba' (edificios) en zonas con servicios, en lugar de seguir extendiéndose hacia los cerros...",
+    "phrase": "Promover que las ciudades crezcan 'hacia arriba' (edificios) en zonas con servicios, en lugar de seguir extendiéndose hacia los cerros...",
     "matches": [
       {
         "partido": "ALIANZA PARA EL PROGRESO",
@@ -348,7 +348,7 @@
   },
   {
     "subtopico": "13. Lucha frontal contra el Tráfico de Terrenos",
-    "Frase para el usuario": "Crear unidades policiales especializadas para combatir las mafias de tráfico de terrenos y endurecer las penas...",
+    "phrase": "Crear unidades policiales especializadas para combatir las mafias de tráfico de terrenos y endurecer las penas...",
     "matches": [
       {
         "partido": "ALIANZA PARA EL PROGRESO",
@@ -374,7 +374,7 @@
   },
   {
     "subtopico": "14. Reubicación de familias en zonas de riesgo no mitigable",
-    "Frase para el usuario": "El Estado traslade obligatoriamente a familias asentadas en fajas marginales o zonas de alto riesgo de desastres a viviendas seguras...",
+    "phrase": "El Estado traslade obligatoriamente a familias asentadas en fajas marginales o zonas de alto riesgo de desastres a viviendas seguras...",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -410,7 +410,7 @@
   },
   {
     "subtopico": "15. Bono de Reforzamiento Estructural",
-    "Frase para el usuario": "El Estado otorgue un bono específico para reforzar las viviendas ya construidas en zonas populares para que no colapsen en un sismo...",
+    "phrase": "El Estado otorgue un bono específico para reforzar las viviendas ya construidas en zonas populares para que no colapsen en un sismo...",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",

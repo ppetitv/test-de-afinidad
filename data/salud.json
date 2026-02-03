@@ -1,7 +1,7 @@
 [
   {
     "subtopico": "1. Unificación del Sistema de Salud",
-    "Frase para el usuario": "Integrar el Minsa, EsSalud y las Sanidades en un sistema único",
+    "phrase": "Integrar el Minsa, EsSalud y las Sanidades en un sistema único",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -57,7 +57,7 @@
   },
   {
     "subtopico": "2. Fortalecimiento del Primer Nivel de Atención",
-    "Frase para el usuario": "Priorizar la inversión en postas médicas y centros de salud sobre los grandes hospitales",
+    "phrase": "Priorizar la inversión en postas médicas y centros de salud sobre los grandes hospitales",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -103,7 +103,7 @@
   },
   {
     "subtopico": "3. Historia Clínica Electrónica Única y Nacional",
-    "Frase para el usuario": "Crear una ficha médica digital compartida por todos los hospitales del país",
+    "phrase": "Crear una ficha médica digital compartida por todos los hospitales del país",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
@@ -149,7 +149,7 @@
   },
   {
     "subtopico": "4. Gestión Privada o Mixta de Hospitales (APPs)",
-    "Frase para el usuario": "Que empresas privadas gestionen servicios en hospitales públicos",
+    "phrase": "Que empresas privadas gestionen servicios en hospitales públicos",
     "matches": [
       {
         "partido": "ALIANZA PARA EL PROGRESO",
@@ -185,7 +185,7 @@
   },
   {
     "subtopico": "5. Control de Precios y Lucha contra Monopolios Farmacéuticos",
-    "Frase para el usuario": "Que el Estado regule el precio de las medicinas o sancione a las cadenas de farmacias que acaparan el mercado",
+    "phrase": "Que el Estado regule el precio de las medicinas o sancione a las cadenas de farmacias que acaparan el mercado",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -221,7 +221,7 @@
   },
   {
     "subtopico": "6. Farmacias Estatales / Boticas Populares",
-    "Frase para el usuario": "Que el Estado venda directamente medicamentos baratos al público a través de boticas municipales o estatales...",
+    "phrase": "Que el Estado venda directamente medicamentos baratos al público a través de boticas municipales o estatales...",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -247,7 +247,7 @@
   },
   {
     "subtopico": "7. Distribución de Medicamentos a Domicilio",
-    "Frase para el usuario": "Que el Estado lleve las medicinas a casa de los pacientes crónicos y adultos mayores...",
+    "phrase": "Que el Estado lleve las medicinas a casa de los pacientes crónicos y adultos mayores...",
     "matches": [
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
@@ -268,7 +268,7 @@
   },
   {
     "subtopico": "8. Industrialización Nacional de Medicamentos",
-    "Frase para el usuario": "El Perú fabrique sus propias medicinas y vacunas a través de laboratorios estatales...",
+    "phrase": "El Perú fabrique sus propias medicinas y vacunas a través de laboratorios estatales...",
     "matches": [
       {
         "partido": "PARTIDO DEL BUEN GOBIERNO",
@@ -289,7 +289,7 @@
   },
   {
     "subtopico": "9. Estabilidad Laboral y Meritocracia (CAS/Terceros)",
-    "Frase para el usuario": "Eliminar los contratos temporales (CAS) y dar estabilidad a los médicos y enfermeras mediante concursos de mérito...",
+    "phrase": "Eliminar los contratos temporales (CAS) y dar estabilidad a los médicos y enfermeras mediante concursos de mérito...",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -325,7 +325,7 @@
   },
   {
     "subtopico": "10. Aumento Salarial e Incentivos en Zonas Alejadas",
-    "Frase para el usuario": "Pagar sueldos más altos y bonos a los médicos que acepten trabajar en provincias y zonas rurales",
+    "phrase": "Pagar sueldos más altos y bonos a los médicos que acepten trabajar en provincias y zonas rurales",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -351,7 +351,7 @@
   },
   {
     "subtopico": "11. Creación de Médicos de Familia (Atención Primaria)",
-    "Frase para el usuario": "Crear la especialidad de 'Médico de Cabecera' para que cada familia tenga un doctor asignado",
+    "phrase": "Crear la especialidad de 'Médico de Cabecera' para que cada familia tenga un doctor asignado",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -382,7 +382,7 @@
   },
   {
     "subtopico": "12. Incorporación de Agentes Comunitarios de Salud",
-    "Frase para el usuario": "Reconocer legalmente y dar un sueldo a los promotores de salud de las comunidades",
+    "phrase": "Reconocer legalmente y dar un sueldo a los promotores de salud de las comunidades",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -408,7 +408,7 @@
   },
   {
     "subtopico": "13. Plan de Salud Mental Comunitario",
-    "Frase para el usuario": "Poner psicólogos en todos los colegios y postas para atender la salud mental desde la comunidad",
+    "phrase": "Poner psicólogos en todos los colegios y postas para atender la salud mental desde la comunidad",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -439,7 +439,7 @@
   },
   {
     "subtopico": "14. Lucha Frontal contra la Anemia y Desnutrición (Meta Cero)",
-    "Frase para el usuario": "Una estrategia nacional para erradicar la anemia infantil con seguimiento casa por casa...",
+    "phrase": "Una estrategia nacional para erradicar la anemia infantil con seguimiento casa por casa...",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -475,7 +475,7 @@
   },
   {
     "subtopico": "15. Telemedicina masiva para zonas rurales",
-    "Frase para el usuario": "Que los pacientes de zonas alejadas se atiendan por videollamada con especialistas de Lima o regiones",
+    "phrase": "Que los pacientes de zonas alejadas se atiendan por videollamada con especialistas de Lima o regiones",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
