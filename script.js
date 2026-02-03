@@ -121,6 +121,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             createCards();
             setupEventListeners();
             setupOnboarding();
+            setupTematic();
         } catch (error) {
             console.error('Error en inicialización:', error);
             showError('No se pudieron cargar los datos desde las hojas de cálculo. ' + error.message);
@@ -407,6 +408,17 @@ document.addEventListener('DOMContentLoaded', async () => {
                 endOnboarding();
             }
         });
+    }
+
+    function setupTematic() {
+        const btnTematics = document.querySelectorAll('.tematic-button');
+        btnTematics.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                const tematicId = btn.dataset.tematicId;
+                console.log('Tematica seleccionada:', tematicId);
+            })
+        })
     }
 
     function handleSourceClick(e) {
