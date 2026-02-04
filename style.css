@@ -610,3 +610,60 @@ body {
     color: #4caf50;
     font-weight: bold;
 }
+
+/* Share Section */
+.share-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    margin: 3rem 0;
+}
+
+.share-section__title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.share-section__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.share-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 9999px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: var(--shadow-md);
+}
+
+.share-button:hover {
+    transform: scale(1.1) translateY(-4px);
+    box-shadow: var(--shadow-lg);
+}
+
+.share-button--whatsapp {
+    background-color: #22c55e;
+}
+
+.share-button--facebook {
+    background-color: #2563eb;
+}
+
+.share-button--x {
+    background-color: #000000;
+}
+
+.share-button--email {
+    background-color: #64748b;
+}
