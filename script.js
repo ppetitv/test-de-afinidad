@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Configuración para DATA
     const cdnRpp = `https://s2.rpp-noticias.io/static/especial/comparapropuestas/`;
     const candidatesURL = `https://pre.s.rpp-noticias.io/static/especial/comparapropuestas/data/datajne_v2.json`;
-    const proposalsURL = `data/proposals/cultura-y-turismo.json`;
+    const proposalsURL = `data/proposals/`;
 
     const formatFilename = (text) => {
         return text
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     };
 
     // Función para cargar datos desde Google Sheets
-    async function loadData() {
+    async function loadData(topicId) {
         // Cargar candidatos
         const candidatesResponse = await fetch(candidatesURL);
         if (!candidatesResponse.ok) throw new Error('Error al cargar candidatos');
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         // Cargar propuestas
-        const proposalsResponse = await fetch(proposalsURL);
+        const proposalsResponse = await fetch(proposalsURL + topicId + '.json');
         if (!proposalsResponse.ok) throw new Error('Error al cargar propuestas');
         const proposalsJSON = await proposalsResponse.json();
 
@@ -117,18 +117,22 @@ document.addEventListener('DOMContentLoaded', async () => {
     // --- INICIALIZACIÓN ---
     async function init() {
         try {
-            await loadData();
-            if (progressText) {
-                progressText.textContent = `0 / ${data.proposals.length}`;
-            }
-            createCards();
-            setupEventListeners();
+            await loadTopic();
             setupOnboarding();
             setupTematic();
         } catch (error) {
             console.error('Error en inicialización:', error);
             showError('No se pudieron cargar los datos desde las hojas de cálculo. ' + error.message);
         }
+    }
+
+    async function loadTopic(topicId = "cultura-y-turismo") {
+        await loadData(topicId);
+        if (progressText) {
+            progressText.textContent = `0 / ${data.proposals.length}`;
+        }
+        createCards();
+        setupEventListeners();
     }
 
     // --- RENDERIZADO Y GESTIÓN DE TARJETAS ---
@@ -424,8 +428,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             btn.addEventListener('click', (e) => {
                 e.preventDefault();
                 const tematicId = btn.dataset.tematicId;
-                console.log('Tematica seleccionada:', tematicId);
                 tematicOverlay.classList.remove('visible');
+                loadTopic(tematicId);
             })
         })
     }
