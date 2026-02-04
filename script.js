@@ -130,6 +130,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             await loadTopic();
             setupOnboarding();
             setupTematic();
+            setupEventListeners();
         } catch (error) {
             console.error('Error en inicialización:', error);
             showError('No se pudieron cargar los datos desde las hojas de cálculo. ' + error.message);
@@ -142,7 +143,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             progressText.textContent = `0 / ${data.proposals.length}`;
         }
         createCards();
-        setupEventListeners();
     }
 
     // --- RENDERIZADO Y GESTIÓN DE TARJETAS ---
