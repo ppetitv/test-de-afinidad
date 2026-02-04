@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     };
 
     const findCandidate = (partyId) => {
-        return data.candidates.find(candidate => candidate.id === partyId);
+        return data.candidates.find(candidate => candidate.id == partyId);
     };
 
     // Función para cargar datos desde Google Sheets
@@ -34,7 +34,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                 id: formatFilename(candidatesJSON.candidatos[id].party),
                 name: candidatesJSON.candidatos[id].name,
                 party: candidatesJSON.candidatos[id].party,
-                photo: cdnRpp + candidatesJSON.candidatos[id].imgUrl
+                photo: cdnRpp + candidatesJSON.candidatos[id].imgUrl,
+                imgLogoUrl: cdnRpp + candidatesJSON.candidatos[id].imgLogoUrl,
+                pdfUrl: candidatesJSON.candidatos[id].pdfUrl
             });
         }
 
@@ -56,6 +58,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                     sources[match.partido] = {
                         title: match.sustento || '',
                         date: '',
+                        party: match.partido,
+                        imgLogoUrl: findCandidate(match.partido)?.imgLogoUrl || '',
                         url: findCandidate(match.partido)?.pdfUrl || ''
                     }
                 });
@@ -445,8 +449,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (sourceLink) {
             e.preventDefault();
             const card = sourceLink.closest('.card');
-            const proposalId = card.dataset.proposalId;
-            const proposal = data.proposals.find(p => p.id === proposalId);
+            const proposalId = parseInt(card.dataset.proposalId);
+            const proposal = data.proposals.find(p => p.id == proposalId);
             if (proposal) {
                 populateSourcesSidebar(proposal);
                 openSourcesSidebar();
@@ -462,14 +466,13 @@ document.addEventListener('DOMContentLoaded', async () => {
                 sourceDiv.className = 'source-item';
                 sourceDiv.innerHTML = `
                     <div class="source-verification">
-                        <img src="images/logo_rpp.svg" alt="RPP" class="verification-logo">
-                        <span class="divider">|</span>
-                        <span class="verification-text">fuente verificada</span>
+                        <img src="${source.imgLogoUrl}" alt="${source.party}" class="verification-logo">
+                        <span class="divider">| ${source.party}</span>
                         <span class="check-icon">✓</span>
                     </div>
                     <p class="source-title">${source.title}</p>
-                    <p class="source-date">${source.date}</p>
-                    <a href="${source.url}" target="_blank" rel="noopener noreferrer">Leer en RPP.pe</a>
+                    <p class="source-date"></p>
+                    <a href="${source.url}" target="_blank" rel="noopener noreferrer">Leer PDF</a>
                 `;
                 sourcesContent.appendChild(sourceDiv);
             }
@@ -568,8 +571,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function displayResults() {
         const results = calculateResults();
-        console.log(results, 'results');
-
         const resultsList = document.getElementById('results-list');
         resultsList.innerHTML = '';
         results.forEach((result, index) => {
