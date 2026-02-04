@@ -41,27 +41,31 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (!proposalsResponse.ok) throw new Error('Error al cargar propuestas');
         const proposalsJSON = await proposalsResponse.json();
 
-        data.proposals = proposalsJSON.map(row => {
-            const stances = {};
-            const sources = {};
 
-            row.matches.forEach(match => {
-                stances[match.partido] = 'agree';
-                sources[match.partido] = {
-                    title: match.sustento || '',
-                    date: '',
-                    url: findCandidate(match.partido)?.pdfUrl || ''
-                }
+        data.proposals = proposalsJSON
+            .sort(() => 0.5 - Math.random()) 
+            .slice(0, 10)                    
+            .map(row => {
+                const stances = {};
+                const sources = {};
+
+                row.matches.forEach(match => {
+                    stances[match.partido] = 'agree';
+                    sources[match.partido] = {
+                        title: match.sustento || '',
+                        date: '',
+                        url: findCandidate(match.partido)?.pdfUrl || ''
+                    }
+                });
+
+                return {
+                    id: row.id,
+                    topic: row.topico,
+                    text: row.phrase,
+                    stances: stances,
+                    sources: sources
+                };
             });
-
-            return {
-                id: row.id,
-                topic: row.topico,
-                text: row.phrase,
-                stances: stances,
-                sources: sources
-            };
-        });
     }
 
     // Función para mostrar error
@@ -221,7 +225,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             indicator.textContent = 'EN DESACUERDO';
             indicator.style.opacity = opacity;
             disagreeOverlay.style.opacity = opacity * 0.5;
-            agreeIndicator.style.opacity = 0;
+            //agreeIndicator.style.opacity = 0;
             agreeOverlay.style.opacity = 0;
         } else {
             indicator.style.opacity = 0;
@@ -591,6 +595,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         userAnswers = [];
         if (cardPlaceholder) cardPlaceholder.style.display = 'block';
         resultsScreen.classList.remove('visible');
+        tematicOverlay.classList.add('visible');
         updateProgress();
         setTimeout(createCards, 50);
         agreeBtn.disabled = false;
