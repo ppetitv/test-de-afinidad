@@ -1,7 +1,7 @@
 [
   {
     "subtopico": "1. Creación del Ministerio de Ciencia, Tecnología e Innovación (MCTI)",
-    "phrase": "Crear un Ministerio dedicado exclusivamente a rectorar las políticas de ciencia y tecnología...",
+    "phrase": "Crear un Ministerio dedicado exclusivamente a rectorar las políticas de ciencia y tecnología",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -32,7 +32,7 @@
   },
   {
     "subtopico": "2. Aumento de la inversión en I+D+i (Meta del 1% al 3% del PBI)",
-    "phrase": "Incrementar el presupuesto nacional en investigación y desarrollo para alcanzar niveles competitivos...",
+    "phrase": "Incrementar el presupuesto nacional en investigación y desarrollo para alcanzar niveles competitivos",
     "matches": [
       {
         "partido": "PARTIDO MORADO",
@@ -73,7 +73,7 @@
   },
   {
     "subtopico": "3. Repatriación de Talentos y Científicos (\"Brain Gain\")",
-    "phrase": "Crear incentivos tributarios y laborales para que los científicos peruanos en el extranjero regresen al país...",
+    "phrase": "Crear incentivos tributarios y laborales para que los científicos peruanos en el extranjero regresen al país",
     "matches": [
       {
         "partido": "PARTIDO DEL BUEN GOBIERNO",
@@ -99,7 +99,7 @@
   },
   {
     "subtopico": "4. Internet como Derecho Humano y Servicio Público Esencial",
-    "phrase": "Declarar el acceso a internet como un derecho fundamental garantizado por el Estado...",
+    "phrase": "Declarar el acceso a internet como un derecho fundamental garantizado por el Estado",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -125,7 +125,7 @@
   },
   {
     "subtopico": "5. Red Dorsal Nacional de Fibra Óptica (RDNFO) Operativa al 100%",
-    "phrase": "Que el Estado tome el control o concesione la Red Dorsal para asegurar internet en cada distrito...",
+    "phrase": "Apoyo reactivar la Red Dorsal de Fibra Óptica (vía Estado o concesión) para llevar internet a todos los distritos",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
@@ -151,7 +151,7 @@
   },
   {
     "subtopico": "6. Despliegue masivo de Tecnología 5G",
-    "phrase": "Acelerar la licitación y el despliegue de redes 5G para mejorar la competitividad industrial...",
+    "phrase": "Acelerar la licitación y el despliegue de redes 5G para mejorar la competitividad industrial",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -177,7 +177,7 @@
   },
   {
     "subtopico": "7. Internet Satelital para Zonas Rurales y Fronteras",
-    "phrase": "Usar tecnología satelital para conectar a las comunidades más aisladas de la selva y la sierra...",
+    "phrase": "Usar tecnología satelital para conectar a las comunidades más aisladas de la selva y la sierra",
     "matches": [
       {
         "partido": "ALIANZA PARA EL PROGRESO",
@@ -203,7 +203,7 @@
   },
   {
     "subtopico": "8. Ciudadanía Digital e Identidad Digital (DNI Electrónico)",
-    "phrase": "El DNI electrónico sea la herramienta única para realizar todos los trámites del Estado sin presencia física...",
+    "phrase": "Apoyo que el DNI electrónico permita realizar el 100% de los trámites estatales sin ir a las oficinas",
     "matches": [
       {
         "partido": "PARTIDO MORADO",
@@ -229,7 +229,7 @@
   },
   {
     "subtopico": "9. Cero Papel en el Estado (Digitalización de Expedientes)",
-    "phrase": "Eliminar totalmente el uso de papel en las entidades públicas, digitalizando todos los archivos y trámites...",
+    "phrase": "Apoyo eliminar totalmente el uso de papel en las entidades públicas, digitalizando todos los archivos y trámites",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -260,7 +260,7 @@
   },
   {
     "subtopico": "10. Voto Electrónico y Participación Digital",
-    "phrase": "Implementar el voto electrónico para agilizar el conteo y facilitar la participación desde cualquier lugar...",
+    "phrase": "Implementar el voto electrónico para agilizar el conteo y facilitar la participación desde cualquier lugar",
     "matches": [
       {
         "partido": "PARTIDO MORADO",
@@ -281,7 +281,7 @@
   },
   {
     "subtopico": "11. Creación de una Agencia / Comando de Ciberseguridad",
-    "phrase": "Crear una agencia especializada que proteja los datos críticos del país y combata el cibercrimen...",
+    "phrase": "Crear una agencia especializada que proteja los datos críticos del país y combata el cibercrimen",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -307,7 +307,7 @@
   },
   {
     "subtopico": "12. Ley de Fomento al Ecosistema Startup e Innovación",
-    "phrase": "Leyes que den incentivos fiscales y capital semilla a los emprendimientos de base tecnológica...",
+    "phrase": "Apoyo brindar incentivos tributarios y capital semilla para impulsar las startups tecnológicas",
     "matches": [
       {
         "partido": "PODEMOS PERU",
@@ -333,7 +333,7 @@
   },
   {
     "subtopico": "13. Regulación y uso de Blockchain y Criptoactivos",
-    "phrase": "Estoy a favor de usar la tecnología Blockchain para evitar la manipulación de datos en contratos y licitaciones del Estado...",
+    "phrase": "Estoy a favor de usar la tecnología Blockchain para evitar la manipulación de datos en contratos y licitaciones del Estado",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
@@ -364,7 +364,7 @@
   },
   {
     "subtopico": "14. Estrategia Nacional de Inteligencia Artificial (IA)",
-    "phrase": "Implementar una estrategia para el uso productivo de la IA en salud, seguridad y justicia...",
+    "phrase": "Apoyo el uso de Inteligencia Artificial para modernizar la salud, combatir el crimen y agilizar la justicia",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -390,7 +390,7 @@
   },
   {
     "subtopico": "15. Parques Científicos y Tecnológicos (Hubs Regionales)",
-    "phrase": "Crear parques tecnológicos regionales que unan a universidades y empresas para crear nuevos productos...",
+    "phrase": "Apoyo la creación de parques tecnológicos en las regiones para conectar a las universidades con las empresas",
     "matches": [
       {
         "partido": "PARTIDO DEMOCRATICO FEDERAL",

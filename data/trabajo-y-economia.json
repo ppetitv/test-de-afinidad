@@ -1,7 +1,7 @@
 [
   {
     "subtopico": "1. Cambio del Modelo Económico / Nueva Constitución Económica",
-    "phrase": "Cambiar el modelo económico actual y/o la Constitución para que el Estado tenga un rol empresarial en sectores estratégicos...",
+    "phrase": "Cambiar el modelo económico actual y/o la Constitución para que el Estado tenga un rol empresarial en sectores estratégicos",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -32,7 +32,7 @@
   },
   {
     "subtopico": "2. Blindaje del Modelo de Libre Mercado",
-    "phrase": "Blindar el modelo de libre mercado, garantizando el respeto absoluto a la propiedad privada y la estabilidad jurídica de los contratos...",
+    "phrase": "Blindar el modelo de libre mercado, garantizando el respeto absoluto a la propiedad privada y la estabilidad jurídica de los contratos",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -63,7 +63,7 @@
   },
   {
     "subtopico": "3. Industrialización por Sustitución de Importaciones y Valor Agregado",
-    "phrase": "Impulsar la industrialización nacional para transformar nuestras materias primas y dejar de ser un país meramente exportador de recursos...",
+    "phrase": "Impulsar la industrialización nacional para transformar nuestras materias primas y dejar de ser un país meramente exportador de recursos",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -94,7 +94,7 @@
   },
   {
     "subtopico": "4. Reducción del Tamaño del Estado y Austeridad",
-    "phrase": "Reducir el tamaño del aparato estatal, eliminando ministerios duplicados y recortando el gasto en burocracia...",
+    "phrase": "Reducir el tamaño del aparato estatal, eliminando ministerios duplicados y recortando el gasto en burocracia",
     "matches": [
       {
         "partido": "ALIANZA PARA EL PROGRESO",
@@ -125,7 +125,7 @@
   },
   {
     "subtopico": "5. Reforma Tributaria Progresiva (Impuesto a la Riqueza / Grandes Fortunas)",
-    "phrase": "Quienes tienen más paguen más, implementando impuestos a las grandes fortunas o sobreganancias mineras...",
+    "phrase": "Defiendo una reforma tributaria bajo el principio de que 'pague más quien tiene más' (ricos y mineras)",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -156,7 +156,7 @@
   },
   {
     "subtopico": "6. Reducción de Impuestos (IGV o Renta)",
-    "phrase": "Bajar impuestos como el IGV o el Impuesto a la Renta para aliviar a las familias y reactivar el consumo...",
+    "phrase": "Bajar impuestos como el IGV o el Impuesto a la Renta para aliviar a las familias y reactivar el consumo",
     "matches": [
       {
         "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
@@ -187,7 +187,7 @@
   },
   {
     "subtopico": "7. Amnistía Tributaria o Facilidades para PYMES",
-    "phrase": "Otorgar amnistías tributarias o condonación de multas para que las PYMES con deudas puedan formalizarse...",
+    "phrase": "Otorgar amnistías tributarias o condonación de multas para que las PYMES con deudas puedan formalizarse",
     "matches": [
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
@@ -213,7 +213,7 @@
   },
   {
     "subtopico": "8. Obras por Impuestos (Ampliación del Mecanismo)",
-    "phrase": "Ampliar el mecanismo de Obras por Impuestos para agilizar la construcción de infraestructura en las regiones...",
+    "phrase": "Ampliar el mecanismo de Obras por Impuestos para agilizar la construcción de infraestructura en las regiones",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -244,7 +244,7 @@
   },
   {
     "subtopico": "9. Aumento del Sueldo Mínimo Vital (RMV)",
-    "phrase": "Aumentar el sueldo mínimo para que cubra el costo real de la canasta básica familiar...",
+    "phrase": "Aumentar el sueldo mínimo para que cubra el costo real de la canasta básica familiar",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -270,7 +270,7 @@
   },
   {
     "subtopico": "10. Eliminación del Régimen CAS y Tercerización",
-    "phrase": "Eliminar el régimen CAS y la tercerización laboral para que todos los trabajadores pasen a planilla con derechos plenos...",
+    "phrase": "Eliminar el régimen CAS y la tercerización laboral para que todos los trabajadores pasen a planilla con derechos plenos",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -296,7 +296,7 @@
   },
   {
     "subtopico": "11. Flexibilización Laboral y Regímenes Especiales",
-    "phrase": "Crear regímenes laborales más flexibles para reducir los costos de contratación y facilitar el empleo juvenil...",
+    "phrase": "Crear regímenes laborales más flexibles para reducir los costos de contratación y facilitar el empleo juvenil",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -327,7 +327,7 @@
   },
   {
     "subtopico": "12. Créditos Baratos para Emprendedores (Banco de Fomento)",
-    "phrase": "Que el Estado otorgue créditos con tasas de interés bajas a través de un Banco de Fomento para MYPES y agricultores...",
+    "phrase": "Apoyo la creación de un Banco de Fomento para dar créditos baratos a las MYPES y a los agricultores",
     "matches": [
       {
         "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
@@ -358,7 +358,7 @@
   },
   {
     "subtopico": "13. Cero Impuestos los Primeros Años (Marcha Blanca)",
-    "phrase": "Exonerar de todo impuesto a las empresas nuevas durante sus primeros años de vida para que puedan crecer...",
+    "phrase": "Exonerar de todo impuesto a las empresas nuevas durante sus primeros años de vida para que puedan crecer",
     "matches": [
       {
         "partido": "PARTIDO DEMOCRATICO FEDERAL",
@@ -389,7 +389,7 @@
   },
   {
     "subtopico": "14. Compras Estatales Obligatorias a MYPES",
-    "phrase": "Que el Estado esté obligado a comprar una parte importante de sus insumos (ej. 40%) exclusivamente a las MYPES locales...",
+    "phrase": "Estoy a favor de reservar una cuota de las compras estatales exclusivamente para los pequeños empresarios",
     "matches": [
       {
         "partido": "AHORA NACION - AN",
@@ -415,7 +415,7 @@
   },
   {
     "subtopico": "15. Reforma Integral del Sistema de Pensiones (Pensión Universal)",
-    "phrase": "Crear un sistema de pensiones único o universal que garantice una jubilación digna para todos los peruanos, incluyendo informales...",
+    "phrase": "Crear un sistema de pensiones único o universal que garantice una jubilación digna para todos los peruanos, incluyendo informales",
     "matches": [
       {
         "partido": "PARTIDO MORADO",

@@ -1,7 +1,7 @@
 [
   {
     "subtopico": "1. Convocar a una Asamblea Constituyente para una Nueva Constitución",
-    "phrase": "Convocar a una Asamblea Constituyente para redactar una nueva Constitución que reemplace a la de 1993...",
+    "phrase": "Se debe convocar a una Asamblea Constituyente para redactar una nueva Constitución que reemplace a la de 1993",
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -32,7 +32,7 @@
   },
   {
     "subtopico": "2. Mantener la Constitución de 1993 (con reformas parciales)",
-    "phrase": "Mantener el marco constitucional de 1993, realizando únicamente las reformas necesarias para modernizar el Estado...",
+    "phrase": "Se debe mantener el marco constitucional de 1993, realizando únicamente las reformas necesarias para modernizar el Estado",
     "matches": [
       {
         "partido": "ALIANZA PARA EL PROGRESO",
@@ -58,7 +58,7 @@
   },
   {
     "subtopico": "3. Salida del Pacto de San José (Corte IDH) y Aplicación de Pena de Muerte",
-    "phrase": "El Perú se retire de la competencia de la Corte IDH para poder aplicar la pena de muerte a criminales peligrosos...",
+    "phrase": "El Perú se debe retirar de la competencia de la Corte IDH para poder aplicar la pena de muerte a criminales peligrosos",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -84,7 +84,7 @@
   },
   {
     "subtopico": "4. Reforma drástica o eliminación de la Junta Nacional de Justicia (JNJ)",
-    "phrase": "Reformar profundamente la JNJ para asegurar que la selección de jueces y fiscales sea técnica y no política...",
+    "phrase": "Se debe reformar profundamente la JNJ para asegurar que la selección de jueces y fiscales sea técnica y no política",
     "matches": [
       {
         "partido": "UNIDAD NACIONAL",
@@ -110,7 +110,7 @@
   },
   {
     "subtopico": "5. Retorno a la reelección inmediata de alcaldes y gobernadores",
-    "phrase": "Permitir que las autoridades locales y regionales puedan ser reelegidas para dar continuidad a sus proyectos...",
+    "phrase": "Se debe permitir que las autoridades locales y regionales puedan ser reelegidas para dar continuidad a sus proyectos",
     "matches": [
       {
         "partido": "PARTIDO APRISTA PERUANO",
@@ -121,7 +121,7 @@
   },
   {
     "subtopico": "6. Renovación del Congreso por mitades o tercios",
-    "phrase": "Renovar el Congreso a mitad del mandato para que los ciudadanos premien o sancionen el desempeño legislativo...",
+    "phrase": "Se debe renovar el Congreso a mitad del mandato para que los ciudadanos premien o sancionen el desempeño legislativo",
     "matches": [
       {
         "partido": "FUERZA Y LIBERTAD",
@@ -142,7 +142,7 @@
   },
   {
     "subtopico": "7. Voto Voluntario y Reinstauración de las PASO",
-    "phrase": "Eliminar la obligatoriedad del voto y/o asegurar que los candidatos sean elegidos por la ciudadanía en primarias abiertas...",
+    "phrase": "Se debe eliminar la obligatoriedad del voto y/o asegurar que los candidatos sean elegidos por la ciudadanía en primarias abiertas",
     "matches": [
       {
         "partido": "PARTIDO POLITICO PERU PRIMERO",
@@ -158,7 +158,7 @@
   },
   {
     "subtopico": "8. Eliminación de la Inmunidad Parlamentaria (Sin Antejuicio para delitos comunes)",
-    "phrase": "Eliminar totalmente la inmunidad parlamentaria para que los congresistas sean procesados como cualquier ciudadano...",
+    "phrase": "Se debe eliminar totalmente la inmunidad parlamentaria para que los congresistas sean procesados como cualquier ciudadano",
     "matches": [
       {
         "partido": "PARTIDO MORADO",
@@ -179,7 +179,7 @@
   },
   {
     "subtopico": "9. Muerte Civil para funcionarios corruptos (Inhabilitación Perpetua)",
-    "phrase": "Prohibir de por vida que cualquier persona condenada por corrupción vuelva a trabajar o contratar con el Estado...",
+    "phrase": "Se debe prohibir de por vida que cualquier persona condenada por corrupción vuelva a trabajar o contratar con el Estado",
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -210,7 +210,7 @@
   },
   {
     "subtopico": "10. Imprescriptibilidad de los delitos de corrupción",
-    "phrase": "Estoy a favor de que los delitos de corrupción no caduquen nunca, permitiendo procesar a los responsables sin importar el tiempo transcurrido...",
+    "phrase": "Los delitos de corrupción no deben caducar, permitiendo procesar a los responsables sin importar el tiempo transcurrido",
     "matches": [
       {
         "partido": "PARTIDO MORADO",
@@ -231,7 +231,7 @@
   },
   {
     "subtopico": "11. Fortalecimiento de la Contraloría (Capacidad Sancionadora Vinculante)",
-    "phrase": "Darle a la Contraloría el poder de sancionar y destituir directamente a los funcionarios corruptos...",
+    "phrase": "La Contraloría debe tener el poder de sancionar y destituir directamente a los funcionarios corruptos",
     "matches": [
       {
         "partido": "PODEMOS PERU",
@@ -257,7 +257,7 @@
   },
   {
     "subtopico": "12. Juicio por Jurados y Veedurías Ciudadanas",
-    "phrase": "Ciudadanos comunes participen en los juicios o vigilen directamente las obras y procesos judiciales...",
+    "phrase": "Los ciudadanos comunes deben participar en los juicios o vigilar directamente las obras y procesos judiciales",
     "matches": [
       {
         "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
@@ -278,7 +278,7 @@
   },
   {
     "subtopico": "13. Elección popular de jueces y fiscales",
-    "phrase": "Los jueces y fiscales sean elegidos por el voto de los ciudadanos para asegurar su rendición de cuentas ante el pueblo...",
+    "phrase": "Los jueces y fiscales deben ser elegidos por el voto de los ciudadanos para asegurar su rendición de cuentas ante el pueblo",
     "matches": [
       {
         "partido": "PARTIDO DEMOCRATA UNIDO PERU",
@@ -299,7 +299,7 @@
   },
   {
     "subtopico": "14. Digitalización total del sistema judicial (Justicia Smart)",
-    "phrase": "Eliminar el uso de papel en los juicios y usar inteligencia artificial para acelerar las sentencias y evitar archivos injustos...",
+    "phrase": "Se debe eliminar el uso de papel en los juicios y usar inteligencia artificial para acelerar las sentencias y evitar archivos injustos",
     "matches": [
       {
         "partido": "ALIANZA PARA EL PROGRESO",
@@ -330,7 +330,7 @@
   },
   {
     "subtopico": "15. Privatización o Concesión de la Administración de Cárceles",
-    "phrase": "Las empresas privadas construyan y administren las cárceles para reducir el hacinamiento y asegurar que los presos trabajen...",
+    "phrase": "Las empresas privadas deben construir y administrar las cárceles para reducir el hacinamiento y asegurar que los presos trabajen",
     "matches": [
       {
         "partido": "PARTIDO APRISTA PERUANO",
