@@ -22,6 +22,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Función para cargar datos desde Google Sheets
     async function loadData(topicId) {
+        data.candidates = [];
+        data.proposals = [];
         // Cargar candidatos
         const candidatesResponse = await fetch(candidatesURL);
         if (!candidatesResponse.ok) throw new Error('Error al cargar candidatos');
@@ -530,23 +532,25 @@ document.addEventListener('DOMContentLoaded', async () => {
             const proposal = data.proposals.find(p => p.id === answer.proposalId);
             if (!proposal) return;
 
-            data.candidates.forEach(candidate => {
-                const candidateStance = proposal.stances[candidate.id];
+            for (const candidateId in proposal.stances) {
+                const candidateStance = proposal.stances[candidateId];
                 if (answer.choice === candidateStance) {
-                    scores[candidate.id]++;
+                    scores[candidateId]++;
                 }
                 else if (answer.choice === 'neutral') {
-                    scores[candidate.id] += 0.5;
+                    scores[candidateId] += 0.5;
                 }
-            });
+            }
         });
 
-        const results = data.candidates.map(candidate => {
-            const score = totalQuestions > 0 ? Math.round((scores[candidate.id] / totalQuestions) * 100) : 0;
-            return { ...candidate, score };
-        });
-
-        return results.sort((a, b) => b.score - a.score);
+        const results = data.candidates
+            .map(candidate => {
+                const score = totalQuestions > 0 ? Math.round((scores[candidate.id] / totalQuestions) * 100) : 0;
+                return { ...candidate, score };
+            })
+            .filter(candidate => candidate.score > 0);
+        const response = results.sort((a, b) => b.score - a.score);
+        return response
     }
 
     function animateNumber(element, target, duration = 1000) {
@@ -564,6 +568,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function displayResults() {
         const results = calculateResults();
+        console.log(results, 'results');
+
         const resultsList = document.getElementById('results-list');
         resultsList.innerHTML = '';
         results.forEach((result, index) => {
