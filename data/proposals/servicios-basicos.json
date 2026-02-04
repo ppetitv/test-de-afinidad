@@ -1,5 +1,7 @@
 [
   {
+    "id": 1,
+    "topico": "Servicios básicos",
     "subtopico": "1. Cierre de brechas: Agua y Saneamiento al 100%",
     "phrase": "Apoyo priorizar la inversión pública para lograr el 100% de cobertura de agua y desagüe a nivel nacional",
     "matches": [
@@ -31,6 +33,8 @@
     ]
   },
   {
+    "id": 2,
+    "topico": "Servicios básicos",
     "subtopico": "2. Privatización o Concesión de la gestión del agua (EPS/SEDAPAL)",
     "phrase": "Involucrar al sector privado en la administración de las empresas de agua para mejorar su eficiencia",
     "matches": [
@@ -52,6 +56,8 @@
     ]
   },
   {
+    "id": 3,
+    "topico": "Servicios básicos",
     "subtopico": "3. Fortalecimiento de la gestión pública del agua (No privatización)",
     "phrase": "Defiendo que la gestión del agua sea 100% estatal y rechazo cualquier forma de privatización de las EPS (como Sedapal)",
     "matches": [
@@ -73,6 +79,8 @@
     ]
   },
   {
+    "id": 4,
+    "topico": "Servicios básicos",
     "subtopico": "4. Sistemas no convencionales: Atrapanieblas y Camiones Cisterna",
     "phrase": "Apoyo garantizar el agua en los asentamientos humanos con sistemas no convencionales (como atrapanieblas y cisternas).",
     "matches": [
@@ -94,6 +102,8 @@
     ]
   },
   {
+    "id": 5,
+    "topico": "Servicios básicos",
     "subtopico": "5. Titulación Masiva de Predios (COFOPRI)",
     "phrase": "Apoyo la entrega masiva de títulos de propiedad para formalizar viviendas en sectores populares",
     "matches": [
@@ -120,6 +130,8 @@
     ]
   },
   {
+    "id": 6,
+    "topico": "Servicios básicos",
     "subtopico": "6. Construcción masiva de Viviendas de Interés Social",
     "phrase": "El Estado debe financiar y construir masivamente viviendas de bajo costo para familias pobres",
     "matches": [
@@ -146,6 +158,8 @@
     ]
   },
   {
+    "id": 7,
+    "topico": "Servicios básicos",
     "subtopico": "7. Programa de Vivienda para Jóvenes",
     "phrase": "Crear bonos de alquiler o programas de acceso a vivienda específicos para jóvenes que buscan independencia",
     "matches": [
@@ -167,6 +181,8 @@
     ]
   },
   {
+    "id": 8,
+    "topico": "Servicios básicos",
     "subtopico": "8. Reubicación de familias en zonas de riesgo",
     "phrase": "Trasladar obligatoriamente a familias que viven en zonas de alto riesgo (quebradas) hacia zonas seguras",
     "matches": [
@@ -188,6 +204,8 @@
     ]
   },
   {
+    "id": 9,
+    "topico": "Servicios básicos",
     "subtopico": "9. Masificación del Gas Natural a domicilio",
     "phrase": "Acelerar la construcción de gasoductos para que el gas natural llegue directamente a todas las cocinas del Perú",
     "matches": [
@@ -209,6 +227,8 @@
     ]
   },
   {
+    "id": 10,
+    "topico": "Servicios básicos",
     "subtopico": "10. Subsidio a la Tarifa Eléctrica para los más pobres",
     "phrase": "Aplicar tarifas sociales o bonos para que las familias de menores ingresos paguen menos por la luz",
     "matches": [
@@ -230,6 +250,8 @@
     ]
   },
   {
+    "id": 11,
+    "topico": "Servicios básicos",
     "subtopico": "11. Electrificación Rural al 100%",
     "phrase": "El Estado debe garantizar electricidad en el 100% de zonas rurales, usando paneles solares en las comunidades más alejadas",
     "matches": [
@@ -251,6 +273,8 @@
     ]
   },
   {
+    "id": 12,
+    "topico": "Servicios básicos",
     "subtopico": "12. Internet como Derecho Humano Constitucional",
     "phrase": "Garantizar el acceso a internet como un derecho fundamental",
     "matches": [
@@ -272,6 +296,8 @@
     ]
   },
   {
+    "id": 13,
+    "topico": "Servicios básicos",
     "subtopico": "13. Red Dorsal y WiFi gratuito en Plazas/Escuelas",
     "phrase": "Proveer internet gratuito en todas las plazas públicas y colegios estatales del país",
     "matches": [
@@ -293,6 +319,8 @@
     ]
   },
   {
+    "id": 14,
+    "topico": "Servicios básicos",
     "subtopico": "14. Bono de Conectividad y Dispositivos (Tablets/Laptops)",
     "phrase": "Entregar tablets o laptops con datos gratuitos a estudiantes de bajos recursos para cerrar la brecha digital",
     "matches": [
@@ -314,6 +342,8 @@
     ]
   },
   {
+    "id": 15,
+    "topico": "Servicios básicos",
     "subtopico": "15. Internet Satelital masivo para Fronteras y Selva",
     "phrase": "Contratar internet satelital de alta velocidad para conectar las comunidades más remotas de la selva y zonas de frontera",
     "matches": [

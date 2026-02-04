@@ -1,5 +1,7 @@
 [
   {
+    "id": 1,
+    "topico": "Justicia y reformas",
     "subtopico": "1. Convocar a una Asamblea Constituyente para una Nueva Constitución",
     "phrase": "Se debe convocar a una Asamblea Constituyente para redactar una nueva Constitución que reemplace a la de 1993",
     "matches": [
@@ -31,6 +33,8 @@
     ]
   },
   {
+    "id": 2,
+    "topico": "Justicia y reformas",
     "subtopico": "2. Mantener la Constitución de 1993 (con reformas parciales)",
     "phrase": "Se debe mantener el marco constitucional de 1993, realizando únicamente las reformas necesarias para modernizar el Estado",
     "matches": [
@@ -57,6 +61,8 @@
     ]
   },
   {
+    "id": 3,
+    "topico": "Justicia y reformas",
     "subtopico": "3. Salida del Pacto de San José (Corte IDH) y Aplicación de Pena de Muerte",
     "phrase": "El Perú se debe retirar de la competencia de la Corte IDH para poder aplicar la pena de muerte a criminales peligrosos",
     "matches": [
@@ -83,6 +89,8 @@
     ]
   },
   {
+    "id": 4,
+    "topico": "Justicia y reformas",
     "subtopico": "4. Reforma drástica o eliminación de la Junta Nacional de Justicia (JNJ)",
     "phrase": "Se debe reformar profundamente la JNJ para asegurar que la selección de jueces y fiscales sea técnica y no política",
     "matches": [
@@ -109,6 +117,8 @@
     ]
   },
   {
+    "id": 5,
+    "topico": "Justicia y reformas",
     "subtopico": "5. Retorno a la reelección inmediata de alcaldes y gobernadores",
     "phrase": "Se debe permitir que las autoridades locales y regionales puedan ser reelegidas para dar continuidad a sus proyectos",
     "matches": [
@@ -120,6 +130,8 @@
     ]
   },
   {
+    "id": 6,
+    "topico": "Justicia y reformas",
     "subtopico": "6. Renovación del Congreso por mitades o tercios",
     "phrase": "Se debe renovar el Congreso a mitad del mandato para que los ciudadanos premien o sancionen el desempeño legislativo",
     "matches": [
@@ -141,6 +153,8 @@
     ]
   },
   {
+    "id": 7,
+    "topico": "Justicia y reformas",
     "subtopico": "7. Voto Voluntario y Reinstauración de las PASO",
     "phrase": "Se debe eliminar la obligatoriedad del voto y/o asegurar que los candidatos sean elegidos por la ciudadanía en primarias abiertas",
     "matches": [
@@ -157,6 +171,8 @@
     ]
   },
   {
+    "id": 8,
+    "topico": "Justicia y reformas",
     "subtopico": "8. Eliminación de la Inmunidad Parlamentaria (Sin Antejuicio para delitos comunes)",
     "phrase": "Se debe eliminar totalmente la inmunidad parlamentaria para que los congresistas sean procesados como cualquier ciudadano",
     "matches": [
@@ -178,6 +194,8 @@
     ]
   },
   {
+    "id": 9,
+    "topico": "Justicia y reformas",
     "subtopico": "9. Muerte Civil para funcionarios corruptos (Inhabilitación Perpetua)",
     "phrase": "Se debe prohibir de por vida que cualquier persona condenada por corrupción vuelva a trabajar o contratar con el Estado",
     "matches": [
@@ -209,6 +227,8 @@
     ]
   },
   {
+    "id": 10,
+    "topico": "Justicia y reformas",
     "subtopico": "10. Imprescriptibilidad de los delitos de corrupción",
     "phrase": "Los delitos de corrupción no deben caducar, permitiendo procesar a los responsables sin importar el tiempo transcurrido",
     "matches": [
@@ -230,6 +250,8 @@
     ]
   },
   {
+    "id": 11,
+    "topico": "Justicia y reformas",
     "subtopico": "11. Fortalecimiento de la Contraloría (Capacidad Sancionadora Vinculante)",
     "phrase": "La Contraloría debe tener el poder de sancionar y destituir directamente a los funcionarios corruptos",
     "matches": [
@@ -256,6 +278,8 @@
     ]
   },
   {
+    "id": 12,
+    "topico": "Justicia y reformas",
     "subtopico": "12. Juicio por Jurados y Veedurías Ciudadanas",
     "phrase": "Los ciudadanos comunes deben participar en los juicios o vigilar directamente las obras y procesos judiciales",
     "matches": [
@@ -277,6 +301,8 @@
     ]
   },
   {
+    "id": 13,
+    "topico": "Justicia y reformas",
     "subtopico": "13. Elección popular de jueces y fiscales",
     "phrase": "Los jueces y fiscales deben ser elegidos por el voto de los ciudadanos para asegurar su rendición de cuentas ante el pueblo",
     "matches": [
@@ -298,6 +324,8 @@
     ]
   },
   {
+    "id": 14,
+    "topico": "Justicia y reformas",
     "subtopico": "14. Digitalización total del sistema judicial (Justicia Smart)",
     "phrase": "Se debe eliminar el uso de papel en los juicios y usar inteligencia artificial para acelerar las sentencias y evitar archivos injustos",
     "matches": [
@@ -329,6 +357,8 @@
     ]
   },
   {
+    "id": 15,
+    "topico": "Justicia y Reformas",
     "subtopico": "15. Privatización o Concesión de la Administración de Cárceles",
     "phrase": "Las empresas privadas deben construir y administrar las cárceles para reducir el hacinamiento y asegurar que los presos trabajen",
     "matches": [

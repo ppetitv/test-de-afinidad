@@ -1,5 +1,7 @@
 [
   {
+    "id": 1,
+    "topico": "Educación",
     "subtopico": "1. Sistema de Vouchers Educativos (Subsidio a la demanda)",
     "phrase": "El estado debe entregar un cheque o bono directamente a las familias para que elijan entre educación pública o privada",
     "matches": [
@@ -21,6 +23,8 @@
     ]
   },
   {
+    "id": 2,
+    "topico": "Educación",
     "subtopico": "2. Expansión de Colegios COAR o Escuelas Bicentenario",
     "phrase": "Masificar los Colegios de Alto Rendimiento (COAR) o el modelo de Escuelas Bicentenario para alumnos destacados",
     "matches": [
@@ -47,6 +51,8 @@
     ]
   },
   {
+    "id": 3,
+    "topico": "Educación",
     "subtopico": "3. Infraestructura Básica: Agua, Desagüe e Internet en 100% de Escuelas Rurales",
     "phrase": "Declarar en emergencia la infraestructura rural para garantizar servicios básicos y conectividad en todas las escuelas",
     "matches": [
@@ -83,6 +89,8 @@
     ]
   },
   {
+    "id": 4,
+    "topico": "Educación",
     "subtopico": "4. Jornada Escolar Completa (Aumento de horas lectivas)",
     "phrase": "Ampliar las horas de clase mediante la implementación de la Jornada Escolar Completa en todos los colegios secundarios",
     "matches": [
@@ -94,6 +102,8 @@
     ]
   },
   {
+    "id": 5,
+    "topico": "Educación",
     "subtopico": "5. Implementación del Enfoque de Género y Educación Sexual Integral (ESI)",
     "phrase": "El currículo escolar debe incluir obligatoriamente el enfoque de género y educación sexual integral científica",
     "matches": [
@@ -125,6 +135,8 @@
     ]
   },
   {
+    "id": 6,
+    "topico": "Educación",
     "subtopico": "6. Eliminación de la \"Ideología de Género\" / Pin Parental",
     "phrase": "Se debe eliminar el enfoque de género de los textos escolares y devolver a los padres el control sobre la educación sexual",
     "matches": [
@@ -146,6 +158,8 @@
     ]
   },
   {
+    "id": 7,
+    "topico": "Educación",
     "subtopico": "7. Curso Obligatorio de Constitución, Cívica o Historia del Terrorismo",
     "phrase": "Se debe reincorporar los cursos de educación cívica, valores patrióticos e historia del terrorismo en el currículo nacional",
     "matches": [
@@ -177,6 +191,8 @@
     ]
   },
   {
+    "id": 8,
+    "topico": "Educación",
     "subtopico": "8. Enseñanza Obligatoria de Inglés desde Educación Inicial",
     "phrase": "El idioma inglés debe ser obligatorio e intensivo desde el jardín de infancia en todas las escuelas públicas",
     "matches": [
@@ -203,6 +219,8 @@
     ]
   },
   {
+    "id": 9,
+    "topico": "Educación",
     "subtopico": "9. Ingreso Libre a Universidades Públicas",
     "phrase": "Se debe eliminar el examen de admisión y garantizar el ingreso libre de los jóvenes a las universidades del Estado",
     "matches": [
@@ -229,6 +247,8 @@
     ]
   },
   {
+    "id": 10,
+    "topico": "Educación",
     "subtopico": "10. Fortalecimiento de la SUNEDU (Fiscalización Estricta)",
     "phrase": "Se deben fortalecer las facultades de la SUNEDU para supervisar la calidad de todas las universidades y cerrar las que no cumplan",
     "matches": [
@@ -250,6 +270,8 @@
     ]
   },
   {
+    "id": 11,
+    "topico": "Educación",
     "subtopico": "11. Reforma de SUNEDU (Autonomía / Segunda Oportunidad)",
     "phrase": "Se debe reformar la SUNEDU para garantizar la autonomía de las universidades y dar una segunda oportunidad a instituciones observadas",
     "matches": [
@@ -266,6 +288,8 @@
     ]
   },
   {
+    "id": 12,
+    "topico": "Educación",
     "subtopico": "12. Creación Masiva de Institutos Tecnológicos (Educación Dual)",
     "phrase": "Priorizar la creación de institutos tecnológicos en provincias con un modelo de formación dual (estudio y trabajo)",
     "matches": [
@@ -297,6 +321,8 @@
     ]
   },
   {
+    "id": 13,
+    "topico": "Educación",
     "subtopico": "13. Aumento de Sueldo Base al Magisterio (Ej: 1 UIT)",
     "phrase": "Se debe elevar el sueldo base de los maestros para dignificar su labor",
     "matches": [
@@ -323,6 +349,8 @@
     ]
   },
   {
+    "id": 14,
+    "topico": "Educación",
     "subtopico": "14. Evaluación de Desempeño Docente Estricta (Meritocracia)",
     "phrase": "Los ascensos y la permanencia de los maestros deben depender estrictamente de evaluaciones de desempeño periódicas",
     "matches": [
@@ -349,6 +377,8 @@
     ]
   },
   {
+    "id": 15,
+    "topico": "Educación",
     "subtopico": "15. Educación Intercultural Bilingüe (EIB) e Inclusiva",
     "phrase": "Se debe garantizar que los niños indígenas estudien en su lengua materna y que se incluyan especialistas para niños con discapacidad",
     "matches": [

@@ -1,5 +1,7 @@
 [
   {
+    "id": 1,
+    "topico": "Transporte",
     "subtopico": "1. Aceleración de Líneas del Metro",
     "phrase": "Acelerar la construcción simultánea de las líneas del Metro de Lima y Callao (Líneas 2, 3 y 4) mediante mecanismos de Gobierno a Gobierno o inversión privada.",
     "matches": [
@@ -46,6 +48,8 @@
     ]
   },
   {
+    "id": 2,
+    "topico": "Transporte",
     "subtopico": "2. Implementación de Teleféricos Urbanos",
     "phrase": "Implementar teleféricos urbanos como solución de transporte en los cerros de Lima y en las capitales de provincia con geografía difícil.",
     "matches": [
@@ -77,6 +81,8 @@
     ]
   },
   {
+    "id": 3,
+    "topico": "Transporte",
     "subtopico": "3. Reforma y Fortalecimiento de la ATU",
     "phrase": "Reestructurar o fortalecer la Autoridad de Transporte Urbano (ATU) para que tenga autonomía real y capacidad de ordenar el transporte.",
     "matches": [
@@ -103,6 +109,8 @@
     ]
   },
   {
+    "id": 4,
+    "topico": "Transporte",
     "subtopico": "4. Sistema Integrado de Recaudo (Tarjeta Única)",
     "phrase": "Implementar una tarjeta única de pago para el metro, metropolitano y corredores, con transbordos gratuitos o subsidiados.",
     "matches": [
@@ -129,6 +137,8 @@
     ]
   },
   {
+    "id": 5,
+    "topico": "Transporte",
     "subtopico": "5. Formalización del Taxi Colectivo",
     "phrase": "Formalizar y regular el servicio de taxi colectivo para que opere bajo estándares de seguridad y en rutas complementarias.",
     "matches": [
@@ -150,6 +160,8 @@
     ]
   },
   {
+    "id": 6,
+    "topico": "Transporte",
     "subtopico": "6. Regulación Amigable para Mototaxis",
     "phrase": "Reconocer al mototaxi como transporte vecinal y otorgar un marco regulatorio que facilite su registro y seguridad.",
     "matches": [
@@ -171,6 +183,8 @@
     ]
   },
   {
+    "id": 7,
+    "topico": "Transporte",
     "subtopico": "7. Tren de la Costa (Tumbes a Tacna)",
     "phrase": "Construir un Tren de la Costa de alta velocidad que una Tumbes con Tacna.",
     "matches": [
@@ -202,6 +216,8 @@
     ]
   },
   {
+    "id": 8,
+    "topico": "Transporte",
     "subtopico": "8. Trenes de Cercanías y Tren Macho",
     "phrase": "Impulsar los trenes de cercanías (Lima-Ica / Lima-Barranca) y la modernización del Tren Macho.",
     "matches": [
@@ -233,6 +249,8 @@
     ]
   },
   {
+    "id": 9,
+    "topico": "Transporte",
     "subtopico": "9. Hub Portuario (Chancay y Corío)",
     "phrase": "Potenciar a Chancay y Corío como grandes hubs portuarios de Sudamérica, conectándolos con zonas económicas especiales.",
     "matches": [
@@ -259,6 +277,8 @@
     ]
   },
   {
+    "id": 10,
+    "topico": "Transporte",
     "subtopico": "10. Nueva Carretera Central",
     "phrase": "Ejecución inmediata de la Nueva Carretera Central de doble calzada con túneles y viaductos.",
     "matches": [
@@ -285,6 +305,8 @@
     ]
   },
   {
+    "id": 11,
+    "topico": "Transporte",
     "subtopico": "11. Asfaltado 100% de Vías Vecinales (Revolución del Asfalto)",
     "phrase": "Apoyo un plan masivo para asfaltar el 100% de los caminos rurales y vecinales del país",
     "matches": [
@@ -316,6 +338,8 @@
     ]
   },
   {
+    "id": 12,
+    "topico": "Transporte",
     "subtopico": "12. Autopistas de Doble Calzada (Panamericana)",
     "phrase": "Ampliar la Carretera Panamericana a doble calzada y cuatro carriles en toda su extensión (Norte y Sur)",
     "matches": [
@@ -342,6 +366,8 @@
     ]
   },
   {
+    "id": 13,
+    "topico": "Transporte",
     "subtopico": "13. Línea Aérea de Bandera Nacional",
     "phrase": "Crear una aerolínea estatal o de bandera nacional para mejorar la conectividad a precios competitivos y soberanía aérea",
     "matches": [
@@ -358,6 +384,8 @@
     ]
   },
   {
+    "id": 14,
+    "topico": "Transporte",
     "subtopico": "14. Electromovilidad Masiva (Buses Eléctricos)",
     "phrase": "Renovar el parque automotor del transporte público con buses eléctricos y promover estaciones de carga en todo el país",
     "matches": [
@@ -384,6 +412,8 @@
     ]
   },
   {
+    "id": 15,
+    "topico": "Transporte",
     "subtopico": "15. Promoción del Uso de la Bicicleta (Ciclovías)",
     "phrase": "Construir una red interconectada de ciclovías seguras en las ciudades y promover la bicicleta como medio de transporte principal",
     "matches": [

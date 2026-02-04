@@ -2,24 +2,23 @@ document.addEventListener('DOMContentLoaded', async () => {
     // --- DATOS DE LA APLICACIÓN ---
     let data = { candidates: [], proposals: [] };
 
-    // Configuración para Google Sheets API
-    const spreadsheetId = '1f1S5srBhGx8Gshl3lDe-oCNaNvEcjAkaBhcQ6ts_VQU';
-    const apiKey = 'AIzaSyBP5fnMp35bT2y7BMzO2XEVXFROXVrCjlQ'; // Reemplaza con tu clave API de Google Cloud Console
-    const candidatesURL = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/Candidatos!A:Z?key=${apiKey}`;
-    const proposalsURL = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/Afirmaciones!A:Z?key=${apiKey}`;
+    // Configuración para DATA
+    const cdnRpp = `https://s2.rpp-noticias.io/static/especial/comparapropuestas/`;
+    const candidatesURL = `https://pre.s.rpp-noticias.io/static/especial/comparapropuestas/data/datajne_v2.json`;
+    const proposalsURL = `data/proposals/cultura-y-turismo.json`;
 
-    // Función para parsear respuesta JSON de Google Sheets API
-    function parseSheetJSON(json) {
-        const values = json.values;
-        if (!values || values.length < 2) throw new Error('Datos insuficientes en la hoja');
-        const headers = values[0];
-        const rows = values.slice(1).map(row => {
-            const obj = {};
-            headers.forEach((h, i) => obj[h] = row[i] || '');
-            return obj;
-        });
-        return { headers, rows };
-    }
+    const formatFilename = (text) => {
+        return text
+            .toString()
+            .toUpperCase()
+            .normalize('NFD')                 // Separa los acentos de las letras (ej. ó -> o + ´)
+            .replace(/[\u0300-\u036f]/g, '')  // Elimina los acentos separados
+            .trim()                           // Elimina espacios al inicio y final
+    };
+
+    const findCandidate = (partyId) => {
+        return data.candidates.find(candidate => candidate.id === partyId);
+    };
 
     // Función para cargar datos desde Google Sheets
     async function loadData() {
@@ -27,35 +26,38 @@ document.addEventListener('DOMContentLoaded', async () => {
         const candidatesResponse = await fetch(candidatesURL);
         if (!candidatesResponse.ok) throw new Error('Error al cargar candidatos');
         const candidatesJSON = await candidatesResponse.json();
-        const candidatesParsed = parseSheetJSON(candidatesJSON);
-        data.candidates = candidatesParsed.rows.map(row => ({
-            id: parseInt(row.ID_Candidato),
-            name: row.Nombre_Completo,
-            party: row.Partido_Politico,
-            photo: row.URL_Foto
-        }));
+
+        for (const id in candidatesJSON.candidatos) {
+            data.candidates.push({
+                id: formatFilename(candidatesJSON.candidatos[id].party),
+                name: candidatesJSON.candidatos[id].name,
+                party: candidatesJSON.candidatos[id].party,
+                photo: cdnRpp + candidatesJSON.candidatos[id].imgUrl
+            });
+        }
 
         // Cargar propuestas
         const proposalsResponse = await fetch(proposalsURL);
         if (!proposalsResponse.ok) throw new Error('Error al cargar propuestas');
         const proposalsJSON = await proposalsResponse.json();
-        const proposalsParsed = parseSheetJSON(proposalsJSON);
-        data.proposals = proposalsParsed.rows.map(row => {
+
+        data.proposals = proposalsJSON.map(row => {
             const stances = {};
             const sources = {};
-            data.candidates.forEach(candidate => {
-                const stanceKey = `Candidato_${candidate.id}_Postura`;
-                stances[candidate.id] = row[stanceKey] || 'neutral';
-                sources[candidate.id] = {
-                    title: row[`Candidato_${candidate.id}_Fuente_Titulo`] || '',
-                    date: row[`Candidato_${candidate.id}_Fuente_Fecha`] || '',
-                    url: row[`Candidato_${candidate.id}_Fuente_URL`] || ''
-                };
+
+            row.matches.forEach(match => {
+                stances[match.partido] = 'agree';
+                sources[match.partido] = {
+                    title: match.sustento || '',
+                    date: '',
+                    url: findCandidate(match.partido)?.pdfUrl || ''
+                }
             });
+
             return {
-                id: row.ID_Afirmacion,
-                topic: row.Tema_Principal,
-                text: row.Texto_Propuesta,
+                id: row.id,
+                topic: row.topico,
+                text: row.phrase,
                 stances: stances,
                 sources: sources
             };
@@ -110,6 +112,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const onboardingOverlay = document.getElementById('onboarding');
     const progressBar = document.getElementById('progress-bar');
     const progressText = document.getElementById('progress-text');
+    const tematicOverlay = document.getElementById('choosing-tematic');
 
     // --- INICIALIZACIÓN ---
     async function init() {
@@ -387,7 +390,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
     
     function setupOnboarding() {
-        if (localStorage.getItem('onboardingComplete') === 'true') return;
+        if (localStorage.getItem('onboardingComplete') === 'true') {
+            tematicOverlay.classList.add('visible');
+            return;
+        }
+        tematicOverlay.classList.remove('visible');
         onboardingOverlay.classList.add('visible');
         
         const steps = document.querySelectorAll('.onboarding-step');
@@ -395,6 +402,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const endOnboarding = () => {
             onboardingOverlay.classList.remove('visible');
+            tematicOverlay.classList.add('visible');
             localStorage.setItem('onboardingComplete', 'true');
         };
 
@@ -417,6 +425,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 e.preventDefault();
                 const tematicId = btn.dataset.tematicId;
                 console.log('Tematica seleccionada:', tematicId);
+                tematicOverlay.classList.remove('visible');
             })
         })
     }

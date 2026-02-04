@@ -1,5 +1,7 @@
 [
   {
+    "id": 1,
+    "topico": "Tecnología",
     "subtopico": "1. Creación del Ministerio de Ciencia, Tecnología e Innovación (MCTI)",
     "phrase": "Crear un Ministerio dedicado exclusivamente a rectorar las políticas de ciencia y tecnología",
     "matches": [
@@ -31,6 +33,8 @@
     ]
   },
   {
+    "id": 2,
+    "topico": "Tecnología",
     "subtopico": "2. Aumento de la inversión en I+D+i (Meta del 1% al 3% del PBI)",
     "phrase": "Incrementar el presupuesto nacional en investigación y desarrollo para alcanzar niveles competitivos",
     "matches": [
@@ -72,6 +76,8 @@
     ]
   },
   {
+    "id": 3,
+    "topico": "Tecnología",
     "subtopico": "3. Repatriación de Talentos y Científicos (\"Brain Gain\")",
     "phrase": "Crear incentivos tributarios y laborales para que los científicos peruanos en el extranjero regresen al país",
     "matches": [
@@ -98,6 +104,8 @@
     ]
   },
   {
+    "id": 4,
+    "topico": "Tecnología",
     "subtopico": "4. Internet como Derecho Humano y Servicio Público Esencial",
     "phrase": "Declarar el acceso a internet como un derecho fundamental garantizado por el Estado",
     "matches": [
@@ -124,6 +132,8 @@
     ]
   },
   {
+    "id": 5,
+    "topico": "Tecnología",
     "subtopico": "5. Red Dorsal Nacional de Fibra Óptica (RDNFO) Operativa al 100%",
     "phrase": "Apoyo reactivar la Red Dorsal de Fibra Óptica (vía Estado o concesión) para llevar internet a todos los distritos",
     "matches": [
@@ -150,6 +160,8 @@
     ]
   },
   {
+    "id": 6,
+    "topico": "Tecnología",
     "subtopico": "6. Despliegue masivo de Tecnología 5G",
     "phrase": "Acelerar la licitación y el despliegue de redes 5G para mejorar la competitividad industrial",
     "matches": [
@@ -176,6 +188,8 @@
     ]
   },
   {
+    "id": 7,
+    "topico": "Tecnología",
     "subtopico": "7. Internet Satelital para Zonas Rurales y Fronteras",
     "phrase": "Usar tecnología satelital para conectar a las comunidades más aisladas de la selva y la sierra",
     "matches": [
@@ -202,6 +216,8 @@
     ]
   },
   {
+    "id": 8,
+    "topico": "Tecnología",
     "subtopico": "8. Ciudadanía Digital e Identidad Digital (DNI Electrónico)",
     "phrase": "Apoyo que el DNI electrónico permita realizar el 100% de los trámites estatales sin ir a las oficinas",
     "matches": [
@@ -228,6 +244,8 @@
     ]
   },
   {
+    "id": 9,
+    "topico": "Tecnología",
     "subtopico": "9. Cero Papel en el Estado (Digitalización de Expedientes)",
     "phrase": "Apoyo eliminar totalmente el uso de papel en las entidades públicas, digitalizando todos los archivos y trámites",
     "matches": [
@@ -259,6 +277,8 @@
     ]
   },
   {
+    "id": 10,
+    "topico": "Tecnología",
     "subtopico": "10. Voto Electrónico y Participación Digital",
     "phrase": "Implementar el voto electrónico para agilizar el conteo y facilitar la participación desde cualquier lugar",
     "matches": [
@@ -280,6 +300,8 @@
     ]
   },
   {
+    "id": 11,
+    "topico": "Tecnología",
     "subtopico": "11. Creación de una Agencia / Comando de Ciberseguridad",
     "phrase": "Crear una agencia especializada que proteja los datos críticos del país y combata el cibercrimen",
     "matches": [
@@ -306,6 +328,8 @@
     ]
   },
   {
+    "id": 12,
+    "topico": "Tecnología",
     "subtopico": "12. Ley de Fomento al Ecosistema Startup e Innovación",
     "phrase": "Apoyo brindar incentivos tributarios y capital semilla para impulsar las startups tecnológicas",
     "matches": [
@@ -332,6 +356,8 @@
     ]
   },
   {
+    "id": 13,
+    "topico": "Tecnología",
     "subtopico": "13. Regulación y uso de Blockchain y Criptoactivos",
     "phrase": "Estoy a favor de usar la tecnología Blockchain para evitar la manipulación de datos en contratos y licitaciones del Estado",
     "matches": [
@@ -363,6 +389,8 @@
     ]
   },
   {
+    "id": 14,
+    "topico": "Tecnología",
     "subtopico": "14. Estrategia Nacional de Inteligencia Artificial (IA)",
     "phrase": "Apoyo el uso de Inteligencia Artificial para modernizar la salud, combatir el crimen y agilizar la justicia",
     "matches": [
@@ -389,6 +417,8 @@
     ]
   },
   {
+    "id": 15,
+    "topico": "Tecnología",
     "subtopico": "15. Parques Científicos y Tecnológicos (Hubs Regionales)",
     "phrase": "Apoyo la creación de parques tecnológicos en las regiones para conectar a las universidades con las empresas",
     "matches": [

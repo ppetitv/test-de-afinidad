@@ -1,5 +1,7 @@
 [
   {
+    "id": 1,
+    "topico": "Cultura y turismo",
     "subtopico": "1. Mega-infraestructura y Conectividad Multimodal",
     "phrase": "Se debe invertir masivamente en trenes de cercanías, aeropuertos regionales de talla internacional y corredores logísticos para conectar los destinos turísticos del país.",
     "matches": [
@@ -56,6 +58,8 @@
     ]
   },
   {
+    "id": 2,
+    "topico": "Cultura y turismo",
     "subtopico": "2. Descentralización y Reforma Institucional de la Cultura",
     "phrase": "Se debe reestructurar el Ministerio de Cultura, ser menos burocrático o trasladar su sede principal fuera de Lima para estar más cerca del patrimonio.",
     "matches": [
@@ -92,6 +96,8 @@
     ]
   },
   {
+    "id": 3,
+    "topico": "Cultura y turismo",
     "subtopico": "3. Industrias Creativas y Economía Naranja",
     "phrase": "Se debe impulsar a los artistas y creativos peruanos mediante fondos concursables, protección social y la exportación de sus servicios al mundo.",
     "matches": [
@@ -128,6 +134,8 @@
     ]
   },
   {
+    "id": 4,
+    "topico": "Cultura y turismo",
     "subtopico": "4. Interculturalidad y Estado Plurinacional",
     "phrase": "Apoyo un estado que reconozca constitucionalmente al Perú como plurinacional, valorando las lenguas originarias y los saberes ancestrales en la gestión pública.",
     "matches": [
@@ -164,6 +172,8 @@
     ]
   },
   {
+    "id": 5,
+    "topico": "Cultura y turismo",
     "subtopico": "5. Puesta en Valor de Huacas y Patrimonio Arqueológico",
     "phrase": "Apoyo la inversión (pública o privada) para recuperar sitios arqueológicos y museos, integrándolos a la vida urbana y al turismo sostenible.",
     "matches": [
@@ -195,6 +205,8 @@
     ]
   },
   {
+    "id": 6,
+    "topico": "Cultura y turismo",
     "subtopico": "6. Turismo Social e Inclusivo",
     "phrase": "El Estado debe facilitar que niños, jóvenes y adultos mayores tengan acceso a viajes y recreación mediante descuentos y subsidios.",
     "matches": [
@@ -221,6 +233,8 @@
     ]
   },
   {
+    "id": 7,
+    "topico": "Cultura y turismo",
     "subtopico": "7. Gastronomía como Motor de Desarrollo",
     "phrase": "Potenciar la gastronomía no solo como marca, sino integrando a los agricultores locales con rutas culinarias certificadas.",
     "matches": [
@@ -252,6 +266,8 @@
     ]
   },
   {
+    "id": 8,
+    "topico": "Cultura y turismo",
     "subtopico": "8. Turismo Rural y Comunitario (TRC)",
     "phrase": "Las comunidades nativas y campesinas deben ser las dueñas y gestoras de los proyectos turísticos en sus territorios.",
     "matches": [
@@ -283,6 +299,8 @@
     ]
   },
   {
+    "id": 9,
+    "topico": "Cultura y turismo",
     "subtopico": "9. Digitalización de la Memoria y Museos Virtuales",
     "phrase": "Usar la tecnología para digitalizar todo nuestro patrimonio documental y arqueológico, permitiendo el acceso virtual desde cualquier lugar.",
     "matches": [
@@ -309,6 +327,8 @@
     ]
   },
   {
+    "id": 10,
+    "topico": "Cultura y turismo",
     "subtopico": "10. Desconcentración del Turismo (Más allá del Cusco)",
     "phrase": "El Estado debe promocionar activamente nuevas rutas en la Amazonía y el Norte para evitar el colapso de Machu Picchu y diversificar los ingresos.",
     "matches": [
@@ -340,6 +360,8 @@
     ]
   },
   {
+    "id": 11,
+    "topico": "Cultura y turismo",
     "subtopico": "11. Educación Técnica en Turismo y Patrimonio",
     "phrase": "La educación secundaria y técnica debe incluir módulos obligatorios de turismo, artesanía y gestión cultural para generar empleo juvenil inmediato.",
     "matches": [
@@ -371,6 +393,8 @@
     ]
   },
   {
+    "id": 12,
+    "topico": "Cultura y turismo",
     "subtopico": "12. Fomento a la Lectura y Bibliotecas Públicas",
     "phrase": "Apoyo la creación de bibliotecas modernas y gratuitas en parques y plazas de todos los distritos para democratizar el acceso al libro.",
     "matches": [
@@ -402,6 +426,8 @@
     ]
   },
   {
+    "id": 13,
+    "topico": "Cultura y turismo",
     "subtopico": "13. Vínculo Cultural con la Diáspora (PEX)",
     "phrase": "El Estado debe proteger y promover la identidad peruana entre los compatriotas que viven en el extranjero, incluyéndolos en la gestión cultural.",
     "matches": [
@@ -423,6 +449,8 @@
     ]
   },
   {
+    "id": 14,
+    "topico": "Cultura y turismo",
     "subtopico": "14. Seguridad Turística y Policía Especializada",
     "phrase": "Necesitamos garantizar corredores seguros con una policía turística especializada y tecnología de vigilancia.",
     "matches": [
@@ -444,6 +472,8 @@
     ]
   },
   {
+    "id": 15,
+    "topico": "Cultura y turismo",
     "subtopico": "15. Grandes Eventos y Proyección Mundial",
     "phrase": "Apoyo que el Perú sea sede de grandes eventos internacionales (MICE) y juegos deportivos mundiales para dinamizar la economía local.",
     "matches": [

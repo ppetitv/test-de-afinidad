@@ -1,5 +1,7 @@
 [
   {
+    "id": 1,
+    "topico": "Salud",
     "subtopico": "1. Unificación del Sistema de Salud",
     "phrase": "Apoyo la integración del MINSA, EsSalud y las Sanidades de las Fuerzas Armadas y Policiales en un sistema único de salud",
     "matches": [
@@ -56,6 +58,8 @@
     ]
   },
   {
+    "id": 2,
+    "topico": "Salud",
     "subtopico": "2. Fortalecimiento del Primer Nivel de Atención",
     "phrase": "Se debe priorizar la inversión en postas médicas y centros de salud sobre los grandes hospitales",
     "matches": [
@@ -102,6 +106,8 @@
     ]
   },
   {
+    "id": 3,
+    "topico": "Salud",
     "subtopico": "3. Historia Clínica Electrónica Única y Nacional",
     "phrase": "Se debe crear una ficha médica digital compartida por todos los hospitales del país",
     "matches": [
@@ -148,6 +154,8 @@
     ]
   },
   {
+    "id": 4,
+    "topico": "Salud",
     "subtopico": "4. Gestión Privada o Mixta de Hospitales (APPs)",
     "phrase": "Estoy a favor de que empresas privadas gestionen servicios en los hospitales públicos",
     "matches": [
@@ -184,6 +192,8 @@
     ]
   },
   {
+    "id": 5,
+    "topico": "Salud",
     "subtopico": "5. Control de Precios y Lucha contra Monopolios Farmacéuticos",
     "phrase": "El Estado debe regular el precio de las medicinas o sancionar a las cadenas de farmacias que acaparan el mercado",
     "matches": [
@@ -220,6 +230,8 @@
     ]
   },
   {
+    "id": 6,
+    "topico": "Salud",
     "subtopico": "6. Farmacias Estatales / Boticas Populares",
     "phrase": "El Estado debe vender directamente medicamentos baratos al público a través de boticas municipales o estatales",
     "matches": [
@@ -246,6 +258,8 @@
     ]
   },
   {
+    "id": 7,
+    "topico": "Salud",
     "subtopico": "7. Distribución de Medicamentos a Domicilio",
     "phrase": "El Estado debe llevar las medicinas a casa de los pacientes crónicos y adultos mayores",
     "matches": [
@@ -267,6 +281,8 @@
     ]
   },
   {
+    "id": 8,
+    "topico": "Salud",
     "subtopico": "8. Industrialización Nacional de Medicamentos",
     "phrase": "El Perú debe fabricar sus propias medicinas y vacunas a través de laboratorios estatales",
     "matches": [
@@ -288,6 +304,8 @@
     ]
   },
   {
+    "id": 9,
+    "topico": "Salud",
     "subtopico": "9. Estabilidad Laboral y Meritocracia (CAS/Terceros)",
     "phrase": "Se deben eliminar los contratos temporales (CAS) y dar estabilidad a los médicos y enfermeras mediante concursos de mérito",
     "matches": [
@@ -324,6 +342,8 @@
     ]
   },
   {
+    "id": 10,
+    "topico": "Salud",
     "subtopico": "10. Aumento Salarial e Incentivos en Zonas Alejadas",
     "phrase": "Se deben pagar sueldos más altos y bonos a los médicos que acepten trabajar en provincias y zonas rurales",
     "matches": [
@@ -350,6 +370,8 @@
     ]
   },
   {
+    "id": 11,
+    "topico": "Salud",
     "subtopico": "11. Creación de Médicos de Familia (Atención Primaria)",
     "phrase": "Estoy a favor de implementar un sistema de médicos de familia en cada barrio para descongestionar los grandes hospitales",
     "matches": [
@@ -381,6 +403,8 @@
     ]
   },
   {
+    "id": 12,
+    "topico": "Salud",
     "subtopico": "12. Incorporación de Agentes Comunitarios de Salud",
     "phrase": "Reconocer legalmente y dar un sueldo a los promotores de salud de las comunidades",
     "matches": [
@@ -407,6 +431,8 @@
     ]
   },
   {
+    "id": 13,
+    "topico": "Salud",
     "subtopico": "13. Plan de Salud Mental Comunitario",
     "phrase": "Poner psicólogos en todos los colegios y postas para atender la salud mental desde la comunidad",
     "matches": [
@@ -438,6 +464,8 @@
     ]
   },
   {
+    "id": 14,
+    "topico": "Salud",
     "subtopico": "14. Lucha Frontal contra la Anemia y Desnutrición (Meta Cero)",
     "phrase": "Estoy a favor de implementar un sistema de seguimiento domiciliario para asegurar que ningún niño sufra de anemia",
     "matches": [
@@ -474,6 +502,8 @@
     ]
   },
   {
+    "id": 15,
+    "topico": "Salud",
     "subtopico": "15. Telemedicina masiva para zonas rurales",
     "phrase": "Apoyo el uso masivo de la telemedicina para llevar especialistas a las zonas más alejadas del país",
     "matches": [

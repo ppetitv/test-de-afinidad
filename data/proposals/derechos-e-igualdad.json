@@ -1,5 +1,7 @@
 [
   {
+    "id": 1,
+    "topico": "Derechos e igualdad",
     "subtopico": "1. Aprobar el Matrimonio Igualitario o Unión Civil",
     "phrase": "Legalizar el matrimonio o la unión civil para parejas del mismo sexo",
     "matches": [
@@ -26,6 +28,8 @@
     ]
   },
   {
+    "id": 2,
+    "topico": "Derechos e igualdad",
     "subtopico": "2. Despenalizar el aborto (causales o violación)",
     "phrase": "Estoy a favor de que las mujeres accedan al aborto legal en casos de violación o salud",
     "matches": [
@@ -42,6 +46,8 @@
     ]
   },
   {
+    "id": 3,
+    "topico": "Derechos e igualdad",
     "subtopico": "3. Ley de Identidad de Género",
     "phrase": "Estoy a favor de aprobar una Ley de Identidad de Género que permita el cambio de datos en documentos oficiales",
     "matches": [
@@ -58,6 +64,8 @@
     ]
   },
   {
+    "id": 4,
+    "topico": "Derechos e igualdad",
     "subtopico": "4. Eutanasia o Muerte Digna",
     "phrase": "Estoy a favor de reconocer el derecho a una muerte digna en casos de enfermedades terminales",
     "matches": [
@@ -74,6 +82,8 @@
     ]
   },
   {
+    "id": 5,
+    "topico": "Derechos e igualdad",
     "subtopico": "5. Enfoque de Género Transversal en el Estado",
     "phrase": "Estoy a favor de que el enfoque de género se aplique en todas las políticas y presupuestos públicos",
     "matches": [
@@ -95,6 +105,8 @@
     ]
   },
   {
+    "id": 6,
+    "topico": "Derechos e igualdad",
     "subtopico": "6. Defender la vida desde la concepción",
     "phrase": "Se debe proteger el derecho a la vida de manera absoluta desde el momento de la concepción",
     "matches": [
@@ -116,6 +128,8 @@
     ]
   },
   {
+    "id": 7,
+    "topico": "Derechos e igualdad",
     "subtopico": "7. Prohibir la \"Ideología de Género\" en Escuelas",
     "phrase": "Se deben eliminar contenidos de ideología de género en el currículo escolar",
     "matches": [
@@ -132,6 +146,8 @@
     ]
   },
   {
+    "id": 8,
+    "topico": "Derechos e igualdad",
     "subtopico": "8. Creación de un Ministerio de la Familia (o Fortalecimiento)",
     "phrase": "Se debe priorizar a la familia como núcleo central de las políticas sociales",
     "matches": [
@@ -153,6 +169,8 @@
     ]
   },
   {
+    "id": 9,
+    "topico": "Derechos e igualdad",
     "subtopico": "9. Libertad Religiosa y de Culto como Eje de Gobierno",
     "phrase": "El Estado debe garantizar y respetar activamente la libertad religiosa de los ciudadanos",
     "matches": [
@@ -169,6 +187,8 @@
     ]
   },
   {
+    "id": 10,
+    "topico": "Derechos e igualdad",
     "subtopico": "10. Sistema Nacional de Cuidados (Guarderías y Cuidado de Ancianos)",
     "phrase": "Se debe crear un sistema estatal que asuma el cuidado de niños y personas dependientes",
     "matches": [
@@ -195,6 +215,8 @@
     ]
   },
   {
+    "id": 11,
+    "topico": "Derechos e igualdad",
     "subtopico": "11. Cuotas Laborales para Personas con Discapacidad",
     "phrase": "Se deben exigir cuotas de empleo obligatorias para personas con discapacidad en el sector público y privado",
     "matches": [
@@ -216,6 +238,8 @@
     ]
   },
   {
+    "id": 12,
+    "topico": "Derechos e igualdad",
     "subtopico": "12. Pensión o Programas para la Mujer Rural",
     "phrase": "Se deben crear programas específicos de apoyo económico para mujeres agricultoras y rurales",
     "matches": [
@@ -232,6 +256,8 @@
     ]
   },
   {
+    "id": 13,
+    "topico": "Derechos e igualdad",
     "subtopico": "13. Lucha contra la Anemia y Desnutrición Infantil",
     "phrase": "El Estado debe priorizar la eliminación de la anemia y desnutrición infantil como meta nacional absoluta",
     "matches": [
@@ -263,6 +289,8 @@
     ]
   },
   {
+    "id": 14,
+    "topico": "Derechos e igualdad",
     "subtopico": "14. Erradicación de la Violencia de Género (Feminicidios)",
     "phrase": "Se debe declarar en emergencia la lucha contra la violencia hacia la mujer con medidas más drásticas",
     "matches": [
@@ -284,6 +312,8 @@
     ]
   },
   {
+    "id": 15,
+    "topico": "Derechos e igualdad",
     "subtopico": "15. Juventudes: Becas y Primer Empleo",
     "phrase": "El Estado debe garantizar el acceso de los jóvenes al mercado laboral y a la educación superior mediante becas y subsidios...",
     "matches": [

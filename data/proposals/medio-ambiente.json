@@ -1,5 +1,7 @@
 [
   {
+    "id": 1,
+    "topico": "Medio ambiente",
     "subtopico": "1. Promoción de la inversión minera y petrolera (Destrabe de proyectos)",
     "phrase": "Estoy a favor de agilizar la ejecución de los grandes proyectos mineros para impulsar la economía",
     "matches": [
@@ -31,6 +33,8 @@
     ]
   },
   {
+    "id": 2,
+    "topico": "Medio ambiente",
     "subtopico": "2. Renegociación de contratos y mayor carga fiscal (Canon directo)",
     "phrase": "Estoy a favor de renegociar contratos de ley y asegurar que la renta de recursos naturales beneficie directamente al pueblo",
     "matches": [
@@ -62,6 +66,8 @@
     ]
   },
   {
+    "id": 3,
+    "topico": "Medio ambiente",
     "subtopico": "3. Formalización de la minería artesanal e informal",
     "phrase": "Estoy a favor de la formalización real del pequeño minero con apoyo técnico y financiero del Estado",
     "matches": [
@@ -93,6 +99,8 @@
     ]
   },
   {
+    "id": 4,
+    "topico": "Medio ambiente",
     "subtopico": "4. Masificación del Gas Natural a nivel nacional",
     "phrase": "Masificar el gas natural mediante ductos y redes regionales en todo el país",
     "matches": [
@@ -119,6 +127,8 @@
     ]
   },
   {
+    "id": 5,
+    "topico": "Medio ambiente",
     "subtopico": "5. Programa masivo de \"Siembra y Cosecha de Agua\" (Qochas)",
     "phrase": "Construir qochas y reservorios en zonas altoandinas para garantizar agua todo el año",
     "matches": [
@@ -150,6 +160,8 @@
     ]
   },
   {
+    "id": 6,
+    "topico": "Medio ambiente",
     "subtopico": "6. Construcción de grandes represas y proyectos de irrigación",
     "phrase": "Ejecutar grandes proyectos hidráulicos como Chavimochic, Majes Siguas y Chinecas",
     "matches": [
@@ -181,6 +193,8 @@
     ]
   },
   {
+    "id": 7,
+    "topico": "Medio ambiente",
     "subtopico": "7. Protección de cabeceras de cuenca (Prohibición de minería)",
     "phrase": "Declarar intangibles las cabeceras de cuenca y prohibir actividades extractivas en ellas",
     "matches": [
@@ -212,6 +226,8 @@
     ]
   },
   {
+    "id": 8,
+    "topico": "Medio ambiente",
     "subtopico": "8. Tratamiento del 100% de aguas residuales (PTAR)",
     "phrase": "Construir plantas de tratamiento para evitar que los desagües contaminen nuestros ríos y lagos...",
     "matches": [
@@ -238,6 +254,8 @@
     ]
   },
   {
+    "id": 9,
+    "topico": "Medio ambiente",
     "subtopico": "9. Transición a Energías Renovables (Matriz solar/eólica)",
     "phrase": "Cambiar la matriz energética hacia fuentes limpias como el sol y el viento",
     "matches": [
@@ -269,6 +287,8 @@
     ]
   },
   {
+    "id": 10,
+    "topico": "Medio ambiente",
     "subtopico": "10. Lucha contra la Tala Ilegal y Deforestación",
     "phrase": "Usar tecnología (drones y satélites) para erradicar la tala ilegal en la Amazonía",
     "matches": [
@@ -300,6 +320,8 @@
     ]
   },
   {
+    "id": 11,
+    "topico": "Medio ambiente",
     "subtopico": "11. Electromobilidad y Transporte Público Limpio",
     "phrase": "Incentivar el uso de vehículos eléctricos para reducir la contaminación en las ciudades",
     "matches": [
@@ -326,6 +348,8 @@
     ]
   },
   {
+    "id": 12,
+    "topico": "Medio ambiente",
     "subtopico": "12. Economía Circular e Industrialización de la Basura",
     "phrase": "Los residuos se deben transformar en recursos mediante plantas de reciclaje industrial",
     "matches": [
@@ -352,6 +376,8 @@
     ]
   },
   {
+    "id": 13,
+    "topico": "Medio ambiente",
     "subtopico": "13. Ley de Protección y Bienestar Animal",
     "phrase": "Se debe crear hospitales veterinarios públicos y sancionar con cárcel el maltrato animal",
     "matches": [
@@ -378,6 +404,8 @@
     ]
   },
   {
+    "id": 14,
+    "topico": "Medio ambiente",
     "subtopico": "14. Nuevas Áreas Naturales Protegidas y Zonificación Ecológica",
     "phrase": "Se deben ampliar las áreas protegidas y hacer que la zonificación ecológica sea obligatoria",
     "matches": [
@@ -409,6 +437,8 @@
     ]
   },
   {
+    "id": 15,
+    "topico": "Medio ambiente",
     "subtopico": "15. Consulta Previa vinculante para proyectos extractivos",
     "phrase": "Las comunidades deben tener el poder de veto definitivo sobre los proyectos mineros en sus territorios",
     "matches": [

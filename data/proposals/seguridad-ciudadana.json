@@ -1,5 +1,7 @@
 [
   {
+    "id": 1,
+    "topico": "Seguridad ciudadana",
     "subtopico": "1. Pena de Muerte para delitos de extrema gravedad",
     "phrase": "Estoy a favor de aplicar la pena de muerte para violadores de menores, sicarios y terroristas",
     "matches": [
@@ -31,6 +33,8 @@
     ]
   },
   {
+    "id": 2,
+    "topico": "Seguridad ciudadana",
     "subtopico": "2. Salida del Pacto de San José (Corte IDH)",
     "phrase": "Apoyo la salida del Perú del Pacto de San José para recuperar nuestra soberanía jurídica y endurecer las penas",
     "matches": [
@@ -62,6 +66,8 @@
     ]
   },
   {
+    "id": 3,
+    "topico": "Seguridad ciudadana",
     "subtopico": "3. Militarización de la Seguridad Ciudadana (Apoyo de las FF.AA.)",
     "phrase": "Las Fuerzas Armadas deben patrullar las calles y apoyar a la policía en zonas críticas",
     "matches": [
@@ -98,6 +104,8 @@
     ]
   },
   {
+    "id": 4,
+    "topico": "Seguridad ciudadana",
     "subtopico": "4. Ley de Protección Legal Policial (\"Amparo al Policía\")",
     "phrase": "Apoyo blindar legalmente al policía que use su arma de reglamento en cumplimiento de su deber",
     "matches": [
@@ -129,6 +137,8 @@
     ]
   },
   {
+    "id": 5,
+    "topico": "Seguridad ciudadana",
     "subtopico": "5. Construcción de Mega-Cárceles de Máxima Seguridad",
     "phrase": "Construir mega-penales en zonas remotas o de altura para aislar a líderes criminales",
     "matches": [
@@ -170,6 +180,8 @@
     ]
   },
   {
+    "id": 6,
+    "topico": "Seguridad ciudadana",
     "subtopico": "6. Trabajo Obligatorio para Presos (Cárceles Productivas)",
     "phrase": "Los presos deben trabajar obligatoriamente para pagar su propia manutención",
     "matches": [
@@ -206,6 +218,8 @@
     ]
   },
   {
+    "id": 7,
+    "topico": "Seguridad ciudadana",
     "subtopico": "7. Privatización o Concesión de la Gestión de Penales",
     "phrase": "El sector privado debe participar en la construcción y gestión de los servicios de las cárceles",
     "matches": [
@@ -242,6 +256,8 @@
     ]
   },
   {
+    "id": 8,
+    "topico": "Seguridad ciudadana",
     "subtopico": "8. Bloqueo Total de Señal Celular en Penales",
     "phrase": "Apoyo el bloqueo tecnológico total de las señales de comunicación en todos los penales del país",
     "matches": [
@@ -278,6 +294,8 @@
     ]
   },
   {
+    "id": 9,
+    "topico": "Seguridad ciudadana",
     "subtopico": "9. Reforma y Depuración de la Policía Nacional",
     "phrase": "Apoyo una reorganización total de la Policía para expulsar a los efectivos corruptos",
     "matches": [
@@ -314,6 +332,8 @@
     ]
   },
   {
+    "id": 10,
+    "topico": "Seguridad ciudadana",
     "subtopico": "10. Uso masivo de Tecnología (IA, Reconocimiento Facial, Drones)",
     "phrase": "Apoyo el uso intensivo de Inteligencia Artificial y reconocimiento facial para prevenir el delito",
     "matches": [
@@ -355,6 +375,8 @@
     ]
   },
   {
+    "id": 11,
+    "topico": "Seguridad ciudadana",
     "subtopico": "11. Fortalecimiento de Inteligencia (GEIN / DINI / Unidades de Élite)",
     "phrase": "Crear unidades de élite de inteligencia (tipo GEIN) para descabezar mafias",
     "matches": [
@@ -391,6 +413,8 @@
     ]
   },
   {
+    "id": 12,
+    "topico": "Seguridad ciudadana",
     "subtopico": "12. Mejora Salarial y Logística para la PNP",
     "phrase": "Estoy a favor de aumentar el sueldo a los policías y renovar todo su equipamiento logístico",
     "matches": [
@@ -422,6 +446,8 @@
     ]
   },
   {
+    "id": 13,
+    "topico": "Seguridad ciudadana",
     "subtopico": "13. Expulsión Inmediata de Extranjeros Delincuentes",
     "phrase": "Apoyo la expulsión inmediata de cualquier extranjero que cometa un delito en el país",
     "matches": [
@@ -453,6 +479,8 @@
     ]
   },
   {
+    "id": 14,
+    "topico": "Seguridad ciudadana",
     "subtopico": "14. Militarización de Fronteras contra el Ingreso Ilegal",
     "phrase": "Apoyo que las Fuerzas Armadas vigilen las fronteras para impedir el ingreso ilegal de extranjeros",
     "matches": [
@@ -484,6 +512,8 @@
     ]
   },
   {
+    "id": 15,
+    "topico": "Seguridad ciudadana",
     "subtopico": "15. Programas de Prevención Social (\"Barrio Seguro\" y Jóvenes)",
     "phrase": "Apoyo la inversión en deporte, empleo y cultura para alejar a los jóvenes de la delincuencia",
     "matches": [

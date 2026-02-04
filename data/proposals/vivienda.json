@@ -1,5 +1,7 @@
 [
   {
+    "id": 1,
+    "topico": "Vivienda",
     "subtopico": "1. Fortalecimiento masivo de Techo Propio / Mivivienda",
     "phrase": "Ampliar los subsidios estatales (Bonos) para que más familias accedan a una vivienda digna a través de Techo Propio o Mivivienda",
     "matches": [
@@ -36,6 +38,8 @@
     ]
   },
   {
+    "id": 2,
+    "topico": "Vivienda",
     "subtopico": "2. Vivienda para Jóvenes (Alquiler-Venta o Renta Joven)",
     "phrase": "Crear programas específicos de alquiler-venta o subsidios de renta dirigidos exclusivamente a jóvenes que buscan su independencia",
     "matches": [
@@ -62,6 +66,8 @@
     ]
   },
   {
+    "id": 3,
+    "topico": "Vivienda",
     "subtopico": "3. Construcción directa por el Estado (Reactivación de núcleos o empresas estatales)",
     "phrase": "Apoyo que el Estado construya directamente viviendas sociales en lugar de solo dar subsidios a privados",
     "matches": [
@@ -88,6 +94,8 @@
     ]
   },
   {
+    "id": 4,
+    "topico": "Vivienda",
     "subtopico": "4. Vivienda Rural / Bioclimática (Casitas Calientes / Confort Térmico)",
     "phrase": "Priorizar la construcción de viviendas rurales bioclimáticas que protejan a las familias de las heladas y el friaje extremo",
     "matches": [
@@ -124,6 +132,8 @@
     ]
   },
   {
+    "id": 5,
+    "topico": "Vivienda",
     "subtopico": "5. Titulación Masiva Express (Fortalecimiento de COFOPRI)",
     "phrase": "Apoyo un programa masivo de titulación digital y gratuita para entregar títulos de propiedad en tiempo récord",
     "matches": [
@@ -160,6 +170,8 @@
     ]
   },
   {
+    "id": 6,
+    "topico": "Vivienda",
     "subtopico": "6. Formalización de Asentamientos Humanos (Saneamiento físico-legal urbano)",
     "phrase": "Reconocer y formalizar las posesiones informales en barrios populares para integrarlos a la ciudad con servicios básicos",
     "matches": [
@@ -186,6 +198,8 @@
     ]
   },
   {
+    "id": 7,
+    "topico": "Vivienda",
     "subtopico": "7. Saneamiento de predios rurales y comunidades campesinas",
     "phrase": "Acelerar el saneamiento físico-legal y la titulación de tierras para comunidades nativas y campesinas para darles seguridad jurídica",
     "matches": [
@@ -212,6 +226,8 @@
     ]
   },
   {
+    "id": 8,
+    "topico": "Vivienda",
     "subtopico": "8. Tasas de interés preferenciales y garantías estatales",
     "phrase": "Que el Estado garantice tasas de interés muy bajas (entre 2% y 4%) para créditos hipotecarios de vivienda social",
     "matches": [
@@ -243,6 +259,8 @@
     ]
   },
   {
+    "id": 9,
+    "topico": "Vivienda",
     "subtopico": "9. Bono Verde / Subsidio para viviendas eco-amigables",
     "phrase": "Otorgar subsidios adicionales o mejores tasas a quienes construyan o compren viviendas con criterios eco-amigables (paneles solares, ahorro de agua)",
     "matches": [
@@ -269,6 +287,8 @@
     ]
   },
   {
+    "id": 10,
+    "topico": "Vivienda",
     "subtopico": "10. Uso del Canon para financiar vivienda social en regiones",
     "phrase": "Una parte del canon minero o petrolero se use directamente para construir viviendas sociales en las regiones donde se extrae el recurso",
     "matches": [
@@ -295,6 +315,8 @@
     ]
   },
   {
+    "id": 11,
+    "topico": "Vivienda",
     "subtopico": "11. Creación de un Banco de Suelos Público",
     "phrase": "Apoyo destinar los terrenos del Estado sin uso a un Banco de Suelos para vivienda socia",
     "matches": [
@@ -321,6 +343,8 @@
     ]
   },
   {
+    "id": 12,
+    "topico": "Vivienda",
     "subtopico": "12. Densificación Urbana (Incentivos para edificios multifamiliares)",
     "phrase": "Apoyo el crecimiento vertical de la ciudad ('hacia arriba') para frenar la expansión desordenada hacia los cerros",
     "matches": [
@@ -347,6 +371,8 @@
     ]
   },
   {
+    "id": 13,
+    "topico": "Vivienda",
     "subtopico": "13. Lucha frontal contra el Tráfico de Terrenos",
     "phrase": "Crear unidades policiales especializadas para combatir las mafias de tráfico de terrenos y endurecer las penas",
     "matches": [
@@ -373,6 +399,8 @@
     ]
   },
   {
+    "id": 14,
+    "topico": "Vivienda",
     "subtopico": "14. Reubicación de familias en zonas de riesgo no mitigable",
     "phrase": "Apoyo la reubicación obligatoria de las familias que viven en zonas de alto riesgo hacia viviendas seguras",
     "matches": [
@@ -409,6 +437,8 @@
     ]
   },
   {
+    "id": 15,
+    "topico": "Vivienda",
     "subtopico": "15. Bono de Reforzamiento Estructural",
     "phrase": "Apoyo la creación de un Bono de Reforzamiento Antisísmico para asegurar las viviendas vulnerables",
     "matches": [
