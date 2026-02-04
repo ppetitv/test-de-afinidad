@@ -635,42 +635,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         setupSidebar();
         closeSourcesSidebarBtn.addEventListener('click', closeSourcesSidebar);
         sourcesSidebarOverlay.addEventListener('click', closeSourcesSidebar);
-
-        // Encuesta de Satisfacción
-        const satisfactionForm = document.getElementById('satisfaction-form');
-        if (satisfactionForm) {
-            satisfactionForm.addEventListener('submit', handleSatisfactionSubmit);
-        }
-    }
-
-    // --- MANEJO DE ENCUESTA DE SATISFACCIÓN ---
-    function handleSatisfactionSubmit(e) {
-        e.preventDefault();
-        const formData = new FormData(e.target);
-        const rating = formData.get('rating');
-        const comments = formData.get('comments') || '';
-
-        // Enviar evento a GA4
-        if (typeof gtag !== 'undefined') {
-            gtag('event', 'satisfaction_submitted', {
-                'event_category': 'engagement',
-                'event_label': 'match_electoral_satisfaction',
-                'value': parseInt(rating),
-                'custom_parameter_1': comments.substring(0, 100) // Limitar comentarios para privacidad
-            });
-        }
-
-        // Mostrar mensaje de agradecimiento
-        const surveySection = document.getElementById('satisfaction-survey');
-        surveySection.innerHTML = `
-            <h3>¡Gracias por tu opinión!</h3>
-            <p>Tu feedback nos ayuda a mejorar el Match Electoral para que más ciudadanos participen activamente en las elecciones.</p>
-        `;
-
-        // Opcional: Ocultar después de unos segundos
-        setTimeout(() => {
-            surveySection.style.display = 'none';
-        }, 5000);
     }
 
     // Iniciar la aplicación
