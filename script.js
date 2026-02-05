@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     const proposalsURL = `data/proposals/`;
 
     const VALID_TOPICS = [
-        "cultura-y-turismo", "derechos-e-igualdad", "educacion", 
-        "justicia-y-reformas", "medio-ambiente", "salud", 
-        "seguridad-ciudadana", "servicios-basicos", "tecnologia", 
+        "cultura-y-turismo", "derechos-e-igualdad", "educacion",
+        "justicia-y-reformas", "medio-ambiente", "salud",
+        "seguridad-ciudadana", "servicios-basicos", "tecnologia",
         "trabajo-y-economia", "transporte", "vivienda"
     ];
 
@@ -54,8 +54,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 
         data.proposals = proposalsJSON
-            .sort(() => 0.5 - Math.random()) 
-            .slice(0, 10)                    
+            .sort(() => 0.5 - Math.random())
+            .slice(0, 10)
             .map(row => {
                 const stances = {};
                 const sources = {};
@@ -199,14 +199,14 @@ document.addEventListener('DOMContentLoaded', async () => {
             card.style.transform = `translateY(${index * -10}px) scale(${1 - index * 0.02})`;
         });
     }
-    
+
     // --- LÓGICA DE INTERACCIÓN (SWIPE) CON MOMENTUM ---
     function onPointerDown(e) {
         if (e.target.closest('.card-source-link')) return;
         const targetCard = cardStack.firstElementChild;
         if (!targetCard || isDragging) return;
         if (!targetCard.contains(e.target)) return;
-        
+
         isDragging = true;
         activeCard = targetCard;
         activeCard.classList.add('dragging');
@@ -223,7 +223,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     function onPointerMove(e) {
         if (!isDragging || !activeCard) return;
         e.preventDefault();
-        
+
         const currentX = e.pageX || e.touches[0].pageX;
         const currentTime = Date.now();
         const deltaTime = currentTime - lastMove.time;
@@ -269,7 +269,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         document.removeEventListener('mousemove', onPointerMove);
         document.removeEventListener('touchmove', onPointerMove);
-        
+
         const distanceThreshold = activeCard.offsetWidth / 4;
         const velocityThreshold = 0.4;
         const flick = Math.abs(velocity) > velocityThreshold;
@@ -286,7 +286,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             activeCard.querySelector('.card-color-overlay.disagree').style.opacity = 0;
             activeCard.querySelector('.card-swipe-indicator').style.opacity = 0;
         }
-        
+
         isDragging = false;
         offsetX = 0;
         activeCard = null;
@@ -341,7 +341,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const proposalId = data.proposals[userAnswers.length].id;
         lastAnswer = { card: cardToProcess.cloneNode(true), answer: { proposalId, choice } };
         userAnswers.push(lastAnswer.answer);
-        
+
         updateProgress();
         showUndoButton();
 
@@ -385,7 +385,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (undoTimeout) clearTimeout(undoTimeout);
 
         userAnswers.pop();
-        
+
         const restoredCard = lastAnswer.card;
         restoredCard.style.transition = 'none';
         restoredCard.style.opacity = 1;
@@ -397,7 +397,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         indicator.style.opacity = 0;
         indicator.classList.remove('agree', 'disagree', 'neutral');
         cardStack.prepend(restoredCard);
-        
+
         // Re-asignar z-index y transformaciones a toda la pila
         Array.from(cardStack.children).forEach((card, index) => {
             card.style.zIndex = cardStack.children.length - index;
@@ -426,7 +426,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         closeSidebarBtn.addEventListener('click', toggleSidebar);
         sidebarOverlay.addEventListener('click', toggleSidebar);
     }
-    
+
     function setupOnboarding() {
         if (localStorage.getItem('onboardingComplete') === 'true') {
             tematicOverlay.classList.add('visible');
@@ -434,7 +434,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
         tematicOverlay.classList.remove('visible');
         onboardingOverlay.classList.add('visible');
-        
+
         const steps = document.querySelectorAll('.onboarding-step');
         let currentStep = 0;
 
@@ -640,7 +640,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         updateProgress();
 
         cardStack.innerHTML = '';
-        
+
         agreeBtn.disabled = false;
         disagreeBtn.disabled = false;
         neutralBtn.disabled = false;

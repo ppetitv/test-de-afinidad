@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Match Electoral - El Poder en tus Manos | RPP</title>
-    <meta name="description" content="Desliza o presiona para decidir sobre temas clave y descubre tu afinidad con los candidatos presidenciales.">
-    
+    <meta name="description"
+        content="Desliza o presiona para decidir sobre temas clave y descubre tu afinidad con los candidatos presidenciales.">
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-    
+
     <!-- Styles for sources sidebar -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Overlay para el sidebar -->
     <!-- Overlay para el sidebar de fuentes -->
@@ -23,8 +26,12 @@
     <!-- Sidebar -->
     <nav id="sidebar" class="sidebar">
         <div class="sidebar-header">
-            <img src="https://s2.rpp-noticias.io/static/dist/img/icons/logo.svg" alt="RPP Noticias Logo" class="sidebar-logo-rpp">
-            <img src="https://s2.rpp-noticias.io/static/especial/el-poder-en-tus-manos-2025/img/El_poder_en_tus_manos_on.svg" alt="El Poder en tus Manos" class="sidebar-logo-campaign">
+            <div class="sidebar-header-logos">
+                <img src="https://s2.rpp-noticias.io/static/dist/img/icons/logo.svg" alt="RPP Noticias Logo"
+                    class="sidebar-logo-rpp">
+                <img src="https://s2.rpp-noticias.io/static/especial/el-poder-en-tus-manos-2025/img/El_poder_en_tus_manos_on.svg"
+                    alt="El Poder en tus Manos" class="sidebar-logo-campaign">
+            </div>
             <button id="close-sidebar-button" class="close-button" aria-label="Cerrar menú">&times;</button>
         </div>
         <div class="sidebar-tools-header">
@@ -64,10 +71,16 @@
 
     <header class="app-header">
         <button id="open-sidebar-button" class="hamburger-button" aria-label="Abrir menú">
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
         </button>
         <h1 class="header-title">Match Electoral</h1>
-        <div class="progress-container" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="Progreso del test">
+        <div class="progress-container" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+            aria-label="Progreso del test">
             <div id="progress-bar" class="progress-bar-inner"></div>
         </div>
         <span id="progress-text" class="progress-text" aria-live="polite"></span>
@@ -88,7 +101,11 @@
 
     <footer class="app-footer">
         <button id="undo-button" class="undo-button" aria-label="Deshacer última acción">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7v6h6"></path><path d="M21 17a9 9 0 0 0-9-9 9 9 0 0 0-6 2.3L3 13"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 7v6h6"></path>
+                <path d="M21 17a9 9 0 0 0-9-9 9 9 0 0 0-6 2.3L3 13"></path>
+            </svg>
             Deshacer
         </button>
         <div class="action-buttons">
@@ -97,7 +114,7 @@
             <button id="agree-button" class="action-button reaction-agree" aria-label="De acuerdo">👍</button>
         </div>
     </footer>
-    
+
     <!-- Contenedor para las microanimaciones de reacción -->
     <div id="reaction-container" class="reaction-container"></div>
 
@@ -118,7 +135,8 @@
                     <a class="rec-card" href="https://rpp.pe/agente-electoral-elecciones-2026">
                         <div class="rec-card-text">
                             <h3>Usa nuestro asistente electoral</h3>
-                            <p>Tu guía personalizada para entender candidatos, propuestas y todo el proceso electoral.</p>
+                            <p>Tu guía personalizada para entender candidatos, propuestas y todo el proceso electoral.
+                            </p>
                         </div>
                     </a>
                     <a class="rec-card" href="https://rpp.pe/simulador-voto-2026">
@@ -140,84 +158,44 @@
             <div class="share-section">
                 <p class="share-section__title">Comparte con otros votantes</p>
                 <div class="share-section__list">
-                    <a
-                        href="https://api.whatsapp.com/send?p&amp;text=Agente Electoral para las Elecciones Perú 2026 https://rpp.pe/agente-electoral-elecciones-2026"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="share-button share-button--whatsapp"
-                        title="Compartir en WhatsApp"
-                        aria-label="Compartir en WhatsApp">
-                        <svg
-                            width="23"
-                            height="23"
-                            viewBox="0 0 19 19"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M9.30208 0C4.20616 0 0 4.20616 0 9.30208C0 11.2434 0.566214 13.0229 1.61775 14.5598L0.566214 17.7144C0.485326 17.8762 0.566214 18.038 0.647101 18.1188C0.808877 18.1997 0.970652 18.2806 1.13243 18.1997L4.36794 17.1482C5.82391 18.1188 7.60344 18.6042 9.30208 18.6042C14.398 18.6042 18.6042 14.398 18.6042 9.30208C18.6042 4.20616 14.398 0 9.30208 0ZM14.8833 13.1038C14.6407 13.8318 13.67 14.4789 12.8611 14.6407C12.6994 14.6407 12.5376 14.7216 12.2949 14.7216C11.6478 14.7216 10.839 14.4789 9.54475 13.9936C7.92699 13.3465 6.30924 11.8905 5.01504 10.0301L4.93415 9.94919C4.44882 9.30208 3.72083 8.16966 3.72083 6.95634C3.72083 5.58125 4.44882 4.85326 4.69149 4.52971C5.01504 4.20616 5.41948 4.04438 5.9048 4.04438C5.98569 4.04438 6.06658 4.04438 6.14746 4.04438H6.22835C6.63279 4.04438 6.87545 4.20616 7.11812 4.69149L7.27989 5.01504C7.52255 5.58125 7.84611 6.47101 7.92699 6.63279C8.08877 6.95634 8.08877 7.199 7.92699 7.44167C7.84611 7.60344 7.76522 7.76522 7.60344 7.92699C7.52255 8.00788 7.44167 8.08877 7.44167 8.16966C7.36078 8.25054 7.27989 8.33143 7.199 8.41232C7.199 8.49321 7.199 8.49321 7.199 8.49321C7.44167 8.89765 7.92699 9.62564 8.57409 10.1918C9.46386 11.0007 10.111 11.2434 10.4345 11.4052H10.5154C10.5963 11.4052 10.6772 11.4861 10.6772 11.4052C10.839 11.2434 11.0007 10.9198 11.2434 10.6772L11.3243 10.5963C11.5669 10.2727 11.8905 10.1918 12.0523 10.1918C12.1332 10.1918 12.2949 10.1918 12.3758 10.2727C12.4567 10.2727 12.6185 10.3536 14.1553 11.1625L14.3171 11.2434C14.5598 11.3243 14.7216 11.4052 14.8024 11.6478C15.126 11.8096 15.0451 12.5376 14.8833 13.1038Z"
-                                    fill="white">
-                                </path>
-                        </svg> 
+                    <a href="https://api.whatsapp.com/send?p&amp;text=Agente Electoral para las Elecciones Perú 2026 https://rpp.pe/agente-electoral-elecciones-2026"
+                        target="_blank" rel="noopener noreferrer" class="share-button share-button--whatsapp"
+                        title="Compartir en WhatsApp" aria-label="Compartir en WhatsApp">
+                        <svg width="23" height="23" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.30208 0C4.20616 0 0 4.20616 0 9.30208C0 11.2434 0.566214 13.0229 1.61775 14.5598L0.566214 17.7144C0.485326 17.8762 0.566214 18.038 0.647101 18.1188C0.808877 18.1997 0.970652 18.2806 1.13243 18.1997L4.36794 17.1482C5.82391 18.1188 7.60344 18.6042 9.30208 18.6042C14.398 18.6042 18.6042 14.398 18.6042 9.30208C18.6042 4.20616 14.398 0 9.30208 0ZM14.8833 13.1038C14.6407 13.8318 13.67 14.4789 12.8611 14.6407C12.6994 14.6407 12.5376 14.7216 12.2949 14.7216C11.6478 14.7216 10.839 14.4789 9.54475 13.9936C7.92699 13.3465 6.30924 11.8905 5.01504 10.0301L4.93415 9.94919C4.44882 9.30208 3.72083 8.16966 3.72083 6.95634C3.72083 5.58125 4.44882 4.85326 4.69149 4.52971C5.01504 4.20616 5.41948 4.04438 5.9048 4.04438C5.98569 4.04438 6.06658 4.04438 6.14746 4.04438H6.22835C6.63279 4.04438 6.87545 4.20616 7.11812 4.69149L7.27989 5.01504C7.52255 5.58125 7.84611 6.47101 7.92699 6.63279C8.08877 6.95634 8.08877 7.199 7.92699 7.44167C7.84611 7.60344 7.76522 7.76522 7.60344 7.92699C7.52255 8.00788 7.44167 8.08877 7.44167 8.16966C7.36078 8.25054 7.27989 8.33143 7.199 8.41232C7.199 8.49321 7.199 8.49321 7.199 8.49321C7.44167 8.89765 7.92699 9.62564 8.57409 10.1918C9.46386 11.0007 10.111 11.2434 10.4345 11.4052H10.5154C10.5963 11.4052 10.6772 11.4861 10.6772 11.4052C10.839 11.2434 11.0007 10.9198 11.2434 10.6772L11.3243 10.5963C11.5669 10.2727 11.8905 10.1918 12.0523 10.1918C12.1332 10.1918 12.2949 10.1918 12.3758 10.2727C12.4567 10.2727 12.6185 10.3536 14.1553 11.1625L14.3171 11.2434C14.5598 11.3243 14.7216 11.4052 14.8024 11.6478C15.126 11.8096 15.0451 12.5376 14.8833 13.1038Z"
+                                fill="white">
+                            </path>
+                        </svg>
                     </a>
-                    <a
-                        href="https://www.facebook.com/sharer/sharer.php?u=https://rpp.pe/agente-electoral-elecciones-2026"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="share-button share-button--facebook"
-                        title="Compartir en Facebook"
-                        aria-label="Compartir en Facebook">
-                        <svg
-                            width="13"
-                            height="21"
-                            viewBox="0 0 9 18"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M8.3151 5.51849H5.48327V3.74967C5.48327 3.08539 5.94555 2.93052 6.27114 2.93052C6.596 2.93052 8.26954 2.93052 8.26954 2.93052V0.0102305L5.51735 0C2.46216 0 1.76689 2.17805 1.76689 3.57187V5.51849H0V8.52768H1.76689C1.76689 12.3895 1.76689 17.0427 1.76689 17.0427H5.48327C5.48327 17.0427 5.48327 12.3437 5.48327 8.52768H7.99099L8.3151 5.51849Z"
-                                    fill="white">
-                                </path>
-                        </svg> 
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://rpp.pe/agente-electoral-elecciones-2026"
+                        target="_blank" rel="noopener noreferrer" class="share-button share-button--facebook"
+                        title="Compartir en Facebook" aria-label="Compartir en Facebook">
+                        <svg width="13" height="21" viewBox="0 0 9 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M8.3151 5.51849H5.48327V3.74967C5.48327 3.08539 5.94555 2.93052 6.27114 2.93052C6.596 2.93052 8.26954 2.93052 8.26954 2.93052V0.0102305L5.51735 0C2.46216 0 1.76689 2.17805 1.76689 3.57187V5.51849H0V8.52768H1.76689C1.76689 12.3895 1.76689 17.0427 1.76689 17.0427H5.48327C5.48327 17.0427 5.48327 12.3437 5.48327 8.52768H7.99099L8.3151 5.51849Z"
+                                fill="white">
+                            </path>
+                        </svg>
                     </a>
-                    <a
-                        href="https://twitter.com/intent/tweet?original_referer=https://rpp.pe/agente-electoral-elecciones-2026%3Futm_source%3Dx%26utm_medium%3Dsharedt%26utm_campaign%3Dxrpp&amp;text=Agente Electoral para las Elecciones Perú 2026&amp;url=https://rpp.pe/agente-electoral-elecciones-2026"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="share-button share-button--x"
-                        title="Compartir en X"
-                        aria-label="Compartir en X">
-                        <svg
-                            width="18"
-                            height="16"
-                            viewBox="0 0 18 16"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M0.0437997 0L6.99339 8.73667L0 15.84H1.57406L7.6969 9.62078L12.6438 15.84H18L10.6592 6.612L17.1687 0H15.5947L9.95603 5.7276L5.4 0H0.0437997ZM2.35852 1.09002H4.81913L15.685 14.75H13.2244L2.35852 1.09002Z"
-                                    fill="#ffffff">
-                                </path>
-                        </svg> 
+                    <a href="https://twitter.com/intent/tweet?original_referer=https://rpp.pe/agente-electoral-elecciones-2026%3Futm_source%3Dx%26utm_medium%3Dsharedt%26utm_campaign%3Dxrpp&amp;text=Agente Electoral para las Elecciones Perú 2026&amp;url=https://rpp.pe/agente-electoral-elecciones-2026"
+                        target="_blank" rel="noopener noreferrer" class="share-button share-button--x"
+                        title="Compartir en X" aria-label="Compartir en X">
+                        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.0437997 0L6.99339 8.73667L0 15.84H1.57406L7.6969 9.62078L12.6438 15.84H18L10.6592 6.612L17.1687 0H15.5947L9.95603 5.7276L5.4 0H0.0437997ZM2.35852 1.09002H4.81913L15.685 14.75H13.2244L2.35852 1.09002Z"
+                                fill="#ffffff">
+                            </path>
+                        </svg>
                     </a>
-                    <a
-                        href="mailto:?subject=Agente Electoral para las Elecciones Perú 2026&amp;body=https://rpp.pe/agente-electoral-elecciones-2026"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="share-button share-button--email"
-                        title="Compartir en Email"
-                        aria-label="Compartir en Email">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="28"
-                            height="28"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="lucide lucide-mail share-button__icon"
-                            aria-hidden="true">
-                                <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
-                                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                    <a href="mailto:?subject=Agente Electoral para las Elecciones Perú 2026&amp;body=https://rpp.pe/agente-electoral-elecciones-2026"
+                        target="_blank" rel="noopener noreferrer" class="share-button share-button--email"
+                        title="Compartir en Email" aria-label="Compartir en Email">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-mail share-button__icon" aria-hidden="true">
+                            <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                            <rect x="2" y="4" width="20" height="16" rx="2"></rect>
                         </svg>
                     </a>
                 </div>
@@ -236,8 +214,10 @@
     <section id="choosing-tematic" class="tematic-overlay">
         <div class="tematic-modal">
             <div class="tematic-banner">
-                <img src="https://s2.rpp-noticias.io/static/dist/img/icons/logo.svg" alt="RPP Noticias Logo" class="tematic-logo-rpp" height="45">
-                <img src="https://s2.rpp-noticias.io/static/especial/el-poder-en-tus-manos-2025/img/El_poder_en_tus_manos_on.svg" alt="El Poder en tus Manos" class="tematic-logo-campaign">
+                <img src="https://s2.rpp-noticias.io/static/dist/img/icons/logo.svg" alt="RPP Noticias Logo"
+                    class="tematic-logo-rpp" height="45">
+                <img src="https://s2.rpp-noticias.io/static/especial/el-poder-en-tus-manos-2025/img/El_poder_en_tus_manos_on.svg"
+                    alt="El Poder en tus Manos" class="tematic-logo-campaign">
             </div>
             <div class="tematic-content">
                 <h3>Elige una temática</h3>
@@ -264,8 +244,10 @@
     <section id="onboarding" class="onboarding-overlay">
         <div class="onboarding-modal">
             <div class="onboarding-banner">
-                <img src="https://s2.rpp-noticias.io/static/dist/img/icons/logo.svg" alt="RPP Noticias Logo" class="onboarding-logo-rpp">
-                <img src="https://s2.rpp-noticias.io/static/especial/el-poder-en-tus-manos-2025/img/El_poder_en_tus_manos_on.svg" alt="El Poder en tus Manos" class="onboarding-logo-campaign">
+                <img src="https://s2.rpp-noticias.io/static/dist/img/icons/logo.svg" alt="RPP Noticias Logo"
+                    class="onboarding-logo-rpp">
+                <img src="https://s2.rpp-noticias.io/static/especial/el-poder-en-tus-manos-2025/img/El_poder_en_tus_manos_on.svg"
+                    alt="El Poder en tus Manos" class="onboarding-logo-campaign">
             </div>
             <div id="onboarding-step-1" class="onboarding-step active">
                 <h3>¡Bienvenido al Match Electoral!</h3>
@@ -277,13 +259,16 @@
             </div>
             <div id="onboarding-step-2" class="onboarding-step">
                 <h3>¿Cómo funciona?</h3>
-                <p>Desliza la tarjeta a la <strong>derecha si estás de acuerdo</strong> o a la <strong>izquierda si estás en desacuerdo</strong>.</p>
+                <p>Desliza la tarjeta a la <strong>derecha si estás de acuerdo</strong> o a la <strong>izquierda si
+                        estás en desacuerdo</strong>.</p>
                 <div class="onboarding-swipe-demo"></div>
                 <button class="onboarding-button next">Siguiente</button>
             </div>
             <div id="onboarding-step-3" class="onboarding-step">
                 <h3>Usa los botones</h3>
-                <p>También puedes usar los botones de acción. El botón central es para una postura <strong>neutral</strong>.</p>
+                <p>También puedes usar los botones de acción. El botón central es para una postura
+                    <strong>neutral</strong>.
+                </p>
                 <div class="onboarding-buttons-demo">
                     <span class="demo-btn red">👎</span>
                     <span class="demo-btn yellow">=</span>
@@ -293,12 +278,19 @@
             </div>
             <div id="onboarding-step-4" class="onboarding-step">
                 <h3>Fuentes verificadas</h3>
-                <p>Las propuestas son afirmaciones citadas y verificadas por RPP.pe. Verifica cualquier fuente haciendo clic en el botón correspondiente para acceder a la nota en RPP.pe.</p>
+                <p>Las propuestas son afirmaciones citadas y verificadas por RPP.pe. Verifica cualquier fuente haciendo
+                    clic en el botón correspondiente para acceder a la nota en RPP.pe.</p>
                 <div class="onboarding-source-demo">
                     <div class="demo-card">
-                        <p class="demo-card-text">Ejemplo de propuesta</p>
+                        <p class="demo-card-text">Título de propuesta</p>
                         <button class="demo-source-btn" aria-label="Ver fuente">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="16" x2="12" y2="12"></line>
+                                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                            </svg>
                         </button>
                     </div>
                 </div>
@@ -311,4 +303,5 @@
     <script src="script.js"></script>
 
 </body>
+
 </html>
