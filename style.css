@@ -713,26 +713,6 @@ body::before {
     font-size: 1.1rem;
 }
 
-.sidebar-logos {
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
-    opacity: 0;
-    animation: fadeInLogos 0.4s ease-out 0.2s forwards;
-}
-
-@keyframes fadeInLogos {
-    from {
-        opacity: 0;
-        transform: translateY(5px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
 /* Sidebar Header Polish */
 .sidebar-header {
     display: inline-flex;
@@ -1302,108 +1282,6 @@ body::before {
     color: #333;
     transform: none;
 }
-
-/* Banner superior en modales */
-.onboarding-banner,
-.tematic-banner {
-    padding: 1.5rem;
-    background: #f8f9fa;
-    border-bottom: 1px solid #eee;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    flex-shrink: 0;
-}
-
-.onboarding-logo-rpp,
-.tematic-logo-rpp {
-    height: 28px;
-    width: auto;
-    object-fit: contain;
-}
-
-.onboarding-logo-campaign,
-.tematic-logo-campaign {
-    height: 28px;
-    width: auto;
-    object-fit: contain;
-}
-
-
-/* Onboarding Steps - Fix Visibility */
-.onboarding-step {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-    animation: fadeIn 0.3s ease-out;
-}
-
-.onboarding-step.active {
-    display: flex;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(10px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.onboarding-step h3,
-.tematic-content h3 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-    font-weight: 800;
-    color: var(--primary-main);
-}
-
-.onboarding-step p,
-.tematic-content p {
-    color: #666;
-    line-height: 1.5;
-    margin-bottom: 2rem;
-}
-
-/* Botones Principales */
-.onboarding-button,
-.action-button.primary-button {
-    background: var(--primary-main);
-    color: #fff;
-    border: none;
-    border-radius: 50px;
-    padding: 1rem 2.5rem;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    box-shadow: 0 10px 20px rgba(60, 16, 83, 0.3);
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.onboarding-button:hover,
-.action-button.primary-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 15px 30px rgba(60, 16, 83, 0.4);
-}
-
-.onboarding-button.secondary {
-    background: transparent;
-    color: var(--primary-main);
-    box-shadow: none;
-    padding: 1rem 1.5rem;
-}
-
-.onboarding-button.secondary:hover {
-    background: #f8f9fa;
-}
-
-/* --- Temáticas Grid Optimized --- */
 
 /* --- Temáticas Grid Optimized --- */
 
