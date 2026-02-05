@@ -7,6 +7,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     const candidatesURL = `https://pre.s.rpp-noticias.io/static/especial/comparapropuestas/data/datajne_v2.json`;
     const proposalsURL = `data/proposals/`;
 
+    const VALID_TOPICS = [
+        "cultura-y-turismo", "derechos-e-igualdad", "educacion", 
+        "justicia-y-reformas", "medio-ambiente", "salud", 
+        "seguridad-ciudadana", "servicios-basicos", "tecnologia", 
+        "trabajo-y-economia", "transporte", "vivienda"
+    ];
+
     const formatFilename = (text) => {
         return text
             .toString()
@@ -127,10 +134,27 @@ document.addEventListener('DOMContentLoaded', async () => {
     // --- INICIALIZACIÓN ---
     async function init() {
         try {
-            await loadTopic();
             setupOnboarding();
             setupTematic();
             setupEventListeners();
+
+            const urlParams = new URLSearchParams(window.location.search);
+            const topicParam = urlParams.get('tematica');
+            if (topicParam && VALID_TOPICS.includes(topicParam)) {
+                tematicOverlay.classList.remove('visible');
+                await loadTopic(topicParam);
+            } else {
+                if (topicParam) {
+                    const newUrl = new URL(window.location);
+                    newUrl.searchParams.delete('tematica');
+                    window.history.replaceState({}, '', newUrl);
+                }
+                if (localStorage.getItem('onboardingComplete') === 'true') {
+                    tematicOverlay.classList.add('visible'); //
+                }
+                await loadTopic();
+            }
+
         } catch (error) {
             console.error('Error en inicialización:', error);
             showError('No se pudieron cargar los datos desde las hojas de cálculo. ' + error.message);
@@ -438,6 +462,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             btn.addEventListener('click', (e) => {
                 e.preventDefault();
                 const tematicId = btn.dataset.tematicId;
+
+                const newUrl = new URL(window.location);
+                newUrl.searchParams.set('tematica', tematicId);
+                window.history.pushState({}, '', newUrl);
+
                 tematicOverlay.classList.remove('visible');
                 loadTopic(tematicId);
             })
@@ -600,11 +629,18 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function resetApp() {
         userAnswers = [];
+
+        const newUrl = new URL(window.location);
+        newUrl.searchParams.delete('tematica');
+        window.history.pushState({}, '', newUrl);
+
         if (cardPlaceholder) cardPlaceholder.style.display = 'block';
         resultsScreen.classList.remove('visible');
         tematicOverlay.classList.add('visible');
         updateProgress();
-        setTimeout(createCards, 50);
+
+        cardStack.innerHTML = '';
+        
         agreeBtn.disabled = false;
         disagreeBtn.disabled = false;
         neutralBtn.disabled = false;
