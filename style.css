@@ -553,7 +553,7 @@ body::before {
 .sources-sidebar {
     right: 0;
     width: 100%;
-    max-width: 100%;
+    max-width: 650px;
     /* Full width en móvil */
     transform: translateX(100%);
     display: flex;
