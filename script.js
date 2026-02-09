@@ -7,6 +7,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     const candidatesURL = `https://pre.s.rpp-noticias.io/static/especial/comparapropuestas/data/datajne_v2.json`;
     const proposalsURL = `data/proposals/`;
 
+    const getStaticBasePath = () => {
+        const h = window.location.hostname;
+        return h.includes('dev') ? 'https://dev.s.rpp-noticias.io/static/especial/comparapropuestas/' :
+            h.includes('pre') ? 'https://pre.s.rpp-noticias.io/static/especial/comparapropuestas/' :
+                h.includes('rpp.pe') ? 'https://s2.rpp-noticias.io/static/especial/comparapropuestas/' : '';
+    };
+    const basePath = getStaticBasePath();
+
     const VALID_TOPICS = [
         "cultura-y-turismo", "derechos-e-igualdad", "educacion",
         "justicia-y-reformas", "medio-ambiente", "salud",
@@ -64,10 +72,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                     stances[match.partido] = 'agree';
                     sources[match.partido] = {
                         title: match.sustento || '',
-                        date: '',
                         party: match.partido,
                         imgLogoUrl: findCandidate(match.partido)?.imgLogoUrl || '',
-                        url: findCandidate(match.partido)?.pdfUrl || ''
+                        url: findCandidate(match.partido)?.pdfUrl || '',
+                        pages: match.paginas || ''
                     }
                 });
 
@@ -130,6 +138,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     const progressBar = document.getElementById('progress-bar');
     const progressText = document.getElementById('progress-text');
     const tematicOverlay = document.getElementById('choosing-tematic');
+    const pdfSidebar = document.getElementById('pdf-sidebar');
+    const pdfContainer = document.getElementById('pdf-content');
+    const closePdfSidebarBtn = document.getElementById('close-pdf-sidebar');
 
     // --- INICIALIZACIÓN ---
     async function init() {
@@ -483,8 +494,47 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (proposal) {
                 populateSourcesSidebar(proposal);
                 openSourcesSidebar();
+
+                sourcesListener();
             }
         }
+    }
+
+    function sourcesListener() {
+        const pdfLinks = document.querySelectorAll('.js-open-pdf');
+        pdfLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const proposalId = link.dataset.proposalId;
+                const sourceId = link.dataset.sourceId;
+                const proposal = data.proposals.find(p => p.id == proposalId);
+                const source = proposal.sources[sourceId];
+                const page = source.pages || "";
+                let pdfUrl = basePath + 'data/plan-de-gobierno/' + formatFilename(source.party + '.pdf');
+                if (page !== "") {
+                    const firstPage = page.split(',')[0].trim();
+                    pdfUrl += `#page=${firstPage}&view=FitH&toolbar=1`;
+                }
+                openPdfSidebar(pdfUrl);
+            });
+        });
+    }
+
+    function openPdfSidebar(pdfUrl) {
+        pdfContainer.innerHTML = `
+            <iframe 
+                src="${pdfUrl}" 
+                width="100%" 
+                height="100%" 
+                style="border: none;"
+                title="Visor de PDF">
+            </iframe>
+        `;
+        sidebar.classList.remove('open');
+        sidebarOverlay.classList.remove('visible');
+        pdfSidebar.classList.add('open');
+        sourcesSidebarOverlay.classList.add('visible');
+        console.log(pdfUrl);
     }
 
     function populateSourcesSidebar(proposal) {
@@ -501,7 +551,14 @@ document.addEventListener('DOMContentLoaded', async () => {
                     </div>
                     <p class="source-title">${source.title}</p>
                     <p class="source-date"></p>
-                    <a href="${source.url}" target="_blank" rel="noopener noreferrer">Leer PDF</a>
+                    <a 
+                        href="${source.url}" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        class="js-open-pdf"
+                        data-proposal-id="${proposal.id}"
+                        data-source-id="${id}"
+                    >Leer PDF</a>
                 `;
                 sourcesContent.appendChild(sourceDiv);
             }
@@ -519,6 +576,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     function closeSourcesSidebar() {
         sourcesSidebar.classList.remove('open');
         sourcesSidebarOverlay.classList.remove('visible');
+    }
+    
+    function closePdfSidebar() {
+        pdfSidebar.classList.remove('open');
     }
 
     // --- OTRAS FUNCIONES ---
@@ -670,7 +731,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         document.body.addEventListener('click', handleSourceClick);
         setupSidebar();
         closeSourcesSidebarBtn.addEventListener('click', closeSourcesSidebar);
-        sourcesSidebarOverlay.addEventListener('click', closeSourcesSidebar);
+        sourcesSidebarOverlay.addEventListener('click', () => {
+            if (pdfSidebar.classList.contains('open')) {
+                closePdfSidebar(); return;
+            }
+            closeSourcesSidebar();
+        });
+        closePdfSidebarBtn.addEventListener('click', closePdfSidebar);
     }
 
     // Iniciar la aplicación
