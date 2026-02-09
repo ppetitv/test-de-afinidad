@@ -51,6 +51,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 h.includes('rpp.pe') ? 'https://s2.rpp-noticias.io/static/especial/testdeafinidad/' : '';
     })();
     const isMobile = window.matchMedia("(max-width: 768px)").matches;
+    let isPdfLoading = false;
 
     const VALID_TOPICS = [
         "cultura-y-turismo", "derechos-e-igualdad", "educacion",
@@ -565,6 +566,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
     async function openPdfSidebar(pdfUrl) {
+        isPdfLoading = true; // Iniciamos la carga
         const container = document.getElementById('pdf-content');
         const pagesContainer = document.getElementById('pdf-pages-container');
         const cleanUrl = pdfUrl.split('#')[0];
@@ -596,6 +598,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             const outputScale = window.devicePixelRatio || 1;
 
             for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
+                if (!isPdfLoading) {
+                    console.log("Carga de PDF cancelada por el usuario");
+                    return; 
+                }
+
                 const page = await pdf.getPage(pageNum);
                 
                 const pageWrapper = document.createElement('div');
@@ -633,14 +640,16 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
 
         } catch (error) {
-            console.error("Error:", error);
-            pagesContainer.innerHTML = `
+            if (isPdfLoading) { // Solo mostrar error si no fue cancelado a propósito
+                console.error("Error al renderizar PDF:", error);
+                pagesContainer.innerHTML = `
                 <div class="pdf-loader-container">
                     <p>No pudimos cargar el visor.</p>
                     <a href="${cleanUrl}" target="_blank" style="color:var(--accent-brand); margin-top:10px;">
                         Abrir PDF original ↗
                     </a>
                 </div>`;
+            }
         }
     }
 
@@ -686,7 +695,20 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
     
     function closePdfSidebar() {
+        isPdfLoading = false; // Esto detiene el bucle 'for' en la siguiente vuelta
+    
+        const pdfSidebar = document.getElementById('pdf-sidebar');
+        const pagesContainer = document.getElementById('pdf-pages-container');
+        
         pdfSidebar.classList.remove('open');
+        
+        // Limpiamos el contenido después de un pequeño delay para que la transición
+        // de cierre del sidebar se vea fluida antes de vaciar el DOM.
+        setTimeout(() => {
+            if (!isPdfLoading) { // Verificamos que no se haya abierto otro PDF rápido
+                pagesContainer.innerHTML = ''; 
+            }
+        }, 400);
     }
 
     // --- OTRAS FUNCIONES ---
