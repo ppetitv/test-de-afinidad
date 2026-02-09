@@ -139,6 +139,13 @@
                 <!-- Los resultados de los candidatos se insertarán aquí con JS -->
             </div>
 
+            <!-- Disclaimer de IA -->
+            <div class="results-ai-disclaimer">
+                <p>Esta herramienta utiliza IA para generar los resúmenes y comparaciones a partir de los planes de
+                    gobierno oficiales del JNE. La información se presenta de forma neutral basadas en fuentes oficiales
+                    y criterios periodísticos.</p>
+            </div>
+
             <!-- Sección de Recirculación Integrada -->
             <section id="recirculacion" class="recirculacion">
                 <h2>¿Aún no sabes cómo votar?</h2>
@@ -221,7 +228,7 @@
         </footer>
     </section>
 
-    
+
 
     <!-- Temáticas -->
     <section id="choosing-tematic" class="tematic-overlay">
@@ -236,18 +243,54 @@
                 <h3>Elige una temática</h3>
                 <p>Para comenzar el test</p>
                 <div class="tematic-buttons">
-                    <button class="tematic-button" data-tematic-id="cultura-y-turismo">Cultura y turismo</button>
-                    <button class="tematic-button" data-tematic-id="derechos-e-igualdad">Derechos e igualdad</button>
-                    <button class="tematic-button" data-tematic-id="educacion">Educación</button>
-                    <button class="tematic-button" data-tematic-id="justicia-y-reformas">Justicia y reformas</button>
-                    <button class="tematic-button" data-tematic-id="medio-ambiente">Medio ambiente</button>
-                    <button class="tematic-button" data-tematic-id="salud">Salud</button>
-                    <button class="tematic-button" data-tematic-id="seguridad-ciudadana">Seguridad ciudadana</button>
-                    <button class="tematic-button" data-tematic-id="servicios-basicos">Servicios básicos</button>
-                    <button class="tematic-button" data-tematic-id="tecnologia">Tecnología</button>
-                    <button class="tematic-button" data-tematic-id="trabajo-y-economia">Trabajo y economía</button>
-                    <button class="tematic-button" data-tematic-id="transporte">Transporte</button>
-                    <button class="tematic-button" data-tematic-id="vivienda">Vivienda</button>
+                    <button class="tematic-button" data-tematic-id="cultura-y-turismo">
+                        <img src="images/cultura.svg" alt="" class="tematic-icon">
+                        <span>Cultura y turismo</span>
+                    </button>
+                    <button class="tematic-button" data-tematic-id="derechos-e-igualdad">
+                        <img src="images/derechos.svg" alt="" class="tematic-icon">
+                        <span>Derechos e igualdad</span>
+                    </button>
+                    <button class="tematic-button" data-tematic-id="educacion">
+                        <img src="images/educacion.svg" alt="" class="tematic-icon">
+                        <span>Educación</span>
+                    </button>
+                    <button class="tematic-button" data-tematic-id="justicia-y-reformas">
+                        <img src="images/justicia.svg" alt="" class="tematic-icon">
+                        <span>Justicia y reformas</span>
+                    </button>
+                    <button class="tematic-button" data-tematic-id="medio-ambiente">
+                        <img src="images/medioambiente.svg" alt="" class="tematic-icon">
+                        <span>Medio ambiente</span>
+                    </button>
+                    <button class="tematic-button" data-tematic-id="salud">
+                        <img src="images/salud.svg" alt="" class="tematic-icon">
+                        <span>Salud</span>
+                    </button>
+                    <button class="tematic-button" data-tematic-id="seguridad-ciudadana">
+                        <img src="images/seguridad.svg" alt="" class="tematic-icon">
+                        <span>Seguridad ciudadana</span>
+                    </button>
+                    <button class="tematic-button" data-tematic-id="servicios-basicos">
+                        <img src="images/servicios_basicos.svg" alt="" class="tematic-icon">
+                        <span>Servicios básicos</span>
+                    </button>
+                    <button class="tematic-button" data-tematic-id="tecnologia">
+                        <img src="images/tecnologia.svg" alt="" class="tematic-icon">
+                        <span>Tecnología</span>
+                    </button>
+                    <button class="tematic-button" data-tematic-id="trabajo-y-economia">
+                        <img src="images/economia.svg" alt="" class="tematic-icon">
+                        <span>Trabajo y economía</span>
+                    </button>
+                    <button class="tematic-button" data-tematic-id="transporte">
+                        <img src="images/transporte.svg" alt="" class="tematic-icon">
+                        <span>Transporte</span>
+                    </button>
+                    <button class="tematic-button" data-tematic-id="vivienda">
+                        <img src="images/vivienda.svg" alt="" class="tematic-icon">
+                        <span>Vivienda</span>
+                    </button>
                 </div>
             </div>
         </div>
@@ -286,26 +329,6 @@
                     <span class="demo-btn red">👎</span>
                     <span class="demo-btn yellow">=</span>
                     <span class="demo-btn green">👍</span>
-                </div>
-                <button class="onboarding-button next">Siguiente</button>
-            </div>
-            <div id="onboarding-step-4" class="onboarding-step">
-                <h3>Fuentes verificadas</h3>
-                <p>Las propuestas son afirmaciones citadas y verificadas por RPP.pe. Verifica cualquier fuente haciendo
-                    clic en el botón correspondiente para acceder a la nota en RPP.pe.</p>
-                <div class="onboarding-source-demo">
-                    <div class="demo-card">
-                        <p class="demo-card-text">Título de propuesta</p>
-                        <button class="demo-source-btn" aria-label="Ver fuente">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <line x1="12" y1="16" x2="12" y2="12"></line>
-                                <line x1="12" y1="8" x2="12.01" y2="8"></line>
-                            </svg>
-                        </button>
-                    </div>
                 </div>
                 <button class="onboarding-button finish">¡Entendido!</button>
             </div>
