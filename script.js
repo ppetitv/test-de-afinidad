@@ -821,15 +821,15 @@ document.addEventListener('DOMContentLoaded', async () => {
             <div class="c-drawer__footer">
                 <div class="c-drawer__view-tabs">
                     <button class="c-drawer__view-tab c-drawer__view-tab--active" data-view="synthesis">
-                        <img class="c-drawer__view-icon" src="${basePath}images/Summarize.svg" alt="Leer" width="20" height="20">
+                        <img class="c-drawer__view-icon" src="https://s2.rpp-noticias.io/static/especial/comparapropuestas/images/Summarize.svg" alt="Leer" width="20" height="20">
                         <span class="c-drawer__view-text">Leer síntesis</span>
                     </button>
                     <button class="c-drawer__view-tab" data-view="audio">
-                        <img class="c-drawer__view-icon" src="${basePath}images/Audio.svg" alt="Audio" width="20" height="20">
+                        <img class="c-drawer__view-icon" src="https://s2.rpp-noticias.io/static/especial/comparapropuestas/images/Audio.svg" alt="Audio" width="20" height="20">
                         <span class="c-drawer__view-text">Escuchar síntesis</span>
                     </button>
                     <a href="${pdfUrl}" target="_blank" class="c-drawer__view-tab c-drawer__view-tab--link">
-                        <img class="c-drawer__view-icon" src="${basePath}images/download.svg" alt="Descargar" width="20" height="20">
+                        <img class="c-drawer__view-icon" src="https://s2.rpp-noticias.io/static/especial/comparapropuestas/images/download.svg" alt="Descargar" width="20" height="20">
                         <span class="c-drawer__view-text">Plan Original</span>
                     </a>
                 </div>
