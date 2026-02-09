@@ -4,14 +4,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Configuración para DATA
     const cdnRpp = `https://s2.rpp-noticias.io/static/especial/comparapropuestas/`;
-    const candidatesURL = `https://pre.s.rpp-noticias.io/static/especial/comparapropuestas/data/datajne_v2.json`;
-    const proposalsURL = `data/proposals/`;
-
     const getStaticBasePath = () => {
         const h = window.location.hostname;
-        return h.includes('dev') ? 'https://dev.s.rpp-noticias.io/static/especial/comparapropuestas/' :
-            h.includes('pre') ? 'https://pre.s.rpp-noticias.io/static/especial/comparapropuestas/' :
-                h.includes('rpp.pe') ? 'https://s2.rpp-noticias.io/static/especial/comparapropuestas/' : '';
+        return h.includes('dev') ? 'https://dev.s.rpp-noticias.io/static/especial/testdeafinidad/' :
+            h.includes('pre') ? 'https://pre.s.rpp-noticias.io/static/especial/testdeafinidad/' :
+                h.includes('rpp.pe') ? 'https://s2.rpp-noticias.io/static/especial/testdeafinidad/' : '';
     };
     const basePath = getStaticBasePath();
     const isMobile = window.matchMedia("(max-width: 768px)").matches;
@@ -41,7 +38,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         data.candidates = [];
         data.proposals = [];
         // Cargar candidatos
-        const candidatesResponse = await fetch(candidatesURL);
+        const candidatesResponse = await fetch(cdnRpp + 'data/datajne_v2.json');
         if (!candidatesResponse.ok) throw new Error('Error al cargar candidatos');
         const candidatesJSON = await candidatesResponse.json();
 
@@ -52,12 +49,13 @@ document.addEventListener('DOMContentLoaded', async () => {
                 party: candidatesJSON.candidatos[id].party,
                 photo: cdnRpp + candidatesJSON.candidatos[id].imgUrl,
                 imgLogoUrl: cdnRpp + candidatesJSON.candidatos[id].imgLogoUrl,
-                pdfUrl: candidatesJSON.candidatos[id].pdfUrl
+                pdfUrl: candidatesJSON.candidatos[id].pdfUrl,
+                audioUrl: candidatesJSON.candidatos[id].audioUrl
             });
         }
 
         // Cargar propuestas
-        const proposalsResponse = await fetch(proposalsURL + topicId + '.json');
+        const proposalsResponse = await fetch(`${basePath}data/proposals/${topicId}.json`);
         if (!proposalsResponse.ok) throw new Error('Error al cargar propuestas');
         const proposalsJSON = await proposalsResponse.json();
 
@@ -670,6 +668,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         resultsList.innerHTML = '';
         results.forEach((result, index) => {
             const item = document.createElement('div');
+            item.setAttribute('data-candidate-id', result.id);
             item.className = 'result-item';
             item.innerHTML = `
                 <img src="${result.photo}" alt="Foto de ${result.name}" class="candidate-photo-results" loading="lazy">
@@ -691,6 +690,215 @@ document.addEventListener('DOMContentLoaded', async () => {
                 bar.style.width = `${result.score}%`;
             }, index * 200);
         });
+
+        // Add plan drawer handlers
+        setupPlanDrawerHandlers();
+    }
+
+    function setupPlanDrawerHandlers() {
+        document.addEventListener('click', (e) => {
+            if (e.target.closest('.result-item')) {
+                const button = e.target.closest('.result-item');
+                const candidateId = button.dataset.candidateId;
+                openPlanDrawer(candidateId);
+            }
+            if (e.target.closest('.c-drawer__close') || e.target.classList.contains('c-drawer-overlay')) {
+                closePlanDrawer();
+            }
+
+            // Manejar cambio de vista en el drawer
+            if (e.target.closest('.c-drawer__view-tab')) {
+                const tab = e.target.closest('.c-drawer__view-tab');
+                const view = tab.dataset.view;
+                
+                // No hacer nada si es el link de descarga
+                if (tab.classList.contains('c-drawer__view-tab--link')) {
+                    return;
+                }
+                
+                // Actualizar tabs activos
+                document.querySelectorAll('.c-drawer__view-tab').forEach(t => {
+                    t.classList.remove('c-drawer__view-tab--active');
+                });
+                tab.classList.add('c-drawer__view-tab--active');
+                
+                // Mostrar/ocultar contenido
+                document.querySelectorAll('.c-drawer__view-content').forEach(content => {
+                    if (content.dataset.viewContent === view) {
+                        content.classList.remove('c-drawer__view-content--hidden');
+                        content.classList.add('c-drawer__view-content--active');
+                    } else {
+                        content.classList.add('c-drawer__view-content--hidden');
+                        content.classList.remove('c-drawer__view-content--active');
+                    }
+                });
+            }
+        });
+
+        // Cerrar con tecla Escape
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && document.querySelector('.c-drawer--active')) {
+                closePlanDrawer();
+            }
+        });
+    }
+
+    function renderPlanDrawer(candidate, planData) {
+        console.log('candidate', candidate);
+
+        const pdfUrl = `${candidate.pdfUrl}`;
+        let summaryContent = '';
+
+        // Verificar si hay síntesis en el candidato
+        if (planData) {
+            // Usar la síntesis del data.json con formato enriquecido
+            const formattedSynthesis = planData
+                .replace(/\\n/g, '<br />')
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                .replace(/^(Plan de gobierno[^<]+)/, '<h2 class="c-drawer__synthesis-title">$1</h2>')
+                .replace(/(1\. Identidad e ideario político|2\. Visión estratégica y diagnóstico|3\. Reforma del estado y lucha anticorrupción|4\. Modelo económico y reactivación productiva|5\. Ejes sociales: salud, educación y seguridad|6\. Mecanismos de rendición de cuentas)/g, '<h3 class="c-drawer__synthesis-section">$1</h3>')
+                .replace(/(Seguridad|Salud|Educación):/g, '<h4 class="c-drawer__synthesis-subsection">$1:</h4>');
+            
+            const cleanedSynthesis = formattedSynthesis
+                .replace(/<p>\s*<\/p>/g, '') // Elimina <p></p> incluso si tienen espacios
+                .replace(/<p><\/p>/g, '');
+
+
+            summaryContent = `
+                <div class="c-drawer__view-content c-drawer__view-content--active" data-view-content="synthesis">
+                    <div class="c-drawer__summary c-drawer__summary--formatted">
+                        ${cleanedSynthesis}
+                    </div>
+                    <div class="c-drawer__ai-disclaimer">
+                        Síntesis generada con la IA de Google, basada en el plan oficial del JNE. <br />
+                        Recuerda consultar siempre la fuente original.
+                    </div>
+                </div>
+                <div class="c-drawer__view-content c-drawer__view-content--hidden" data-view-content="audio">
+                    <div class="c-drawer__audio-player">
+                        <div class="c-drawer__audio-icon">🎧</div>
+                        <h4 class="c-drawer__audio-title">Escuchar síntesis</h4>
+                        <!--p class="c-drawer__audio-description">Reproducción de audio no disponible en este momento.</p-->
+                        <audio controls class="c-drawer__audio-element" style="width: 100%; margin-top: 16px;">
+                            <source src="${candidate.audioUrl}" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio>
+                    </div>
+                    <div class="c-drawer__ai-disclaimer">
+                        Audio generado por la IA de Google, basado en el plan oficial del JNE. <br />
+                        Recuerda consultar siempre la fuente original.
+                    </div>
+                </div>
+            `;
+        } else {
+            summaryContent = `
+                <p class="c-drawer__summary">
+                    Información detallada del plan de gobierno no disponible actualmente.
+                    Puede descargar el documento completo para obtener toda la información.
+                </p>
+            `;
+        }
+
+        return `
+            <div class="c-drawer__header">
+                <div class="c-drawer__candidate-info">
+                    <img class="c-drawer__candidate-logo" src="${basePath}${candidate.imgLogoUrl}" alt="${candidate.name}">
+                    <div class="c-drawer__candidate-details">
+                        <h3>${candidate.name}</h3>
+                        <p>${candidate.party}</p>
+                    </div>
+                </div>
+                <button class="c-drawer__close" aria-label="Cerrar">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" fill="currentColor"/>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="c-drawer__content">
+                <div class="c-drawer__section">
+                    ${summaryContent}
+                </div>
+            </div>
+
+            <div class="c-drawer__footer">
+                <div class="c-drawer__view-tabs">
+                    <button class="c-drawer__view-tab c-drawer__view-tab--active" data-view="synthesis">
+                        <img class="c-drawer__view-icon" src="${basePath}images/Summarize.svg" alt="Leer" width="20" height="20">
+                        <span class="c-drawer__view-text">Leer síntesis</span>
+                    </button>
+                    <button class="c-drawer__view-tab" data-view="audio">
+                        <img class="c-drawer__view-icon" src="${basePath}images/Audio.svg" alt="Audio" width="20" height="20">
+                        <span class="c-drawer__view-text">Escuchar síntesis</span>
+                    </button>
+                    <a href="${pdfUrl}" target="_blank" class="c-drawer__view-tab c-drawer__view-tab--link">
+                        <img class="c-drawer__view-icon" src="${basePath}images/download.svg" alt="Descargar" width="20" height="20">
+                        <span class="c-drawer__view-text">Plan Original</span>
+                    </a>
+                </div>
+            </div>
+        `;
+    }
+
+    function closePlanDrawer() {
+        const audio = document.querySelector('.c-drawer__audio-element');
+        if (audio) {
+            audio.pause();
+        }
+
+        const overlay = document.querySelector('.c-drawer-overlay');
+        const drawer = document.querySelector('.c-drawer');
+
+        if (overlay && drawer) {
+            overlay.classList.remove('c-drawer-overlay--active');
+            drawer.classList.remove('c-drawer--active');
+
+            setTimeout(() => {
+                document.body.style.overflow = '';
+            }, 300);
+        }
+    }
+
+    async function openPlanDrawer(candidateId) {
+        const candidate = findCandidate(candidateId);
+        if (!candidate) return;
+
+        // Crear overlay si no existe
+        let overlay = document.querySelector('.c-drawer-overlay');
+        if (!overlay) {
+            overlay = document.createElement('div');
+            overlay.className = 'c-drawer-overlay';
+            document.body.appendChild(overlay);
+        }
+        // Crear drawer si no existe
+        let drawer = document.querySelector('.c-drawer');
+        if (!drawer) {
+            drawer = document.createElement('div');
+            drawer.className = 'c-drawer';
+            document.body.appendChild(drawer);
+        }
+        // Cargar datos del plan de gobierno
+        const filenameParty = `${formatFilename(candidate.party)}.txt`;
+        const response = await fetch(`${cdnRpp}data/sintesis/${filenameParty}`);
+        if (!response.ok) throw new Error('Network response was not ok');
+        const planData = await response.text();
+
+        // Renderizar contenido del drawer
+        drawer.innerHTML = renderPlanDrawer(candidate, planData);
+
+        // Mostrar drawer
+        setTimeout(() => {
+            overlay.classList.add('c-drawer-overlay--active');
+            drawer.classList.add('c-drawer--active');
+        }, 10);
+
+        // Prevenir scroll del body
+        document.body.style.overflow = 'hidden';
+    }
+
+    function onClickResultItem(event) {
+        const candidateId = event.currentTarget.getAttribute('data-candidate-id');
+        openPlanDrawer(candidateId);
     }
 
     function resetApp() {
