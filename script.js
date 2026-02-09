@@ -52,6 +52,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     })();
     const isMobile = window.matchMedia("(max-width: 768px)").matches;
     let isPdfLoading = false;
+    let currentRenderTask = null;
 
     const VALID_TOPICS = [
         "cultura-y-turismo", "derechos-e-igualdad", "educacion",
@@ -627,17 +628,30 @@ document.addEventListener('DOMContentLoaded', async () => {
                 pageWrapper.appendChild(canvas);
                 pagesContainer.appendChild(pageWrapper);
 
-                await page.render({
+                currentRenderTask = page.render({
                     canvasContext: context,
                     viewport: viewport,
                     transform: transform
-                }).promise;
+                });
+
+                try {
+                    await currentRenderTask.promise;
+                } catch (err) {
+                    // Si la tarea fue cancelada, salimos del bucle
+                    if (err.name === 'RenderingCancelledException') break;
+                }
+
+                // Liberar memoria de la página después de renderizar
+                page.cleanup();
 
                 // Hacer scroll a la página objetivo apenas se renderice la primera vez
                 if (pageNum === targetPage) {
                     pageWrapper.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
             }
+
+            // Limpieza final del documento al terminar el bucle
+            pdf.destroy();
 
         } catch (error) {
             if (isPdfLoading) { // Solo mostrar error si no fue cancelado a propósito
@@ -695,20 +709,27 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function closePdfSidebar() {
-        isPdfLoading = false; // Esto detiene el bucle 'for' en la siguiente vuelta
-    
+        isPdfLoading = false;
+        
+        // 1. Cancelar el renderizado actual si existe
+        if (currentRenderTask) {
+            currentRenderTask.cancel();
+            currentRenderTask = null;
+        }
+
         const pdfSidebar = document.getElementById('pdf-sidebar');
         const pagesContainer = document.getElementById('pdf-pages-container');
         
         pdfSidebar.classList.remove('open');
         
-        // Limpiamos el contenido después de un pequeño delay para que la transición
-        // de cierre del sidebar se vea fluida antes de vaciar el DOM.
-        setTimeout(() => {
-            if (!isPdfLoading) { // Verificamos que no se haya abierto otro PDF rápido
-                pagesContainer.innerHTML = ''; 
-            }
-        }, 400);
+        // 2. Limpieza inmediata de los canvas para liberar memoria
+        // En móviles, esperar 400ms puede ser demasiado tarde
+        const canvases = pagesContainer.querySelectorAll('canvas');
+        canvases.forEach(canvas => {
+            canvas.width = 1; // "Encoger" el canvas ayuda a liberar memoria RAM instantáneamente
+            canvas.height = 1;
+        });
+        pagesContainer.innerHTML = ''; 
     }
 
     // --- OTRAS FUNCIONES ---
