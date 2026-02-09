@@ -662,22 +662,65 @@ body::before {
     border-bottom: 1px solid #f5f5f5;
 }
 
-.sources-sidebar--pdf-viewer {
-    height: 100vh; /* O la altura que desees */
+
+#pdf-pages-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
 }
-.sources-sidebar--pdf-viewer .pdf-content {
-    flex-grow: 1; /* Ocupa el resto del espacio disponible */
-    overflow: hidden;
-    padding: 0 !important;
+
+.pdf-page-wrapper {
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    line-height: 0; /* Evita espacios extra debajo del canvas */
 }
-.sources-sidebar--pdf-viewer iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
+
+.pdf-page-wrapper canvas {
     display: block;
+    max-width: 100%;
+    height: auto; /* Permite que el estilo CSS mande sobre el atributo height */
 }
+
+/* Spinner Loader */
+.pdf-loader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    height: 100%;
+    color: white;
+}
+
+.spiral-loader {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgba(255, 255, 255, 0.1);
+    border-top: 5px solid var(--accent-brand); /* Amarillo RPP */
+    border-left: 5px solid var(--accent-brand);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 15px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loading-text {
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
 
 .verification-logo {
     width: 32px;
