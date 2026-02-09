@@ -693,7 +693,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         sourcesSidebar.classList.remove('open');
         sourcesSidebarOverlay.classList.remove('visible');
     }
-    
+
     function closePdfSidebar() {
         isPdfLoading = false; // Esto detiene el bucle 'for' en la siguiente vuelta
     
@@ -836,18 +836,18 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (e.target.closest('.c-drawer__view-tab')) {
                 const tab = e.target.closest('.c-drawer__view-tab');
                 const view = tab.dataset.view;
-                
+
                 // No hacer nada si es el link de descarga
                 if (tab.classList.contains('c-drawer__view-tab--link')) {
                     return;
                 }
-                
+
                 // Actualizar tabs activos
                 document.querySelectorAll('.c-drawer__view-tab').forEach(t => {
                     t.classList.remove('c-drawer__view-tab--active');
                 });
                 tab.classList.add('c-drawer__view-tab--active');
-                
+
                 // Mostrar/ocultar contenido
                 document.querySelectorAll('.c-drawer__view-content').forEach(content => {
                     if (content.dataset.viewContent === view) {
@@ -882,7 +882,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 .replace(/^(Plan de gobierno[^<]+)/, '<h2 class="c-drawer__synthesis-title">$1</h2>')
                 .replace(/(1\. Identidad e ideario político|2\. Visión estratégica y diagnóstico|3\. Reforma del estado y lucha anticorrupción|4\. Modelo económico y reactivación productiva|5\. Ejes sociales: salud, educación y seguridad|6\. Mecanismos de rendición de cuentas)/g, '<h3 class="c-drawer__synthesis-section">$1</h3>')
                 .replace(/(Seguridad|Salud|Educación):/g, '<h4 class="c-drawer__synthesis-subsection">$1:</h4>');
-            
+
             const cleanedSynthesis = formattedSynthesis
                 .replace(/<p>\s*<\/p>/g, '') // Elimina <p></p> incluso si tienen espacios
                 .replace(/<p><\/p>/g, '');
