@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 h.includes('rpp.pe') ? 'https://s2.rpp-noticias.io/static/especial/comparapropuestas/' : '';
     };
     const basePath = getStaticBasePath();
+    const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
     const VALID_TOPICS = [
         "cultura-y-turismo", "derechos-e-igualdad", "educacion",
@@ -515,7 +516,11 @@ document.addEventListener('DOMContentLoaded', async () => {
                     const firstPage = page.split(',')[0].trim();
                     pdfUrl += `#page=${firstPage}&view=FitH&toolbar=1`;
                 }
-                openPdfSidebar(pdfUrl);
+                if (isMobile) {
+                    window.open(pdfUrl, '_blank');
+                } else {
+                    openPdfSidebar(pdfUrl);
+                }
             });
         });
     }
