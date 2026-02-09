@@ -72,10 +72,12 @@
     <!-- PDF Sidebar -->
     <div id="pdf-sidebar" class="sources-sidebar sources-sidebar--pdf-viewer">
         <div class="sources-sidebar-header">
-            <h3>PDF</h3>
+            <h3>Visor de Plan de Gobierno</h3>
             <button id="close-pdf-sidebar" class="close-button" aria-label="Cerrar PDF">&times;</button>
         </div>
-        <div id="pdf-content" class="pdf-content"></div>
+        <div id="pdf-content" class="pdf-content" style="overflow-y: auto; background: #525659; height: 100%;">
+            <div id="pdf-pages-container"></div>
+        </div>
     </div>
 
     <header class="app-header">
@@ -311,6 +313,7 @@
     </section>
 
     <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
     <script src="script.js"></script>
 
 </body>

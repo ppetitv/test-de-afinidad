@@ -514,29 +514,72 @@ document.addEventListener('DOMContentLoaded', async () => {
                     const firstPage = page.split(',')[0].trim();
                     pdfUrl += `#page=${firstPage}&view=FitH&toolbar=1`;
                 }
-                if (isMobile) {
-                    window.open(pdfUrl, '_blank');
-                } else {
-                    openPdfSidebar(pdfUrl);
-                }
+                //if (isMobile) {
+                //    window.open(pdfUrl, '_blank');
+                //} else {
+                    openPdfSidebar("https://pre-gruporpp-media.s3-us-west-2.amazonaws.com/2026/02/06/renovacion-popular_23349.pdf#page=10");
+                //}
             });
         });
     }
 
-    function openPdfSidebar(pdfUrl) {
-        pdfContainer.innerHTML = `
-            <iframe 
-                src="${pdfUrl}" 
-                width="100%" 
-                height="100%" 
-                style="border: none;"
-                title="Visor de PDF">
-            </iframe>
-        `;
-        sidebar.classList.remove('open');
-        sidebarOverlay.classList.remove('visible');
-        pdfSidebar.classList.add('open');
-        sourcesSidebarOverlay.classList.add('visible');
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+    async function openPdfSidebar(pdfUrl) {
+        const container = document.getElementById('pdf-content');
+        const pagesContainer = document.getElementById('pdf-pages-container');
+        const cleanUrl = pdfUrl.split('#')[0];
+        
+        // Extraer la página de destino del hash
+        const pageMatch = pdfUrl.match(/#page=(\d+)/);
+        const targetPage = pageMatch ? parseInt(pageMatch[1]) : 1;
+
+        try {
+            pagesContainer.innerHTML = '<p style="color:white; padding:20px;">Cargando documento completo...</p>';
+            const loadingTask = pdfjsLib.getDocument(cleanUrl);
+            const pdf = await loadingTask.promise;
+            pagesContainer.innerHTML = ''; // Limpiar mensaje de carga
+            // Recorrer todas las páginas
+            for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
+                const page = await pdf.getPage(pageNum);
+                // Crear elementos para la página
+                const pageWrapper = document.createElement('div');
+                pageWrapper.id = `page-${pageNum}`;
+                pageWrapper.className = 'pdf-page-wrapper';
+                pageWrapper.style.marginBottom = '10px';
+                pageWrapper.style.position = 'relative';
+
+                const canvas = document.createElement('canvas');
+                const context = canvas.getContext('2d');
+                
+                // Ajustar escala al ancho del sidebar
+                const viewport = page.getViewport({ scale: container.clientWidth / page.getViewport({ scale: 1 }).width });
+                
+                canvas.height = viewport.height;
+                canvas.width = viewport.width;
+                
+                pageWrapper.appendChild(canvas);
+                pagesContainer.appendChild(pageWrapper);
+
+                // Renderizar la página
+                await page.render({ canvasContext: context, viewport: viewport }).promise;
+
+                // Si es la página objetivo, hacer scroll hacia ella una vez renderizada
+                if (pageNum === targetPage) {
+                    setTimeout(() => {
+                        pageWrapper.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }, 500);
+                }
+            }
+            // Abrir los sidebars
+            sidebar.classList.remove('open');
+            sidebarOverlay.classList.remove('visible');
+            pdfSidebar.classList.add('open');
+            sourcesSidebarOverlay.classList.add('visible');
+
+        } catch (error) {
+            console.error("Error al renderizar PDF completo:", error);
+            pagesContainer.innerHTML = `<div style="color:white; padding:20px;">Error al cargar. <a href="${cleanUrl}" target="_blank" style="color:#ffcc00">Abrir original</a></div>`;
+        }
     }
 
     function populateSourcesSidebar(proposal) {
