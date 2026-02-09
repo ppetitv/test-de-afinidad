@@ -3,14 +3,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     let data = { candidates: [], proposals: [] };
 
     // Configuración para DATA
-    const cdnRpp = `https://s2.rpp-noticias.io/static/especial/comparapropuestas/`;
-    const getStaticBasePath = () => {
+    const urlComparapropuestas = "https://s2.rpp-noticias.io/static/especial/comparapropuestas/";
+    const urlPlanesGobierno = "https://eaudioplayer.radio-grpp.io/plan-de-gobierno/";
+    const basePath = (() => {
         const h = window.location.hostname;
         return h.includes('dev') ? 'https://dev.s.rpp-noticias.io/static/especial/testdeafinidad/' :
             h.includes('pre') ? 'https://pre.s.rpp-noticias.io/static/especial/testdeafinidad/' :
                 h.includes('rpp.pe') ? 'https://s2.rpp-noticias.io/static/especial/testdeafinidad/' : '';
-    };
-    const basePath = getStaticBasePath();
+    })();
     const isMobile = window.matchMedia("(max-width: 768px)").matches;
 
     const VALID_TOPICS = [
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         data.candidates = [];
         data.proposals = [];
         // Cargar candidatos
-        const candidatesResponse = await fetch(cdnRpp + 'data/datajne_v2.json');
+        const candidatesResponse = await fetch(urlComparapropuestas + 'data/datajne_v2.json');
         if (!candidatesResponse.ok) throw new Error('Error al cargar candidatos');
         const candidatesJSON = await candidatesResponse.json();
 
@@ -47,8 +47,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 id: formatFilename(candidatesJSON.candidatos[id].party),
                 name: candidatesJSON.candidatos[id].name,
                 party: candidatesJSON.candidatos[id].party,
-                photo: cdnRpp + candidatesJSON.candidatos[id].imgUrl,
-                imgLogoUrl: cdnRpp + candidatesJSON.candidatos[id].imgLogoUrl,
+                photo: urlComparapropuestas + candidatesJSON.candidatos[id].imgUrl,
+                imgLogoUrl: urlComparapropuestas + candidatesJSON.candidatos[id].imgLogoUrl,
                 pdfUrl: candidatesJSON.candidatos[id].pdfUrl,
                 audioUrl: candidatesJSON.candidatos[id].audioUrl
             });
@@ -509,7 +509,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const proposal = data.proposals.find(p => p.id == proposalId);
                 const source = proposal.sources[sourceId];
                 const page = source.pages || "";
-                let pdfUrl = basePath + 'data/plan-de-gobierno/' + formatFilename(source.party + '.pdf');
+                let pdfUrl = urlPlanesGobierno + formatFilename(source.party) + '.pdf';
                 if (page !== "") {
                     const firstPage = page.split(',')[0].trim();
                     pdfUrl += `#page=${firstPage}&view=FitH&toolbar=1`;
@@ -537,7 +537,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         sidebarOverlay.classList.remove('visible');
         pdfSidebar.classList.add('open');
         sourcesSidebarOverlay.classList.add('visible');
-        console.log(pdfUrl);
     }
 
     function populateSourcesSidebar(proposal) {
@@ -744,8 +743,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function renderPlanDrawer(candidate, planData) {
-        console.log('candidate', candidate);
-
         const pdfUrl = `${candidate.pdfUrl}`;
         let summaryContent = '';
 
@@ -879,7 +876,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
         // Cargar datos del plan de gobierno
         const filenameParty = `${formatFilename(candidate.party)}.txt`;
-        const response = await fetch(`${cdnRpp}data/sintesis/${filenameParty}`);
+        const response = await fetch(`${urlComparapropuestas}data/sintesis/${filenameParty}`);
         if (!response.ok) throw new Error('Network response was not ok');
         const planData = await response.text();
 
