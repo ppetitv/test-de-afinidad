@@ -4,7 +4,7 @@
   "candidatos": {
     "lopezaliaga": {
       "name": "Rafael López Aliaga",
-      "party": "RENOVACIÓN POPULAR",
+      "party": "RENOVACION POPULAR",
       "rppUrl": "https://rpp.pe/noticias/rafael-lopez-aliaga",
       "imgLogoUrl": "images/perfiles/partidos/lopezaliaga.webp",
       "imgUrl": "images/perfiles/bw/lopezaliaga.webp",
@@ -40,7 +40,7 @@
     },
     "lopezchau": {
       "name": "Alfonso López Chau",
-      "party": "AHORA NACIÓN - AN",
+      "party": "AHORA NACION - AN",
       "rppUrl": "https://rpp.pe/noticias/alfonso-lopez-chau",
       "imgLogoUrl": "images/perfiles/partidos/lopezchau.webp",
       "imgUrl": "images/perfiles/bw/lopezchau.webp",
@@ -49,7 +49,7 @@
     },
     "lescano": {
       "name": "Yohny Lescano",
-      "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+      "party": "PARTIDO POLÍTICO COOPERACION POPULAR",
       "rppUrl": "https://rpp.pe/noticias/yohny-lescano",
       "imgLogoUrl": "images/perfiles/partidos/lescano.webp",
       "imgUrl": "images/perfiles/bw/lescano.webp",
@@ -112,7 +112,7 @@
     },
     "luna": {
       "name": "José Luna",
-      "party": "PODEMOS PERÚ",
+      "party": "PODEMOS PERU",
       "rppUrl": "https://rpp.pe/noticias/jose-luna",
       "imgLogoUrl": "images/perfiles/partidos/luna.webp",
       "imgUrl": "images/perfiles/bw/luna.webp",
@@ -121,7 +121,7 @@
     },
     "sanchez": {
       "name": "Roberto Sánchez",
-      "party": "JUNTOS POR EL PERÚ",
+      "party": "JUNTOS POR EL PERU",
       "rppUrl": "https://rpp.pe/noticias/roberto-sanchez",
       "imgLogoUrl": "images/perfiles/partidos/sanchez.webp",
       "imgUrl": "images/perfiles/bw/sanchez.webp",
@@ -130,7 +130,7 @@
     },
     "grozo": {
       "name": "Wolfgang Grozo",
-      "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+      "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRATICA",
       "rppUrl": "https://rpp.pe/politica/elecciones/elecciones-2026-estas-agrupaciones-politicas-elegiran-a-sus-candidatos-con-menos-de-10-delegados-noticia-1659817",
       "imgLogoUrl": "images/perfiles/partidos/grozo.webp",
       "imgUrl": "images/perfiles/bw/grozo.webp",
@@ -184,7 +184,7 @@
     },
     "carrazco": {
       "name": "Charlie Carrasco",
-      "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
+      "party": "PARTIDO DEMOCRATA UNIDO PERU",
       "rppUrl": "https://rpp.pe/peru/actualidad/elecciones-regionales-y-municipales-2026-estas-son-las-150-organizaciones-politicas-que-quedaron-habilitadas-para-postular-noticia-1670762",
       "imgLogoUrl": "images/perfiles/partidos/carrasco.webp",
       "imgUrl": "images/perfiles/bw/carrasco.webp",
@@ -202,7 +202,7 @@
     },
     "masse": {
       "name": "Armando Massé",
-      "party": "PARTIDO DEMOCRÁTICO FEDERAL",
+      "party": "PARTIDO DEMOCRATICO FEDERAL",
       "rppUrl": "https://rpp.pe/noticias/armando-masse",
       "imgLogoUrl": "images/perfiles/partidos/masse.webp",
       "imgUrl": "images/perfiles/bw/masse.webp",
@@ -211,7 +211,7 @@
     },
     "ortiz": {
       "name": "Antonio Ortíz",
-      "party": "SALVEMOS AL PERÚ",
+      "party": "SALVEMOS AL PERU",
       "rppUrl": "https://rpp.pe/noticias/antonio-ortiz-villano",
       "imgLogoUrl": "images/perfiles/partidos/ortiz.webp",
       "imgUrl": "images/perfiles/bw/ortiz.webp",
@@ -220,7 +220,7 @@
     },
     "gonzales": {
       "name": "Alex Gonzáles",
-      "party": "PARTIDO DEMÓCRATA VERDE",
+      "party": "PARTIDO DEMOCRATA VERDE",
       "rppUrl": "https://rpp.pe/noticias/alex-gonzales",
       "imgLogoUrl": "images/perfiles/partidos/gonzales.webp",
       "imgUrl": "images/perfiles/bw/gonzales.webp",
@@ -256,7 +256,7 @@
     },
     "caller": {
       "name": "Herbert Caller",
-      "party": "PARTIDO PATRIÓTICO DEL PERÚ",
+      "party": "PARTIDO PATRIOTICO DEL PERU",
       "rppUrl": "https://rpp.pe/noticias/herbert-caller",
       "imgLogoUrl": "images/perfiles/partidos/caller.webp",
       "imgUrl": "images/perfiles/bw/caller.webp",

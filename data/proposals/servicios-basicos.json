@@ -21,7 +21,7 @@
         "paginas": "115"
       },
       {
-        "partido": "Perú Primero",
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
         "sustento": "Describe la Política 2: \"Agua y Reúso (PNAR)\" y el \"Programa Nacional 'Agua 100'\" para cobertura universal de agua potable segura al 2031.",
         "paginas": "127"
       },
@@ -41,7 +41,7 @@
         "paginas": "26"
       },
       {
-        "partido": "Primero La Gente",
+        "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
         "sustento": "Establece la meta de al menos 85% de población con acceso a agua gestionada de manera segura a nivel nacional para 2031.",
         "paginas": "38"
       },
@@ -56,7 +56,7 @@
         "paginas": "188"
       },
       {
-        "partido": "Perú Libre",
+        "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
         "sustento": "En la matriz de problemas y objetivos, establece la meta de \"100 % de la población con acceso a agua potable al 2031\".",
         "paginas": "7"
       }
@@ -69,7 +69,7 @@
     "phrase": "Involucrar al sector privado en la administración de las empresas de agua para mejorar su eficiencia",
     "matches": [
       {
-        "partido": "Avanza País",
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
         "sustento": "En la sección de Estrategias y Acciones (Problema 4), propone: \"Establecimiento de una Alianza Público Privada para la gestión de SEDAPAL... y financiamiento de las AFP\".",
         "paginas": "47"
       },
@@ -79,7 +79,7 @@
         "paginas": "32"
       },
       {
-        "partido": "Frente de la Esperanza 2021",
+        "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
         "sustento": "En el punto 9 de sus propuestas de Agua: \"Promoveremos la participación del sector privado... garantizando la autonomía y la NO Privatización\".",
         "paginas": "37"
       },
@@ -112,22 +112,22 @@
     "phrase": "Defiendo que la gestión del agua sea 100% estatal y rechazo cualquier forma de privatización de las EPS (como Sedapal)",
     "matches": [
       {
-        "partido": "FRENTE DE LA ESPERANZA 2021",
+        "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
         "sustento": "'Promoveremos la participación del sector privado en el financiamiento... a través de APP... garantizando la autonomía y la NO Privatización de estos servicios públicos.'",
         "paginas": "37"
       },
       {
-        "partido": "PERÚ LIBRE",
+        "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
         "sustento": "'Garantizar la seguridad hídrica... mediante... la gestión soberana y pública del recurso hídrico... Dereschos sociales fundamentales como responsabilidad indelegable del Estado.'",
         "paginas": ""
       },
       {
-        "partido": "PARTIDO DEMÓCRATA VERDE",
+        "partido": "PARTIDO DEMOCRATA VERDE",
         "sustento": "'Acceso a los recursos básicos... donde el monopolio y la privatización de estos elementos no tiene cabida... el consumo realizado por una persona no disminuye el de los demás.'",
         "paginas": ""
       },
       {
-        "partido": "JUNTOS POR EL PERÚ",
+        "partido": "JUNTOS POR EL PERU",
         "sustento": "'Retomar el control de la gestión del agua en favor de las políticas públicas que favorezca a los sectores más pobres... gestión soberana y pública del recurso hídrico.'",
         "paginas": "45"
       },
@@ -137,7 +137,7 @@
         "paginas": "48"
       },
       {
-        "partido": "AHORA NACIÓN - AN",
+        "partido": "AHORA NACION - AN",
         "sustento": "'Se garantizará la calidad, continuidad y sostenibilidad del servicio, fortaleciendo la gestión pública y comunitaria.'",
         "paginas": "13"
       }
@@ -160,7 +160,7 @@
         "paginas": "105"
       },
       {
-        "partido": "RENOVACIÓN POPULAR",
+        "partido": "RENOVACION POPULAR",
         "sustento": "'Implementaremos el servicio de tanques de agua para facilitar a la ciudadanía este servicio básico y primordial en zonas de extrema pobreza.'",
         "paginas": "5"
       },
@@ -180,7 +180,7 @@
         "paginas": "203"
       },
       {
-        "partido": "INTEGRIDAD DEMOCRÁTICA",
+        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
         "sustento": "'Impulsará soluciones técnicas... como sistemas por gravedad... microrreservorios... y tecnologías de potabilización domiciliaria donde no sea viable instalar una red completa.'",
         "paginas": "131"
       }
@@ -193,7 +193,7 @@
     "phrase": "Apoyo la entrega masiva de títulos de propiedad para formalizar viviendas en sectores populares",
     "matches": [
       {
-        "partido": "PARTIDO DEMOCRÁTICO FEDERAL",
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
         "sustento": "'TITULACIÓN: 3,000,000 propiedades en Lima... AGRICULTURA FAMILIAR: 2,000,000 hectáreas tituladas... PROYECTO 4: FORMALIZACIÓN MASIVA PRODUCTIVA.'",
         "paginas": "41"
       },
@@ -218,7 +218,7 @@
         "paginas": "128"
       },
       {
-        "partido": "PERÚ LIBRE",
+        "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
         "sustento": "'Otorgar 500,000 títulos de propiedad urbana al 2030, priorizando asentamientos humanos y barrios populares históricamente excluidos.'",
         "paginas": "7"
       },
@@ -228,7 +228,7 @@
         "paginas": "62"
       },
       {
-        "partido": "PARTIDO DEMÓCRATA VERDE",
+        "partido": "PARTIDO DEMOCRATA VERDE",
         "sustento": "'Titulación integral de predios urbanos y rurales... Meta 2030: 350,000 titulaciones por año [Proyección: 1.75 millones en 5 años].'",
         "paginas": "269"
       },
@@ -276,7 +276,7 @@
         "paginas": "33"
       },
       {
-        "partido": "PARTIDO DEMOCRÁTICO FEDERAL",
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
         "sustento": "'PROGRAMA NACIONAL DE VIVIENDA FEDERAL... VIVIENDAS NUEVAS: 1,000,000 unidades... Créditos: Tasas subsidiadas 2-4%.'",
         "paginas": "41"
       },
@@ -291,12 +291,12 @@
         "paginas": "107"
       },
       {
-        "partido": "PARTIDO DEMÓCRATA VERDE",
+        "partido": "PARTIDO DEMOCRATA VERDE",
         "sustento": "'Producción anual sostenida... Meta 2030: 120,000 viviendas sociales por año [600,000 en el quinquenio]... Creación de un Fondo Nacional de Vivienda Social Verde.'",
         "paginas": "280"
       },
       {
-        "partido": "PERÚ PRIMERO",
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
         "sustento": "'Implementación masiva de programas de vivienda social sostenible... como “Una Casita Para Ti”... Metas: 380,000 parques habitacionales sostenibles entregados.'",
         "paginas": "133"
       },
@@ -306,7 +306,7 @@
         "paginas": "188"
       },
       {
-        "partido": "AVANZA PAÍS",
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
         "sustento": "'Reducir el déficit habitacional... 200,000 viviendas construidas... Establecimiento del Programa MEJORANDO TU CASA... autoconstrucción asistida.'",
         "paginas": "101"
       },
@@ -339,7 +339,7 @@
         "paginas": "52"
       },
       {
-        "partido": "FRENTE DE LA ESPERANZA 2021",
+        "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
         "sustento": "'Crear el programa de VIVIENDA JOVEN y continuar con MiVIVIENDA y TECHO PROPIO.'",
         "paginas": "26"
       },
@@ -349,7 +349,7 @@
         "paginas": "377"
       },
       {
-        "partido": "PARTIDO DEMOCRÁTICO FEDERAL",
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
         "sustento": "'Silicon Valley Amazónico: Reubicar 1 millón de jóvenes profesionales... 5 centros urbanos planificados... vivienda sostenible.'",
         "paginas": "433"
       }
@@ -372,7 +372,7 @@
         "paginas": "325"
       },
       {
-        "partido": "AVANZA PAÍS",
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
         "sustento": "'Prohibición por norma legal de edificar en zonas consideradas de riesgo y promoción a la reinserción de poblaciones... a nuevos proyectos urbanos de acuerdo con la Ley.'",
         "paginas": "47"
       },
@@ -382,7 +382,7 @@
         "paginas": "27"
       },
       {
-        "partido": "PARTIDO DEMÓCRATA VERDE",
+        "partido": "PARTIDO DEMOCRATA VERDE",
         "sustento": "'Identificación y reasentamiento planificado de familias en zonas críticas... Plan nacional de reasentamiento inicial: 30 000 familias... Prohibición absoluta de otorgar licencias.'",
         "paginas": "369"
       },
@@ -397,12 +397,12 @@
         "paginas": "33"
       },
       {
-        "partido": "PERÚ PRIMERO",
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
         "sustento": "'Familias reasentadas (no mitigable)... Metas: 35,000 familias reasentadas (no mitigable).'",
         "paginas": "129"
       },
       {
-        "partido": "PRIMERO LA GENTE",
+        "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
         "sustento": "'Número de hogares reasentados o regularizados en suelo urbano seguro (MVCS; CENEPRED): 30 mil hogares/año.'",
         "paginas": "11"
       },
@@ -430,17 +430,17 @@
         "paginas": "34"
       },
       {
-        "partido": "AVANZA PAÍS",
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
         "sustento": "'Ampliación de redes de suministro de GN a la mayoría de las ciudades... destrabar la construcción del gasoducto del sur... Nuestra meta al 2031 es que el gas llegue a todo el sur del Perú.'",
         "paginas": "12"
       },
       {
-        "partido": "RENOVACIÓN POPULAR",
+        "partido": "RENOVACION POPULAR",
         "sustento": "'El gas de Camisea será destinado principalmente para atender la demanda interna. Promoveremos la construcción de gaseoductos regionales... hasta la puerta de cada casa.'",
         "paginas": "24"
       },
       {
-        "partido": "PERÚ LIBRE",
+        "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
         "sustento": "'Alcanzar 1 millón de nuevas conexiones de gas natural al 2030... Gasoducto Sur Peruano concluido antes del 2030... priorizando el abastecimiento interno.'",
         "paginas": ""
       },
@@ -450,7 +450,7 @@
         "paginas": "197"
       },
       {
-        "partido": "PARTIDO SÍCREO",
+        "partido": "PARTIDO SICREO",
         "sustento": "'Llevar al gas de Camisea a la región Puno... Lograr que el 40% de los hogares urbanos de Juliaca y Puno cuenten con conexión a gas natural residencial para 2028.'",
         "paginas": ""
       },
@@ -460,7 +460,7 @@
         "paginas": ""
       },
       {
-        "partido": "PERÚ PRIMERO",
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
         "sustento": "'Impulso de la masificación del gas en varias ciudades de Apurímac, Cusco, Puno... Promover inversión en Gas Natural Comprimido (GNC) o Gas Natural Licuado (GNL), para el transporte a zonas alejadas.'",
         "paginas": ""
       },
@@ -488,7 +488,7 @@
         "paginas": "109"
       },
       {
-        "partido": "PARTIDO DEMÓCRATA UNIDO PERÚ",
+        "partido": "PARTIDO DEMOCRATA UNIDO PERU",
         "sustento": "'Reforma energética... implementar subsidio a la demanda para aquellas familias que lo requieran, promover la ampliación de la infraestructura...'",
         "paginas": "13"
       },
@@ -503,12 +503,12 @@
         "paginas": "112"
       },
       {
-        "partido": "PERÚ PRIMERO",
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
         "sustento": "'Expandir el GLP y gas natural a zonas rurales y periurbanas con subsidios focalizados... Ampliación FISE con subsidios focalizados.'",
         "paginas": "191"
       },
       {
-        "partido": "AVANZA PAÍS",
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
         "sustento": "'Conservando los programas de masificación del uso de gas como el FISE... Reducir el costo de la energía eléctrica para los usuarios regulados.'",
         "paginas": "12"
       },
@@ -541,7 +541,7 @@
         "paginas": "408"
       },
       {
-        "partido": "PARTIDO DEMÓCRATA VERDE",
+        "partido": "PARTIDO DEMOCRATA VERDE",
         "sustento": "'Electrificación rural total, incluyendo Amazonía profunda con microredes solares... Expandir el acceso a energía eléctrica en zonas rurales, incorporando soluciones renovables descentralizadas.'",
         "paginas": "366"
       },
@@ -556,12 +556,12 @@
         "paginas": "269"
       },
       {
-        "partido": "PRIMERO LA GENTE",
+        "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
         "sustento": "'Tasa de acceso a electricidad en zonas rurales ≥ 95%... Número de hogares rurales con soluciones energéticas descentralizadas sostenibles ≥ 300,000.'",
         "paginas": "41"
       },
       {
-        "partido": "AHORA NACIÓN - AN",
+        "partido": "AHORA NACION - AN",
         "sustento": "'Porcentaje de acceso a la energía eléctrica por parte de los hogares peruanos. La meta es del 100%... Implementar un Programa Nacional de Energía Rural y Amazónica, priorizando soluciones descentralizadas (solar...).'",
         "paginas": "112"
       },
@@ -581,7 +581,7 @@
         "paginas": "70"
       },
       {
-        "partido": "PERÚ PRIMERO",
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
         "sustento": "'Expandir electrificación rural, en zonas alejadas... Microredes solares y eólicas híbridas en comunidades aisladas.'",
         "paginas": "192"
       }
@@ -604,17 +604,17 @@
         "paginas": "188"
       },
       {
-        "partido": "PARTIDO DEMÓCRATA VERDE",
+        "partido": "PARTIDO DEMOCRATA VERDE",
         "sustento": "'El acceso al agua, saneamiento, electricidad e internet es un derecho fundamental que incide directamente en: Salud, Educación... Garantizar conectividad como derecho habilitador.'",
         "paginas": "130"
       },
       {
-        "partido": "AVANZA PAÍS",
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
         "sustento": "'La desconexión digital empieza a percibirse como abandono del Estado, porque la conectividad digital ya no es un “lujo” sino un derecho percibido, especialmente por los jóvenes.'",
         "paginas": "91"
       },
       {
-        "partido": "INTEGRIDAD DEMOCRÁTICA",
+        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
         "sustento": "'El acceso a Internet de calidad será reconocido como un servicio público esencial y estratégico, al mismo nivel que otros servicios básicos... El Estado asumirá un rol activo.'",
         "paginas": "140"
       },
@@ -657,7 +657,7 @@
         "paginas": "227"
       },
       {
-        "partido": "PERÚ PRIMERO",
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
         "sustento": "'100% de instituciones educativas de primaria o secundaria que cuentan con acceso al servicio de internet; de preferencia gratuita... Implementación del Plan Nacional de Conectividad Digital.'",
         "paginas": "125"
       },
@@ -667,7 +667,7 @@
         "paginas": "36"
       },
       {
-        "partido": "AVANZA PAÍS",
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
         "sustento": "'Programa de entrega de conectividad subvencionada para colegios, comisarías y centros de salud... 90% de escuelas con conectividad... Crear un Fondo de Conectividad Rural.'",
         "paginas": "91"
       },
@@ -677,7 +677,7 @@
         "paginas": "33"
       },
       {
-        "partido": "JUNTOS POR EL PERÚ",
+        "partido": "JUNTOS POR EL PERU",
         "sustento": "'Garantizando que el 100% de las escuelas contarán con servicios básicos y un 80% con conectividad, priorizando... la Amazonía y los andes.'",
         "paginas": "49"
       },
@@ -740,12 +740,12 @@
         "paginas": "68"
       },
       {
-        "partido": "AVANZA PAÍS",
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
         "sustento": "'Fomento del empleo de Tablets offline... para llegar a las zonas sin conectividad... Dotar de Internet de alta velocidad... en las instituciones educativas urbanas.'",
         "paginas": "37"
       },
       {
-        "partido": "PARTIDO DEMÓCRATA VERDE",
+        "partido": "PARTIDO DEMOCRATA VERDE",
         "sustento": "'Entrega de dispositivos a estudiantes vulnerables... Internet para todas las escuelas públicas.'",
         "paginas": "299"
       },
@@ -773,7 +773,7 @@
         "paginas": "57"
       },
       {
-        "partido": "AVANZA PAÍS",
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
         "sustento": "'Habilitar conexión de internet satelital para los 67 distritos de frontera... Promover modelos híbridos... o soluciones satelitales para zonas muy remotas.'",
         "paginas": "92"
       },
@@ -808,12 +808,12 @@
         "paginas": "129"
       },
       {
-        "partido": "PARTIDO DEMOCRÁTICO FEDERAL",
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
         "sustento": "'Perú Conectado 2030: Fibra óptica nacional y satélite propio.'",
         "paginas": "26"
       },
       {
-        "partido": "COOPERACIÓN POPULAR",
+        "partido": "PARTIDO POLITICO COOPERACION POPULAR",
         "sustento": "'Compra de un satélite de telecomunicaciones [en el primer trimestre del 2027].'",
         "paginas": "6"
       }
