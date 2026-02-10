@@ -7,28 +7,53 @@
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Retomará y profundizará el proceso de shock desregulatorio... reducir como mínimo un 40% del tiempo promedio que hoy tardan los procedimientos de tramitación",
-        "paginas": "21"
-      },
-      {
-        "partido": "LIBERTAD POPULAR",
-        "sustento": "Acelerar la implementación de una Ventanilla Única Minero–Energética digital... para reducir de manera significativa los tiempos de permisos",
-        "paginas": "62"
-      },
-      {
-        "partido": "SALVEMOS AL PERU",
-        "sustento": "Aprovechar la gran minería como plataforma para la industrialización... dinamizar inversiones por US$ 50,000 millones",
-        "paginas": "114, 164"
-      },
-      {
-        "partido": "PARTIDO SICREO",
-        "sustento": "Desbloquear los grandes proyectos de infraestructura... energía, minería e irrigación pendientes de culminar",
-        "paginas": "18"
+        "sustento": "Retomará y profundizará el proceso de shock desregulatorio... reducir –como mínimo– un 40% del tiempo promedio que hoy tardan los procedimientos de tramitación de proyectos de inversión",
+        "paginas": "124"
       },
       {
         "partido": "ALIANZA PARA EL PROGRESO",
-        "sustento": "Adjudicar alrededor de US$ 80 mil millones en proyectos APP y Proyectos en Activos... con un rol promotor muy agresivo",
-        "paginas": "11"
+        "sustento": "Viabilizar este gran potencial... Medidas: Ventanilla única digital minera... agilización de la transición exploración–producción",
+        "paginas": "55"
+      },
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Reducir la tramitología de permisos de exploración y extracción... Consolidar la Ventanilla Única de Permisos (VUD) con plazos máximos vinculantes y penalidades por retrasos",
+        "paginas": "67"
+      },
+      {
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "Acelerar la implementación de una Ventanilla Única Minero–Energética digital, con plazos máximos y trazabilidad, para reducir de manera significativa los tiempos de permisos",
+        "paginas": "63"
+      },
+      {
+        "partido": "PODEMOS PERU",
+        "sustento": "Destrabe de megaproyectos: minería (US$ 25,000 millones)... Simplificación radical de trámites: ventanilla única nacional, silencio administrativo positivo",
+        "paginas": "166"
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
+        "sustento": "Acelerar 05 proyectos greenfield (USD 10,000 millones)... Reducción de plazos de evaluación para Estudios de Impacto Ambiental (EIA) semidetallados",
+        "paginas": "207"
+      },
+      {
+        "partido": "PARTIDO SICREO",
+        "sustento": "Desbloquear los grandes proyectos de infraestructura... energía, minería e irrigación pendientes de culminar [para] impulsar la creación de más puestos de trabajo",
+        "paginas": "18"
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Agilizaremos los engorrosos y lentos trámites burocráticos... El Perú tendrá un entorno amigable para las inversiones para promover el ingreso del capital extranjero",
+        "paginas": "89"
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU ACCION",
+        "sustento": "Destrabar e impulsar las inversiones privadas nacionales y extranjeras en el Perú tanto en el sector minero, pesquero, portuario y de servicios",
+        "paginas": "15"
+      },
+      {
+        "partido": "AHORA NACION - AN",
+        "sustento": "Aprovechar la gran minería como plataforma para la industrialización... Incremento del valor agregado minero en el PBI en 15%",
+        "paginas": "114"
       }
     ]
   },
@@ -40,28 +65,53 @@
     "matches": [
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
-        "sustento": "Revisión y renegociación de los contratos Ley, para recuperar la competitividad y garantizar soberanía sobre los recursos estratégicos",
+        "sustento": "Recuperaremos recursos estratégicos: Revisión y renegociación de los contratos Ley, para recuperar la competitividad y garantizar soberanía sobre los recursos estratégicos",
         "paginas": "21"
       },
       {
-        "partido": "JUNTOS POR EL PERU",
+        "partido": "JUNTOS POR EL PERÚ",
         "sustento": "Renegociar de contratos sobre recursos naturales estratégicos: gas, minería, hidrocarburos... incrementar regalías minero-energéticas en 20%",
         "paginas": "67"
       },
       {
-        "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
-        "sustento": "Eliminación del total de los candados constitucionales neoliberales... revisión integral de 100% de contratos estratégicos lesivos al Estado",
+        "partido": "PERÚ LIBRE",
+        "sustento": "Eliminación del total de los candados constitucionales neoliberales... revisión integral de 100% de contratos estratégicos lesivos al Estado... recuperar la capacidad soberana... nacionalizar sectores",
         "paginas": "11"
       },
       {
-        "partido": "PARTIDO POLITICO PRIN",
-        "sustento": "Gestionar ante el Congreso leyes que sancionen drásticamente a las personas naturales y jurídicas que dañen los bosques",
-        "paginas": "41"
+        "partido": "AHORA NACIÓN",
+        "sustento": "No daremos más contratos ley, revisaremos los existentes... implementaremos el impuesto a las sobreganancias mineras... Modificaremos la Constitución para garantizar la soberanía",
+        "paginas": "25"
       },
       {
-        "partido": "PARTIDO DEMOCRATICO FEDERAL",
-        "sustento": "Establecerá un Impuesto a las Sobreganancias Mineras (tasa marginal del 10%-30%) y creará un Fondo Soberano Federal alimentado por el 30% de las regalías mineras y el 25% del canon y sobrecanon",
+        "partido": "PARTIDO DEMOCRÁTICO FEDERAL",
+        "sustento": "Establecerá un Impuesto a las Sobreganancias Mineras (tasa marginal del 10%-30%) y creará un Fondo Soberano Federal alimentado por el 30% de las regalías mineras y el 25% del canon",
         "paginas": "80, 81"
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Implementación del Canon para el Pueblo: hasta el 40% del canon directamente redistribuido a la población de la zona de extracción... Aseguramiento... del respeto a los contratos",
+        "paginas": "21, 123"
+      },
+      {
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "Implementará un Cheque Minero dirigido a familias que viven en distritos mineros... Sobretasa temporal de 10% a utilidades extraordinarias (>150% del promedio histórico)",
+        "paginas": "62, 73"
+      },
+      {
+        "partido": "PARTIDO MORADO",
+        "sustento": "Redistribución obligatoria: 40% para comunidades de área de influencia directa... mediante transferencia directa... Recargo por rentabilidad extraordinaria... 3 puntos porcentuales",
+        "paginas": "81, 358"
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Reestructuraremos el Canon en forma tal que los beneficios vayan directamente a las comunidades sin intermediación burocrática...",
+        "paginas": "89"
+      },
+      {
+        "partido": "PARTIDO POLÍTICO PRIN",
+        "sustento": "Gestionar ante el Congreso leyes que sancionen drásticamente a las personas naturales y jurídicas que dañen los bosques",
+        "paginas": "41"
       }
     ]
   },
@@ -73,28 +123,63 @@
     "matches": [
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
-        "sustento": "Formular un nuevo Código Minero... que permita que miles de operaciones mineras informales y artesanales se formalicen",
-        "paginas": "11"
+        "sustento": "Formular un nuevo Código Minero... que permita que miles de operaciones mineras informales y artesanales se formalicen... Establecer un esquema de 'licencia progresiva' (formalización por etapas).",
+        "paginas": "11, 70"
       },
       {
-        "partido": "PARTIDO POLITICO PERU PRIMERO",
-        "sustento": "Implementación del Sistema Interoperable de la Pequeña Minería y Minería Artesanal (SIPMMA) para registrar y trazar minerales",
-        "paginas": "39"
+        "partido": "PARTIDO POLÍTICO PERU PRIMERO",
+        "sustento": "Establecimiento e implementación del Sistema Interoperable de la Pequeña Minería y Minería Artesanal (SIPMMA) para registrar y trazar minerales... Nueva legislación para la pequeña minería.",
+        "paginas": "158"
       },
       {
         "partido": "AHORA NACION - AN",
-        "sustento": "Transformar la minería artesanal... en una actividad formal, sostenible, segura y generadora de ingresos dignos",
-        "paginas": "112"
+        "sustento": "Transformar la minería artesanal... en una actividad formal, sostenible... Crear Centros Regionales de Formalización Minera, que integren asistencia técnica, ambiental, legal y financiera.",
+        "paginas": "112-113"
       },
       {
-        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
-        "sustento": "Régimen de formalización minera territorial... acreditar titularidad o contrato en seis meses",
+        "partido": "INTEGRIDAD DEMOCRATICA",
+        "sustento": "Reingeniería del REINFO para una Formalización Real... acreditar titularidad o contrato en seis meses... El proceso de formalización será territorial, escalonado y verificable.",
         "paginas": "53"
       },
       {
         "partido": "PARTIDO DEMOCRATICO FEDERAL",
-        "sustento": "Se fija como meta la formalización de 500,000 mineros artesanales y la formalización del 30% de los operadores mineros que demuestren voluntad de adecuación ambiental y tributaria",
-        "paginas": "79, 111"
+        "sustento": "Se fija como meta la formalización de 500,000 mineros artesanales y la formalización del 30% de los operadores mineros que demuestren voluntad de adecuación ambiental.",
+        "paginas": "38 (Gráfico)"
+      },
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "La asociatividad y los parques mineros deben ser el eje de la formalización... Las concesiones extinguidas pasarán a control del Estado para ser otorgadas a pequeños mineros asociados en cooperativas.",
+        "paginas": "47"
+      },
+      {
+        "partido": "PARTIDO MORADO",
+        "sustento": "Cierre Definitivo de REINFO... no volver a prorrogarlo nunca más... Programa de Formalización Efectiva... financiamiento accesible mediante líneas de crédito especiales de COFIDE... para inversión en tecnología limpia.",
+        "paginas": "81-82"
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Creación de un Fondo de Garantías Estatales para la Minería Artesanal... Creación de un Fondo Nacional de Innovación Minera... régimen diferenciado... con apoyo técnico.",
+        "paginas": "99-100"
+      },
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "Sustituir el REINFO por un Régimen MAPE integral... Paquete de incentivos para la formalización: Ofrecer un 'paquete atractivo' de reducción de costos... líneas de crédito con garantía estatal.",
+        "paginas": "46-47"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "sustento": "Crear una nueva entidad público-privada, quizá llamada FOMIN, que reemplace al REINFO... brinde apoyo técnico (ingenieros, geólogos), administrativo y financiero.",
+        "paginas": "93"
+      },
+      {
+        "partido": "PARTIDO APRISTA PERUANO",
+        "sustento": "Creación del Programa “Veta Popular”... Programa Nacional de Tecnología Limpia con subsidio del 70% para eliminar el mercurio totalmente.",
+        "paginas": "230-232"
+      },
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Crearemos el Banco Minero del estado, a fin de contar con un brazo financiero que permita generar incentivos para formalizar a la minería artesanal.",
+        "paginas": "25"
       }
     ]
   },
@@ -105,14 +190,54 @@
     "phrase": "Masificar el gas natural mediante ductos y redes regionales en todo el país",
     "matches": [
       {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Red Nacional de Ductos del Gas... Recuperar el proyecto del Gasoducto del Sur peruano desde Camisea hasta Ilo-Mollendo... que todas las regiones puedan tener el gas natural al mismo precio que en Lima",
+        "paginas": "34-35"
+      },
+      {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
-        "sustento": "Nuestra meta al 2031 es que el gas llegue a todo el sur del Perú... destrabar la construcción del gaseoducto del sur",
+        "sustento": "Destrabar la construcción del gaseoducto del sur... Nuestra meta al 2031 es que el gas llegue a todo el sur del Perú... Ampliación de redes de suministro de GN a la mayoría de las ciudades",
         "paginas": "12"
       },
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Promoción del Gasoducto Sur Andino... integrándolo con proyectos de electrificación y petroquímica",
-        "paginas": "44"
+        "sustento": "Promoción del Gasoducto Sur Andino, integrándolo con proyectos de electrificación, petroquímica y desarrollo industrial del sur... Reducción de la brecha energética promoviendo infraestructura de almacenamiento",
+        "paginas": "44, 95"
+      },
+      {
+        "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+        "sustento": "Gasoducto Sur Peruano concluido antes del 2030... Alcanzar 1 millón de nuevas conexiones de gas natural... Recuperar la soberanía energética... priorizando el abastecimiento interno",
+        "paginas": "112"
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Sistema de Transporte de Gas Natural por Ductos... Impulsar la construcción del Complejo Petroquímico del Sur... Consolidar importantes reservas de gas y petróleo en el litoral norte",
+        "paginas": "99, 13"
+      },
+      {
+        "partido": "RENOVACION POPULAR",
+        "sustento": "El gas de Camisea será destinado principalmente para atender la demanda interna. Promoveremos la construcción de gaseoductos regionales... distribución del gas hasta la puerta de cada casa",
+        "paginas": "25"
+      },
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "Masificación y Transporte de Gas vía adendas... Lanzamiento de APP para que el gas llegue al Cusco... viabilizar la industria petroquímica en esta zona del país",
+        "paginas": "48-49"
+      },
+      {
+        "partido": "FUERZA Y LIBERTAD",
+        "sustento": "Corredores de gas natural y masificación del gas... desarrollo de corredores regionales, redes de distribución, plantas satélite y esquemas de transporte virtual",
+        "paginas": "197"
+      },
+      {
+        "partido": "PARTIDO SICREO",
+        "sustento": "Iniciar la construcción del ramal del Sistema Integrado de Transporte de Gas (SITGAS) hacia Puno en 2026... estableciendo allí una Zona Económica Especial... para la exportación de baterías",
+        "paginas": "26"
+      },
+      {
+        "partido": "PARTIDO POLITICO PERU PRIMERO",
+        "sustento": "Impulso de la masificación del gas en varias ciudades de Apurímac, Cusco, Puno, Arequipa, Moquegua, Tacna y selva... Promover inversión en Gas Natural Comprimido o Licuado",
+        "paginas": "42, 247"
       },
       {
         "partido": "AHORA NACION - AN",
@@ -120,9 +245,14 @@
         "paginas": "112"
       },
       {
-        "partido": "PARTIDO POLITICO PERU PRIMERO",
-        "sustento": "Impulso de la masificación del gas en varias ciudades de Apurímac, Cusco, Puno, Arequipa, Moquegua, Tacna y selva",
-        "paginas": "42"
+        "partido": "INTEGRIDAD DEMOCRATICA",
+        "sustento": "Distribución masiva de gas natural en el sur... Proyectos de transmisión Sur y Centro",
+        "paginas": "166"
+      },
+      {
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "Priorizará el uso del gas natural como energía de transición para abaratar costos energéticos a industrias y hogares, expandiendo redes a nuevas ciudades",
+        "paginas": "61"
       }
     ]
   },
@@ -133,29 +263,79 @@
     "phrase": "Construir qochas y reservorios en zonas altoandinas para garantizar agua todo el año",
     "matches": [
       {
-        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "Construir 40,000 reservorios rústicos mejorados (qochas)... 15,000 km de zanjas de infiltración",
-        "paginas": "39"
+        "partido": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+        "sustento": "Construir 40,000 reservorios rústicos mejorados (qochas): 25,000 pequeños... 12,000 medianos... 3,000 grandes... 15,000 km de zanjas de infiltración para recarga de acuíferos.",
+        "paginas": "174"
       },
       {
-        "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
-        "sustento": "Triplicar el número de proyectos de siembra y cosecha de agua activos... alcanzando al menos un programa sostenido en las cuencas altoandinas",
-        "paginas": "39"
+        "partido": "AHORA NACIÓN",
+        "sustento": "La meta es que al menos 300,000 hectáreas intervenidas con 4000 qochas en cabeceras de microcuencas y 200,000 micro reservorios familiares.",
+        "paginas": "104"
+      },
+      {
+        "partido": "FUERZA Y LIBERTAD",
+        "sustento": "Se pondrá en marcha el Plan 100 Qochas... Implementar al menos 500 sistemas de siembra y cosecha de agua (qochas, reservorios, zanjas de infiltración).",
+        "paginas": "234-235"
       },
       {
         "partido": "PARTIDO SICREO",
-        "sustento": "Construcción de Qochas: Lograr la construcción y puesta en funcionamiento de 1,500 nuevas qochas anuales... 7,500 para 2030",
+        "sustento": "Construcción de Qochas: Lograr la construcción y puesta en funcionamiento de 1,500 nuevas qochas anuales... alcanzando una meta acumulada de 7,500 qochas para 2030.",
         "paginas": "26"
       },
       {
-        "partido": "FUERZA POPULAR",
-        "sustento": "Fortalecimiento del Programa Nacional de Siembra y Cosecha de Agua, priorizando qochas y reservorios",
-        "paginas": "50"
+        "partido": "PRIMERO LA GENTE",
+        "sustento": "Triplicar el número de proyectos de siembra y cosecha de agua activos... alcanzando al menos un programa sostenido en las principales cuencas altoandinas priorizadas.",
+        "paginas": "39"
       },
       {
-        "partido": "PARTIDO DEMOCRATICO FEDERAL",
-        "sustento": "Ejecutará un programa de \"siembra y cosecha de agua\" que incluye la construcción de 100 nuevos reservorios y presas en los Andes y la conservación de 30,000 hectáreas de ecosistemas reguladores hídricos",
-        "paginas": "112, 113"
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Proyecto cosecha de aguas alto andinas... Nuestro programa quinquenal tendrá como meta... 500 sub reservorios menores...",
+        "paginas": "77-78"
+      },
+      {
+        "partido": "PROGRESEMOS",
+        "sustento": "Programa Siembra y Cosecha de Agua y Riego Tecnificado 365... plan masivo de siembra y cosecha de agua en las cabeceras de cuenca.",
+        "paginas": "Dim 3"
+      },
+      {
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "Siembra y Cosecha de Agua: Fortalecer y modernizar el Fondo Sierra Azul para ampliar su alcance y cobertura a nivel nacional.",
+        "paginas": "57"
+      },
+      {
+        "partido": "PARTIDO DEMOCRÁTICO FEDERAL",
+        "sustento": "Ejecutará un programa de \"siembra y cosecha de agua\" que incluye la construcción de 100 nuevos reservorios y presas en los Andes.",
+        "paginas": "112-113"
+      },
+      {
+        "partido": "PARTIDO DEMÓCRATA VERDE",
+        "sustento": "Masificación de la siembra y cosecha de agua... 500 nuevas infraestructuras de retención hídrica en zonas altoandinas y amazónicas.",
+        "paginas": "78, 155"
+      },
+      {
+        "partido": "JUNTOS POR EL PERÚ",
+        "sustento": "Se masificarán proyectos de cosecha de agua, microrrepresas... Invertir en soluciones conjuntas de restablecimiento de la capacidad productora y reguladora de agua.",
+        "paginas": "23, 45"
+      },
+      {
+        "partido": "INTEGRIDAD DEMOCRÁTICA",
+        "sustento": "Ejecución masiva de Soluciones Basadas en la Naturaleza (restauración de bofedales/siembra de agua) financiadas mediante MERESE.",
+        "paginas": "203"
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Fortalecimiento del Programa Nacional de Siembra y Cosecha de Agua, priorizando qochas, reservorios y mini presas en comunidades altoandinas.",
+        "paginas": "50, 98"
+      },
+      {
+        "partido": "COOPERACIÓN POPULAR",
+        "sustento": "Impulsar la siembra del agua, cochas, reservorios... Desde setiembre del 2026 llevar a cabo licitaciones para construcción de reservorios, represas, cochas.",
+        "paginas": "16"
+      },
+      {
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Se masificarán proyectos de cosecha de agua, microrrepresas, gestión de recursos hídricos... elevando en S/400 millones su presupuesto anual.",
+        "paginas": "23"
       }
     ]
   },
@@ -166,29 +346,54 @@
     "phrase": "Ejecutar grandes proyectos hidráulicos como Chavimochic, Majes Siguas y Chinecas",
     "matches": [
       {
-        "partido": "PARTIDO POLITICO PERU ACCION",
-        "sustento": "Empezarán y culminarán en los 5 años de gobierno los 14 proyectos... Chinecas, Majes Siguas II, Paltuture, entre otros",
-        "paginas": "19-20"
+        "partido": "FUERZA POPULAR",
+        "sustento": "Impulso de la construcción de grandes proyectos de represamiento de agua a nivel nacional, tales como Chavimochic III, Majes Siguas II, Poechos II, Olmos, Chinecas, Alto Piura y Puyango-Tumbes.",
+        "paginas": "50"
       },
       {
-        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "Priorizar los 5 megaproyectos de mayor impacto: Trasvase Marañón, Pampas Verdes, Chinecas, Chavimochic III y Majes Siguas II",
-        "paginas": "35"
+        "partido": "PODEMOS PERÚ",
+        "sustento": "Megaproyectos de Irrigación Agrícola... Trasvase del Marañón... Chinecas... Pampas Verdes... Majes-Siguas II.",
+        "paginas": "167"
       },
       {
-        "partido": "UN CAMINO DIFERENTE",
-        "sustento": "Ejecución total de Chavimochic III, Alto Piura, Olmos y Majes... Duplicación de tierras agrícolas",
-        "paginas": "25"
+        "partido": "FUERZA Y LIBERTAD",
+        "sustento": "Proyecto Chinecas... Pampas Verdes... Majes I y II... Chavimochic... Presa Limón – Proyecto Olmos.",
+        "paginas": "312"
+      },
+      {
+        "partido": "SOMOS PERÚ",
+        "sustento": "Destrabe y Ejecución de Megaproyectos de Irrigación... Priorizar los 5 megaproyectos de mayor impacto... Trasvase Marañón, Pampas Verdes, Chinecas, Chavimochic III y Majes Siguas II.",
+        "paginas": "189"
+      },
+      {
+        "partido": "AVANZA PAÍS",
+        "sustento": "Relanzar el proyecto [Majes Siguas II]... Iniciar ejecución [Chinecas] el 2028... Pampas Verdes... Alto Piura... Puyango–Tumbes.",
+        "paginas": "150-152"
+      },
+      {
+        "partido": "PERÚ ACCIÓN",
+        "sustento": "Se empezarán y culminarán en los 5 años de gobierno los 14 proyectos... Chinecas, Majes Siguas II, Paltuture, entre otros.",
+        "paginas": "19"
+      },
+      {
+        "partido": "UNIDAD NACIONAL",
+        "sustento": "Proyecto cosecha de aguas alto andinas... Esto equivale al conjunto de los proyectos Majes II, Chavimochic III y Olmos al mismo tiempo.",
+        "paginas": "78"
+      },
+      {
+        "partido": "PARTIDO DEMOCRÁTICO FEDERAL",
+        "sustento": "Proyecto 1: Chavimochic IV y trasvase Cajamarca-Lambayeque... Recuperación de 7 represas críticas (Poechos, Tinajones, Gallito Ciego...).",
+        "paginas": "108"
       },
       {
         "partido": "LIBERTAD POPULAR",
-        "sustento": "Culminación de proyectos estratégicos como Chavimochic III Etapa, Majes Siguas, Olmos, Chira-Piura y Chinecas",
+        "sustento": "Culminación de proyectos estratégicos como Chavimochic III Etapa, Majes Siguas, Olmos, Chira-Piura y Chinecas para la agroexportación.",
         "paginas": "57"
       },
       {
-        "partido": "PARTIDO DEMOCRATICO FEDERAL",
-        "sustento": "Propone la recuperación de 7 represas críticas (Poechos, Tinajones, Gallito Ciego y Condoroma) para restaurar su capacidad, además de ejecutar el proyecto Chavimochic IV y el trasvase Cajamarca-Lambayeque",
-        "paginas": "55, 77, 108"
+        "partido": "UN CAMINO DIFERENTE",
+        "sustento": "Ejecución total de Chavimochic III, Alto Piura, Olmos y Majes... Duplicación de tierras agrícolas.",
+        "paginas": "25"
       }
     ]
   },
@@ -199,28 +404,48 @@
     "phrase": "Declarar intangibles las cabeceras de cuenca y prohibir actividades extractivas en ellas",
     "matches": [
       {
-        "partido": "JUNTOS POR EL PERU",
-        "sustento": "Restablecer las condiciones de intangibilidad de cabeceras de cuenca, glaciares, lagunas y cuerpos de agua",
-        "paginas": "46"
+        "partido": "PARTIDO MORADO",
+        "sustento": "Declaración de 100 cabeceras de cuenca como zonas intangibles con prohibición absoluta de minería (formal e informal), tala, agricultura.",
+        "paginas": "298-299"
       },
       {
-        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "Declaración de 100 cabeceras de cuenca como zonas intangibles con prohibición absoluta de minería, tala y agricultura",
-        "paginas": "42"
+        "partido": "JUNTOS POR EL PERÚ",
+        "sustento": "Ley que establece que no se pueden otorgar concesiones mineras en zonas de producción, conservación y protección de fuentes de agua... Restablecer las condiciones de intangibilidad.",
+        "paginas": "46, 71"
       },
       {
-        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
-        "sustento": "Ordenamiento territorial vinculante en cabeceras de cuenca para restringir actividades de alto impacto",
+        "partido": "PARTIDO DEMÓCRATA VERDE",
+        "sustento": "Protección de cabeceras de cuenca y humedales: Declararlas intangibles y restaurar ecosistemas degradados.",
+        "paginas": "393"
+      },
+      {
+        "partido": "INTEGRIDAD DEMOCRÁTICA",
+        "sustento": "Ordenamiento territorial vinculante en cabeceras de cuenca para restringir actividades de alto impacto... Gestión de oferta y protección de fuentes.",
         "paginas": "203"
       },
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
-        "sustento": "Protección de las fuentes hídricas frente a actividades extractivas e industriales contaminantes",
+        "sustento": "Protección de las fuentes hídricas frente a actividades extractivas e industriales contaminantes... Se priorizará la seguridad Hídrica.",
         "paginas": "23"
       },
       {
-        "partido": "PARTIDO DEMOCRATICO FEDERAL",
-        "sustento": "Se compromete a la conservación de 30,000 hectáreas de ecosistemas reguladores para garantizar la recarga de acuíferos y la disponibilidad de agua específicamente en las cabeceras de cuenca",
+        "partido": "AHORA NACIÓN",
+        "sustento": "Restaurar 500,000 hectáreas de ecosistemas degradados priorizando cabeceras de cuenca... Recuperar la capacidad de producción y retención hídrica.",
+        "paginas": "118"
+      },
+      {
+        "partido": "SOMOS PERÚ",
+        "sustento": "Jerarquía por ley: (1) consumo humano > (2) ecosistemas... > (5) minería. Sanciones penales por incumplimiento... Fondo Nacional de Cuencas.",
+        "paginas": "Eje 8"
+      },
+      {
+        "partido": "PERÚ ACCIÓN",
+        "sustento": "No se dará tregua alguna a los mineros ilegales que operan en reservas naturales, cabeceras de ríos y zonas prohibidas.",
+        "paginas": "20"
+      },
+      {
+        "partido": "PARTIDO DEMOCRÁTICO FEDERAL",
+        "sustento": "Conservación de 30,000 hectáreas de ecosistemas reguladores para garantizar la recarga de acuíferos... específicamente en las cabeceras de cuenca.",
         "paginas": "113"
       }
     ]
@@ -232,24 +457,59 @@
     "phrase": "Construir plantas de tratamiento para evitar que los desagües contaminen nuestros ríos y lagos...",
     "matches": [
       {
-        "partido": "AHORA NACION - AN",
-        "sustento": "Implementar tratamiento de aguas residuales en todas las ciudades de más de 50,000 habitantes... meta 100%",
-        "paginas": "120"
+        "partido": "AHORA NACIÓN",
+        "sustento": "Porcentaje de ciudades con más de 50 mil habitantes que cuenten con plantas de tratamiento de aguas residuales... 100%.",
+        "paginas": "127"
       },
       {
-        "partido": "PARTIDO POLITICO PERU PRIMERO",
-        "sustento": "Programa Nacional 'Agua 100'... 90% de aguas residuales tratadas para el 2031",
-        "paginas": "45"
+        "partido": "AVANZA PAÍS",
+        "sustento": "Universalizar tratamiento de aguas residuales... % de aguas residuales tratadas: 90% tratamiento urbano... Concesionar al sector privado las PTAR.",
+        "paginas": "90, 100"
       },
       {
-        "partido": "SALVEMOS AL PERU",
-        "sustento": "Implementar plantas de tratamiento de aguas residuales (PTAR) en todas las ciudades de más de 50,000 habitantes... meta 100%",
-        "paginas": "145, 162"
+        "partido": "SOMOS PERÚ",
+        "sustento": "Aumentar el tratamiento de aguas residuales urbanas del 30% al 75%... Construcción de 50 nuevas PTARs con tecnología terciaria.",
+        "paginas": "176, 177"
       },
       {
-        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "Construcción de 50 nuevas PTARs con tecnología terciaria... meta de 70% de aguas residuales tratadas al 2031",
-        "paginas": "37-41"
+        "partido": "PARTIDO MORADO",
+        "sustento": "Construcción de 50 PTAR en ciudades priorizadas... Meta: 70% de aguas residuales tratadas al 2031 (vs. 30% actual)... con reúso para riego agrícola.",
+        "paginas": "298"
+      },
+      {
+        "partido": "PERÚ PRIMERO",
+        "sustento": "Programa Nacional 'Agua 100'... 90% aguas residuales tratadas... Plantas modulares de tratamiento... en zonas rurales y periurbanas.",
+        "paginas": "207"
+      },
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "Cobertura de tratamiento de aguas residuales (% de aguas servidas tratadas)... Meta 2030-2031: 70%... Portafolio de 18 proyectos de APP para PTAR.",
+        "paginas": "43, 53"
+      },
+      {
+        "partido": "FUERZA Y LIBERTAD",
+        "sustento": "Implementación de 50 nuevas Plantas de Tratamiento de Aguas Residuales (PTAR), orientadas a reducir la contaminación de ríos, lagos.",
+        "paginas": "189, 193"
+      },
+      {
+        "partido": "SALVEMOS AL PERÚ",
+        "sustento": "80 % de las localidades atendidas por EPS con tratamiento de aguas residuales en funcionamiento... evitando vertidos directos a ríos.",
+        "paginas": "73"
+      },
+      {
+        "partido": "PARTIDO DEMÓCRATA VERDE",
+        "sustento": "100 por ciento de capitales regionales con tratamiento completo de aguas residuales... Incremento del porcentaje... Meta 2030: 70 por ciento.",
+        "paginas": "339, 345"
+      },
+      {
+        "partido": "PERÚ LIBRE",
+        "sustento": "Garantizar el tratamiento total de las aguas residuales urbanas en las principales ciudades del país... bajo liderazgo del Estado.",
+        "paginas": "116"
+      },
+      {
+        "partido": "COOPERACIÓN POPULAR",
+        "sustento": "En noviembre del año 2026 debe procederse a convocar a la licitación para adquirir plantas de tratamiento... para tratar aguas servidas.",
+        "paginas": "16"
       }
     ]
   },
@@ -260,29 +520,64 @@
     "phrase": "Cambiar la matriz energética hacia fuentes limpias como el sol y el viento",
     "matches": [
       {
-        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "Aumentar la participación de energías renovables... del 9% actual al 30% de la matriz eléctrica nacional al 2031",
-        "paginas": "44"
+        "partido": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+        "sustento": "Aumentar la participación de energías renovables no convencionales del 9% actual al 30% de la matriz eléctrica nacional al 2031... mediante destrabe regulatorio.",
+        "paginas": "431"
+      },
+      {
+        "partido": "PARTIDO DEMOCRÁTICO FEDERAL",
+        "sustento": "Transformación de la matriz energética nacional para incrementar la participación de las energías renovables del 5% actual al 40%... Proyectos como el Parque Solar Sur y el Corredor Eólico Norte.",
+        "paginas": "411, 417"
+      },
+      {
+        "partido": "PERÚ LIBRE",
+        "sustento": "Alcanzar 40 % de la matriz eléctrica con energías renovables al 2031... Parques solares, eólicos y microhidroeléctricos operativos en todas las regiones.",
+        "paginas": "528"
+      },
+      {
+        "partido": "AHORA NACIÓN",
+        "sustento": "Participación de energías renovables en la matriz energética que alcanza el 30%... Numero de parques solares construidos, la meta es de 10... parques eólicos... 5.",
+        "paginas": "112, 144"
+      },
+      {
+        "partido": "PARTIDO DEL BUEN GOBIERNO",
+        "sustento": "Elevar la participación de RER-NC (solar, eólica, biomasa, geotérmica) al 30 % de la matriz eléctrica al 2030... Desarrollar proyectos de hidrógeno verde.",
+        "paginas": "326"
+      },
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "% ERNC (Energías Renovables No Convencionales) en matriz eléctrica... Meta 2030-2031: 26%.",
+        "paginas": "57"
+      },
+      {
+        "partido": "FUERZA Y LIBERTAD",
+        "sustento": "Incrementar la participación de energías renovables no convencionales hasta alcanzar al menos el 25 % de la generación eléctrica nacional... Programa “Renovables 25 %”.",
+        "paginas": "165, 171"
       },
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Aumentar al 20% la participación de energías renovables no convencionales (solar, eólica, geotérmica, biomasa e hidrógeno verde)",
-        "paginas": "47"
+        "sustento": "Aumentar al 20% la participación de energías renovables no convencionales (solar, eólica, geotérmica, biomasa e hidrógeno verde) en la matriz eléctrica nacional.",
+        "paginas": "91"
       },
       {
-        "partido": "AHORA NACION - AN",
-        "sustento": "Impulsar la transición energética... desarrollando la industria del hidrógeno verde y expandiendo energía solar y eólica",
-        "paginas": "112"
+        "partido": "PARTIDO APRISTA PERUANO",
+        "sustento": "Alcanzar 20% de participación de energías renovables en la matriz eléctrica provenientes de fuentes solares, eólicas, de biomasa.",
+        "paginas": "307"
       },
       {
-        "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
-        "sustento": "Alcanzar 40% de la matriz eléctrica con energías renovables al 2031... parqués solares y eólicos",
-        "paginas": "14"
+        "partido": "PRIMERO LA GENTE",
+        "sustento": "Participación de ERNC en la generación eléctrica nacional (%): ≥ 18%... Capacidad instalada... ≥ 3,000 MW.",
+        "paginas": "616"
       },
       {
-        "partido": "PARTIDO DEMOCRATICO FEDERAL",
-        "sustento": "Impulsará una transformación de la matriz energética para elevar la participación de renovables del 5% al 40%, mediante proyectos como el Parque Solar Sur y el Corredor Eólico Norte",
-        "paginas": "52, 107"
+        "partido": "PARTIDO DEMÓCRATA VERDE",
+        "sustento": "Incremento de participación de energías renovables... Meta 2030: 35 % de la matriz eléctrica nacional... 40 por ciento de energía con fuentes renovables (Metas Prog. 6).",
+        "paginas": "367, 396"
+      },
+      {
+        "partido": "AVANZA PAÍS",
+        "sustento": "Incrementar la potencia... con asociaciones público – privadas para el empleo de energía eólica y solar... implementación de una planta nuclear de 300 Mw... para Iquitos.",
+        "paginas": "61"
       }
     ]
   },
@@ -293,29 +588,54 @@
     "phrase": "Usar tecnología (drones y satélites) para erradicar la tala ilegal en la Amazonía",
     "matches": [
       {
-        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
-        "sustento": "Implementar el uso de drones para detectar tala ilegal y aplicar sanciones rápidas... meta de reforestación de 180,000 hectáreas",
-        "paginas": "98, 15"
+        "partido": "PARTIDO MORADO",
+        "sustento": "Fuerza Amazónica: operaciones fluviales... 40 botes rápidos, drones 50km, comunicación satelital... Monitoreo Satelital con IA: Algoritmos que detectan automáticamente deforestación... Alertas automáticas.",
+        "paginas": "53, 287"
+      },
+      {
+        "partido": "INTEGRIDAD DEMOCRÁTICA",
+        "sustento": "Sistema Nacional de Trazabilidad Digital (Blockchain) que valide en tiempo real el origen legal... Estrategia Nacional de Control Forestal Permanente.",
+        "paginas": "198"
       },
       {
         "partido": "LIBERTAD POPULAR",
-        "sustento": "Control Estratégico de Rutas... bajo administración de las FF.AA., priorizando zonas críticas donde han ocurrido asesinatos de defensores",
+        "sustento": "Monitoreo Satelital de Alta Precisión: Implementar un sistema nacional con alertas tempranas y capacidad de intervención inmediata... Comando Unificado contra la Tala Ilegal.",
         "paginas": "82"
       },
       {
-        "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
-        "sustento": "Implementación de un Programa Nacional de Cero Deforestación Ilegal, con drones y monitoreo satelital en la Amazonía",
+        "partido": "FUERZA Y LIBERTAD",
+        "sustento": "Implementar un sistema integrado de monitoreo y respuesta territorial que combine alertas satelitales, fiscalización en campo e intervención operativa inmediata.",
+        "paginas": "323"
+      },
+      {
+        "partido": "AVANZA PAÍS",
+        "sustento": "Implementar el uso de drones para detectar tala ilegal y aplicar sanciones rápidas... Establecer el Programa Nacional de reforestación.",
+        "paginas": "98"
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Implementación de un Programa Nacional de Cero Deforestación Ilegal, con drones y monitoreo satelital en la Amazonía.",
         "paginas": "75"
       },
       {
-        "partido": "PODEMOS PERU",
-        "sustento": "Frenar la deforestación que avanza sin control y ordenar el uso del suelo... reducir la pérdida de bosques",
+        "partido": "SOMOS PERÚ",
+        "sustento": "Sistema Nacional de Observación... con tecnología satelital en tiempo real, drones y sensores IoT... Certificación 'Cero Deforestación'.",
+        "paginas": "36, 75"
+      },
+      {
+        "partido": "PARTIDO DEMÓCRATA VERDE",
+        "sustento": "Desplegando una infraestructura de vigilancia tecnológica integral (monitoreo satelital/drones) para el control territorial.",
+        "paginas": "201"
+      },
+      {
+        "partido": "PODEMOS PERÚ",
+        "sustento": "Frenar la deforestación que avanza sin control y ordenar el uso del suelo... Acción 1: Reducir la pérdida de bosques.",
         "paginas": "71"
       },
       {
-        "partido": "PARTIDO DEMOCRATICO FEDERAL",
-        "sustento": "Establece la meta de reducir la deforestación anual a 50,000 hectáreas para el año 2031 (desde una línea base de 150,000 ha) y proteger 500,000 hectáreas de bosques",
-        "paginas": "40, 53"
+        "partido": "PARTIDO DEMOCRÁTICO FEDERAL",
+        "sustento": "Reducir la actividad ilegal en un 50% mediante inteligencia financiera y operativa policial-militar... Silicon Valley Amazónico.",
+        "paginas": "53, 38"
       }
     ]
   },
@@ -326,24 +646,59 @@
     "phrase": "Incentivar el uso de vehículos eléctricos para reducir la contaminación en las ciudades",
     "matches": [
       {
-        "partido": "AHORA NACION - AN",
-        "sustento": "Crear incentivos para la renovación del parque automotor a vehículos eléctricos e híbridos... infraestructura de recarga",
-        "paginas": "95"
+        "partido": "ALIANZA ELECTORAL VENCEREMOS",
+        "sustento": "Implementaremos una política de subsidios para incorporar 10,000 buses eléctricos en cinco años... 5,000 para Lima y 5,000 para las ocho ciudades más grandes.",
+        "paginas": "34"
+      },
+      {
+        "partido": "PARTIDO MORADO",
+        "sustento": "Electromovilidad (8,000 buses eléctricos, red de 2,500 cargadores)... Créditos Verdes para Transporte: Línea de crédito preferencial... para adquisición de buses eléctricos.",
+        "paginas": "207, 216"
       },
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "Implementar 500 buses alimentadores eléctricos/GNV en distritos sin cobertura de transporte masivo",
-        "paginas": "43"
-      },
-      {
-        "partido": "ALIANZA ELECTORAL VENCEREMOS",
-        "sustento": "Impulsar una Transición Energética Justa y Popular, que promueva... electromovilidad y garantice acceso a energías limpias",
-        "paginas": "48"
+        "sustento": "Infraestructura de Recarga Verde: 500 electrolineras públicas... Bono de chatarreo de S/ 15,000 condicionado a compra de vehículo eléctrico, híbrido o GNV.",
+        "paginas": "222, 224"
       },
       {
         "partido": "PARTIDO APRISTA PERUANO",
-        "sustento": "Implementar una red integrada de transporte público eléctrico en las 10 principales ciudades del Perú",
-        "paginas": "48"
+        "sustento": "Implementar una red integrada de transporte público eléctrico en las 10 principales ciudades... 500 estaciones de recarga rápida a nivel nacional.",
+        "paginas": "327-328"
+      },
+      {
+        "partido": "AHORA NACION - AN",
+        "sustento": "Crear incentivos para la renovación del parque automotor a vehículos eléctricos e híbridos... Desarrollar infraestructura de recarga eléctrica en las principales ciudades.",
+        "paginas": "97"
+      },
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Incentivos fiscales temporales para renovación de flotas a buses eléctricos o Euro VI... ampliación de redes de suministro de GNV.",
+        "paginas": "87"
+      },
+      {
+        "partido": "FUERZA Y LIBERTAD",
+        "sustento": "Inversión público-privada en buses eléctricos, teleféricos... Incentivos para la electrificación del transporte público y privado, con metas de reducción de emisiones.",
+        "paginas": "26, 123"
+      },
+      {
+        "partido": "PERU PRIMERO",
+        "sustento": "Impulso a sistemas de transporte masivo eléctrico (metro, buses eléctricos, teleféricos urbanos)... Flota troncal eléctrica: 45%.",
+        "paginas": "105"
+      },
+      {
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "Impulsar sistemas integrados de transporte urbano, priorizando buses eléctricos, trenes de cercanías... Impulso de buses eléctricos.",
+        "paginas": "34"
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Promoción del uso de flotas bajas en emisiones (camiones eléctricos y a GNL) con beneficios tributarios temporales.",
+        "paginas": "106"
+      },
+      {
+        "partido": "SALVEMOS AL PERU",
+        "sustento": "Electromovilidad y energía limpia: hoja de ruta nacional de transporte eléctrico y estaciones de carga.",
+        "paginas": "66"
       }
     ]
   },
@@ -354,24 +709,54 @@
     "phrase": "Los residuos se deben transformar en recursos mediante plantas de reciclaje industrial",
     "matches": [
       {
-        "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
-        "sustento": "Creación de plantas de tratamiento y valorización energética de residuos sólidos urbanos mediante APP... ciudades >200,000 hab",
-        "paginas": "74"
+        "partido": "PARTIDO MORADO",
+        "sustento": "Formalización 108,000 de recicladores: 'Gestores Ambientales'... 50 Plantas Valorización... Economía Circular Social: Empresas compran reciclados... deducción 150%.",
+        "paginas": "283, 284"
       },
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "Transformar el modelo lineal... hacia una economía circular que aumente la valorización de residuos de 2.8% a 25%",
-        "paginas": "43"
+        "sustento": "Transformar el modelo lineal... hacia una economía circular que aumente la valorización de residuos de 2.8% a 25%... 15 nuevas plantas de valorización de inorgánicos... 25 plantas de compostaje.",
+        "paginas": "299, 303"
+      },
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Creación de plantas de tratamiento y valorización energética de residuos sólidos urbanos mediante APP, priorizando ciudades con más de 200,000 habitantes... Régimen de Incentivos... para Empresas Verdes.",
+        "paginas": "87"
+      },
+      {
+        "partido": "PARTIDO APRISTA PERUANO",
+        "sustento": "Construir plantas de valorización energética de residuos (waste-to-energy) en regiones con alta generación... Promover la generación de biogás, compost y fertilizantes.",
+        "paginas": "Dimensión Ambiental (Ref)"
+      },
+      {
+        "partido": "PARTIDO CIVICO OBRAS",
+        "sustento": "Ejecutar el 'Programa de Infraestructura para la Economía Circular'... Instalar 50 plantas de valorización de residuos a nivel nacional... Aumentar al 75% la población con disposición final adecuada.",
+        "paginas": "22"
+      },
+      {
+        "partido": "FUERZA Y LIBERTAD",
+        "sustento": "Incrementar al 40 % la tasa nacional de reciclaje y valorización... Implementar un sistema nacional de trazabilidad de residuos... Formalizar al 50 % de recicladores urbanos.",
+        "paginas": "247, 248"
       },
       {
         "partido": "PROGRESEMOS",
-        "sustento": "Valorizar el 40% de los residuos mediante economía circular... formalizar al 80% de recicladores",
-        "paginas": "104"
+        "sustento": "Valorizar el 40% de los residuos mediante economía circular... formalizar al 80% de recicladores... Implementar el 'Bono de Aire Limpio' para empresas que reduzcan su huella.",
+        "paginas": "104, 105"
+      },
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Promover asociaciones público-privadas para la gestión de rellenos sanitarios y plantas de reciclaje... 40% valorización nacional... 100 rellenos operativos y auditados.",
+        "paginas": "101, 146"
       },
       {
         "partido": "SALVEMOS AL PERU",
-        "sustento": "Promover de valorización de residuos... incorporar criterios de economía circular en las compras públicas",
-        "paginas": "143"
+        "sustento": "Incorporar criterios de economía circular en las compras públicas, incentivando la demanda de productos reciclados... 60% de los residuos sólidos generados son valorizados.",
+        "paginas": "143, 144"
+      },
+      {
+        "partido": "PERU PRIMERO",
+        "sustento": "Programa Nacional de Reciclaje de RCD (Residuos de Construcción y Demolición) con implementación de plantas regionales de valorización de residuos.",
+        "paginas": "202"
       }
     ]
   },
@@ -383,23 +768,38 @@
     "matches": [
       {
         "partido": "PROGRESEMOS",
-        "sustento": "Construir 1 hospital veterinario por región... realizar más de 1,000,000 de esterilizaciones éticas",
-        "paginas": "104"
+        "sustento": "\"Red Nacional de Hospitales y Farmacias Veterinarias Populares... Construcción de 1 hospital veterinario por región... Reformar el Código Penal para tipificar el maltrato animal con penas de cárcel efectivas.\"",
+        "paginas": "144, 145, 137"
       },
       {
-        "partido": "PARTIDO POLITICO PERU PRIMERO",
-        "sustento": "Ejecutar una política nacional de control poblacional animal, basada en esterilización masiva gratuita",
-        "paginas": "157"
+        "partido": "PARTIDO MORADO",
+        "sustento": "\"Red de 6 centros macrorregionales... atención veterinaria gratuita... Fiscalías Especializadas en Delitos contra Animales... Plataforma Digital 'DENUNCIA ANIMAL' con respuesta en 72 horas.\"",
+        "paginas": "254, 257, 258"
+      },
+      {
+        "partido": "INTEGRIDAD DEMOCRATICA",
+        "sustento": "\"Creación de un Sistema Nacional de Refugio y Atención... Ejecutará una política nacional de control poblacional animal, basada en esterilización masiva gratuita.\"",
+        "paginas": "156, 157"
       },
       {
         "partido": "UN CAMINO DIFERENTE",
-        "sustento": "Clínicas veterinarias públicas gratuitas... Chequeo médico anual obligatorio para mascotas",
+        "sustento": "\"Clínicas veterinarias públicas gratuitas... Chequeo médico anual obligatorio para mascotas.\"",
         "paginas": "25"
       },
       {
+        "partido": "PARTIDO DEMOCRATA UNIDO PERÚ",
+        "sustento": "\"Se crearán los hospitales veterinarios, albergues, esterilización de animales. Se crearán las clínicas veterinarias.\"",
+        "paginas": ""
+      },
+      {
         "partido": "FUERZA POPULAR",
-        "sustento": "Incorporación en la currícula escolar de contenidos de educación en bienestar animal y tenencia responsable",
-        "paginas": "115"
+        "sustento": "\"Creación del 'Registro Nacional contra el Maltrato Animal'... impida que el responsable pueda adoptar... Consolidación de una 'Red Nacional Juvenil de Albergues'.\"",
+        "paginas": "3"
+      },
+      {
+        "partido": "AHORA NACION - AN",
+        "sustento": "\"Registro nacional de animales de compañía.\" (Mencionado en el presupuesto del eje de integración social).",
+        "paginas": "271"
       }
     ]
   },
@@ -410,29 +810,49 @@
     "phrase": "Se deben ampliar las áreas protegidas y hacer que la zonificación ecológica sea obligatoria",
     "matches": [
       {
-        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
-        "sustento": "Promoveremos la creación de hasta 100 nuevas Áreas de Conservación Privadas (ACP)... para fines de turismo e investigación",
-        "paginas": "14"
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "La Zonificación Ecológica y Económica (ZEE) no es vinculante... Ley que establece el carácter vinculante de la ZEE... Ley que establece que no se pueden otorgar concesiones mineras en zonas de producción [hídrica].",
+        "paginas": "71"
       },
       {
-        "partido": "SALVEMOS AL PERU",
-        "sustento": "Meta de 80% de las áreas de conservación prioritarias... bajo monitoreo y con actividades productivas sostenibles",
-        "paginas": "146"
+        "partido": "PARTIDO MORADO",
+        "sustento": "Zonificación Ecológica-Económica (ZEE) Vinculante: Completar ZEE en 25 regiones... ninguna concesión (minera, forestal) puede otorgarse en zonas incompatibles... 35% del territorio bajo conservación.",
+        "paginas": "300-301"
+      },
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Promoveremos la creación de hasta 100 nuevas Áreas de Conservación Privadas (ACP)... Meta: 22% del territorio con conservación efectiva.",
+        "paginas": "14, 146"
+      },
+      {
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "35% del territorio nacional destinado a áreas naturales protegidas... debidamente conservadas... Ampliación de zonas protegidas en Amazonía, Andes y costa.",
+        "paginas": "79, 59"
       },
       {
         "partido": "PODEMOS PERU",
-        "sustento": "Hacer que las áreas naturales protegidas realmente se cuiden... con presencia del Estado y recursos suficientes",
+        "sustento": "Hacer que las áreas naturales protegidas realmente se cuiden y funcionen, con presencia del Estado... Cerrar brechas de Ordenamiento Territorial Ambiental (ZEE y OT).",
         "paginas": "72"
       },
       {
-        "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
-        "sustento": "Impulso de normativa para proteger la biodiversidad, así como la creación de Brigadas de Protección del medioambiente",
-        "paginas": "76"
+        "partido": "AHORA NACION - AN",
+        "sustento": "Tasa de crecimiento de las Inversiones Públicas en Áreas Naturales Protegidas (ANP): 400%... Incrementar el presupuesto de gestión de ANP a USD 150 millones anuales.",
+        "paginas": "121, 136"
       },
       {
-        "partido": "PARTIDO DEMOCRATICO FEDERAL",
-        "sustento": "Considera la protección de la biodiversidad como una tarea estratégica y planea la conservación de 30,000 hectáreas de ecosistemas bajo un modelo de gestión que prioriza la seguridad hídrica",
-        "paginas": "36, 113"
+        "partido": "FUERZA POPULAR",
+        "sustento": "Impulso de normativa para proteger la biodiversidad, así como la creación de Brigadas de Protección del medioambiente conformadas por líderes locales.",
+        "paginas": "82"
+      },
+      {
+        "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+        "sustento": "Ampliar progresivamente las ANP del 17% al 30% del territorio nacional... Implementar un ordenamiento territorial ecológico y económico de carácter vinculante.",
+        "paginas": "117, 118"
+      },
+      {
+        "partido": "SALVEMOS AL PERU",
+        "sustento": "Alcanzar la meta global del 30% de territorio protegido (conocida como la meta 30x30)... Meta de 80% de las áreas de conservación prioritarias... bajo monitoreo.",
+        "paginas": "146, 147"
       }
     ]
   },
@@ -443,24 +863,39 @@
     "phrase": "Las comunidades deben tener el poder de veto definitivo sobre los proyectos mineros en sus territorios",
     "matches": [
       {
+        "partido": "PARTIDO MORADO",
+        "sustento": "Consulta Previa Vinculante: Toda intervención territorial indígena... derecho de veto... Incumplimiento anula proyecto... Si la comunidad dice NO, proyecto no procede.",
+        "paginas": "282, 264"
+      },
+      {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
-        "sustento": "Garantizar los derechos territoriales y colectivos de los pueblos originarios, con consulta previa vinculante",
+        "sustento": "Garantizar los derechos territoriales y colectivos de los pueblos originarios, con consulta previa vinculante... Defender los ecosistemas estratégicos.",
         "paginas": "47"
       },
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Ley que establece el carácter vinculante de la ZEE y la Consulta Previa... a los pobladores afectados",
+        "sustento": "Ley que establece el carácter vinculante de la ZEE y la Consulta Previa... a los pobladores afectados por las actividades mineras.",
         "paginas": "71"
       },
       {
-        "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
-        "sustento": "Toda intervención territorial indígena: información lengua originaria, 6 meses deliberación, derecho veto... Incumplimiento anula proyecto",
-        "paginas": "39"
+        "partido": "LIBERTAD POPULAR",
+        "sustento": "Fortalecimiento de la Consulta Previa: Procesos más transparentes, oportunos y vinculantes... Mecanismos para seguimiento de acuerdos.",
+        "paginas": "95"
+      },
+      {
+        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+        "sustento": "Prevenir y gestionar conflictos con diálogo vinculante y cumplimiento... Revisión de la Ley de Consulta Previa... integrando planes de desarrollo comunales.",
+        "paginas": "103, 144"
       },
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "Garantizar la consulta previa, libre e informada... que los acuerdos sean vinculantes",
-        "paginas": "45"
+        "sustento": "Consulta previa completada con acta de acuerdo... 100% de proyectos en territorios indígenas con Consultas Previas según Convenio 169.",
+        "paginas": "252"
+      },
+      {
+        "partido": "PARTIDO DEMOCRATICO FEDERAL",
+        "sustento": "Ningún proyecto podrá ejecutarse sin un plan que garantice progreso sostenible... Participación social y beneficios compartidos.",
+        "paginas": "231"
       }
     ]
   }
