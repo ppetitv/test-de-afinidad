@@ -2,45 +2,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     // --- DATOS DE LA APLICACIÓN ---
     let data = { candidates: [], proposals: [] };
 
-    const TEMP_FILES = {
-        "AHORA NACION - AN": "https://f.rpp-noticias.io/2026/02/09/ahoranacion_1837126.pdf",
-        "ALIANZA ELECTORAL VENCEREMOS": "https://f.rpp-noticias.io/2026/02/09/alianza-electoral-venceremos_1837084.pdf",
-        "ALIANZA PARA EL PROGRESO": "https://f.rpp-noticias.io/2026/02/09/alianza-para-el-progreso_1837086.pdf",
-        "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL": "https://f.rpp-noticias.io/2026/02/09/avanza-pais-partido-de-integracion-social_1837087.pdf",
-        "FE EN EL PERU": "https://f.rpp-noticias.io/2026/02/09/fe-en-el-peru_1837088.pdf",
-        "FUERZA POPULAR": "https://f.rpp-noticias.io/2026/02/09/fuerza-popular_1837089.pdf",
-        "FUERZA Y LIBERTAD": "https://f.rpp-noticias.io/2026/02/09/fuerza-y-libertad_1837090.pdf",
-        "JUNTOS POR EL PERU": "https://f.rpp-noticias.io/2026/02/09/juntos-por-el-peru_1837091.pdf",
-        "LIBERTAD POPULAR": "https://f.rpp-noticias.io/2026/02/11/libertadpopular_1837580.pdf",
-        "PARTIDO APRISTA PERUANO": "https://f.rpp-noticias.io/2026/02/09/partido-aprista-peruano_1837093.pdf",
-        "PARTIDO CIVICO OBRAS": "https://f.rpp-noticias.io/2026/02/09/partido-civico-obras_1837094.pdf",
-        "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU": "https://f.rpp-noticias.io/2026/02/09/partido-de-los-trabajadores-y-emprendedores-pte-peru_1837095.pdf",
-        "PARTIDO DEL BUEN GOBIERNO": "https://f.rpp-noticias.io/2026/02/09/partido-del-buen-gobierno_1837096.pdf",
-        "PARTIDO DEMOCRATA UNIDO PERU": "https://f.rpp-noticias.io/2026/02/09/partido-democrata-unido-peru_1837098.pdf",
-        "PARTIDO DEMOCRATA VERDE": "https://f.rpp-noticias.io/2026/02/09/partido-democrata-verde_1837100.pdf",
-        "PARTIDO DEMOCRATICO FEDERAL": "https://f.rpp-noticias.io/2026/02/09/partido-democratico-federal_1837121.pdf",
-        "PARTIDO DEMOCRATICO SOMOS PERU": "https://f.rpp-noticias.io/2026/02/09/partido-democratico-somos-peru_1837101.pdf",
-        "PARTIDO FRENTE DE LA ESPERANZA 2021": "https://f.rpp-noticias.io/2026/02/09/partido-frente-de-la-esperanza-2021_1837102.pdf",
-        "PARTIDO MORADO": "https://f.rpp-noticias.io/2026/02/09/partido-morado_1837103.pdf",
-        "PARTIDO PAIS PARA TODOS": "https://f.rpp-noticias.io/2026/02/09/partido-pais-para-todos_1837104.pdf",
-        "PARTIDO PATRIOTICO DEL PERU": "https://f.rpp-noticias.io/2026/02/09/partido-patriotico-del-peru_1837105.pdf",
-        "PARTIDO POLITICO COOPERACION POPULAR": "https://f.rpp-noticias.io/2026/02/09/partido-politico-cooperacion-popular_1837106.pdf",
-        "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA": "https://f.rpp-noticias.io/2026/02/09/partido-politico-integridad-democratica_1837107.pdf",
-        "PARTIDO POLITICO NACIONAL PERU LIBRE": "https://f.rpp-noticias.io/2026/02/11/perulibre_1837578.pdf",
-        "PARTIDO POLITICO PERU ACCION": "https://f.rpp-noticias.io/2026/02/11/peruaccion_1837584.pdf",
-        "PARTIDO POLITICO PERU PRIMERO": "https://f.rpp-noticias.io/2026/02/09/partido-politico-peru-primero_1837110.pdf",
-        "PARTIDO POLITICO PRIN": "https://f.rpp-noticias.io/2026/02/11/prin_1837577.pdf",
-        "PARTIDO SICREO": "https://f.rpp-noticias.io/2026/02/11/sicreo_1837576.pdf",
-        "PERU MODERNO": "https://f.rpp-noticias.io/2026/02/09/peru-moderno_1837113.pdf",
-        "PODEMOS PERU": "https://f.rpp-noticias.io/2026/02/09/podemos-peru_1837114.pdf",
-        "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO": "https://f.rpp-noticias.io/2026/02/11/primerolagente_1837583.pdf",
-        "PROGRESEMOS": "https://f.rpp-noticias.io/2026/02/11/progresemos_1837579.pdf",
-        "RENOVACION POPULAR": "https://f.rpp-noticias.io/2026/02/11/renovacionpopular_1837585.pdf",
-        "SALVEMOS AL PERU": "https://f.rpp-noticias.io/2026/02/09/salvemos-al-peru_1837118.pdf",
-        "UN CAMINO DIFERENTE": "https://f.rpp-noticias.io/2026/02/09/un-camino-diferente_1837119.pdf",
-        "UNIDAD NACIONAL": "https://f.rpp-noticias.io/2026/02/09/unidad-nacional_1837120.pdf"
-    }
-
     // Configuración para DATA
     const urlComparapropuestas = "https://s2.rpp-noticias.io/static/especial/comparapropuestas/";
     const basePath = (() => {
@@ -78,7 +39,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         data.candidates = [];
         data.proposals = [];
         // Cargar candidatos
-        const candidatesResponse = await fetch(urlComparapropuestas + 'data/datajne_v2.json');
+        const candidatesResponse = await fetch(urlComparapropuestas + 'data/datajne_v3.json');
         if (!candidatesResponse.ok) throw new Error('Error al cargar candidatos');
         const candidatesJSON = await candidatesResponse.json();
 
@@ -90,6 +51,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 photo: urlComparapropuestas + candidatesJSON.candidatos[id].imgUrl,
                 imgLogoUrl: urlComparapropuestas + candidatesJSON.candidatos[id].imgLogoUrl,
                 pdfUrl: candidatesJSON.candidatos[id].pdfUrl,
+                pdfUrl2: candidatesJSON.candidatos[id].pdfUrl2,
                 audioUrl: candidatesJSON.candidatos[id].audioUrl
             });
         }
@@ -115,7 +77,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                         title: match.sustento || '',
                         party: match.partido,
                         imgLogoUrl: candidate?.imgLogoUrl || '',
-                        url: candidate?.pdfUrl || '',
+                        url: candidate?.pdfUrl2 || '',
                         pages: match.paginas || '',
                         partyName: candidate?.party || ''
                     }
@@ -552,7 +514,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const proposal = data.proposals.find(p => p.id == proposalId);
                 const source = proposal.sources[sourceId];
                 const page = source.pages || "";
-                let pdfUrl = TEMP_FILES[formatFilename(source.party)];
+                let pdfUrl = source.url;
                 if (page !== "") {
                     const firstPage = page.split(',')[0].trim();
                     pdfUrl += `#page=${firstPage}&view=FitH&toolbar=1`;
@@ -566,7 +528,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
     }
 
-    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+    pdfjsLib.GlobalWorkerOptions.workerSrc = basePath + 'pdf-worker.min.js';
     async function openPdfSidebar(pdfUrl) {
         isPdfLoading = true; // Iniciamos la carga
         const container = document.getElementById('pdf-content');
