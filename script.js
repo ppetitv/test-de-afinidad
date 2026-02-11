@@ -109,13 +109,16 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const sources = {};
 
                 row.matches.forEach(match => {
+                    const candidate = findCandidate(match.partido);
+
                     stances[match.partido] = 'agree';
                     sources[match.partido] = {
                         title: match.sustento || '',
                         party: match.partido,
-                        imgLogoUrl: findCandidate(match.partido)?.imgLogoUrl || '',
-                        url: findCandidate(match.partido)?.pdfUrl || '',
-                        pages: match.paginas || ''
+                        imgLogoUrl: candidate?.imgLogoUrl || '',
+                        url: candidate?.pdfUrl || '',
+                        pages: match.paginas || '',
+                        partyName: candidate?.party || ''
                     }
                 });
 
@@ -676,7 +679,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 sourceDiv.innerHTML = `
                     <div class="source-verification">
                         <img src="${source.imgLogoUrl}" alt="${source.party}" class="verification-logo">
-                        <span class="divider">| ${source.party}</span>
+                        <span class="divider">| ${source.partyName}</span>
                         <span class="check-icon">✓</span>
                     </div>
                     <p class="source-title">${source.title}</p>
