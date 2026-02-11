@@ -43,14 +43,13 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Configuración para DATA
     const urlComparapropuestas = "https://s2.rpp-noticias.io/static/especial/comparapropuestas/";
-    const urlPlanesGobierno = "https://eaudioplayer.radio-grpp.io/plan-de-gobierno/";
     const basePath = (() => {
         const h = window.location.hostname;
         return h.includes('dev') ? 'https://dev.s.rpp-noticias.io/static/especial/testdeafinidad/' :
             h.includes('pre') ? 'https://pre.s.rpp-noticias.io/static/especial/testdeafinidad/' :
                 h.includes('rpp.pe') ? 'https://s2.rpp-noticias.io/static/especial/testdeafinidad/' : '';
     })();
-    const isMobile = window.matchMedia("(max-width: 768px)").matches;
+    // const isMobile = window.matchMedia("(max-width: 768px)").matches;
     let isPdfLoading = false;
     let currentRenderTask = null;
 
