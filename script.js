@@ -632,7 +632,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function populateSourcesSidebar(proposal) {
         sourcesContent.innerHTML = '';
-        Object.entries(proposal.sources).forEach(([id, source]) => {
+        
+        const entries = Object.entries(proposal.sources);
+        for (let i = entries.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [entries[i], entries[j]] = [entries[j], entries[i]];
+        }
+
+        entries.forEach(([id, source]) => {
             if (source.title) {
                 const sourceDiv = document.createElement('div');
                 sourceDiv.className = 'source-item';
