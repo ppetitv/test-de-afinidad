@@ -554,7 +554,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const source = proposal.sources[sourceId];
                 const page = source.pages || "";
                 let pdfUrl = TEMP_FILES[formatFilename(source.party)];
-                console.log('pdfUrl!!!', pdfUrl);
                 if (page !== "") {
                     const firstPage = page.split(',')[0].trim();
                     pdfUrl += `#page=${firstPage}&view=FitH&toolbar=1`;
