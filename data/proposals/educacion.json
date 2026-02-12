@@ -23,12 +23,12 @@
       {
         "partido": "PARTIDO SICREO",
         "sustento": "Programa de Bono Educativo para devolver el dinero a las familias y que sean ellas quienes elijan dónde canjear el bono.",
-        "paginas": ""
+        "paginas": "17"
       },
       {
         "partido": "PARTIDO MORADO",
         "sustento": "Becas integrales implementadas progresivamente hasta los 250,000 estudiantes de quintiles 1 y 2 cubre matrícula útiles uniformes transporte conectividad.",
-        "paginas": "151"
+        "paginas": "154"
       }
     ]
   },
@@ -41,7 +41,7 @@
       {
         "partido": "ALIANZA PARA EL PROGRESO",
         "sustento": "Un COAR en cada región",
-        "paginas": "121"
+        "paginas": "23"
       },
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -51,7 +51,7 @@
       {
         "partido": "FUERZA POPULAR",
         "sustento": "Construcción del PEIP Escuelas Bicentenario renovación integral de infraestructura educativa en 9 regiones Construcción de Colegios de Alto Rendimiento COAR y colegios de educación básica regular en distintas regiones.",
-        "paginas": ""
+        "paginas": "92"
       },
       {
         "partido": "UNIDAD NACIONAL",
@@ -60,12 +60,8 @@
       },
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "Acelerar la ejecución del programa para completar 75 escuelas bicentenario con diseño pedagógico innovador... Ampliar cartera de APP para construcción y mantenimiento de infraestructura educativa incluyendo COAR regionales."
-      },
-      {
-        "partido": "PARTIDO MORADO",
-        "sustento": "Infraestructura educativa moderna mediante APP Colegios de alto rendimiento y ampliaciones en Lima y Cusco.",
-        "paginas": "167"
+        "sustento": "Acelerar la ejecución del programa para completar 75 escuelas bicentenario con diseño pedagógico innovador... Ampliar cartera de APP para construcción y mantenimiento de infraestructura educativa incluyendo COAR regionales.",
+        "paginas": "49"
       },
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -92,7 +88,7 @@
       },
       {
         "partido": "FUERZA Y LIBERTAD",
-        "sustento": "Infraestructura educativa digna colegios seguros en zonas rurales equipados con laboratorios acceso a internet y docentes capacitados.",
+        "sustento": "Infraestructura educativa digna: colegios seguros en zonas rurales equipados con laboratorios acceso a internet y docentes capacitados.",
         "paginas": "29"
       },
       {
@@ -108,27 +104,27 @@
       {
         "partido": "SALVEMOS AL PERU",
         "sustento": "Cierre de brecha en infraestructura educativa al 100% para 2031.",
-        "paginas": "46"
+        "paginas": "41"
       },
       {
         "partido": "PARTIDO DEMOCRATICO FEDERAL",
         "sustento": "Se dotará al 50% de los colegios con infraestructura tecnológica 4.0 implementando simultáneamente una adecuación de la currícula.",
-        "paginas": "32"
+        "paginas": "45"
       },
       {
         "partido": "FUERZA POPULAR",
         "sustento": "Reducir en 50% la brecha de infraestructura educativa y garantizar servicios básicos y conectividad funcional en todos los colegios priorizados.",
-        "paginas": "118"
+        "paginas": "95"
       },
       {
         "partido": "PARTIDO MORADO",
         "sustento": "Conectividad de alta velocidad en 100% de instituciones educativas públicas mediante fibra óptica y satélites.",
-        "paginas": "144"
+        "paginas": "147"
       },
       {
         "partido": "JUNTOS POR EL PERU",
         "sustento": "Garantizando que el 100% de las escuelas contarán con servicios básicos y un 80% con conectividad priorizando la intervención en los centros educativos ubicados en la Amazonía y los andes.",
-        "paginas": "49"
+        "paginas": "51"
       },
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -143,12 +139,12 @@
       {
         "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
         "sustento": "Elevar al menos al 90 % la proporción de locales educativos rurales y amazónicos con servicios básicos completos al 2031.",
-        "paginas": "5"
+        "paginas": "4"
       },
       {
         "partido": "PARTIDO DEMOCRATA UNIDO PERU",
         "sustento": "Se declarará en emergencia la educación en el Perú... Se creará el transporte estudiantil y docente en las zonas rurales.",
-        "paginas": "3"
+        "paginas": "4"
       }
     ]
   },
@@ -161,17 +157,17 @@
       {
         "partido": "ALIANZA PARA EL PROGRESO",
         "sustento": "Porcentaje de estudiantes con jornada escolar completa... Meta 2030-2031: 90%",
-        "paginas": ""
+        "paginas": "58"
       },
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
         "sustento": "Implementar 3 horas semanales adicionales de matemática y comunicación en las 5 000 escuelas con peores resultados de ENLA.",
-        "paginas": ""
+        "paginas": "48"
       },
       {
         "partido": "PARTIDO MORADO",
         "sustento": "Educación física diaria 5 horas semanales.",
-        "paginas": "154"
+        "paginas": "170"
       },
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -181,7 +177,7 @@
       {
         "partido": "FUERZA POPULAR",
         "sustento": "Ampliando las horas semanales garantizando infraestructura deportiva adecuada.",
-        "paginas": ""
+        "paginas": "125"
       }
     ]
   },
@@ -203,8 +199,8 @@
       },
       {
         "partido": "PARTIDO MORADO",
-        "sustento": "Educación Sexual Integral modelo OCDE Currículo científico laico basado en derechos desde inicial hasta secundaria.",
-        "paginas": "154"
+        "sustento": "Educación Sexual Integral (modelo OCDE): Currículo científico, laico, basado en derechos desde inicial hasta secundaria.",
+        "paginas": "157"
       },
       {
         "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
@@ -222,13 +218,8 @@
         "paginas": "45"
       },
       {
-        "partido": "FUERZA Y LIBERTAD",
-        "sustento": "Curriculum obligatorio desde primaria igualdad de género consentimiento relaciones sanas.",
-        "paginas": "120"
-      },
-      {
         "partido": "PARTIDO DEL BUEN GOBIERNO",
-        "sustento": "Educación inclusiva equitativa y científica centrada en el pensamiento crítico la interculturalidad y la equidad de género.",
+        "sustento": "Educación inclusiva, equitativa y científica, centrada en el pensamiento crítico, la interculturalidad y la equidad de género.",
         "paginas": "9"
       }
     ]
@@ -246,13 +237,13 @@
       },
       {
         "partido": "PARTIDO POLITICO PERU ACCION",
-        "sustento": "Eliminación de la ideología de género en las escuelas para dar paso a la doctrina del desarrollo y valores propios de nuestro Perú.",
+        "sustento": "Eliminación de la \"ideología de género\" en las escuelas para dar paso a la doctrina del desarrollo y valores propios de nuestro Perú.",
         "paginas": "11"
       },
       {
         "partido": "PARTIDO DEMOCRATA UNIDO PERU",
-        "sustento": "Se eliminará la ideología de género Se implementará la educación en valores y el respeto a la familia.",
-        "paginas": "3"
+        "sustento": "Se eliminará la ideología de género. Se implementará la educación en valores y el respeto a la familia.",
+        "paginas": "5"
       },
       {
         "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
@@ -261,8 +252,8 @@
       },
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Los padres por obligación y derecho se encargan de la educación de sus hijos El Estado participa de manera subsidiaria respetando la libertad de definir los alcances elegidos por ellos.",
-        "paginas": "9"
+        "sustento": "Los padres, por obligación y derecho, se encargan de la educación de sus hijos. El Estado participa de manera subsidiaria respetando la libertad de definir los alcances elegidos por ellos.",
+        "paginas": "10"
       }
     ]
   },
@@ -275,31 +266,31 @@
       {
         "partido": "PARTIDO POLITICO PERU PRIMERO",
         "sustento": "Implementar una currícula que contemple educación ciudadana y educación cívica desde la escuela en respeto a la ley y cultura de legalidad.",
-        "paginas": "38"
+        "paginas": "112"
       },
       {
         "partido": "PERU MODERNO",
         "sustento": "Cultivar los valores cívicos en los educandos elevar su autoestima y su plena identidad nacional... retorno de la educación cívica.",
-        "paginas": "17"
+        "paginas": "22"
       },
       {
         "partido": "PROGRESEMOS",
         "sustento": "Se incluirá de forma transversal en los tres niveles el curso de Ética para el Progreso... talleres prácticos de resolución de conflictos honestidad y respeto por lo público.",
-        "paginas": ""
+        "paginas": "52"
       },
       {
         "partido": "FUERZA POPULAR",
         "sustento": "Reforzamiento integral de la currícula... para fortalecer la formación en educación cívica y ciudadana promoviendo el respeto por la familia la identidad nacional la ética pública los valores cívico-patrióticos.",
-        "paginas": ""
+        "paginas": "91"
       },
       {
         "partido": "PARTIDO DEMOCRATICO FEDERAL",
         "sustento": "Implementará el área de Civismo y Ética Federal como componente fundamental del currículo incluyendo la enseñanza de la Constitución Federal estudiantil.",
-        "paginas": ""
+        "paginas": "29"
       },
       {
         "partido": "UNIDAD NACIONAL",
-        "sustento": "la currícula escolar será reforzada con cursos de cultura cívica que brinden al alumno una formación para comprender los valores que permiten una vida en sociedad.",
+        "sustento": "La currícula escolar será reforzada con cursos de cultura cívica que brinden al alumno una formación para comprender los valores que permiten una vida en sociedad.",
         "paginas": "117"
       },
       {
@@ -310,7 +301,7 @@
       {
         "partido": "PARTIDO DEMOCRATA UNIDO PERU",
         "sustento": "Se añadirá a la currícula educativa los cursos de historia del Perú... educación cívica geopolítica realidad nacional botánica instrucción pre militar OBE y educación vial.",
-        "paginas": "3"
+        "paginas": "5"
       },
       {
         "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
@@ -324,13 +315,13 @@
       },
       {
         "partido": "PARTIDO MORADO",
-        "sustento": "Educación ciudadana activa participación democrática derechos fundamentales pensamiento crítico.",
-        "paginas": "154"
+        "sustento": "Educación ciudadana activa: participación democrática, derechos fundamentales, pensamiento crítico.",
+        "paginas": "157"
       },
       {
         "partido": "PARTIDO SICREO",
-        "sustento": "Formación temprana en Estado de Derecho Cultura de Paz Social Identidad Nacional Peruanidad Valores Constitucionales Fortalecer la educación cívica.",
-        "paginas": ""
+        "sustento": "Formación temprana en Estado de Derecho, Cultura de Paz Social, Identidad Nacional Peruanidad, Valores Constitucionales, Fortalecer la educación cívica.",
+        "paginas": "19"
       }
     ]
   },
@@ -343,12 +334,12 @@
       {
         "partido": "ALIANZA PARA EL PROGRESO",
         "sustento": "Certificación de dominio del inglés y de la Inteligencia Artificial IA en educación primaria y secundaria.",
-        "paginas": "50"
+        "paginas": "23"
       },
       {
         "partido": "FUERZA POPULAR",
         "sustento": "Actualización de la Política Nacional: Inglés Puertas al Mundo... con la meta de que todos los estudiantes de secundaria pública logren una certificación básica A2.",
-        "paginas": "116"
+        "paginas": "92"
       },
       {
         "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
@@ -357,23 +348,18 @@
       },
       {
         "partido": "PARTIDO PATRIOTICO DEL PERU",
-        "sustento": "Implementación del idioma quechua inglés y un segundo idioma extranjero en los colegios donde se brinda educación básica regular debe cubrir al final del periodo presidencial el año 2031 al 100%.",
+        "sustento": "Implementación del idioma quechua, inglés y un segundo idioma extranjero en los colegios donde se brinda educación básica regular debe cubrir al final del periodo presidencial el año 2031 al 100%.",
         "paginas": "16"
       },
       {
         "partido": "FUERZA Y LIBERTAD",
-        "sustento": "se impulsará la enseñanza progresiva de inglés y programación desde la educación primaria con sistemas de certificación por niveles.",
+        "sustento": "Se impulsará la enseñanza progresiva de inglés y programación desde la educación primaria con sistemas de certificación por niveles.",
         "paginas": "88"
-      },
-      {
-        "partido": "PARTIDO POLITICO PERU PRIMERO",
-        "sustento": "Currículo Nacional de Competencias del Siglo XXI... incluyendo matemática aplicada... inglés desde primaria alfabetización digital.",
-        "paginas": "103"
       },
       {
         "partido": "PARTIDO DEMOCRATICO FEDERAL",
         "sustento": "IDIOMAS... Primaria Español + lengua originaria Secundaria + inglés básico Pre-universitario + portugués/chino.",
-        "paginas": "77"
+        "paginas": "29"
       }
     ]
   },
@@ -386,22 +372,22 @@
       {
         "partido": "PODEMOS PERU",
         "sustento": "Acción 2: Duplicar las vacantes universitarias públicas a nivel nacional. Reducir la exclusión educativa de los jóvenes.",
-        "paginas": "57"
+        "paginas": "56"
       },
       {
         "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
         "sustento": "Incrementar de manera sustantiva las vacantes en universidadés públicas, avanzando hacia un aumento de al menos 50% a nivel nacional.",
-        "paginas": "17"
+        "paginas": "11"
       },
       {
         "partido": "PARTIDO DEMOCRATA UNIDO PERU",
         "sustento": "Secundaria: Se implementará la educación vocacional... Ingreso libre a las universidades. El ingreso a las universidades públicas será libres y gratuitas.",
-        "paginas": "4"
+        "paginas": "5"
       },
       {
         "partido": "UN CAMINO DIFERENTE",
         "sustento": "Ampliación de vacantes en todas las universidades nacionales.",
-        "paginas": "24"
+        "paginas": "28"
       },
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -424,17 +410,17 @@
       {
         "partido": "PARTIDO MORADO",
         "sustento": "Restauraremos las funciones originales de SUNEDU... restitución del licenciamiento obligatorio y renovable cada 6-8 años... prohibición absoluta de miembros con vínculos universitarios en el Consejo Directivo.",
-        "paginas": "148"
+        "paginas": "151"
       },
       {
         "partido": "PARTIDO DEL BUEN GOBIERNO",
         "sustento": "Fortalecer SUNEDU y el sistema nacional de ciencia tecnología e innovación.",
-        "paginas": "38"
+        "paginas": "36"
       },
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "Fortalecimiento SUNEDU Consolidar el licenciamiento universitario y extenderlo a institutos tecnológicos garantizando condiciones básicas de calidad.",
-        "paginas": "111"
+        "sustento": "Fortalecimiento SUNEDU: Consolidar el licenciamiento universitario y extenderlo a institutos tecnológicos garantizando condiciones básicas de calidad.",
+        "paginas": "50"
       },
       {
         "partido": "AHORA NACION - AN",
@@ -443,13 +429,13 @@
       },
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
-        "sustento": "implementaremos mecanismos efectivos de licenciamiento y acreditación a cargo de una renovada SUNEDU a la cual dotaremos de mayores competencias y capacidades.",
+        "sustento": "Implementaremos mecanismos efectivos de licenciamiento y acreditación a cargo de una renovada SUNEDU a la cual dotaremos de mayores competencias y capacidades.",
         "paginas": "43"
       },
       {
         "partido": "PARTIDO SICREO",
         "sustento": "Revisar los procesos de selección y designación de funcionarios de SUNEDU a fin de garantizar la meritocracia.",
-        "paginas": ""
+        "paginas": "17"
       }
     ]
   },
@@ -467,7 +453,7 @@
       {
         "partido": "UNIDAD NACIONAL",
         "sustento": "El Vice Ministerio de Cumplimiento de la Docencia tendrá además la función de supervisión vinculante sobre la SUNEDU para que esta realice una gestión de supervisión... sin interferencia en la gestión.",
-        "paginas": "118"
+        "paginas": "117"
       },
       {
         "partido": "JUNTOS POR EL PERU",
@@ -477,7 +463,7 @@
       {
         "partido": "PARTIDO SICREO",
         "sustento": "Revisar los procesos de selección y designación de funcionarios de SUNEDU a fin de garantizar la meritocracia.",
-        "paginas": ""
+        "paginas": "17"
       }
     ]
   },
@@ -490,7 +476,7 @@
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
         "sustento": "Implementar sistema de alternancia con 50% práctica en empresas desde el primer año garantizando experiencia laboral verificable.",
-        "paginas": "46"
+        "paginas": "50"
       },
       {
         "partido": "FUERZA Y LIBERTAD",
@@ -500,17 +486,17 @@
       {
         "partido": "PERU MODERNO",
         "sustento": "Transformar la educación secundaria en una etapa de formación dual académica y técnica del 3ro al 5to de secundaria.",
-        "paginas": "23"
+        "paginas": "22"
       },
       {
         "partido": "PARTIDO MORADO",
-        "sustento": "Formación dual 50% teórica en aula 50% práctica en empresas modelo alemán adaptado... Institutos Tecnológicos de Excelencia.",
-        "paginas": "147, 148"
+        "sustento": "Formación dual: 50% teórica en aula, 50% práctica en empresas (modelo alemán adaptado)... Institutos Tecnológicos de Excelencia.",
+        "paginas": "150"
       },
       {
         "partido": "PROGRESEMOS",
         "sustento": "Implementación de los Centros de Excelencia Tecnológica CET en cada región... modelo de Educación Dual donde el estudiante pase el 50% de su tiempo formándose directamente en empresas.",
-        "paginas": "16"
+        "paginas": "39"
       },
       {
         "partido": "AHORA NACION - AN",
@@ -520,22 +506,22 @@
       {
         "partido": "FUERZA POPULAR",
         "sustento": "Alcanzar una tasa de inserción laboral del 50% de egresados técnicos en menos de un año mediante modernización de institutos y vinculación productiva.",
-        "paginas": "141"
+        "paginas": "95"
       },
       {
         "partido": "PARTIDO DEMOCRATA VERDE",
         "sustento": "Institutos tecnológicos regionales de excelencia... Formación técnica articulada a empresas Modalidad dual.",
-        "paginas": "155"
+        "paginas": "47"
       },
       {
         "partido": "SALVEMOS AL PERU",
         "sustento": "90% de los jóvenes con carrera técnica insertados en el mercado laboral ejerciendo su carrera profesional.",
-        "paginas": "19"
+        "paginas": "39"
       },
       {
         "partido": "PARTIDO POLITICO PRIN",
         "sustento": "Incrementaremos la educación técnica dual que expandirá los programas que combinen estudio con práctica en empresas.",
-        "paginas": "38"
+        "paginas": "34"
       }
     ]
   },
@@ -548,27 +534,27 @@
       {
         "partido": "PERU MODERNO",
         "sustento": "El maestro podrá empezar su actividad en el sistema educativo nacional con un básico de 4,500 soles.",
-        "paginas": "32"
+        "paginas": "22"
       },
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
         "sustento": "Elevar el piso salarial docente de S/ 3,100 a S/ 4,000 al 2031 con incrementos anuales vinculados a desempeño.",
-        "paginas": "51"
+        "paginas": "50"
       },
       {
         "partido": "PARTIDO MORADO",
         "sustento": "Aumento Salarial Progresivo Docentes... Incremento S/ 800/mes promedio de S/ 2,500 a S/ 3,300",
-        "paginas": "154"
+        "paginas": "158"
       },
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
         "sustento": "Mejorar los incentivos y condiciones laborales del magisterio... Incremento salarial del 30%.",
-        "paginas": "140"
+        "paginas": "139"
       },
       {
         "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
         "sustento": "Que ningún maestro gane menos que una canasta familiar digna que los ascensos no dependan de cupos rígidos.",
-        "paginas": "105"
+        "paginas": "106"
       },
       {
         "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
@@ -578,7 +564,7 @@
       {
         "partido": "PARTIDO POLITICO PERU ACCION",
         "sustento": "Incremento de sueldos de profesores y auxiliares del sector educación a nivel nacional.",
-        "paginas": "11"
+        "paginas": "10"
       },
       {
         "partido": "FUERZA Y LIBERTAD",
@@ -596,12 +582,12 @@
       {
         "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
         "sustento": "Implementará un Sistema Nacional de Evaluación Docente, que permita que cada ascenso se sustente en desempeño. Sanción efectiva y transparente para incumplimiento docente grave.",
-        "paginas": "105, 106"
+        "paginas": "106"
       },
       {
         "partido": "UNIDAD NACIONAL",
-        "sustento": "Los nombramientos y ascensos de los docentes deben ser por mérito NO por ideología ni por presión sindical. Reforzará la vigilancia en la evaluación.",
-        "paginas": "118"
+        "sustento": "Los nombramientos y ascensos de los docentes deben ser por mérito, NO por ideología ni por presión sindical. Reforzará la vigilancia en la evaluación.",
+        "paginas": "117"
       },
       {
         "partido": "LIBERTAD POPULAR",
@@ -615,8 +601,8 @@
       },
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "Meritocracia efectiva Fortalecer evaluaciones de desempeño docente con retroalimentación formativa vinculando resultados a ascensos de escala.",
-        "paginas": "46"
+        "sustento": "Meritocracia efectiva: Fortalecer evaluaciones de desempeño docente con retroalimentación formativa vinculando resultados a ascensos de escala.",
+        "paginas": "50"
       },
       {
         "partido": "FUERZA Y LIBERTAD",
@@ -626,17 +612,17 @@
       {
         "partido": "PARTIDO POLITICO PRIN",
         "sustento": "Promover la evaluación del docente por resultados a través de encuestas a los educandos.",
-        "paginas": "32"
+        "paginas": "11"
       },
       {
         "partido": "ALIANZA PARA EL PROGRESO",
         "sustento": "Evaluación y carrera docente basada en resultados.",
-        "paginas": "47"
+        "paginas": "23"
       },
       {
         "partido": "PARTIDO MORADO",
         "sustento": "Evaluación desempeño digital y meritocracia. Bonos por desempeño (20% mejores docentes).",
-        "paginas": "155"
+        "paginas": "158"
       }
     ]
   },
@@ -653,8 +639,8 @@
       },
       {
         "partido": "PARTIDO MORADO",
-        "sustento": "Educación intercultural bilingüe efectiva 100% de estudiantes indígenas reciben EIB... Materiales educativos en 47 lenguas originarias... Becas personas con discapacidad integrales tecnología de asistencia",
-        "paginas": "163"
+        "sustento": "Educación intercultural bilingüe efectiva: 100% de estudiantes indígenas reciben EIB... Materiales educativos en 47 lenguas originarias... Becas personas con discapacidad integrales tecnología de asistencia",
+        "paginas": "166"
       },
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -664,7 +650,7 @@
       {
         "partido": "PARTIDO DEMOCRATA VERDE",
         "sustento": "PROGRAMA NACIONAL 2 LENGUAS VIVAS DEL PERÚ... Material educativo en lengua materna... Revitalización preservación y promoción de lenguas indígenas",
-        "paginas": ""
+        "paginas": "445"
       },
       {
         "partido": "AHORA NACION - AN",
@@ -674,17 +660,17 @@
       {
         "partido": "PROGRESEMOS",
         "sustento": "Creación de la red nacional de maestros mentores para la inclusión y diversidad... Bono EIB equivalente al 25% del sueldo base para maestros con certificación de dominio avanzado.",
-        "paginas": ""
+        "paginas": "59"
       },
       {
         "partido": "PARTIDO DEMOCRATICO FEDERAL",
         "sustento": "IDIOMAS... Primaria Español + lengua originaria Secundaria + inglés básico... adecuación de la currícula a cada realidad geográfica.",
-        "paginas": "77"
+        "paginas": "29"
       },
       {
         "partido": "PARTIDO POLITICO PRIN",
-        "sustento": "Promoveremos la educación intercultural bilingüe EIB con la participación activa de las comunidades originarias y sus representantes a nivel regional.",
-        "paginas": "38"
+        "sustento": "Promoveremos la educación intercultural bilingüe (EIB) con la participación activa de las comunidades originarias y sus representantes a nivel regional.",
+        "paginas": "11"
       },
       {
         "partido": "FUERZA Y LIBERTAD",
@@ -692,9 +678,9 @@
         "paginas": "150"
       },
       {
-        "partido": "PARTIDO POLITICO PERU PRIMERO",
+        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
         "sustento": "Al 2031 se incrementa en 25% la producción y difusión de contenidos culturales en lenguas originarias... priorizando la transmisión de saberes ancestrales.",
-        "paginas": ""
+        "paginas": "109"
       }
     ]
   }
