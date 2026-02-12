@@ -553,37 +553,37 @@
       {
         "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
         "sustento": "Propone que la educación secundaria técnica se articule con la economía local, priorizando sectores estratégicos como el turismo y el patrimonio cultural. Plantea la creación de nodos técnico-productivos regionales para asegurar la pertinencia y empleabilidad de los jóvenes.",
-        "paginas": "101"
+        "paginas": "102"
       },
       {
         "partido": "PARTIDO POLITICO PRIN",
         "sustento": "Creará centros de desarrollo de conocimientos técnicos con perfiles de alta demanda, mencionando explícitamente los servicios de turismo y agroexportación,. Busca que esta formación técnica permita a los jóvenes alcanzar el autosostenimiento de sus hogares.",
-        "paginas": "23, 24"
+        "paginas": "10"
       },
       {
         "partido": "FUERZA Y LIBERTAD",
-        "sustento": "Impulsará la profesionalización de la economía naranja y las industrias culturales a través de Escuelas Técnicas de formación. Además, propone insertar cursos de ciencia de datos y programación aplicados al currículo escolar.",
+        "sustento": "Propone insertar cursos de ciencia de datos y programación aplicados al currículo escolar.",
         "paginas": "35, 76"
       },
       {
         "partido": "PARTIDO MORADO",
         "sustento": "Implementará una estrategia de macroregionalización educativa donde la Macrorregión Sur se especializará en Gestión de Patrimonio Cultural, Arqueología y Turismo. Los currículos de los institutos técnicos serán co-diseñados con el sector productivo para asegurar su relevancia.",
-        "paginas": "73, 148"
+        "paginas": "75"
       },
       {
         "partido": "PARTIDO DEMOCRATICO FEDERAL",
         "sustento": "Implementará el currículo federal \"Cambio Valiente\", que incluye formación en economía regional aplicada y proyectos de emprendimiento desde la secundaria,. Alinea los contenidos pedagógicos con las vocaciones productivas de cada territorio.",
-        "paginas": "27, 47"
+        "paginas": "29"
       },
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
         "sustento": "Implementará el programa \"Oficios del Futuro\", otorgando 50,000 becas anuales para formación técnica en oficios resistentes a la automatización, incluyendo la gestión de servicios turísticos.",
-        "paginas": "86"
+        "paginas": "50"
       },
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
         "sustento": "Propone establecer alianzas público-privadas para centros de educación técnica superior en cada región, con especialidades ligadas a la demanda real de sectores como textiles y turismo.",
-        "paginas": "37, 52"
+        "paginas": "8"
       },
       {
         "partido": "PARTIDO DEL BUEN GOBIERNO",
@@ -593,7 +593,7 @@
       {
         "partido": "ALIANZA PARA EL PROGRESO",
         "sustento": "Plantea replantear la oferta de los CETPRO para cumplir con las necesidades de profesionales técnicos requeridos por los megaproyectos actuales y futuros del país.",
-        "paginas": "27"
+        "paginas": "23"
       }
     ]
   },
@@ -606,7 +606,7 @@
       {
         "partido": "PARTIDO APRISTA PERUANO",
         "sustento": "Lanzará el programa \"Biblioteca en tu Parque\" para democratizar el acceso al libro en espacios públicos no convencionales. También propone la modernización y digitalización de la Biblioteca Nacional y completar el Fondo Editorial Nacional.",
-        "paginas": "41"
+        "paginas": "28"
       },
       {
         "partido": "PARTIDO CIVICO OBRAS",
@@ -626,7 +626,7 @@
       {
         "partido": "PARTIDO DEMOCRATICO FEDERAL",
         "sustento": "Facilitará el acceso a la lectura crítica mediante la creación y equipamiento de \"Bibliotecas digitales federales\" integradas en el currículo escolar para formar ciudadanos con pensamiento crítico.",
-        "paginas": "27"
+        "paginas": "30"
       },
       {
         "partido": "AHORA NACION - AN",
@@ -636,12 +636,12 @@
       {
         "partido": "FUERZA POPULAR",
         "sustento": "Implementará la \"Alianza por la Lectura Escolar\", garantizando que cada colegio público tenga una biblioteca física básica y equipada, además de crear una Red Escolar Digital de Lectura con recursos precargados en dispositivos.",
-        "paginas": "88"
+        "paginas": "93"
       },
       {
         "partido": "PARTIDO MORADO",
         "sustento": "Propone que las bibliotecas públicas funcionen como nodos de alfabetización digital para la tercera edad y que el 80% de escolares usen recursos digitales culturales en su currículo.",
-        "paginas": "145, 171"
+        "paginas": "148"
       },
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -651,7 +651,7 @@
       {
         "partido": "PARTIDO DEMOCRATA VERDE",
         "sustento": "Plantea la creación de Casas de la Cultura que incluyan bibliotecas y museos comunitarios en distritos urbanos y rurales prioritarios.",
-        "paginas": "77, 437"
+        "paginas": "46"
       }
     ]
   },
@@ -664,7 +664,7 @@
       {
         "partido": "FE EN EL PERU",
         "sustento": "Su estrategia para los Peruanos en el Exterior (PEX) se orienta a garantizar el ejercicio efectivo de sus derechos y mejorar la cobertura de los servicios del Estado. Reconoce a la diáspora como un actor estratégico para el desarrollo económico, social y cultural del país, facilitando su contribución mediante inversión y transferencia de conocimientos.",
-        "paginas": "24, 25"
+        "paginas": "29"
       },
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -674,12 +674,12 @@
       {
         "partido": "PARTIDO PATRIOTICO DEL PERU",
         "sustento": "Establece que las embajadas y consulados serán responsables de la difusión de la cultura nacional y la apertura de mercados. Su enfoque de políticas públicas incluye de manera prioritaria a los peruanos en el extranjero, buscando que sean influyentes y referentes a nivel mundial.",
-        "paginas": "2, 3, 6"
+        "paginas": "3"
       },
       {
         "partido": "PARTIDO MORADO",
         "sustento": "Propone la estrategia \"Presencia del Perú en el Mundo y Soporte al Peruano en el Exterior\", enfocada en atraer el talento de la diáspora mediante incentivos al retorno y la protección de sus derechos culturales. Plantea la digitalización de trámites consulares para reducir la presencialidad en trámites notariales y de identidad.",
-        "paginas": "86, 90"
+        "paginas": "333"
       },
       {
         "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
@@ -699,7 +699,7 @@
       {
         "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
         "sustento": "Busca garantizar la atención integral y participación de los peruanos en el exterior para canalizar su potencial, con una meta de digitalizar el 75% de los servicios consulares.",
-        "paginas": "38, 39"
+        "paginas": "37"
       }
     ]
   },
@@ -717,7 +717,7 @@
       {
         "partido": "PARTIDO DEMOCRATICO FEDERAL",
         "sustento": "Propone como objetivo estratégico reducir la criminalidad en un 60% para 2031. Sostiene que esto generará un impacto directo en el turismo, incrementando en 50% la llegada de visitantes al mejorar la percepción de seguridad internacional.",
-        "paginas": "22"
+        "paginas": "28"
       },
       {
         "partido": "LIBERTAD POPULAR",
@@ -732,7 +732,7 @@
       {
         "partido": "FUERZA POPULAR",
         "sustento": "Implementará un Plan Nacional de Orden Turístico que integra a la Policía de Turismo, Defensa Civil y municipalidades. Busca desarrollar sistemas de patrullaje especializado y asistencia médica en 20 destinos prioritarios.",
-        "paginas": "67"
+        "paginas": "70"
       },
       {
         "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
@@ -750,32 +750,32 @@
       {
         "partido": "PARTIDO SICREO",
         "sustento": "Propone captar el \"turismo deportivo\" basado en el éxito de divisas generadas en años previos. Su meta es organizar, junto al sector privado, los Juegos Olímpicos Nacionales en el año 2030 para medir el potencial de los atletas regionales.",
-        "paginas": "40"
+        "paginas": "19"
       },
       {
         "partido": "FUERZA POPULAR",
         "sustento": "Busca la conversión del Centro de Convenciones de Lima en un hub regional para eventos internacionales, con una meta mínima de 12 megaeventos anuales (más de 8 mil asistentes cada uno) para posicionar al país en el mercado global de congresos y ferias.",
-        "paginas": "67"
+        "paginas": "69"
       },
       {
         "partido": "FUERZA Y LIBERTAD",
         "sustento": "Implementará el programa de \"Ciudades Turísticas Inteligentes\" en 10 destinos clave, integrando realidad aumentada en sitios culturales e innovación tecnológica para mejorar la experiencia en la gestión de flujos y servicios al visitante.",
-        "paginas": "63, 64"
+        "paginas": "64"
       },
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
         "sustento": "Su objetivo es posicionar a Lima, Cusco y Arequipa como destinos globales MICE (Reuniones, Incentivos, Convenciones y Exhibiciones), incluyendo la creación de un centro de convenciones de clase mundial vinculado al nuevo aeropuerto.",
-        "paginas": "88"
+        "paginas": "89"
       },
       {
         "partido": "SALVEMOS AL PERU",
         "sustento": "Promoverá el incremento de eventos de promoción internacional mediante una colaboración tripartita obligatoria entre la Cancillería, Proinversión y Promperú, con partidas presupuestales específicas para este fin.",
-        "paginas": "35"
+        "paginas": "84"
       },
       {
         "partido": "PARTIDO MORADO",
         "sustento": "Propone la estrategia \"Perú Cultura Digital\" y la creación de clústeres regionales de industrias creativas (cine, diseño, música) para exportar servicios culturales y participar en mercados globales.",
-        "paginas": "169"
+        "paginas": "172"
       },
       {
         "partido": "ALIANZA PARA EL PROGRESO",
