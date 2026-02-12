@@ -8,37 +8,37 @@
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
         "sustento": "Propone el Ferrocarril Lima-Ica (viaje en 2.5 horas), el estudio del tren Lima-Barranca para conectar con Chancay y la modernización de 5 aeropuertos regionales (Cusco, Piura, Chiclayo, Trujillo e Iquitos) para recibir vuelos internacionales directos.",
-        "paginas": "72, 73, 86"
+        "paginas": "72"
       },
       {
         "partido": "ALIANZA PARA EL PROGRESO",
         "sustento": "Se compromete a terminar el Aeropuerto de Chinchero antes de 2028 y asegurar una conexión eficiente con la ciudad del Cusco mediante APP u OxI.",
-        "paginas": "18"
+        "paginas": "17"
       },
       {
         "partido": "FUERZA POPULAR",
         "sustento": "Impulsará el Tren Bioceánico Perú-Brasil, ferrocarriles de carga hacia puertos estratégicos y la modernización de 17 aeropuertos regionales, reforzando la infraestructura internacional en Piura, Chiclayo, Iquitos y Trujillo.",
-        "paginas": "62, 64, 70"
+        "paginas": "63"
       },
       {
         "partido": "PARTIDO APRISTA PERUANO",
         "sustento": "Prioriza la integración mediante corredores logísticos multimodales, el Tren de la Costa Norte (Lima-Tumbes) y la modernización del Tren Macho con extensión hacia Cusco.",
-        "paginas": "35, 42, 44"
+        "paginas": "62"
       },
       {
         "partido": "PERU MODERNO",
         "sustento": "Plantea un \"Tren Bala\" de Tumbes a Tacna, el Tren Transandino (Puno-Cajamarca) y la construcción de aeropuertos internacionales y supercarreteras de doble vía.",
-        "paginas": "21, 28, 29"
+        "paginas": "28"
       },
       {
         "partido": "UNIDAD NACIONAL",
         "sustento": "Propone un tren de cercanías Chancay-Ica con red transversal hacia el interior y la modernización de 6 aeropuertos clave (Arequipa, Trujillo, Cusco, Piura, Iquitos y Tarapoto).",
-        "paginas": "44, 50"
+        "paginas": "50"
       },
       {
         "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
         "sustento": "Promueve trenes de alta velocidad (Lima-Ica y Lima-Trujillo), el túnel trasandino y la apertura de 5 nuevos aeropuertos internacionales en Cusco, Pisco, Arequipa, Iquitos y Piura.",
-        "paginas": "24"
+        "paginas": "23"
       },
       {
         "partido": "UN CAMINO DIFERENTE",
@@ -48,12 +48,17 @@
       {
         "partido": "PODEMOS PERU",
         "sustento": "Fomentará un shock de inversiones para construir infraestructuras estratégicas en puertos y ferrocarriles (incluyendo el de la costa y dos de penetración) y plataformas logísticas.",
-        "paginas": "21, 24"
+        "paginas": "13"
       },
       {
         "partido": "PARTIDO DEMOCRATICO FEDERAL",
         "sustento": "Propone el \"Plan Ferroviario Nacional 2026-2031\" con una inversión de 55,000 millones de dólares, que incluye ejes longitudinales (Tumbes-Tacna) y transversales (Bayóvar-Iquitos, Chancay-Pucallpa).",
-        "paginas": "38, 44"
+        "paginas": "21"
+      },
+      {
+        "partido": "RENOVACION POPULAR",
+        "sustento": "Impulsaremos decididamente más Líneas del Metro. los trenes de cercanías y reactivaremos el sistema ferroviario nacional de carga y pasajeros.",
+        "paginas": "18"
       }
     ]
   },
@@ -66,7 +71,7 @@
       {
         "partido": "PODEMOS PERU",
         "sustento": "Propone explícitamente el traslado de la sede del Ministerio de Cultura a la ciudad del Cusco para acercar la gestión al territorio con mayor patrimonio histórico.",
-        "paginas": "69"
+        "paginas": "70"
       },
       {
         "partido": "PARTIDO PATRIOTICO DEL PERU",
@@ -76,12 +81,12 @@
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
         "sustento": "Plantea reestructurar el sector convirtiendo el ministerio en el Instituto Nacional de Cultura (INC), con gestión descentralizada y funciones reordenadas para mayor eficiencia. También propone su integración al Ministerio de Educación como organismo descentralizado.",
-        "paginas": "48, 114"
+        "paginas": "48"
       },
       {
-        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
+        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
         "sustento": "Propone la unificación de los ministerios de Educación, Cultura e IPD en una sola entidad denominada \"Ministerio de Educación, Ciencia, Cultura y Deporte\" para integrar resultados civilizatorios.",
-        "paginas": "258"
+        "paginas": "259"
       },
       {
         "partido": "PARTIDO DEL BUEN GOBIERNO",
@@ -91,7 +96,7 @@
       {
         "partido": "PARTIDO DEMOCRATICO FEDERAL",
         "sustento": "Plantea una reingeniería para reducir el aparato estatal a 13 ministerios, fusionando Cultura en el \"Ministerio de Educación, Cultura, Ciencia y Talento Humano\". Además, se compromete a descentralizar las sedes ministeriales a diferentes regiones del país.",
-        "paginas": "2, 25, 33"
+        "paginas": "8"
       },
       {
         "partido": "JUNTOS POR EL PERU",
@@ -149,17 +154,17 @@
       {
         "partido": "PARTIDO PAIS PARA TODOS",
         "sustento": "Define a las industrias creativas como un sector productivo estratégico. Propone financiarlas mediante COFIDE y la creación de fondos concursables para su desarrollo.",
-        "paginas": "30"
+        "paginas": "40"
       },
       {
         "partido": "PARTIDO DEMOCRATICO FEDERAL",
         "sustento": "Bajo el lema \"Perú Creativo\", busca que el talento sea el motor económico regional. Propone crear el \"Ministerio de Educación, Cultura, Ciencia y Talento Humano\" para priorizar la innovación y el arte sobre la burocracia.",
-        "paginas": "3, 4, 5"
+        "paginas": "7"
       },
       {
         "partido": "JUNTOS POR EL PERU",
         "sustento": "Propone un Fondo Nacional de Cultura para asegurar presupuestos progresivos y reformar la legislación para garantizar condiciones laborales dignas a los artistas, considerando que el 80% están en la informalidad.",
-        "paginas": "20"
+        "paginas": "21"
       },
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -174,7 +179,7 @@
       {
         "partido": "PROGRESEMOS",
         "sustento": "Propone un ecosistema de \"Exportación Popular\" donde el Estado gestione gratuitamente trámites aduaneros y certificaciones para pequeños exportadores de artesanías y textiles.",
-        "paginas": "12"
+        "paginas": "27"
       }
     ]
   },
@@ -186,13 +191,13 @@
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "lantea una revolución democrática para alcanzar una sociedad plurinacional y multiétnica. Propone crear el Sistema Nacional de Cultura Plurinacional y otorgar representación directa a los pueblos originarios en el Parlamento.",
-        "paginas": "5, 20"
+        "sustento": "Plantea una revolución democrática para alcanzar una sociedad plurinacional y multiétnica. Propone crear el Sistema Nacional de Cultura Plurinacional y otorgar representación directa a los pueblos originarios en el Parlamento.",
+        "paginas": "20"
       },
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
         "sustento": "Su propuesta central es convocar a una Asamblea Constituyente Plurinacional para redactar una Nueva Constitución que reconozca los derechos de la Madre Tierra y los derechos colectivos de pueblos indígenas y afroperuanos.",
-        "paginas": "14, 49"
+        "paginas": "49"
       },
       {
         "partido": "PARTIDO DEL BUEN GOBIERNO",
@@ -202,22 +207,22 @@
       {
         "partido": "PARTIDO POLITICO PRIN", 
         "sustento": "Busca reducir la discriminación étnico-racial y elevar la participación política de los pueblos indígenas mediante el uso de canales digitales. Promueve la EIB con participación activa de comunidades originarias.",
-        "paginas": "14, 23"
+        "paginas": "14, 31"
       },
       {
         "partido": "PARTIDO DEMOCRATA UNIDO PERU",
         "sustento": "Declara que la educación intercultural será prioridad nacional, enfocándose en revalorar la identidad, tradiciones y diversidad cultural de todas las personas.",
-        "paginas": "5"
+        "paginas": "6"
       },
       {
         "partido": "PARTIDO DEMOCRATICO FEDERAL",
         "sustento": "Define al Perú como una \"nación de naciones\" donde conviven pueblos originarios con respeto a sus culturas, 48 lenguas y territorios. Promueve la enseñanza de estas lenguas regionales en el currículo escolar.",
-        "paginas": "2, 22"
+        "paginas": "8"
       },
       {
         "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
         "sustento": "Propone reconocer constitucionalmente al Perú como un Estado plurinacional y garantizar los derechos de justicia comunal de los pueblos andinos y amazónicos.",
-        "paginas": "13"
+        "paginas": "24"
       },
       {
         "partido": "AHORA NACION - AN",
@@ -227,7 +232,7 @@
       {
         "partido": "PARTIDO DEMOCRATA VERDE",
         "sustento": "Establece la Educación Intercultural Bilingüe (EIB) como política transversal del Estado, integrando saberes locales en el currículo y certificando docentes en lenguas originarias.",
-        "paginas": "60"
+        "paginas": "22"
       },
       {
         "partido": "FUERZA Y LIBERTAD",
@@ -237,7 +242,7 @@
       {
         "partido": "PROGRESEMOS",
         "sustento": "Propone integrar los saberes agrícolas, medicinales y éticos de las comunidades originarias en el sistema educativo bilingüe e intercultural.",
-        "paginas": "19"
+        "paginas": "62"
       }
     ]
   },
@@ -250,12 +255,12 @@
       {
         "partido": "LIBERTAD POPULAR",
         "sustento": "Propone impulsar la gestión mixta para recuperar el patrimonio arqueológico, tomando como referencia el éxito del modelo Huaca Pucllana para replicarlo en otros sitios.",
-        "paginas": "50"
+        "paginas": "49"
       },
       {
         "partido": "ALIANZA PARA EL PROGRESO",
         "sustento": "Fomentará la inversión privada en huacas mediante \"proyectos en activos\", permitiendo servicios complementarios en áreas disponibles que no interrumpan las excavaciones, replicando la experiencia de Pucllana en sitios como Mateo Salado o Huallamarca.",
-        "paginas": "24"
+        "paginas": "18"
       },
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -265,7 +270,7 @@
       {
         "partido": "PARTIDO APRISTA PERUANO",
         "sustento": "Poner en valor el 20% del patrimonio arqueológico nacional mediante la actualización del catastro y el incentivo de Obras por Impuestos y APP con universidades privadas para museos de sitio.",
-        "paginas": "35"
+        "paginas": "27"
       },
       {
         "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
@@ -280,17 +285,17 @@
       {
         "partido": "AHORA NACION - AN",
         "sustento": "Identifica que el 98% de monumentos arqueológicos carece de inversión y propone un Programa de Salvaguarda Urgente con planes de uso sostenible para al menos 20 sitios patrimoniales en distintas regiones.",
-        "paginas": "46, 47"
+        "paginas": "47"
       },
       {
         "partido": "PARTIDO MORADO",
         "sustento": "Propone la digitalización de 100,000 piezas y recorridos virtuales de 20 sitios, además de incentivar el mecenazgo cultural privado con deducciones tributarias del 200% para restaurar casonas y proteger centros históricos.",
-        "paginas": "170, 175, 177"
+        "paginas": "173"
       },
       {
         "partido": "PARTIDO DEMOCRATA VERDE",
         "sustento": "Plantea el uso de monitoreo satelital para proteger sitios arqueológicos y la creación de rutas culturales sostenibles con participación ciudadana.",
-        "paginas": "60, 430"
+        "paginas": "46"
       }
     ]
   },
@@ -303,17 +308,17 @@
       {
         "partido": "FUERZA POPULAR",
         "sustento": "Implementará programas de turismo social y recreación para adultos mayores. Creará el \"Carnet Nacional del Adulto Mayor\", el cual otorgará descuentos obligatorios del 50% en transporte terrestre, ferroviario y acuático, y del 30% en transporte aéreo nacional, además de rebajas en espectáculos y servicios turísticos.",
-        "paginas": "64, 68"
+        "paginas": "69"
       },
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
         "sustento": "Desarrollará el \"Turismo Social\" mediante apoyo financiero del Estado (vía MINCETUR), permitiendo que los usuarios paguen solo un porcentaje del costo de visitas y excursiones. Diagnostica que el país actualmente no promueve un turismo interno de apoyo para niños, jóvenes y adultos mayores.",
-        "paginas": "27, 29"
+        "paginas": "28"
       },
       {
         "partido": "LIBERTAD POPULAR",
         "sustento": "Busca consolidar un Perú más inclusivo donde no se deje a nadie atrás. Para ello, fortalecerá el Plan COPESCO Nacional con el fin de mejorar la accesibilidad física de los destinos turísticos priorizados.",
-        "paginas": "11, 53"
+        "paginas": "52"
       },
       {
         "partido": "PARTIDO CIVICO OBRAS",
@@ -323,22 +328,22 @@
       {
         "partido": "PARTIDO MORADO",
         "sustento": "Propone un pase libre irrestricto (transporte gratuito) en sistemas urbanos e interprovinciales para mayores de 65 años. Además, plantea un subsidio de movilidad escolar mensual para familias en pobreza del programa Juntos.",
-        "paginas": "212"
+        "paginas": "214"
       },
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
         "sustento": "Establecerá una tarjeta única de transporte con una tarifa social específica para estudiantes, adultos mayores y personas con discapacidad, permitiendo transbordos gratuitos.",
-        "paginas": "86"
+        "paginas": "62"
       },
       {
         "partido": "PARTIDO DEMOCRATA VERDE",
         "sustento": "Implementará el programa \"Adultos Mayores con Dignidad\", que incluye programas estatales de recreación, actividad física y vida activa en todos los territorios.",
-        "paginas": "157"
+        "paginas": "151"
       },
       {
         "partido": "UNIDAD NACIONAL",
         "sustento": "Señala que más del 50% de los recursos turísticos fuera de los destinos principales carecen de servicios higiénicos adecuados para personas con discapacidad, por lo que priorizará la inversión en infraestructura básica accesible.",
-        "paginas": "105"
+        "paginas": "104"
       }
     ]
   },
@@ -356,42 +361,42 @@
       {
         "partido": "FUERZA Y LIBERTAD",
         "sustento": "Creará la \"Red Gastronómica Nacional\" para convertir la cocina en un motor de desarrollo regional, conectando directamente al productor local con el turista mediante rutas y festivales de calidad certificada",
-        "paginas": "62, 66"
+        "paginas": "66"
       },
       {
         "partido": "ALIANZA PARA EL PROGRESO",
         "sustento": "Brindará soporte estatal para que el avance de la gastronomía peruana sea sostenible a largo plazo, buscando replicar niveles de competitividad y captación de divisas de países como España o México",
-        "paginas": "31"
+        "paginas": "18"
       },
       {
         "partido": "SALVEMOS AL PERU",
         "sustento": "Fortalecerá la cooperación entre la Cancillería, Proinversión y Promperú para posicionar al Perú como un destino premium, utilizando la gastronomía como ancla internacional en diversas regiones",
-        "paginas": "12"
+        "paginas": "84"
       },
       {
         "partido": "PARTIDO DEMOCRATICO FEDERAL",
         "sustento": "Identifica a la gastronomía como un sector con condición de clúster que debe ser potenciado mediante el impulso al talento creativo y la innovación de los jóvenes para lograr la autosuficiencia regional",
-        "paginas": "5"
+        "paginas": "7"
       },
       {
         "partido": "FUERZA POPULAR",
         "sustento": "Propone el fomento de la gastronomía como ancla internacional, consolidando rutas gastronómicas y ferias regionales para atraer turismo de clase mundial.",
-        "paginas": "66"
+        "paginas": "68"
       },
       {
         "partido": "PARTIDO DEMOCRATA VERDE",
         "sustento": "Plantea la gastronomía como un eje de identidad y desarrollo, enfatizando la integración con productores locales y la protección de ingredientes nativos.",
-        "paginas": "430"
+        "paginas": "443"
       },
       {
         "partido": "PARTIDO MORADO",
         "sustento": "Busca conectar la investigación en alimentos funcionales y superalimentos (quinua, camu camu) con la industria gastronómica y de exportación, garantizando trazabilidad digital.",
-        "paginas": "108"
+        "paginas": "110"
       },
       {
         "partido": "JUNTOS POR EL PERU",
         "sustento": "Propone el desarrollo de industrias creativas, incluyendo la gastronomía, como sectores intensivos en empleo y tecnología para diversificar la matriz productiva.",
-        "paginas": "38"
+        "paginas": "37"
       }
     ]
   },
@@ -409,22 +414,22 @@
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
         "sustento": "Plantea destinar un tercio de los recursos de inversión del MINCETUR a proyectos que serán gestionados directamente por las comunidades a través de núcleos ejecutores, dándoles el protagonismo en el turismo vivencial.",
-        "paginas": "29"
+        "paginas": "28"
       },
       {
         "partido": "PARTIDO DEMOCRATA VERDE",
         "sustento": "Busca integrar la cultura con la economía verde mediante el impulso de \"bioemprendimientos culturales\" y la gestión comunitaria del patrimonio inmaterial, como rituales y tradiciones.",
-        "paginas": "79"
+        "paginas": "40"
       },
       {
         "partido": "FUERZA POPULAR",
         "sustento": "Promoverá el turismo comunitario asegurando que las comunidades nativas y campesinas sean las protagonistas, con el fin de conservar su identidad cultural y la biodiversidad de sus territorios.",
-        "paginas": "67"
+        "paginas": "68"
       },
       {
         "partido": "PARTIDO DEMOCRATICO FEDERAL",
         "sustento": "Implementará el principio de \"Creación de Valor Compartido\", bajo el cual ninguna empresa podrá operar sin un plan que garantice el progreso de la población local y deje capacidades permanentes en la comunidad.",
-        "paginas": "4, 6"
+        "paginas": "6"
       },
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -434,12 +439,12 @@
       {
         "partido": "FUERZA Y LIBERTAD",
         "sustento": "Lanzará el programa \"Comunidades Protagonistas\" para que el turismo deje de ser una actividad extractiva y las comunidades diseñen y gestionen sus propias experiencias rentables.",
-        "paginas": "63, 66"
+        "paginas": "66"
       },
       {
         "partido": "LIBERTAD POPULAR",
         "sustento": "Su estrategia para la Amazonía incluye el impulso al manejo forestal comunitario y el ecoturismo (turismo rural comunitario) mediante asistencia técnica y pagos por servicios ecosistémicos.",
-        "paginas": "82"
+        "paginas": "81"
       }
     ]
   },
@@ -452,17 +457,17 @@
       {
         "partido": "PARTIDO MORADO",
         "sustento": "Implementará la plataforma \"Perú Cultura Digital\", que incluirá una Biblioteca Digital con 100,000 piezas arqueológicas y un Museo Virtual con 20 tours virtuales de 360° de sitios patrimonio mundial.",
-        "paginas": "170, 172"
+        "paginas": "172"
       },
       {
         "partido": "PARTIDO DEMOCRATA VERDE",
         "sustento": "Propone el monitoreo satelital de sitios arqueológicos y la creación de una plataforma de cultura digital en lenguas originarias, que incluya bibliotecas digitales y contenido multimedia para preservar el patrimonio inmaterial.",
-        "paginas": "76, 445"
+        "paginas": "446"
       },
       {
         "partido": "PARTIDO POLITICO PERU PRIMERO",
         "sustento": "Implementará un programa de digitalización de recursos culturales y museos para crear ofertas virtuales gratuitas, buscando democratizar el acceso a la cultura y fortalecer la identidad nacional.",
-        "paginas": "41"
+        "paginas": "100"
       },
       {
         "partido": "AHORA NACION - AN",
@@ -472,7 +477,7 @@
       {
         "partido": "PARTIDO APRISTA PERUANO",
         "sustento": "Propone la modernización y digitalización del Archivo General de la Nación (AGN) y la Biblioteca Nacional para mitigar el riesgo de la memoria documental, estableciendo como meta la digitalización del patrimonio histórico.",
-        "paginas": "41"
+        "paginas": "28"
       },
       {
         "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
@@ -487,7 +492,7 @@
       {
         "partido": "JUNTOS POR EL PERU",
         "sustento": "Plantea el uso de tecnologías de la información para democratizar el acceso a la cultura y el desarrollo de medios de comunicación públicos multilingües que difundan el patrimonio vivo.",
-        "paginas": "7, 21"
+        "paginas": "21"
       }
     ]
   },
@@ -505,22 +510,22 @@
       {
         "partido": "SALVEMOS AL PERU",
         "sustento": "Busca posicionar al país como destino premium promocionando activamente la costa norte, selva y sierra central, buscando que el 80% de los destinos estratégicos tengan infraestructura de alta calidad.",
-        "paginas": "41, 22"
+        "paginas": "84"
       },
       {
         "partido": "FUERZA POPULAR",
         "sustento": "Propone desarrollar Zonas Especiales de Desarrollo Turístico en Caral, Chachapoyas y Kuélap, además de inversión internacional en las playas de Tumbes y Piura.",
-        "paginas": "67"
+        "paginas": "68"
       },
       {
         "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
         "sustento": "Impulsará el \"Corredor Norte Ancestral\" (Kuélap, Gocta) y el \"Corredor Amazónico\" (Iquitos, Pacaya Samiria) para distribuir el flujo de visitantes.",
-        "paginas": "88, 89"
+        "paginas": "87"
       },
       {
         "partido": "PARTIDO DEMOCRATICO FEDERAL",
         "sustento": "Establece la especialización productiva regional, asignando el ecoturismo a la Selva Sur y el turismo al Norte Andino. Su proyecto \"Silicon Valley Amazónico\" incluye explícitamente el turismo ecológico.",
-        "paginas": "22, 31"
+        "paginas": "17"
       },
       {
         "partido": "ALIANZA ELECTORAL VENCEREMOS",
@@ -530,12 +535,12 @@
       {
         "partido": "PARTIDO MORADO",
         "sustento": "Plantea una estrategia de \"20 Destinos Culturales de Clase Mundial\" para que el 40% de los turistas visiten destinos fuera del Cusco, integrando circuitos en el Norte (Caral-Chan Chan-Kuélap) y la Selva (Tambopata-Chachapoyas).",
-        "paginas": "173"
+        "paginas": "176"
       },
       {
         "partido": "FUERZA Y LIBERTAD",
         "sustento": "Su plan incluye la puesta en valor del \"Corredor Turístico de la Selva Central\" (Junín-Pasco-Oxapampa) y la consolidación del Norte con la Ruta Moche y playas de Tumbes.",
-        "paginas": "317"
+        "paginas": "64"
       }
     ]
   },
