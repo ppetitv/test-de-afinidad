@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         // Cargar propuestas
-        const proposalsResponse = await fetch(`${basePath}data/proposals/${topicId}.json`);
+        const proposalsResponse = await fetch(`${basePath}data/proposals-v1/${topicId}.json`);
         if (!proposalsResponse.ok) throw new Error('Error al cargar propuestas');
         const proposalsJSON = await proposalsResponse.json();
 
