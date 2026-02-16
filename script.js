@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         data.candidates = [];
         data.proposals = [];
         // Cargar candidatos
-        const candidatesResponse = await fetch(urlComparapropuestas + 'data/datajne_v3.json');
+        const candidatesResponse = await fetch(urlComparapropuestas + 'data/datajne_v4.json');
         if (!candidatesResponse.ok) throw new Error('Error al cargar candidatos');
         const candidatesJSON = await candidatesResponse.json();
 
