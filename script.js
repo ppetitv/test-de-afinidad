@@ -617,7 +617,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             const outputScale = window.devicePixelRatio || 1;
 
-            const rangeBuffer = 5;
+            const rangeBuffer = 3;
             let startPage = Math.max(1, targetPage - rangeBuffer);
             let endPage = Math.min(pdf.numPages, targetPage + rangeBuffer);
 
@@ -626,7 +626,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 infoDiv.style.padding = "20px";
                 infoDiv.style.color = "#ccc";
                 infoDiv.style.textAlign = "center";
-                infoDiv.innerText = `Páginas 1 a ${startPage - 1} omitidas para optimizar la carga`;
+                infoDiv.innerText = `Páginas 1 a ${startPage - 1} omitidas`;
                 pagesContainer.appendChild(infoDiv);
             }
 
