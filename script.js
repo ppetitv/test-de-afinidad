@@ -551,6 +551,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                         window.open(rawUrl + '&view=FitH&toolbar=1', '_blank');
                     }
                 } else {
+                    //openPdfSidebar(rawUrl);
                     openPdfVisor(rawUrl + '&view=FitH&toolbar=1');
                 }
             });
@@ -616,7 +617,20 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             const outputScale = window.devicePixelRatio || 1;
 
-            for (let pageNum = 1; pageNum <= pdf.numPages; pageNum++) {
+            const rangeBuffer = 5;
+            let startPage = Math.max(1, targetPage - rangeBuffer);
+            let endPage = Math.min(pdf.numPages, targetPage + rangeBuffer);
+
+            if (startPage > 1) {
+                const infoDiv = document.createElement('div');
+                infoDiv.style.padding = "20px";
+                infoDiv.style.color = "#ccc";
+                infoDiv.style.textAlign = "center";
+                infoDiv.innerText = `Páginas 1 a ${startPage - 1} omitidas para optimizar la carga`;
+                pagesContainer.appendChild(infoDiv);
+            }
+
+            for (let pageNum = startPage; pageNum <= endPage; pageNum++) {
                 if (!isPdfLoading) {
                     console.log("Carga de PDF cancelada por el usuario");
                     return; 
@@ -628,6 +642,15 @@ document.addEventListener('DOMContentLoaded', async () => {
                 pageWrapper.id = `page-${pageNum}`;
                 pageWrapper.className = 'pdf-page-wrapper';
                 pageWrapper.style.marginBottom = '10px';
+
+                // Añadimos número de página visualmente
+                const pageNumberLabel = document.createElement('div');
+                pageNumberLabel.style.textAlign = "right";
+                pageNumberLabel.style.padding = "5px 10px";
+                pageNumberLabel.style.fontSize = "12px";
+                pageNumberLabel.style.color = "#666";
+                pageNumberLabel.innerText = `Pág. ${pageNum}`;
+                pageWrapper.appendChild(pageNumberLabel);
 
                 const canvas = document.createElement('canvas');
                 const context = canvas.getContext('2d');
@@ -666,6 +689,15 @@ document.addEventListener('DOMContentLoaded', async () => {
                 if (pageNum === targetPage) {
                     pageWrapper.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
+            }
+
+            if (endPage < pdf.numPages) {
+                const infoDiv = document.createElement('div');
+                infoDiv.style.padding = "20px";
+                infoDiv.style.color = "#ccc";
+                infoDiv.style.textAlign = "center";
+                infoDiv.innerText = `Se omitieron las páginas restantes (${endPage + 1} - ${pdf.numPages})`;
+                pagesContainer.appendChild(infoDiv);
             }
 
             // Limpieza final del documento al terminar el bucle
