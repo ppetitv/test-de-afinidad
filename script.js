@@ -693,7 +693,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             if (endPage < pdf.numPages) {
                 const infoDiv = document.createElement('div');
-                infoDiv.style.padding = "10px";
+                infoDiv.style.padding = "15px";
                 infoDiv.style.color = "#ccc";
                 infoDiv.style.textAlign = "center";
                 infoDiv.innerText = `Páginas restantes (${endPage + 1} - ${pdf.numPages}) omitidas`;
