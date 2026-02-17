@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     let pdfUrl = candidate?.pdfUrl2 || '';
                     if (page !== "") {
                         const firstPage = page.split(',')[0].trim();
-                        pdfUrl += `#page=${firstPage}&toolbar=1`;
+                        pdfUrl += `#page=${firstPage}`;
                     }
 
                     stances[match.partido] = 'agree';
@@ -520,7 +520,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const sourceId = link.dataset.sourceId;
                 const proposal = data.proposals.find(p => p.id == proposalId);
                 const source = proposal.sources[sourceId];
-                let pdfUrl = source.url + '&view=FitH';
+                let pdfUrl = source.url + '&view=FitH&toolbar=1';
                 if (isMobile) {
                     openPdfSidebar(pdfUrl);
                 } else {
