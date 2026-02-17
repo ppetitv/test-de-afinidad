@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             h.includes('pre') ? 'https://pre.s.rpp-noticias.io/static/especial/testdeafinidad/' :
                 h.includes('rpp.pe') ? 'https://s2.rpp-noticias.io/static/especial/testdeafinidad/' : '';
     })();
-    // const isMobile = window.matchMedia("(max-width: 768px)").matches;
+    const isMobile = window.matchMedia("(max-width: 768px)").matches;
     let isPdfLoading = false;
     let currentRenderTask = null;
 
@@ -72,12 +72,19 @@ document.addEventListener('DOMContentLoaded', async () => {
                 row.matches.forEach(match => {
                     const candidate = findCandidate(match.partido);
 
+                    const page = match.paginas || "";
+                    let pdfUrl = candidate?.pdfUrl2 || '';
+                    if (page !== "") {
+                        const firstPage = page.split(',')[0].trim();
+                        pdfUrl += `#page=${firstPage}&toolbar=1`;
+                    }
+
                     stances[match.partido] = 'agree';
                     sources[match.partido] = {
                         title: match.sustento || '',
                         party: match.partido,
                         imgLogoUrl: candidate?.imgLogoUrl || '',
-                        url: candidate?.pdfUrl2 || '',
+                        url: pdfUrl || '',
                         pages: match.paginas || '',
                         partyName: candidate?.party || ''
                     }
@@ -513,21 +520,42 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const sourceId = link.dataset.sourceId;
                 const proposal = data.proposals.find(p => p.id == proposalId);
                 const source = proposal.sources[sourceId];
-                const page = source.pages || "";
-                let pdfUrl = source.url;
-                if (page !== "") {
-                    const firstPage = page.split(',')[0].trim();
-                    pdfUrl += `#page=${firstPage}&view=FitH&toolbar=1`;
-                }
-                //if (isMobile) {
-                //    window.open(pdfUrl, '_blank');
-                //} else {
+                let pdfUrl = source.url + '&view=FitH';
+                if (isMobile) {
                     openPdfSidebar(pdfUrl);
-                //}
+                } else {
+                    openPdfVisor(pdfUrl);
+                }
             });
         });
     }
 
+    // For web
+    function openPdfVisor(pdfUrl) {
+        const pdfPagesContainer = document.getElementById('pdf-pages-container');
+        pdfPagesContainer.innerHTML = '';
+        // 2. Usamos IFRAME en lugar de EMBED
+        // iframe suele comportarse mejor con el historial y parámetros en Chrome/Edge
+        const iframe = document.createElement('iframe');
+        
+        // Aseguramos que la URL permita caché o recarga correcta
+        iframe.src = pdfUrl; 
+        iframe.title = "Visor de Plan de Gobierno";
+        iframe.width = '100%';
+        iframe.height = '100%';
+        iframe.style.border = 'none';
+        
+        // 3. Inyectamos
+        pdfPagesContainer.appendChild(iframe);
+
+        // 4. Abrimos el sidebar
+        pdfSidebar.classList.add('open');
+        if (sourcesSidebarOverlay) {
+            sourcesSidebarOverlay.classList.add('visible');
+        }
+    }
+
+    // For Mobile
     pdfjsLib.GlobalWorkerOptions.workerSrc = basePath + 'pdf-worker.min.js';
     async function openPdfSidebar(pdfUrl) {
         isPdfLoading = true; // Iniciamos la carga
@@ -649,7 +677,15 @@ document.addEventListener('DOMContentLoaded', async () => {
                         <span class="divider">| ${source.partyName}</span>
                         <span class="check-icon">✓</span>
                     </div>
-                    <p class="source-title">${source.title}</p>
+                    <p class="source-title">
+                        ${source.title.replace(/\.$/, '')}
+                        ${source.pages ? ` 
+                            <a 
+                                href="${source.url}" 
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >(p. ${source.pages})</a>.` : ''}
+                    </p>
                     <p class="source-date"></p>
                     <a 
                         href="${source.url}" 
@@ -917,7 +953,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         return `
             <div class="c-drawer__header">
                 <div class="c-drawer__candidate-info">
-                    <img class="c-drawer__candidate-logo" src="${basePath}${candidate.imgLogoUrl}" alt="${candidate.name}">
+                    <img class="c-drawer__candidate-logo" src="${candidate.imgLogoUrl}" alt="${candidate.name}">
                     <div class="c-drawer__candidate-details">
                         <h3>${candidate.name}</h3>
                         <p>${candidate.party}</p>
