@@ -513,6 +513,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function sourcesListener() {
         const pdfLinks = document.querySelectorAll('.js-open-pdf');
+        const isAndroid = /Android/i.test(navigator.userAgent);
+
         pdfLinks.forEach(link => {
             link.addEventListener('click', (e) => {
                 e.preventDefault();
@@ -520,11 +522,18 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const sourceId = link.dataset.sourceId;
                 const proposal = data.proposals.find(p => p.id == proposalId);
                 const source = proposal.sources[sourceId];
-                let pdfUrl = source.url + '&view=FitH&toolbar=1';
+
+                // URL Base limpia
+                let rawUrl = source.url;
                 if (isMobile) {
-                    openPdfSidebar(pdfUrl);
+                    if (isAndroid) {
+                        const googleViewerUrl = `https://docs.google.com/viewer?url=${encodeURIComponent(rawUrl)}&embedded=true`;
+                        window.open(googleViewerUrl, '_blank');
+                    } else {
+                        window.open(rawUrl + '&view=FitH&toolbar=1', '_blank');
+                    }
                 } else {
-                    openPdfVisor(pdfUrl);
+                    openPdfVisor(rawUrl + '&view=FitH&toolbar=1');
                 }
             });
         });
