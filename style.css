@@ -2473,6 +2473,12 @@ body::before {
 
 /* Dispositivos con altura menor o igual a 667px */
 @media screen and (max-height: 667px) {
+    .app-header {
+        background-color: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
     .card{
         padding: 1.5rem 1rem;
     }
