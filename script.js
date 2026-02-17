@@ -527,8 +527,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 let rawUrl = source.url;
                 if (isMobile) {
                     if (isAndroid) {
-                        const googleViewerUrl = `https://docs.google.com/viewer?url=${encodeURIComponent(rawUrl)}&embedded=true`;
-                        window.open(googleViewerUrl, '_blank');
+                        openPdfSidebar(rawUrl);
                     } else {
                         window.open(rawUrl + '&view=FitH&toolbar=1', '_blank');
                     }
