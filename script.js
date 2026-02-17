@@ -351,6 +351,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         button.classList.add('pressed');
         setTimeout(() => button.classList.remove('pressed'), 200);
 
+        window.marfeel = window.marfeel || { cmd: [] };
+        window.marfeel.cmd.push(['compass', function(compass) {
+            compass.trackConversion(choice +' - test de afinidad');
+        }]);
+
         // Show indicator
         const indicator = cardToProcess.querySelector('.card-swipe-indicator');
         indicator.classList.remove('agree', 'disagree', 'neutral');
@@ -500,6 +505,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                 tematicOverlay.classList.remove('visible');
                 loadTopic(tematicId);
+
+                window.marfeel = window.marfeel || { cmd: [] };
+                window.marfeel.cmd.push(['compass', function(compass) {
+                    compass.trackConversion('click tematica - test de afinidad');
+                }]);
             })
         })
     }
@@ -1087,6 +1097,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         disagreeBtn.disabled = false;
         neutralBtn.disabled = false;
         isProcessing = false;
+
+        window.marfeel = window.marfeel || { cmd: [] };
+        window.marfeel.cmd.push(['compass', function(compass) {
+            compass.trackConversion('repetir test - test de afinidad');
+        }]);
     }
 
     function shareResults() {
@@ -1097,6 +1112,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         } else {
             alert(`Invita a tus amigos:\n${shareText}\n${shareUrl}`);
         }
+
+        window.marfeel = window.marfeel || { cmd: [] };
+                window.marfeel.cmd.push(['compass', function(compass) {
+                    compass.trackConversion('compartir test - test de afinidad');
+                }]);
     }
 
     // --- EVENT LISTENERS ---
