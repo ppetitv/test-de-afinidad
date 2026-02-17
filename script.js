@@ -522,8 +522,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const source = proposal.sources[sourceId];
                 let pdfUrl = source.url + '&view=FitH&toolbar=1';
                 if (isMobile) {
-                    window.open(pdfUrl, '_blank');
-                    //openPdfSidebar(pdfUrl);
+                    openPdfSidebar(pdfUrl);
                 } else {
                     openPdfVisor(pdfUrl);
                 }
