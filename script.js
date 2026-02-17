@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     let data = { candidates: [], proposals: [] };
 
     // Configuración para DATA
+    const visorPdf = "https://felicidad.com.pe/testdeafinidad/visorpdf?url=";
     const urlComparapropuestas = "https://s2.rpp-noticias.io/static/especial/comparapropuestas/";
     const basePath = (() => {
         const h = window.location.hostname;
@@ -532,7 +533,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                         window.open(rawUrl + '&view=FitH&toolbar=1', '_blank');
                     }
                 } else {
-                    openPdfVisor(rawUrl + '&view=FitH&toolbar=1');
+                    openPdfSidebar(rawUrl);
+                    // openPdfVisor(rawUrl + '&view=FitH&toolbar=1');
                 }
             });
         });
@@ -589,7 +591,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             pdfSidebar.classList.add('open');
             sourcesSidebarOverlay.classList.add('visible');
 
-            const loadingTask = pdfjsLib.getDocument(cleanUrl);
+            const loadingTask = pdfjsLib.getDocument(visorPdf + cleanUrl);
             const pdf = await loadingTask.promise;
             
             // Limpiar el loader antes de renderizar las páginas
