@@ -2458,15 +2458,31 @@ body::before {
     }
 
     /* Quitamos el scroll del div contenedor porque el visor nativo trae su propio scroll */
-    /*.sources-sidebar--pdf-viewer .pdf-content {
+    .sources-sidebar--pdf-viewer .pdf-content {
         overflow: hidden !important;
         display: flex;
         flex-direction: column;
-    }*/
+    }
 
     #pdf-pages-container {
         flex: 1;
         height: 100%;
         width: 100%;
+    }
+}
+
+/* Dispositivos con altura menor o igual a 667px */
+@media screen and (max-height: 667px) {
+    .card{
+        padding: 1.5rem 1rem;
+    }
+    .card-stack {
+        min-height: auto;
+    }
+    .swipe-area{ 
+        align-items: flex-end;
+    }
+    .app-footer {
+        padding-top: 3rem;
     }
 }

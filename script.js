@@ -548,12 +548,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                     if (isAndroid) {
                         openPdfSidebar(rawUrl);
                     } else {
-                        openPdfSidebar(rawUrl);
-                        //window.open(rawUrl + '&view=FitH&toolbar=1', '_blank');
+                        //openPdfSidebar(rawUrl);
+                        window.open(rawUrl + '&view=FitH&toolbar=1', '_blank');
                     }
                 } else {
-                    openPdfSidebar(rawUrl);
-                    //openPdfVisor(rawUrl + '&view=FitH&toolbar=1');
+                    //openPdfSidebar(rawUrl);
+                    openPdfVisor(rawUrl + '&view=FitH&toolbar=1');
                 }
             });
         });
@@ -618,7 +618,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             const outputScale = window.devicePixelRatio || 1;
 
-            const rangeBuffer = 5;
+            const rangeBuffer = 3;
             let startPage = Math.max(1, targetPage - rangeBuffer);
             let endPage = Math.min(pdf.numPages, targetPage + rangeBuffer);
 
