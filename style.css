@@ -2458,11 +2458,11 @@ body::before {
     }
 
     /* Quitamos el scroll del div contenedor porque el visor nativo trae su propio scroll */
-    .sources-sidebar--pdf-viewer .pdf-content {
+    /*.sources-sidebar--pdf-viewer .pdf-content {
         overflow: hidden !important;
         display: flex;
         flex-direction: column;
-    }
+    }*/
 
     #pdf-pages-container {
         flex: 1;

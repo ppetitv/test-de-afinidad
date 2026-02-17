@@ -551,8 +551,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                         window.open(rawUrl + '&view=FitH&toolbar=1', '_blank');
                     }
                 } else {
-                    //openPdfSidebar(rawUrl);
-                    openPdfVisor(rawUrl + '&view=FitH&toolbar=1');
+                    openPdfSidebar(rawUrl);
+                    //openPdfVisor(rawUrl + '&view=FitH&toolbar=1');
                 }
             });
         });
@@ -623,7 +623,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             if (startPage > 1) {
                 const infoDiv = document.createElement('div');
-                infoDiv.style.padding = "10px";
+                infoDiv.style.paddingBottom = "10px";
                 infoDiv.style.color = "#ccc";
                 infoDiv.style.textAlign = "center";
                 infoDiv.innerText = `Páginas 1 a ${startPage - 1} omitidas`;
@@ -646,8 +646,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 // Añadimos número de página visualmente
                 const pageNumberLabel = document.createElement('div');
                 pageNumberLabel.style.textAlign = "right";
-                pageNumberLabel.style.padding = "5px 10px";
-                pageNumberLabel.style.fontSize = "11px";
+                pageNumberLabel.style.padding = "6px 10px";
+                pageNumberLabel.style.fontSize = "10px";
                 pageNumberLabel.style.color = "#666";
                 pageNumberLabel.innerText = `Pág. ${pageNum}`;
                 pageWrapper.appendChild(pageNumberLabel);
@@ -693,7 +693,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             if (endPage < pdf.numPages) {
                 const infoDiv = document.createElement('div');
-                infoDiv.style.padding = "20px";
+                infoDiv.style.paddingBottom = "10px";
                 infoDiv.style.color = "#ccc";
                 infoDiv.style.textAlign = "center";
                 infoDiv.innerText = `Páginas restantes (${endPage + 1} - ${pdf.numPages}) omitidas`;
