@@ -745,7 +745,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                                 href="${source.url}" 
                                 target="_blank"
                                 rel="noopener noreferrer"
-                            >(p. ${source.pages})</a>.` : ''}
+                            >Pg. ${source.pages}</a>.` : ''}
                     </p>
                     <p class="source-date"></p>
                     <a 

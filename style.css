@@ -803,14 +803,19 @@ body::before {
 }
 .source-item .source-title a{
     display: inline;
-    padding: 0;
-    background: none;
-    border-radius: 0;
+    padding: 2px 8px;
+    background: transparent;
+    border: 1.5px solid var(--primary-main);
+    border-radius: 12px;
     color: var(--primary-main);
-    font-weight: 800;
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-decoration: none;
+    margin-left: 6px;
+    transition: all 0.2s ease;
 }
 .source-item .source-title a:hover {
-    background: none;
+    background: rgba(0, 123, 255, 0.1);
     color: var(--primary-main);
 }
 .source-item .source-title a::after {
@@ -1631,7 +1636,7 @@ body::before {
     padding: 1.25rem 1rem;
     /* Reducido para móvil */
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.06);
     position: sticky;
@@ -1640,6 +1645,25 @@ body::before {
     width: 100%;
     max-width: 650px;
     margin: 0 auto;
+    position: relative;
+}
+
+.results-header-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.results-logo-rpp {
+    height: 28px;
+    width: auto;
+}
+
+.results-logo-campaign {
+    height: 24px;
+    width: auto;
 }
 
 .results-header h2 {
@@ -1647,6 +1671,8 @@ body::before {
     /* Más compacto */
     font-weight: 800;
     letter-spacing: -0.3px;
+    text-align: center;
+    width: 100%;
 }
 
 .results-content {
