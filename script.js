@@ -1139,10 +1139,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function shareResults() {
-        const shareText = "¡Descubre tu afinidad electoral! Te invito a hacer el test de Match Electoral y conocer tus afinidades políticas.";
+        const shareText = "¡Descubre tu afinidad electoral! Te invito a hacer el test de Afinidad Electoral y conocer tus afinidades políticas.";
         const shareUrl = window.location.href;
         if (navigator.share) {
-            navigator.share({ title: 'Match Electoral - Descubre tu Afinidad', text: shareText, url: shareUrl }).catch(console.error);
+            navigator.share({ title: 'Afinidad Electoral - Descubre tu Afinidad', text: shareText, url: shareUrl }).catch(console.error);
         } else {
             alert(`Invita a tus amigos:\n${shareText}\n${shareUrl}`);
         }
