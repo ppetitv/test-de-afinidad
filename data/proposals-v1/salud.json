@@ -4,171 +4,14 @@
     "topico": "Salud",
     "subtopico": "1. Unificación del Sistema de Salud",
     "phrase": "Apoyo la integración del MINSA, EsSalud y las Sanidades de las Fuerzas Armadas y Policiales en un sistema único de salud",
-    "matches": [
-      {
-        "partido": "PARTIDO POLITICO PERU ACCION",
-        "sustento": "Reforma del sector salud peruano hacia un sistema de salud unificado e integrado (fusión MINSA y ESSALUD) centrado en la atención pronta.",
-        "paginas": "13"
-      },
-      {
-        "partido": "UN CAMINO DIFERENTE",
-        "sustento": "Unificación ESSALUD y MINSA... Centros regionales de prevención con atención oncológica... Chequeo médico anual obligatorio.",
-        "paginas": "25"
-      },
-      {
-        "partido": "PARTIDO MORADO",
-        "sustento": "Ruta de Convergencia Progresiva... Sistema Único de Salud... EsSalud administrará el grueso del financiamiento... MINSA se consolidará como el prestador.",
-        "paginas": "337"
-      },
-      {
-        "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
-        "sustento": "Implementar un Sistema Único de Salud universal, gratuito, preventivo e integrado, financiado y conducido por el Estado.",
-        "paginas": "5"
-      },
-      {
-        "partido": "FUERZA Y LIBERTAD",
-        "sustento": "Unificar e integrar progresivamente el sistema de salud, reduciendo segmentación y duplicidades entre MINSA, SIS, EsSalud y sanidades.",
-        "paginas": "76"
-      },
-      {
-        "partido": "UNIDAD NACIONAL",
-        "sustento": "Impulsaremos un Sistema Unificado de Salud a través de la articulación de las diferentes instituciones prestadoras... para un intercambio prestacional.",
-        "paginas": "112"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATA VERDE",
-        "sustento": "Programa Nacional 2: 'UNA SOLA SALUD'... Unificar funcionalmente a MINSA, ESSALUD, sanidades y sector privado en un sistema articulado.",
-        "paginas": "73"
-      },
-      {
-        "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
-        "sustento": "Objetivo Estratégico 1: Unificar el sistema nacional de salud aplicando un enfoque descentralizado.",
-        "paginas": "18"
-      },
-      {
-        "partido": "PARTIDO DEL BUEN GOBIERNO",
-        "sustento": "Consolidar un sistema prestacional único e integrado a nivel nacional, articulando los subsistemas públicos, ESSALUD... y fuerzas armadas.",
-        "paginas": "10"
-      },
-      {
-        "partido": "PARTIDO APRISTA PERUANO",
-        "sustento": "Implementación urgente de un Sistema Integrado de Salud con un financiador único y universal, que ordene y regule las prestaciones.",
-        "paginas": "8"
-      },
-      {
-        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
-        "sustento": "Culminar la implementación de las Redes Integradas de Salud (RIS) a nivel nacional... Historia Clínica Universal y Digital.",
-        "paginas": "22"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "Garantizar el acceso universal efectivo... articulando el sistema fragmentado (Minsa, Essalud, sanidad de las FFAA...).",
-        "paginas": "46"
-      },
-      {
-        "partido": "ALIANZA ELECTORAL VENCEREMOS",
-        "sustento": "Construiremos un sistema de salud único, universal, de calidad y gratuito... Reformar EsSalud para una gestión más eficiente.",
-        "paginas": "39"
-      },
-      {
-        "partido": "AHORA NACION - AN",
-        "sustento": "Integrar los servicios del Minsa, los gobiernos regionales, EsSalud y privados para asegurar que la afiliación se traduzca en atención real.",
-        "paginas": "16"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATA UNIDO PERU",
-        "sustento": "Se implementará la universalización el servicio de salud... Se realizará la simplificación administrativa para la revalidación de títulos.",
-        "paginas": "6"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATICO FEDERAL",
-        "sustento": "Sistema Único de Salud Federal (SUS Federal)... Integración de sistemas: SIS + EsSalud + FFAA + Privados.",
-        "paginas": "31"
-      }
-    ]
+    "matches": []
   },
   {
     "id": 2,
     "topico": "Salud",
     "subtopico": "2. Fortalecimiento del Primer Nivel de Atención",
     "phrase": "Se debe priorizar la inversión en postas médicas y centros de salud sobre los grandes hospitales",
-    "matches": [
-      {
-        "partido": "AHORA NACION - AN",
-        "sustento": "Construir y/o remodelar quinientos (500) establecimientos de salud del primer nivel... Garantizar atención médica mínima... Descongestionar hospitales resolviendo más en la comunidad.",
-        "paginas": "17"
-      },
-      {
-        "partido": "ALIANZA PARA EL PROGRESO",
-        "sustento": "Se viabilizará el Plan Mil utilizando el mecanismo de APP... mejorar más de mil centros de salud de primer nivel... dotándolos de adecuada infraestructura.",
-        "paginas": "22"
-      },
-      {
-        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
-        "sustento": "Elevar la categoría de las 8,783 postas y centros de salud de nivel I-1 a I-2... 1,000 nuevos centros de salud primaria... 60% de establecimientos potenciados con médicos.",
-        "paginas": "24"
-      },
-      {
-        "partido": "FUERZA Y LIBERTAD",
-        "sustento": "Construcción y modernización de 5,000 centros de salud con prioridad en zonas de mayor vulnerabilidad... Fortalecimiento del primer nivel... Postas equipadas.",
-        "paginas": "29"
-      },
-      {
-        "partido": "PARTIDO MORADO",
-        "sustento": "Construcción y Equipamiento de 500 Postas Nuevas... Modernización de 2,500 Postas Existentes... 100% de población a menos de 1 hora de una posta digitalizada.",
-        "paginas": "139"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "Ampliación de horarios a 12 horas: Extender el funcionamiento de postas... Equipos de salud familiar territorializados... Construir 300 centros de salud en distritos rurales.",
-        "paginas": "46"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATICO FEDERAL",
-        "sustento": "Construcción y equipamiento de 1,000 nuevos centros de salud y actualización de 5,000 postas médicas para garantizar... atención primaria en menos de 30 minutos.",
-        "paginas": "45"
-      },
-      {
-        "partido": "LIBERTAD POPULAR",
-        "sustento": "Fortalecimiento del primer nivel de atención con un enfoque preventivo... colocar médicos de familia en cada distrito... Cobertura territorial del 100% con EESS funcionando >12h.",
-        "paginas": "23"
-      },
-      {
-        "partido": "PODEMOS PERU",
-        "sustento": "Incremento del porcentaje de establecimientos del primer nivel con capacidad resolutiva. Meta: 100% al 2031... Inversión prioritaria en establecimientos.",
-        "paginas": "60"
-      },
-      {
-        "partido": "ALIANZA ELECTORAL VENCEREMOS",
-        "sustento": "Implementaremos 700 clínicas especializadas... fortaleciendo los actuales y precarios centros de salud... Contrataremos 5,000 equipos de salud familiar.",
-        "paginas": "39"
-      },
-      {
-        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
-        "sustento": "Plan Nacional de Infraestructura de Atención Primaria... construcción, rehabilitación y ampliación de postas... bajo modelos arquitectónicos uniformes.",
-        "paginas": "78"
-      },
-      {
-        "partido": "UNIDAD NACIONAL",
-        "sustento": "Redirigiremos los esfuerzos hacia las comunidades, a incentivar que la población utilice los servicios primarios... Censo de la infraestructura del primer nivel.",
-        "paginas": "111"
-      },
-      {
-        "partido": "PARTIDO POLITICO PERU PRIMERO",
-        "sustento": "Meta: 99% de establecimientos de salud del primer nivel de atención con capacidad instalada adecuada... 25 RIS implementados en regiones.",
-        "paginas": "88"
-      },
-      {
-        "partido": "FE EN EL PERU",
-        "sustento": "Fortalecer el primer nivel de atención como eje del sistema de salud... Ampliación progresiva de establecimientos.",
-        "paginas": "13"
-      },
-      {
-        "partido": "PARTIDO CIVICO OBRAS",
-        "sustento": "Rehabilitar un 50% de puestos y centros de salud y 50 nuevos centros de salud en áreas rurales... Culminar 1,500 obras paralizadas.",
-        "paginas": "13"
-      }
-    ]
+    "matches": []
   },
   {
     "id": 3,
@@ -177,79 +20,9 @@
     "phrase": "Se debe crear una ficha médica digital compartida por todos los hospitales del país",
     "matches": [
       {
-        "partido": "PARTIDO MORADO",
-        "sustento": "Historia clínica (HC) digital única: DNI como identificador único de historia clínica interoperable entre TODAS las redes públicas... bajo estándar internacional HL7 FHIR.",
-        "paginas": "122"
-      },
-      {
         "partido": "FUERZA POPULAR",
         "sustento": "Integrar el 80% del sistema de salud (MINSA, EsSalud y Sanidades) a una historia clínica electrónica ligada al DNI.",
         "paginas": "101"
-      },
-      {
-        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
-        "sustento": "Implementar de manera obligatoria la Historia Clínica Universal y Digital, con interoperabilidad para los prestadores públicos y privados de salud.",
-        "paginas": "22"
-      },
-      {
-        "partido": "AHORA NACION - AN",
-        "sustento": "Meta: Implementar el historial clínico electrónico en el 100% en todos los centros de salud públicos y privados... sistema nacional interoperable.",
-        "paginas": "20"
-      },
-      {
-        "partido": "FUERZA Y LIBERTAD",
-        "sustento": "Implementar un sistema nacional interoperable de datos y calidad, con historia clínica única... Tarjeta Única de Salud con Historia Clínica Única.",
-        "paginas": "76, 77"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "Historia Clínica Electrónica Unificada: Implementar un sistema nacional que interconecte MINSA, EsSalud y privados... DNI electrónico como llave de acceso.",
-        "paginas": "46"
-      },
-      {
-        "partido": "PARTIDO DEL BUEN GOBIERNO",
-        "sustento": "Historia Clínica Electrónica Única interoperable... Aseguramiento con solo DNI en todo el país... Digitalización de 2,577 establecimientos.",
-        "paginas": "10"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATA VERDE",
-        "sustento": "Meta 2030: 100 % de establecimientos de segundo y tercer nivel; 80 % del primer nivel con historia clínica electrónica... Plataforma Nacional Unificada.",
-        "paginas": "79"
-      },
-      {
-        "partido": "LIBERTAD POPULAR",
-        "sustento": "Unificar sistemas de información con Historia Clínica Electrónica única, interoperable entre MINSA, EsSalud... y entidades privadas.",
-        "paginas": "25"
-      },
-      {
-        "partido": "ALIANZA PARA EL PROGRESO",
-        "sustento": "La Historia Clínica Digital debe aplicarse a nivel de todo sub sistema y ser interoperable. Ya EsSalud avanzó en este terreno.",
-        "paginas": "22"
-      },
-      {
-        "partido": "SALVEMOS AL PERU",
-        "sustento": "Apoyo en la implementación del Plan de implementación del Registro Nacional de Historias Clínicas Electrónicas (RENHICE)... Meta: Al menos 40% de la población.",
-        "paginas": "43"
-      },
-      {
-        "partido": "PERU MODERNO",
-        "sustento": "Se reforzará el programa de ‘Ficha clínica electrónica’ para mejorar con la información en tiempo real de las consultas de los especialistas.",
-        "paginas": "44"
-      },
-      {
-        "partido": "PARTIDO SICREO",
-        "sustento": "Implementación nacional del sistema GNU Health para la gobernanza sanitaria... donde figura la Historia Clínica Electrónica Única.",
-        "paginas": "15"
-      },
-      {
-        "partido": "UNIDAD NACIONAL",
-        "sustento": "Interoperabilidad de sistemas informáticos, estandarización de protocolos de atención, historia electronica... Centro de Análisis de datos.",
-        "paginas": "114"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATA UNIDO PERU",
-        "sustento": "Se promoverá la historia clínica única.",
-        "paginas": "6"
       }
     ]
   },
@@ -258,48 +31,7 @@
     "topico": "Salud",
     "subtopico": "4. Gestión Privada o Mixta de Hospitales (APPs)",
     "phrase": "Estoy a favor de que empresas privadas gestionen servicios en los hospitales públicos",
-    "matches": [
-      {
-        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
-        "sustento": "Implementar en los policlínicos y centros de nivel II y III... los contratos de Asociación Público – Privada 'Modelo de Gestión Bata Blanca', en los que la empresa privada se encarga de la administración de servicios médicos directos... y no solamente de servicios no asistenciales.",
-        "paginas": "26"
-      },
-      {
-        "partido": "ALIANZA PARA EL PROGRESO",
-        "sustento": "Mayor presencia de Asociaciones Público Privadas en el sector (Ej. Niño de San Borja Vs Niño de Breña y Batas Blancas)... viabilizar el Plan Mil utilizando el mecanismo de APP.",
-        "paginas": "22"
-      },
-      {
-        "partido": "FUERZA Y LIBERTAD",
-        "sustento": "Promover de manera decidida el uso de Asociaciones Público-Privadas (APP) para infraestructura hospitalaria, expandiendo el modelo Barton/Kaelin... Desarrollar y poner en operación 15 hospitales bajo el esquema de APP.",
-        "paginas": "32"
-      },
-      {
-        "partido": "PARTIDO POLITICO PERU ACCION",
-        "sustento": "Convertir progresivamente los hospitales del sector público en sociedades de responsabilidad limitada... con administraciones y gestiones de auditoría de procesos público-privadas... Construcción implementación de 10 hospitales... mediante APP.",
-        "paginas": "12"
-      },
-      {
-        "partido": "PARTIDO SICREO",
-        "sustento": "Convocar la participación del sector privado para que por contrato proporcione servicios de seguridad de almacenes, gestión de inventarios y distribución de medicamentos... bajo un marco regulatorio.",
-        "paginas": "16"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATICO FEDERAL",
-        "sustento": "Sistema Único de Salud Federal... Integración de sistemas: SIS + EsSalud + FFAA + Privados... [Modelo de gestión] con participación ciudadana.",
-        "paginas": "31"
-      },
-      {
-        "partido": "PARTIDO POLITICO PERU ACCIÓN",
-        "sustento": "Construcción implementación de 10 hospitales de alta complejidad tipo 1 por año en el Perú mediante el sistema de asociación pública privada APP.",
-        "paginas": "13"
-      },
-      {
-        "partido": "PARTIDO PAIS PARA TODOS",
-        "sustento": "Salud universal de verdad con financiamiento en serio y participación del sector privado... Con reglas claras y prestación integrada.",
-        "paginas": "52"
-      }
-    ]
+    "matches": []
   },
   {
     "id": 5,
@@ -308,64 +40,9 @@
     "phrase": "El Estado debe regular el precio de las medicinas o sancionar a las cadenas de farmacias que acaparan el mercado",
     "matches": [
       {
-        "partido": "ALIANZA ELECTORAL VENCEREMOS",
-        "sustento": "Red Nacional de Farmacias y Boticas Populares... con topes razonables a las ganancias por fármacos e insumos para evitar especulación... Combatiremos las prácticas anticompetitivas del oligopolio.",
-        "paginas": "39"
-      },
-      {
-        "partido": "ALIANZA ELECTORAL VENCEREMOS",
-        "sustento": "Desarrollaremos una política nacional de medicamentos... con topes razonables a las ganancias por fármacos e insumos para evitar especulación.",
-        "paginas": "39"
-      },
-      {
-        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRÁTICA",
-        "sustento": "Transformación del INDECOPI... supervisión de mercados estratégicos (medicinas)... Acceso a medicamentos con precios justos rompiendo monopolios.",
-        "paginas": "165"
-      },
-      {
-        "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
-        "sustento": "Eliminar prácticas oligopólicas en el sector salud... mediante fiscalización efectiva... bajo contratos regulados, tarifas controladas y sin concentración de mercado.",
-        "paginas": "13"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATA VERDE",
-        "sustento": "Compras conjuntas de medicamentos... Control de precios para medicamentos esenciales... Negociación centralizada para reducir costos.",
-        "paginas": "73"
-      },
-      {
-        "partido": "FUERZA Y LIBERTAD",
-        "sustento": "Reforma integral del sistema de regulación... para prevenir, detectar y sancionar conductas anticompetitivas en el mercado farmacéutico... y garantizar precios justos.",
-        "paginas": "79"
-      },
-      {
-        "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
-        "sustento": "Regular el sistema privado de seguros y medicamentos limitando prácticas abusivas y oligopólicas... % de gasto de bolsillo en medicamentos.",
-        "paginas": "7"
-      },
-      {
-        "partido": "UN CAMINO DIFERENTE",
-        "sustento": "Reformas de farmacias por monopolio y oligopolio... Reforzar la autoridad de INDECOPI para sancionar las prácticas monopólicas y la concertación de precios.",
-        "paginas": "2"
-      },
-      {
         "partido": "FUERZA POPULAR",
         "sustento": "Programa Nacional de Medicamentos con Descuento Preferencial... con regulación de precios y estándares de calidad.",
         "paginas": "99"
-      },
-      {
-        "partido": "RENOVACION POPULAR",
-        "sustento": "Acabaremos con la cadena de cobros excesivos por medicamentos. Será obligatorio que las farmacias tengan medicamentos básicos y genéricos.",
-        "paginas": "6"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATICO FEDERAL",
-        "sustento": "Política regulatoria firme para luchar contra los monopolios y oligopolios abusivos que distorsionan el mercado.",
-        "paginas": "48"
-      },
-      {
-        "partido": "PARTIDO DEL BUEN GOBIERNO",
-        "sustento": "Promover la producción nacional... con precios accesibles evitando el monopolio... publicación de precios en el observatorio de precios.",
-        "paginas": "10"
       }
     ]
   },
@@ -376,39 +53,9 @@
     "phrase": "El Estado debe vender directamente medicamentos baratos al público a través de boticas municipales o estatales",
     "matches": [
       {
-        "partido": "ALIANZA ELECTORAL VENCEREMOS",
-        "sustento": "Desarrollaremos una política nacional de medicamentos basada en una Red Nacional de Farmacias y Boticas Populares que ofrezcan genéricos de calidad a precios accesibles, con topes razonables a las ganancias.",
-        "paginas": "39"
-      },
-      {
         "partido": "FUERZA POPULAR",
         "sustento": "Implementación del Programa Nacional de Medicamentos con Descuento Preferencial... mediante farmacias públicas y privadas, con regulación de precios... Carnet Nacional del Adulto Mayor... descuentos obligatorios.",
         "paginas": "99"
-      },
-      {
-        "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-        "sustento": "Creación de la 'Droguería Nacional'... fabricación e importación directa... Creación del 'Laboratorio Farmacéutico Nacional'.",
-        "paginas": "28"
-      },
-      {
-        "partido": "PARTIDO DEL BUEN GOBIERNO",
-        "sustento": "Promover la entrega de medicinas para pacientes con enfermedades crónicas en farmacias del distrito o reparto domiciliario.",
-        "paginas": "11"
-      },
-      {
-        "partido": "UNIDAD NACIONAL",
-        "sustento": "Establecer alianzas con las cadenas de farmacias como puntos de entrega para abastecer a los usuarios del sistema más allá de los EESS [Establecimientos de Salud].",
-        "paginas": "45"
-      },
-      {
-        "partido": "PARTIDO MORADO",
-        "sustento": "Red de farmacias digitalizadas... Dispensación automática farmacias hospitalarias... App paciente para retiro medicamentos.",
-        "paginas": "123"
-      },
-      {
-        "partido": "FUERZA Y LIBERTAD",
-        "sustento": "Garantizar que al menos el 30 % de la oferta disponible en farmacias públicas corresponda a genéricos de calidad certificada... Compras centralizadas.",
-        "paginas": "79"
       }
     ]
   },
@@ -419,44 +66,9 @@
     "phrase": "El Estado debe llevar las medicinas a casa de los pacientes crónicos y adultos mayores",
     "matches": [
       {
-        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "\"Programa Nacional de Atención Domiciliaria (PADOMI Universal)... Ampliar a todo el territorio y a afiliados del SIS... Incorporar entrega de medicamentos en la visita domiciliaria.\"",
-        "paginas": "47"
-      },
-      {
-        "partido": "PARTIDO DEL BUEN GOBIERNO",
-        "sustento": "\"Promover la entrega de medicinas para pacientes con enfermedades crónicas en farmacias del distrito o reparto domiciliario.\"",
-        "paginas": "11q"
-      },
-      {
-        "partido": "ALIANZA PARA EL PROGRESO",
-        "sustento": "\"La APP Salog en Lima ha permitido rediseñar... la distribución y entrega... Este modelo será ampliado y replicado [para oportuna distribución de medicinas a pacientes].\"",
-        "paginas": "22"
-      },
-      {
         "partido": "FUERZA POPULAR",
         "sustento": "\"Implementación del Programa Nacional de Atención Domiciliaria de Cuidados, priorizando hogares en pobreza... con equipos multidisciplinarios.\"",
         "paginas": "99"
-      },
-      {
-        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
-        "sustento": "\"Fortalecerán programas de visitas domiciliarias a madres gestantes, adultos mayores solos y familias en vulnerabilidad.\"",
-        "paginas": "72"
-      },
-      {
-        "partido": "PARTIDO CIVICO OBRAS",
-        "sustento": "\"Crear el Sistema de Apoyo Domiciliario Municipal para atención básica directa... Atender a 50,000 personas en vulnerabilidad extrema.\"",
-        "paginas": "12"
-      },
-      {
-        "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-        "sustento": "\"Valorar la Atención Primaria... priorizando la atención en el domicilio de la persona con las visitas domiciliarias... Programa: Mi médico de Cabecera.\"",
-        "paginas": "28"
-      },
-      {
-        "partido": "PARTIDO MORADO",
-        "sustento": "\"Seguro Cuidados Largo Plazo... atención domiciliaria (enfermería, terapia)... App paciente para retiro medicamentos [y receta electrónica].\"",
-        "paginas": "277"
       }
     ]
   },
@@ -467,44 +79,9 @@
     "phrase": "El Perú debe fabricar sus propias medicinas y vacunas a través de laboratorios estatales",
     "matches": [
       {
-        "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-        "sustento": "Creación de la 'Droguería Nacional' que pueda implementar la fabricación e importación directa... Creación del 'Laboratorio Farmacéutico Nacional'.",
-        "paginas": "28"
-      },
-      {
-        "partido": "PARTIDO MORADO",
-        "sustento": "Fomento Industria Farmacéutica Nacional... 5 plantas producción genéricos estratégicos... Meta: 40% de medicamentos esenciales producidos localmente para 2031.",
-        "paginas": "134"
-      },
-      {
-        "partido": "PARTIDO DEL BUEN GOBIERNO",
-        "sustento": "Promover la producción nacional... Incentivos para fabricación nacional de genéricos... Impulsar Patentes flexibles o licencias obligatorias... Meta: 40% producción nacional.",
-        "paginas": "12"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "Invertir en análisis y creación de vacunas y medicamentos contra las enfermedades... Fomento de industrias alimentarias, metalmecánicas, químicas, farmacéuticas.",
-        "paginas": "47"
-      },
-      {
-        "partido": "PARTIDO APRISTA PERUANO",
-        "sustento": "Política industrial soberana que fortalezca la producción nacional de medicamentos e insumos médicos esenciales, reduciendo la dependencia externa.",
-        "paginas": "17"
-      },
-      {
         "partido": "FUERZA POPULAR",
         "sustento": "Implementación de Zonas Económicas Especiales (ZEE)... orientadas a manufactura de alto valor agregado (farmacéutica, biotecnología)... Fomento de la producción nacional.",
         "paginas": "72"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATA VERDE",
-        "sustento": "Programa Nacional 2: 'Industria Perú 2030'... Fomento de industrias... químicas, farmacéuticas y biotecnológicas.",
-        "paginas": "288"
-      },
-      {
-        "partido": "UNIDAD NACIONAL",
-        "sustento": "Sector Farmacéutico: Establecer alianzas con laboratorios internacionales para bioprospección y desarrollo de nutracéuticos.",
-        "paginas": "45"
       }
     ]
   },
@@ -513,73 +90,7 @@
     "topico": "Salud",
     "subtopico": "9. Estabilidad Laboral y Meritocracia (CAS/Terceros)",
     "phrase": "Se deben eliminar los contratos temporales (CAS) y dar estabilidad a los médicos y enfermeras mediante concursos de mérito",
-    "matches": [
-      {
-        "partido": "PARTIDO DEMOCRATICO FEDERAL",
-        "sustento": "Ejecutará el traslado de los trabajadores públicos al régimen SERVIR en un plazo de 180 días para asegurar que la gestión se base en la meritocracia.",
-        "paginas": "48"
-      },
-      {
-        "partido": "PARTIDO MORADO",
-        "sustento": "Homologación de condiciones de trabajo... Régimen laboral único para el sector salud... superando la fragmentación actual entre regímenes 276, 728, 1057 (CAS).",
-        "paginas": "344"
-      },
-      {
-        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
-        "sustento": "Establecimiento de la Ley de Carrera Sanitaria Nacional que debe implicar concursos meritocráticos, progresión por desempeño y complementos salariales.",
-        "paginas": "25"
-      },
-      {
-        "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
-        "sustento": "Reducir la proporción de servidores CAS a ≤17% del total... priorizando su tránsito a regímenes con derechos plenos... Eliminar el uso de locación de servicios.",
-        "paginas": "26"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATA VERDE",
-        "sustento": "Bienestar laboral: Reducción de contratos temporales... Estabilidad laboral (eliminación paulatina de contratos precarios).",
-        "paginas": "71"
-      },
-      {
-        "partido": "FUERZA Y LIBERTAD",
-        "sustento": "Proceso de selección meritocrática para los directores de hospitales... con contratos de 5 años... Incentivos diferenciados (remunerativos, carrera... y estabilidad).",
-        "paginas": "77"
-      },
-      {
-        "partido": "PARTIDO SICREO",
-        "sustento": "Tránsito Obligatorio de Regímenes para que el 100% del servicio civil esté en un mismo régimen bajo el esquema de la Ley Servir (eliminando el resto).",
-        "paginas": "31"
-      },
-      {
-        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
-        "sustento": "Programa Nacional de Desarrollo del Talento Sanitario... formación especializada... incentivos para permanencia... escalas remunerativas competitivas.",
-        "paginas": "69"
-      },
-      {
-        "partido": "PARTIDO POLITICO PRIN",
-        "sustento": "Incrementaremos las plazas permanentes con contratos estables, mediante programas nacionales de capacitación y especialización continua.",
-        "paginas": "15"
-      },
-      {
-        "partido": "ALIANZA ELECTORAL VENCEREMOS",
-        "sustento": "Relanzaremos de la reforma del servicio civil... acelerando el tránsito al nuevo régimen (sobre todo de los CAS) vía cursos de suficiencia.",
-        "paginas": "31"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "Implementación Plena de la Ley del Servicio Civil... 100% de entidades públicas en régimen meritocrático al 2031.",
-        "paginas": "94"
-      },
-      {
-        "partido": "UNIDAD NACIONAL",
-        "sustento": "Establecer un plan remunerativo único integral pensionable... Instauraremos una meritocracia real para los cargos directivos en el sector salud.",
-        "paginas": "114"
-      },
-      {
-        "partido": "AHORA NACION - AN",
-        "sustento": "La meta es lograr que el 100% de los directores de hospitales y direcciones regionales de salud sean seleccionados por concurso público.",
-        "paginas": "20"
-      }
-    ]
+    "matches": []
   },
   {
     "id": 10,
@@ -588,59 +99,9 @@
     "phrase": "Se deben pagar sueldos más altos y bonos a los médicos que acepten trabajar en provincias y zonas rurales",
     "matches": [
       {
-        "partido": "PARTIDO MORADO",
-        "sustento": "Bono zona rural (S/ 2,000/mes adicional, 1,500 profesionales)... Vivienda garantizada... Beca hijos educación superior... Seguro vida y accidentes.",
-        "paginas": "139"
-      },
-      {
-        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
-        "sustento": "Incentivos diferenciados para zonas de difícil acceso, con incrementos salariales de hasta sesenta por ciento, vivienda y transporte subvencionados.",
-        "paginas": "95"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "Bono de retención rural: Otorgar bonificación del 50% adicional al salario para médicos, enfermeros y obstetras en zonas VRAEM, Amazonía y sierra sobre 3.500 msnm.",
-        "paginas": "46"
-      },
-      {
-        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
-        "sustento": "Instauración de bonos integrales para médicos en zonas rurales (salario + vivienda + tele apoyo profesional)... complementos salariales por ruralidad.",
-        "paginas": "25"
-      },
-      {
-        "partido": "FUERZA Y LIBERTAD",
-        "sustento": "Programa Nacional 'Médico en tu Región'... mediante incentivos diferenciados (remunerativos, carrera, vivienda, puntaje para especialización y estabilidad).",
-        "paginas": "29"
-      },
-      {
-        "partido": "PARTIDO POLITICO PERU PRIMERO",
-        "sustento": "Incrementar médicos y enfermeras con mejores sueldos e incentivos por permanencia en zonas alejadas... Reforma del SERUMS.",
-        "paginas": "88"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATA VERDE",
-        "sustento": "Incentivos para trabajar en zonas remotas: Bonificaciones económicas. Puntos adicionales en procesos de especialización.",
-        "paginas": "56"
-      },
-      {
         "partido": "JUNTOS POR EL PERU",
         "sustento": "Actualizar los mecanismos del 'Serums'... para garantizar que la última etapa... permita su inserción... con incentivos para su permanencia.",
         "paginas": "58"
-      },
-      {
-        "partido": "PARTIDO POLITICO PRIN",
-        "sustento": "Incentivos económicos y profesionales para el trabajo en zonas rurales.",
-        "paginas": "12"
-      },
-      {
-        "partido": "UNIDAD NACIONAL",
-        "sustento": "Contar con un sistema de incentivos y retención del personal de salud, incluyendo bonos de desempeño y reconocimiento público.",
-        "paginas": "114"
-      },
-      {
-        "partido": "FE EN EL PERU",
-        "sustento": "Incentivos para el personal de salud en zonas rurales y de difícil acceso.",
-        "paginas": "14"
       }
     ]
   },
@@ -649,58 +110,7 @@
     "topico": "Salud",
     "subtopico": "11. Creación de Médicos de Familia (Atención Primaria)",
     "phrase": "Estoy a favor de implementar un sistema de médicos de familia en cada barrio para descongestionar los grandes hospitales",
-    "matches": [
-      {
-        "partido": "ALIANZA ELECTORAL VENCEREMOS",
-        "sustento": "Contrataremos 5,000 equipos de salud familiar y comunitaria para que cada uno atienda a 3,000 personas como médicos de familia en los vecindarios.",
-        "paginas": "39"
-      },
-      {
-        "partido": "PARTIDO POLITICO NACIONAL PERU LIBRE",
-        "sustento": "Implementar el programa 'Médicos de la Familia'... Asignar un equipo... a cada territorio definido, garantizando cobertura progresiva... institucionalizar la visita domiciliaria.",
-        "paginas": "8"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "Equipos de salud familiar territorializados: Conformar equipos multidisciplinarios (médico, enfermera...) responsables de aproximadamente 5,000 habitantes.",
-        "paginas": "46"
-      },
-      {
-        "partido": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-        "sustento": "Programa: Mi médico de Cabecera. Asignación de un médico de las especialidades de Medicina Familiar y/o Comunitaria por cada distrito a nivel nacional.",
-        "paginas": "28"
-      },
-      {
-        "partido": "PARTIDO MORADO",
-        "sustento": "Creación de nueva carrera profesional de Articuladores de Salud (Meta: 10,000)... coordinan entre niveles y ejecutan políticas preventivas... Aseguramiento preventivo familiar.",
-        "paginas": "30"
-      },
-      {
-        "partido": "LIBERTAD POPULAR",
-        "sustento": "Colocar médicos de familia, enfermeras comunitarias y equipos de salud territorial en cada distrito... Implementar un modelo territorial de prevención.",
-        "paginas": "23"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATICO FEDERAL",
-        "sustento": "Su modelo de atención para los 1,000 centros de salud nuevos incluye la dotación de médicos familiares y enfermeras para brindar atención integral.",
-        "paginas": "45"
-      },
-      {
-        "partido": "RENOVACION POPULAR",
-        "sustento": "Impulsar la especialidad en Salud Familiar, a nivel nacional... Escasez de profesionales especializados como Médicos de Familia.",
-        "paginas": "8"
-      },
-      {
-        "partido": "UNIDAD NACIONAL",
-        "sustento": "Adoptar un modelo que priorice el primer nivel de atención, pero con atención integral, familiar y comunitaria con abordaje territorial.",
-        "paginas": "111"
-      },
-      {
-        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
-        "sustento": "Fomentar la medicina preventiva... dotando a los centros de salud... para realizar chequeos periódicos... Fortalecer programas de visitas domiciliarias.",
-        "paginas": "71"
-      }
-    ]
+    "matches": []
   },
   {
     "id": 12,
@@ -708,41 +118,6 @@
     "subtopico": "12. Incorporación de Agentes Comunitarios de Salud",
     "phrase": "Reconocer legalmente y dar un sueldo a los promotores de salud de las comunidades",
     "matches": [
-      {
-        "partido": "AHORA NACION - AN",
-        "sustento": "La meta es activar y reconocer formalmente a 40 mil Agentes Comunitarios de Salud en todo el país... eliminar las restricciones normativas que limitan su trabajo.",
-        "paginas": "20"
-      },
-      {
-        "partido": "PARTIDO MORADO",
-        "sustento": "Promotores y Agentes comunitarios de salud que formalizan su rol... Meta: 5,000 promotores comunitarios formalizados como Articuladores de Salud (Carrera reconocida por SERVIR).",
-        "paginas": "348"
-      },
-      {
-        "partido": "RENOVACION POPULAR",
-        "sustento": "Formaremos Agentes de Desarrollo seleccionados de las propias comunidades, para ser capacitados en atenciones básicas de salud... usando técnicas e insumos nativos.",
-        "paginas": "5"
-      },
-      {
-        "partido": "FUERZA Y LIBERTAD",
-        "sustento": "Se integrará de forma sistemática a trabajadores comunitarios de salud, fortaleciendo su rol en promoción, prevención y seguimiento... especialmente en zonas rurales.",
-        "paginas": "77"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATICO FEDERAL",
-        "sustento": "Posta Médica (5,000 unidades)... Personal: Técnicos, promotores... Función: Primer contacto, telemedicina, prevención.",
-        "paginas": "36"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATA VERDE",
-        "sustento": "Participación de agentes comunitarios de salud... Intérpretes de salud comunitarios donde sea necesario... Integración de parteras tradicionales.",
-        "paginas": "67"
-      },
-      {
-        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
-        "sustento": "Reorganizar y ampliar los Centros de Promoción y Vigilancia Comunal (CPVC)... bajo la administración de los gobiernos locales con transferencias condicionadas.",
-        "paginas": "23"
-      },
       {
         "partido": "JUNTOS POR EL PERU",
         "sustento": "Incorporar y fortalecer perfiles relacionados con la promoción y atención comunitaria... Fortalecer el sistema de salud comunitario.",
@@ -757,64 +132,14 @@
     "phrase": "Poner psicólogos en todos los colegios y postas para atender la salud mental desde la comunidad",
     "matches": [
       {
-        "partido": "PARTIDO MORADO",
-        "sustento": "Programa Psicopedagógico en 100% Colegios: 5,000 psicólogos escolares... Cobertura total de salud mental: Integrada en primer nivel",
-        "paginas": "154"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "223 nuevos Centros de Salud Mental Comunitaria (CSMC): Ampliar la red de 277 a 500... Psicólogos de planta en todas las instituciones educativas públicas.",
-        "paginas": "47"
-      },
-      {
-        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
-        "sustento": "Establecer 390 nuevos Centros de Salud Mental Comunitaria... Establecimiento de Centros de Bienestar Familiar en las Instituciones Educativas... atendidos por psicólogos.",
-        "paginas": "24"
-      },
-      {
-        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
-        "sustento": "Reforma Nacional de Salud Mental... Cuna Más, PRONOEI y educación inicial contarán con psicólogos permanentes... Garantiza psicólogos en todos los centros de salud.",
-        "paginas": "90"
-      },
-      {
-        "partido": "PROGRESEMOS",
-        "sustento": "Red Nacional de Salud Mental Comunitaria 'Mente Sana'... incorporación de psicólogos de planta en todas las instituciones educativas... Programa de Bienestar Mental para el Servidor Público.",
-        "paginas": "24"
-      },
-      {
         "partido": "FUERZA POPULAR",
         "sustento": "Fortalecimiento de los CSMC a través de la creación de módulos juveniles... Implementación de una 'Línea Joven Contigo 24/7', atendida por psicólogos.",
         "paginas": "85"
       },
       {
-        "partido": "PARTIDO DEMOCRATA VERDE",
-        "sustento": "Programa Nacional 3: 'MENTE PERÚ'... Centros de Salud Mental Comunitaria en todas las provincias... Psicólogos en todos los centros de salud y hospitales.",
-        "paginas": "74"
-      },
-      {
-        "partido": "ALIANZA ELECTORAL VENCEREMOS",
-        "sustento": "Haremos de la salud mental un pilar estructural... garantizando psicólogos en todas las instituciones educativas y centros de salud.",
-        "paginas": "40"
-      },
-      {
-        "partido": "AHORA NACION - AN",
-        "sustento": "Establecer servicios de orientación y salud mental en todas las escuelas desde un enfoque territorial y comunitario... Meta: llegar al 90% el acceso efectivo.",
-        "paginas": "26"
-      },
-      {
-        "partido": "PRIMERO LA GENTE - COMUNIDAD, ECOLOGIA, LIBERTAD Y PROGRESO",
-        "sustento": "Número de Centros de Salud Mental Comunitaria (CSMC) operativos: 450... Servicios especializados operativos en todas las regiones.",
-        "paginas": "7"
-      },
-      {
         "partido": "JUNTOS POR EL PERU",
         "sustento": "Se fortalecerá el programa de salud mental comunitaria vinculando el trabajo del psicólogo de las instituciones educativas para cubrir servicios de acompañamiento.",
         "paginas": "56"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATA UNIDO PERU",
-        "sustento": "Se crearán los Centros de Salud Mental a fin de brindar ayuda y orientación pre matrimonial... para buscar el perfil de parejas felices... y evitar violencia familiar.",
-        "paginas": "6"
       }
     ]
   },
@@ -825,74 +150,9 @@
     "phrase": "Estoy a favor de implementar un sistema de seguimiento domiciliario para asegurar que ningún niño sufra de anemia",
     "matches": [
       {
-        "partido": "PODEMOS PERU",
-        "sustento": "\"Programa 3: Protección integral de la primera infancia: 'Anemia Cero'... Meta 2031: Reducción de la prevalencia de anemia a 0 %.\"",
-        "paginas": "62"
-      },
-      {
-        "partido": "AHORA NACION - AN",
-        "sustento": "\"Porcentaje de desnutrición crónica infantil: la meta es eliminarla... Meta: 0 %... Lograr que el 50% de niños con anemia se recuperen.\"",
-        "paginas": "124"
-      },
-      {
-        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
-        "sustento": "\"Meta estratégica será explícita: reducir la anemia infantil a menos del cinco por ciento en cinco años... Sistema Nacional de Nutrición Temprana (SINANT).\"",
-        "paginas": "76"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "\"PROGRAMA: 'ANEMIA CERO'... Reducir la anemia en niños menores de 3 años a <15%... Incorporar personal de salud especializado para diagnóstico.\"",
-        "paginas": "40"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATICO FEDERAL",
-        "sustento": "\"Meta estratégica reducir la desnutrición crónica infantil al 5% y la anemia infantil al 15%... Suplementación con multimicronutrientes.\"",
-        "paginas": "45"
-      },
-      {
-        "partido": "PARTIDO MORADO",
-        "sustento": "\"Sistema Digital Integrado de Nutrición... App de seguimiento... Alertas automáticas... Meta: Anemia < 20%, Desnutrición < 10% (retomando metas 2017).\"",
-        "paginas": "103"
-      },
-      {
-        "partido": "ALIANZA ELECTORAL VENCEREMOS",
-        "sustento": "\"Implementaremos la estrategia nacional 'Anemia Cero'... con brigadas de seguimiento nutricional y producción nacional de alimentos fortificados.\"",
-        "paginas": "39"
-      },
-      {
         "partido": "FUERZA POPULAR",
         "sustento": "\"Reducir la anemia infantil al 20%... Implementación del Paquete 1,000 días... Padrón Nominal de gestantes y niños... seguimiento en tiempo real.\"",
         "paginas": "101"
-      },
-      {
-        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
-        "sustento": "\"Incidencia de anemia... baje al menos 10 puntos... Meta: Anemia infantil < 15%... Distribución directa de un 'shock proteico' envasado.\"",
-        "paginas": "6"
-      },
-      {
-        "partido": "PARTIDO POLITICO PERU PRIMERO",
-        "sustento": "\"Reducción a menos del 20% de anemia infantil... Reducción a menos del 10% de desnutrición crónica... Ampliar incentivos económicos condicionados.\"",
-        "paginas": "89"
-      },
-      {
-        "partido": "PARTIDO PAIS PARA TODOS",
-        "sustento": "\"Cero tolerancia a la anemia... Disminuir la anemia en niños de 6-35 meses, en al menos 5 p.p. por año... Seguimiento nominal.\"",
-        "paginas": "17"
-      },
-      {
-        "partido": "PARTIDO DEL BUEN GOBIERNO",
-        "sustento": "\"Reducción de la anemia infantil a <10%... Coordinación con el sector educación para tamizaje y monitoreo.\"",
-        "paginas": "11"
-      },
-      {
-        "partido": "LIBERTAD POPULAR",
-        "sustento": "\"Reducción del índice de prevalencia de anemia... a 35%... Reducción de la desnutrición crónica infantil a 10%.\"",
-        "paginas": "25"
-      },
-      {
-        "partido": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERU",
-        "sustento": "\"Tasa de desnutrición: reducir al 5%... Programa nacional de nutrición escolar.\"",
-        "paginas": "1"
       }
     ]
   },
@@ -903,79 +163,9 @@
     "phrase": "Apoyo el uso masivo de la telemedicina para llevar especialistas a las zonas más alejadas del país",
     "matches": [
       {
-        "partido": "PARTIDO MORADO",
-        "sustento": "Telemedicina integrada en 100% del primer nivel... Meta: 80% de consultas preventivas en zonas rurales resueltas por telemedicina para 2029... Inversión S/ 580 millones.",
-        "paginas": "30"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATICO FEDERAL",
-        "sustento": "Sistema de Telemedicina Integrado: Cobertura 95% del territorio nacional... Conectividad: Fibra óptica + satélite para zonas remotas.",
-        "paginas": "38"
-      },
-      {
-        "partido": "PARTIDO PAIS PARA TODOS",
-        "sustento": "Implementar telemedicina operativa en ≥70% de establecimientos de RIS priorizadas (2028) y ≥90% (2031)... Descentralizar especialidades.",
-        "paginas": "19"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATICO SOMOS PERU",
-        "sustento": "Telemedicina rural: Expandir a 5,000 establecimientos rurales... mediante plataformas de teleconsulta, telediagnóstico y teleinterconsulta.",
-        "paginas": "46"
-      },
-      {
         "partido": "FUERZA POPULAR",
         "sustento": "Garantizar telemedicina operativa en el 100% de centros del primer nivel... Lanzamiento del Sistema Nacional de Telemedicina para Zonas Rurales.",
         "paginas": "101"
-      },
-      {
-        "partido": "AHORA NACION - AN",
-        "sustento": "Meta es implementar servicios de telemedicina en al menos el 80% de los establecimientos de primer nivel en zonas rurales y de difícil acceso.",
-        "paginas": "17"
-      },
-      {
-        "partido": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
-        "sustento": "Elevar de 2,800 a 4,000 los establecimientos de salud que cuentan con sistema de telemedicina... Ampliar redes de Tele-tutoría.",
-        "paginas": "24"
-      },
-      {
-        "partido": "PARTIDO POLITICO INTEGRIDAD DEMOCRATICA",
-        "sustento": "Construir e implementar un modelo nacional de telesalud universal, interoperable y multiprofesional... Red Nacional de Tele-Especialistas.",
-        "paginas": "68"
-      },
-      {
-        "partido": "PARTIDO DEMOCRATA VERDE",
-        "sustento": "Programa Nacional 7: 'SALUD DIGITAL PERÚ'... Telemedicina nacional: Consultas remotas en especialidades, diagnóstico y monitoreo digital.",
-        "paginas": "77"
-      },
-      {
-        "partido": "SALVEMOS AL PERU",
-        "sustento": "Resolver al menos el 40% de las atenciones que actualmente generan derivaciones presenciales innecesarias por telesalud.",
-        "paginas": "43"
-      },
-      {
-        "partido": "LIBERTAD POPULAR",
-        "sustento": "Desarrollar servicios de telemedicina para zonas rurales y amazónicas, tele-ECG, tele-radiología... acercando especialistas a donde no existen.",
-        "paginas": "24"
-      },
-      {
-        "partido": "ALIANZA PARA EL PROGRESO",
-        "sustento": "4. Educación, Salud y Servicios Públicos Digitales: Plataforma nacional de telemedicina con IA.",
-        "paginas": "24"
-      },
-      {
-        "partido": "PARTIDO POLITICO PERU PRIMERO",
-        "sustento": "Despliegue de telemedicina en zonas rurales... 10 regiones identificadas para el despliegue.",
-        "paginas": "87"
-      },
-      {
-        "partido": "PARTIDO POLITICO PRIN",
-        "sustento": "Implementaremos la tele-medicina en regiones con difícil acceso geográfico.",
-        "paginas": "15"
-      },
-      {
-        "partido": "PARTIDO DEL BUEN GOBIERNO",
-        "sustento": "Línea 7: Implementar mecanismos de atención prehospitalaria... Telemedicina para zonas rurales y de difícil acceso.",
-        "paginas": "11"
       }
     ]
   }
