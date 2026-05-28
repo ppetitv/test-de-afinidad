@@ -32,11 +32,6 @@
     "phrase": "Apoyo que el Estado construya directamente viviendas sociales en lugar de solo dar subsidios a privados",
     "matches": [
       {
-        "partido": "JUNTOS POR EL PERU",
-        "sustento": "Construcción de viviendas sociales y creación de conjuntos habitacionales para poblaciones vulnerables... Construcción de viviendas con tecnología nacional adecuadas para zonas afectadas...",
-        "paginas": "34"
-      },
-      {
         "partido": "FUERZA POPULAR",
         "sustento": "Construcción de 1.25 millones de viviendas y departamentos nuevos a nivel nacional... a través de mecanismos de inversión pública, privada y asociaciones público-privadas...",
         "paginas": "109"
@@ -53,11 +48,6 @@
         "partido": "FUERZA POPULAR",
         "sustento": "Implementación de casas térmicas y cobertizos contra el frío en comunidades altoandinas, usando tecnologías sostenibles y materiales locales.",
         "paginas": "110"
-      },
-      {
-        "partido": "JUNTOS POR EL PERU",
-        "sustento": "Construcción de viviendas con tecnología nacional adecuadas para zonas afectadas por las heladas, friaje e inundaciones.",
-        "paginas": "61"
       }
     ]
   },
@@ -91,8 +81,14 @@
     "id": 7,
     "topico": "Vivienda",
     "subtopico": "7. Saneamiento de predios rurales y comunidades campesinas",
-    "phrase": "Acelerar el saneamiento físico-legal y la titulación de tierras para comunidades nativas y campesinas para darles seguridad jurídica",
-    "matches": []
+    "phrase": "Incorporar el derecho a la vivienda digna, segura y en un entorno adecuado en una nueva Constitución.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Incorporar el derecho a la vivienda digna, segura y en un entorno adecuado en una nueva Constitución.",
+        "paginas": "33"
+      }
+    ]
   },
   {
     "id": 8,
@@ -104,11 +100,6 @@
         "partido": "FUERZA POPULAR",
         "sustento": "Modernización del Fondo Hipotecario Verde con tasas menores al 4% para familias de bajos ingresos, ligado a viviendas ecoeficientes.",
         "paginas": "109"
-      },
-      {
-        "partido": "JUNTOS POR EL PERU",
-        "sustento": "Impulsar la participación del Banco de la Nación en préstamos para la construcción y créditos hipotecarios.",
-        "paginas": "33"
       }
     ]
   },
@@ -184,11 +175,6 @@
     "phrase": "Apoyo la reubicación obligatoria de las familias que viven en zonas de alto riesgo hacia viviendas seguras",
     "matches": [
       {
-        "partido": "JUNTOS POR EL PERU",
-        "sustento": "Reubicar a poblaciones de alta vulnerabilidad.",
-        "paginas": "34"
-      },
-      {
         "partido": "FUERZA POPULAR",
         "sustento": "Reubicación de familias en zonas de alto riesgo no mitigable, priorizando proyectos integrales con servicios básicos garantizados.",
         "paginas": "110"
@@ -205,6 +191,97 @@
         "partido": "FUERZA POPULAR",
         "sustento": "Implementación del Programa “Mi Título, Mi Hogar Seguro”, subsidio para reforzamiento estructural y ampliaciones seguras, con bonos por reducción de riesgo.",
         "paginas": "121"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "topico": "Vivienda",
+    "subtopico": "16. Déficit de Vivienda Rural",
+    "phrase": "Crear el Instituto Nacional de Desarrollo Urbano y Ordenamiento Territorial para mejorar la planificación del país.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Crear el Instituto Nacional de Desarrollo Urbano y Ordenamiento Territorial para mejorar la planificación del país.",
+        "paginas": "34"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "topico": "Vivienda",
+    "subtopico": "17. Déficit de Vivienda Rural",
+    "phrase": "Establecer el Laboratorio Urbano Nacional para generar ideas orientadas a un desarrollo urbano con justicia social.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Establecer el Laboratorio Urbano Nacional para generar ideas orientadas a un desarrollo urbano con justicia social.",
+        "paginas": "34"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "topico": "Vivienda",
+    "subtopico": "18. Déficit de Vivienda Rural",
+    "phrase": "Impulsar la participación del Banco de la Nación en préstamos para la construcción y créditos hipotecarios.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Impulsar la participación del Banco de la Nación en préstamos para la construcción y créditos hipotecarios.",
+        "paginas": "33"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "topico": "Vivienda",
+    "subtopico": "19. Déficit de Vivienda Rural",
+    "phrase": "Construir viviendas sociales y crear conjuntos habitacionales destinados específicamente a poblaciones vulnerables.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Construir viviendas sociales y crear conjuntos habitacionales destinados específicamente a poblaciones vulnerables.",
+        "paginas": "34"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "topico": "Vivienda",
+    "subtopico": "20. Déficit de Vivienda Rural",
+    "phrase": "Construir viviendas utilizando tecnología nacional diseñada para resistir condiciones climáticas extremas como heladas, friaje e inundaciones.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Construir viviendas utilizando tecnología nacional diseñada para resistir condiciones climáticas extremas como heladas, friaje e inundaciones.",
+        "paginas": "33"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "topico": "Vivienda",
+    "subtopico": "21. Déficit de Vivienda Rural",
+    "phrase": "Crear un programa nacional de asistencia técnica en ingeniería y arquitectura para zonas rurales y urbano-marginales, integrando a egresados y profesionales colegiados.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Crear un programa nacional de asistencia técnica en ingeniería y arquitectura para zonas rurales y urbano-marginales, integrando a egresados y profesionales colegiados.",
+        "paginas": "34"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "topico": "Vivienda",
+    "subtopico": "22. Déficit de Vivienda Rural",
+    "phrase": "Se busca elevar al 70% la formalización de la propiedad predial en posesiones urbanas.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Se busca elevar al 70% la formalización de la propiedad predial en posesiones urbanas.",
+        "paginas": "61"
       }
     ]
   }
