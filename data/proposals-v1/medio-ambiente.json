@@ -19,11 +19,6 @@
     "phrase": "Estoy a favor de renegociar contratos de ley y asegurar que la renta de recursos naturales beneficie directamente al pueblo",
     "matches": [
       {
-        "partido": "JUNTOS POR EL PERU",
-        "sustento": "Renegociar de contratos sobre recursos naturales estratégicos: gas, minería, hidrocarburos... incrementar regalías minero-energéticas en 20%",
-        "paginas": "68"
-      },
-      {
         "partido": "FUERZA POPULAR",
         "sustento": "Implementación del Canon para el Pueblo: hasta el 40% del canon directamente redistribuido a la población de la zona de extracción... Aseguramiento... del respeto a los contratos",
         "paginas": "41"
@@ -36,11 +31,6 @@
     "subtopico": "3. Formalización de la minería artesanal e informal",
     "phrase": "Estoy a favor de la formalización real del pequeño minero con apoyo técnico y financiero del Estado",
     "matches": [
-      {
-        "partido": "JUNTOS POR EL PERU",
-        "sustento": "La asociatividad y los parques mineros deben ser el eje de la formalización... Las concesiones extinguidas pasarán a control del Estado para ser otorgadas a pequeños mineros asociados en cooperativas.",
-        "paginas": "47"
-      },
       {
         "partido": "FUERZA POPULAR",
         "sustento": "Creación de un Fondo de Garantías Estatales para la Minería Artesanal... Creación de un Fondo Nacional de Innovación Minera... régimen diferenciado... con apoyo técnico.",
@@ -68,11 +58,6 @@
     "phrase": "Construir qochas y reservorios en zonas altoandinas para garantizar agua todo el año",
     "matches": [
       {
-        "partido": "JUNTOS POR EL PERU",
-        "sustento": "Invertir en soluciones conjuntas de restablecimiento de la capacidad productora y reguladora de agua.",
-        "paginas": "45"
-      },
-      {
         "partido": "FUERZA POPULAR",
         "sustento": "Fortalecimiento del Programa Nacional de Siembra y Cosecha de Agua, priorizando qochas, reservorios y mini presas en comunidades altoandinas.",
         "paginas": "52"
@@ -96,12 +81,12 @@
     "id": 7,
     "topico": "Medio ambiente",
     "subtopico": "7. Protección de cabeceras de cuenca (Prohibición de minería)",
-    "phrase": "Declarar intangibles las cabeceras de cuenca y prohibir actividades extractivas en ellas",
+    "phrase": "Defender los recursos naturales y los valores ancestrales como prioridad nacional en una Nueva Constitución.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Ley que establece que no se pueden otorgar concesiones mineras en zonas de producción, conservación y protección de fuentes de agua... Restablecer las condiciones de intangibilidad.",
-        "paginas": "71"
+        "sustento": "Defender los recursos naturales y los valores ancestrales como prioridad nacional en una Nueva Constitución.",
+        "paginas": "10"
       }
     ]
   },
@@ -109,8 +94,14 @@
     "id": 8,
     "topico": "Medio ambiente",
     "subtopico": "8. Tratamiento del 100% de aguas residuales (PTAR)",
-    "phrase": "Construir plantas de tratamiento para evitar que los desagües contaminen nuestros ríos y lagos...",
-    "matches": []
+    "phrase": "Aprobar una ley de protección integral para los defensores de derechos humanos y ambientales.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Aprobar una ley de protección integral para los defensores de derechos humanos y ambientales.",
+        "paginas": "19"
+      }
+    ]
   },
   {
     "id": 9,
@@ -184,11 +175,6 @@
     "phrase": "Se deben ampliar las áreas protegidas y hacer que la zonificación ecológica sea obligatoria",
     "matches": [
       {
-        "partido": "JUNTOS POR EL PERU",
-        "sustento": "La Zonificación Ecológica y Económica (ZEE) no es vinculante... Ley que establece el carácter vinculante de la ZEE... Ley que establece que no se pueden otorgar concesiones mineras en zonas de producción [hídrica].",
-        "paginas": "71"
-      },
-      {
         "partido": "FUERZA POPULAR",
         "sustento": "Impulso de normativa para proteger la biodiversidad, así como la creación de Brigadas de Protección del medioambiente conformadas por líderes locales.",
         "paginas": "77"
@@ -199,12 +185,90 @@
     "id": 15,
     "topico": "Medio ambiente",
     "subtopico": "15. Consulta Previa vinculante para proyectos extractivos",
-    "phrase": "Las comunidades deben tener el poder de veto definitivo sobre los proyectos mineros en sus territorios",
+    "phrase": "Otorgar carácter vinculante a la Zonificación Ecológica y Económica (ZEE) para asegurar la protección ambiental.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Ley que establece el carácter vinculante de la ZEE y la Consulta Previa... a los pobladores afectados por las actividades mineras.",
+        "sustento": "Otorgar carácter vinculante a la Zonificación Ecológica y Económica (ZEE) para asegurar la protección ambiental.",
         "paginas": "71"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "topico": "Medio ambiente",
+    "subtopico": "16. Combatir la extracción indiscriminada de recursos naturales y la degradación ambiental en zonas vulnerables",
+    "phrase": "Combatir la extracción indiscriminada de recursos naturales y la degradación ambiental en zonas vulnerables",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Combatir la extracción indiscriminada de recursos naturales y la degradación ambiental en zonas vulnerables",
+        "paginas": "11"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "topico": "Medio ambiente",
+    "subtopico": "17. Defensa de los Páramos y Humedales",
+    "phrase": "Restablecer las condiciones de intangibilidad de glaciares, lagunas y cuerpos de agua",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Restablecer las condiciones de intangibilidad de glaciares, lagunas y cuerpos de agua.",
+        "paginas": "46"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "topico": "Medio ambiente",
+    "subtopico": "18. Reforzar las acciones de protección de bosques y agua mediante consensos con los países vecinos del continente",
+    "phrase": "Reforzar las acciones de protección de bosques y agua mediante consensos con los países vecinos del continente",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Reforzar las acciones de protección de bosques y agua mediante consensos con los países vecinos del continente",
+        "paginas": "27"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "topico": "Medio ambiente",
+    "subtopico": "19. Transformar la matriz energética nacional hacia fuentes renovables como la solar, eólica e hidroeléctricas pequeñas",
+    "phrase": "Transformar la matriz energética nacional hacia fuentes renovables como la solar, eólica e hidroeléctricas pequeñas",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Transformar la matriz energética nacional hacia fuentes renovables como la solar, eólica e hidroeléctricas pequeñas.",
+        "paginas": "38"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "topico": "Medio ambiente",
+    "subtopico": "20. Transformar la matriz energética nacional hacia fuentes renovables como la solar, eólica e hidroeléctricas pequeñas",
+    "phrase": "Transformar la matriz energética nacional hacia fuentes renovables como la solar, eólica e hidroeléctricas pequeñas.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Transformar la matriz energética nacional hacia fuentes renovables como la solar, eólica e hidroeléctricas pequeñas.",
+        "paginas": "38"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "topico": "Medio ambiente",
+    "subtopico": "21. Cumplir los compromisos nacionales de mitigación y adaptación asumidos en el Marco de la Convención de las Naciones Unidas sobre el Cambio Climático",
+    "phrase": "Cumplir los compromisos nacionales de mitigación y adaptación asumidos en el Marco de la Convención de las Naciones Unidas sobre el Cambio Climático.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Cumplir los compromisos nacionales de mitigación y adaptación asumidos en el Marco de la Convención de las Naciones Unidas sobre el Cambio Climático.",
+        "paginas": "72"
       }
     ]
   }
