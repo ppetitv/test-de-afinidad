@@ -193,5 +193,18 @@
         "paginas": "35"
       }
     ]
+  },
+  {
+    "id": 16,
+    "topico": "Derechos e igualdad",
+    "subtopico": "16. Acceso Universal a Servicios Básicos",
+    "phrase": "Asegurar la igualdad de oportunidades y el acceso universal a servicios básicos de calidad (educación, salud, vivienda, agua y saneamiento) como eje prioritario de la política social",
+    "matches": [
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Asegurar la igualdad de oportunidades y el acceso universal a servicios básicos de calidad (educación, salud, vivienda, agua y saneamiento) como eje prioritario de la política social",
+        "paginas": "2"
+      }
+    ]
   }
 ]
