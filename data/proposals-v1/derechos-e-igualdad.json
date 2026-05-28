@@ -3,25 +3,37 @@
     "id": 1,
     "topico": "Derechos e igualdad",
     "subtopico": "1. Aprobar el Matrimonio Igualitario o Unión Civil",
-    "phrase": "Legalizar el matrimonio o la unión civil para parejas del mismo sexo",
-    "matches": []
+    "phrase": "Implementar políticas destinadas a erradicar conductas que generen daño, sufrimiento o muerte de las mujeres en los ámbitos comunitario, laboral y político.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Implementar políticas destinadas a erradicar conductas que generen daño, sufrimiento o muerte de las mujeres en los ámbitos comunitario, laboral y político.",
+        "paginas": "12"
+      }
+    ]
   },
   {
     "id": 2,
     "topico": "Derechos e igualdad",
     "subtopico": "2. Despenalizar el aborto (causales o violación)",
-    "phrase": "Estoy a favor de que las mujeres accedan al aborto legal en casos de violación o salud",
-    "matches": []
+    "phrase": "Fortalecer la representación política de las mujeres y de integrantes de comunidades marginadas en los diversos espacios de poder.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Fortalecer la representación política de las mujeres y de integrantes de comunidades marginadas en los diversos espacios de poder.",
+        "paginas": "20"
+      }
+    ]
   },
   {
     "id": 3,
     "topico": "Derechos e igualdad",
     "subtopico": "3. Ley de Identidad de Género",
-    "phrase": "Estoy a favor de aprobar una Ley de Identidad de Género que permita el cambio de datos en documentos oficiales",
+    "phrase": "Asegurar la igualdad de derechos para pueblos indígenas, afrodescendientes, población LGTBIQ+ y personas con discapacidad.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Garantizar igualdad de derechos para mujeres pueblos indígenas afrodescendientes población LGTBIQ+ y personas con discapacidad.",
+        "sustento": "Asegurar la igualdad de derechos para pueblos indígenas, afrodescendientes, población LGTBIQ+ y personas con discapacidad.",
         "paginas": "20"
       }
     ]
@@ -30,19 +42,25 @@
     "id": 4,
     "topico": "Derechos e igualdad",
     "subtopico": "4. Eutanasia o Muerte Digna",
-    "phrase": "Estoy a favor de reconocer el derecho a una muerte digna en casos de enfermedades terminales",
-    "matches": []
+    "phrase": "Eliminar todo tipo de discriminación o restricción de derechos por motivos de origen étnico, sexo, edad, condición social o económica, creencias, situación jurídica o salud.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Eliminar todo tipo de discriminación o restricción de derechos por motivos de origen étnico, sexo, edad, condición social o económica, creencias, situación jurídica o salud.",
+        "paginas": "12"
+      }
+    ]
   },
   {
     "id": 5,
     "topico": "Derechos e igualdad",
     "subtopico": "5. Enfoque de Género Transversal en el Estado",
-    "phrase": "Estoy a favor de que el enfoque de género se aplique en todas las políticas y presupuestos públicos",
+    "phrase": "Otorgar representación directa a los pueblos originarios en el Parlamento.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Garantizaremos la aplicación del enfoque de género en las políticas públicas.",
-        "paginas": "12"
+        "sustento": "Otorgar representación directa a los pueblos originarios en el Parlamento.",
+        "paginas": "5"
       }
     ]
   },
@@ -63,8 +81,14 @@
     "id": 7,
     "topico": "Derechos e igualdad",
     "subtopico": "7. Prohibir la \"Ideología de Género\" en Escuelas",
-    "phrase": "Se deben eliminar contenidos de ideología de género en el currículo escolar",
-    "matches": []
+    "phrase": "Reconocer y fortalecer los sistemas normativos indígenas integrándolos dentro del ordenamiento jurídico nacional.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Reconocer y fortalecer los sistemas normativos indígenas integrándolos dentro del ordenamiento jurídico nacional.",
+        "paginas": "21"
+      }
+    ]
   },
   {
     "id": 8,
@@ -109,8 +133,14 @@
     "id": 11,
     "topico": "Derechos e igualdad",
     "subtopico": "11. Cuotas Laborales para Personas con Discapacidad",
-    "phrase": "Se deben exigir cuotas de empleo obligatorias para personas con discapacidad en el sector público y privado",
-    "matches": []
+    "phrase": "Lograr la accesibilidad educativa para el 100% de los estudiantes con discapacidad mediante adaptaciones de infraestructura y personal de apoyo especializado.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Lograr la accesibilidad educativa para el 100% de los estudiantes con discapacidad mediante adaptaciones de infraestructura y personal de apoyo especializado.",
+        "paginas": "52"
+      }
+    ]
   },
   {
     "id": 12,
@@ -135,11 +165,6 @@
         "partido": "FUERZA POPULAR",
         "sustento": "Lanzamiento de un Programa Nacional de Prevención de la Anemia y la Desnutrición Infantil en el marco de la salud universal desde la primera infancia.",
         "paginas": "98"
-      },
-      {
-        "partido": "JUNTOS POR EL PERU",
-        "sustento": "Reducción de la anemia infantil a <20%.",
-        "paginas": "57"
       }
     ]
   },
@@ -147,12 +172,12 @@
     "id": 14,
     "topico": "Derechos e igualdad",
     "subtopico": "14. Erradicación de la Violencia de Género (Feminicidios)",
-    "phrase": "Se debe declarar en emergencia la lucha contra la violencia hacia la mujer con medidas más drásticas",
+    "phrase": "Implementar programas de certificación y empleabilidad para jóvenes con discapacidad, fortaleciendo iniciativas de inclusión laboral y beneficios tributarios para empresas contratantes.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Implementará políticas de prevención sanción y reparación en casos de violencia de género con enfoque interseccional",
-        "paginas": "20"
+        "sustento": "Implementar programas de certificación y empleabilidad para jóvenes con discapacidad, fortaleciendo iniciativas de inclusión laboral y beneficios tributarios para empresas contratantes.",
+        "paginas": "56"
       }
     ]
   },
@@ -166,11 +191,6 @@
         "partido": "FUERZA POPULAR",
         "sustento": "Otorgamiento de un crédito tributario del 50% del monto pagado a practicantes preprofesionales y profesionales.",
         "paginas": "35"
-      },
-      {
-        "partido": "JUNTOS POR EL PERU",
-        "sustento": "Creación de la Beca Segunda Oportunidad dirigida a jóvenes de entre 22 a 29 años para que estudien en universidades e Institutos.",
-        "paginas": "55"
       }
     ]
   }
