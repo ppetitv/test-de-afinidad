@@ -16,12 +16,12 @@
     "id": 2,
     "topico": "Cultura y turismo",
     "subtopico": "2. Descentralización y Reforma Institucional de la Cultura",
-    "phrase": "Se debe reestructurar el Ministerio de Cultura, ser menos burocrático o trasladar su sede principal fuera de Lima para estar más cerca del patrimonio",
+    "phrase": "Reconocer y promover los conocimientos, saberes y creencias de las culturas originarias forjadas en la historia milenaria.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Propone transformar el Ministerio en una entidad descentralizada y participativa, creando el \"Sistema Nacional de Cultura Plurinacional\" con participación de comunidades en la toma de decisiones.",
-        "paginas": "20"
+        "sustento": "Reconocer y promover los conocimientos, saberes y creencias de las culturas originarias forjadas en la historia milenaria.",
+        "paginas": "10"
       }
     ]
   },
@@ -29,12 +29,12 @@
     "id": 3,
     "topico": "Cultura y turismo",
     "subtopico": "3. Industrias Creativas y Economía Naranja",
-    "phrase": "Se debe impulsar a los artistas y creativos peruanos mediante fondos concursables, protección social y la exportación de sus servicios al mundo",
+    "phrase": "Revalorar el quechua, el aymara y la diversidad de lenguas originarias, impulsando su uso oral y escrito en todo el país.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Propone un Fondo Nacional de Cultura para asegurar presupuestos progresivos y reformar la legislación para garantizar condiciones laborales dignas a los artistas, considerando que el 80% están en la informalidad.",
-        "paginas": "21"
+        "sustento": "Revalorar el quechua, el aymara y la diversidad de lenguas originarias, impulsando su uso oral y escrito en todo el país.",
+        "paginas": "10"
       }
     ]
   },
@@ -42,11 +42,11 @@
     "id": 4,
     "topico": "Cultura y turismo",
     "subtopico": "4. Interculturalidad y Estado Plurinacional",
-    "phrase": "Apoyo un estado que reconozca constitucionalmente al Perú como plurinacional, valorando las lenguas originarias y los saberes ancestrales en la gestión pública",
+    "phrase": "Transformar el Ministerio de Cultura en una entidad descentralizada, participativa y garante del derecho a la cultura.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Plantea una revolución democrática para alcanzar una sociedad plurinacional y multiétnica. Propone crear el Sistema Nacional de Cultura Plurinacional y otorgar representación directa a los pueblos originarios en el Parlamento.",
+        "sustento": "Transformar el Ministerio de Cultura en una entidad descentralizada, participativa y garante del derecho a la cultura.",
         "paginas": "20"
       }
     ]
@@ -55,8 +55,14 @@
     "id": 5,
     "topico": "Cultura y turismo",
     "subtopico": "5. Puesta en Valor de Huacas y Patrimonio Arqueológico",
-    "phrase": "Apoyo la inversión (pública o privada) para recuperar sitios arqueológicos y museos, integrándolos a la vida urbana y al turismo sostenible",
-    "matches": []
+    "phrase": "Brindar incentivos especiales para la producción de cine, literatura y arte con enfoque intercultural y decolonizador.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Brindar incentivos especiales para la producción de cine, literatura y arte con enfoque intercultural y decolonizador.",
+        "paginas": "21"
+      }
+    ]
   },
   {
     "id": 6,
@@ -81,11 +87,6 @@
         "partido": "FUERZA POPULAR",
         "sustento": "Propone el fomento de la gastronomía como ancla internacional, consolidando rutas gastronómicas y ferias regionales para atraer turismo de clase mundial.",
         "paginas": "68"
-      },
-      {
-        "partido": "JUNTOS POR EL PERU",
-        "sustento": "Propone el desarrollo de industrias creativas, incluyendo la gastronomía, como sectores intensivos en empleo y tecnología para diversificar la matriz productiva.",
-        "paginas": "37"
       }
     ]
   },
@@ -106,11 +107,11 @@
     "id": 9,
     "topico": "Cultura y turismo",
     "subtopico": "9. Digitalización de la Memoria y Museos Virtuales",
-    "phrase": "Usar la tecnología para digitalizar todo nuestro patrimonio documental y arqueológico, permitiendo el acceso virtual desde cualquier lugar",
+    "phrase": "Implementar cuotas de contenido en lenguas originarias en la radio y televisión nacional.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Plantea el uso de tecnologías de la información para democratizar el acceso a la cultura y el desarrollo de medios de comunicación públicos multilingües que difundan el patrimonio vivo.",
+        "sustento": "Implementar cuotas de contenido en lenguas originarias en la radio y televisión nacional.",
         "paginas": "21"
       }
     ]
@@ -132,8 +133,14 @@
     "id": 11,
     "topico": "Cultura y turismo",
     "subtopico": "11. Educación Técnica en Turismo y Patrimonio",
-    "phrase": "La educación secundaria y técnica debe incluir módulos obligatorios de turismo, artesanía y gestión cultural para generar empleo juvenil inmediato",
-    "matches": []
+    "phrase": "Financiar 2000 proyectos culturales comunitarios a través del Fondo Nacional de Cultura al año 2031.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Financiar 2000 proyectos culturales comunitarios a través del Fondo Nacional de Cultura al año 2031.",
+        "paginas": "64"
+      }
+    ]
   },
   {
     "id": 12,
@@ -152,8 +159,14 @@
     "id": 13,
     "topico": "Cultura y turismo",
     "subtopico": "13. Vínculo Cultural con la Diáspora (PEX)",
-    "phrase": "El Estado debe proteger y promover la identidad peruana entre los compatriotas que viven en el extranjero, incluyéndolos en la gestión cultural",
-    "matches": []
+    "phrase": "Descentralizar las competencias de turismo hacia los gobiernos regionales y gobiernos locales",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Descentralizar las competencias de turismo hacia los gobiernos regionales y gobiernos locales",
+        "paginas": "12"
+      }
+    ]
   },
   {
     "id": 14,
@@ -161,11 +174,6 @@
     "subtopico": "14. Seguridad Turística y Policía Especializada",
     "phrase": "Necesitamos garantizar corredores seguros con una policía turística especializada y tecnología de vigilancia",
     "matches": [
-      {
-        "partido": "JUNTOS POR EL PERU",
-        "sustento": "Propone una reforma de la PNP para enfrentar el crimen organizado y una reorganización inmediata de las capacidades operativas. Aunque menciona la recuperación de 200 espacios públicos, no detalla el nombre \"Destino Seguro\" en los fragmentos analizados.",
-        "paginas": "22, 65"
-      },
       {
         "partido": "FUERZA POPULAR",
         "sustento": "Implementará un Plan Nacional de Orden Turístico que integra a la Policía de Turismo, Defensa Civil y municipalidades. Busca desarrollar sistemas de patrullaje especializado y asistencia médica en 20 destinos prioritarios.",
@@ -183,6 +191,19 @@
         "partido": "FUERZA POPULAR",
         "sustento": "Busca la conversión del Centro de Convenciones de Lima en un hub regional para eventos internacionales, con una meta mínima de 12 megaeventos anuales (más de 8 mil asistentes cada uno) para posicionar al país en el mercado global de congresos y ferias.",
         "paginas": "69"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "topico": "Cultura y turismo",
+    "subtopico": "16. Turismo Sostenible como Motor de Empleo y Diversificación Productiva",
+    "phrase": "Impulsar el turismo sostenible como un sector estratégico e intensivo en empleo, innovación y tecnología dentro de un plan de diversificación productiva",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Impulsar el turismo sostenible como un sector estratégico e intensivo en empleo, innovación y tecnología dentro de un plan de diversificación productiva.",
+        "paginas": "37"
       }
     ]
   }
