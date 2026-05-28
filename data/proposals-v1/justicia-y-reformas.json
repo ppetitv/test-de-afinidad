@@ -167,5 +167,44 @@
         "paginas": "18"
       }
     ]
+  },
+  {
+    "id": 14,
+    "topico": "Justicia y reformas",
+    "subtopico": "16. Reactivación de Obras Públicas Paralizadas",
+    "phrase": "Implementar el Programa “Reactivación” para identificar y destrabar obras públicas paralizadas a nivel nacional.",
+    "matches": [
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "Implementar el Programa “Reactivación” para identificar y destrabar obras públicas paralizadas a nivel nacional.",
+        "paginas": "27"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "topico": "Justicia y reformas",
+    "subtopico": "17. Shock Anticorrupción Digital",
+    "phrase": "Aplicar un 'Shock Anticorrupción Digital' integrando medidas preventivas y de transparencia radical.",
+    "matches": [
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "Aplicar un 'Shock Anticorrupción Digital' integrando medidas preventivas y de transparencia radical.",
+        "paginas": "20"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "topico": "Justicia y reformas",
+    "subtopico": "18. Unidades de Flagrancia Express",
+    "phrase": "Crear nuevas Unidades de Flagrancia Express y fortalecer las existentes para asegurar procesos inmediatos y sentencias rápidas.",
+    "matches": [
+      {
+        "partido": "ALIANZA PARA EL PROGRESO",
+        "sustento": "Crear nuevas Unidades de Flagrancia Express y fortalecer las existentes para asegurar procesos inmediatos y sentencias rápidas.",
+        "paginas": "17"
+      }
+    ]
   }
 ]
