@@ -9,11 +9,6 @@
         "partido": "FUERZA POPULAR",
         "sustento": "Ejecución de la Línea 3, 4, 5 y 6, expandiendo el sistema de transporte masivo urbano... Poner operativos 4 metros de Lima y 3 regionales (Arequipa, Trujillo y Piura).",
         "paginas": "63"
-      },
-      {
-        "partido": "JUNTOS POR EL PERU",
-        "sustento": "Acelerar la ejecución de las líneas de la Red Básica del Metro de Lima, infraestructura de trenes de cercanías y teleféricos.",
-        "paginas": "62"
       }
     ]
   },
@@ -21,11 +16,11 @@
     "id": 2,
     "topico": "Transporte",
     "subtopico": "2. Implementación de Teleféricos Urbanos",
-    "phrase": "Implementar teleféricos urbanos como solución de transporte en los cerros de Lima y en las capitales de provincia con geografía difícil.",
+    "phrase": "Acelerar la ejecución de las líneas de la Red Básica del Metro de Lima, así como la construcción de infraestructura para trenes de cercanías y teleféricos.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Acelerar la ejecución de las líneas de la Red Básica del Metro de Lima, infraestructura de trenes de cercanías y teleféricos.",
+        "sustento": "Acelerar la ejecución de las líneas de la Red Básica del Metro de Lima, así como la construcción de infraestructura para trenes de cercanías y teleféricos.",
         "paginas": "62"
       }
     ]
@@ -47,8 +42,14 @@
     "id": 4,
     "topico": "Transporte",
     "subtopico": "4. Sistema Integrado de Recaudo (Tarjeta Única)",
-    "phrase": "Implementar una tarjeta única de pago para el metro, metropolitano y corredores, con transbordos gratuitos o subsidiados.",
-    "matches": []
+    "phrase": "Priorizar la recuperación de espacios públicos en territorios donde el transporte informal está bajo amenaza de mafias.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Priorizar la recuperación de espacios públicos en territorios donde el transporte informal está bajo amenaza de mafias.",
+        "paginas": "23"
+      }
+    ]
   },
   {
     "id": 5,
@@ -67,15 +68,27 @@
     "id": 6,
     "topico": "Transporte",
     "subtopico": "6. Regulación Amigable para Mototaxis",
-    "phrase": "Reconocer al mototaxi como transporte vecinal y otorgar un marco regulatorio que facilite su registro y seguridad.",
-    "matches": []
+    "phrase": "Realizar campañas de alfabetización digital y prevención de fraude dirigidas específicamente a los transportistas.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Realizar campañas de alfabetización digital y prevención de fraude dirigidas específicamente a los transportistas.",
+        "paginas": "24"
+      }
+    ]
   },
   {
     "id": 7,
     "topico": "Transporte",
-    "subtopico": "7. Tren de la Costa (Tumbes a Tacna)",
-    "phrase": "Construir un Tren de la Costa de alta velocidad que una Tumbes con Tacna.",
-    "matches": []
+    "subtopico": "7. Delegar la gestión del transporte en los gobiernos regionales y locales",
+    "phrase": "Delegar la gestión del transporte en los gobiernos regionales y locales.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Delegar la gestión del transporte en los gobiernos regionales y locales.",
+        "paginas": "12"
+      }
+    ]
   },
   {
     "id": 8,
@@ -132,29 +145,53 @@
   {
     "id": 12,
     "topico": "Transporte",
-    "subtopico": "12. Autopistas de Doble Calzada (Panamericana)",
-    "phrase": "Ampliar la Carretera Panamericana a doble calzada y cuatro carriles en toda su extensión (Norte y Sur)",
-    "matches": []
+    "subtopico": "12. Destrabar los proyectos de infraestructura",
+    "phrase": "Destrabar los proyectos de infraestructura, priorizando el sector transporte por tener la mayor incidencia de obras públicas paralizadas (20% del total nacional).",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Destrabar los proyectos de infraestructura, priorizando el sector transporte por tener la mayor incidencia de obras públicas paralizadas (20% del total nacional).",
+        "paginas": "37"
+      }
+    ]
   },
   {
     "id": 13,
     "topico": "Transporte",
     "subtopico": "13. Línea Aérea de Bandera Nacional",
-    "phrase": "Crear una aerolínea estatal o de bandera nacional para mejorar la conectividad a precios competitivos y soberanía aérea",
-    "matches": []
+    "phrase": "Reservar para la gestión directa del Estado los recursos estratégicos, incluyendo mares, espacio aéreo, puertos.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Reservar para la gestión directa del Estado los recursos estratégicos, incluyendo mares, espacio aéreo, puertos.",
+        "paginas": "11"
+      }
+    ]
   },
   {
     "id": 14,
     "topico": "Transporte",
-    "subtopico": "14. Electromovilidad Masiva (Buses Eléctricos)",
-    "phrase": "Renovar el parque automotor del transporte público con buses eléctricos y promover estaciones de carga en todo el país",
-    "matches": []
+    "subtopico": "14. Prohibición de concesiones que pongan en riesgo la soberanía",
+    "phrase": "Prohibir concesiones que otorguen ventajas especiales a extranjeros o pongan en riesgo la soberanía.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Prohibir concesiones que otorguen ventajas especiales a extranjeros o pongan en riesgo la soberanía.",
+        "paginas": "11"
+      }
+    ]
   },
   {
     "id": 15,
     "topico": "Transporte",
-    "subtopico": "15. Promoción del Uso de la Bicicleta (Ciclovías)",
-    "phrase": "Construir una red interconectada de ciclovías seguras en las ciudades y promover la bicicleta como medio de transporte principal",
-    "matches": []
+    "subtopico": "15. Empresa Estatal Enafer Perú",
+    "phrase": "Recuperar empresas públicas estratégicas, como Enafer Perú, para la gestión estatal del transporte ferroviario.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Recuperar empresas públicas estratégicas, como Enafer Perú, para la gestión estatal del transporte ferroviario.",
+        "paginas": "17"
+      }
+    ]
   }
 ]
