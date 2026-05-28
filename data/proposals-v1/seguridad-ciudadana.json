@@ -3,15 +3,27 @@
     "id": 1,
     "topico": "Seguridad ciudadana",
     "subtopico": "1. Pena de Muerte para delitos de extrema gravedad",
-    "phrase": "Estoy a favor de aplicar la pena de muerte para violadores de menores, sicarios y terroristas",
-    "matches": []
+    "phrase": "Crear una Unidad Especial de Inteligencia Financiera y Ciberdelito para rastrear extorsiones, lavado de activos y fraudes digitales.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Crear una Unidad Especial de Inteligencia Financiera y Ciberdelito para rastrear extorsiones, lavado de activos y fraudes digitales.",
+        "paginas": "23"
+      }
+    ]
   },
   {
     "id": 2,
     "topico": "Seguridad ciudadana",
     "subtopico": "2. Salida del Pacto de San José (Corte IDH)",
-    "phrase": "Apoyo la salida del Perú del Pacto de San José para recuperar nuestra soberanía jurídica y endurecer las penas",
-    "matches": []
+    "phrase": "Implementar auditorías tecnológicas de operaciones sospechosas y bloqueos preventivos de cuentas ligadas a estafas.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Implementar auditorías tecnológicas de operaciones sospechosas y bloqueos preventivos de cuentas ligadas a estafas.",
+        "paginas": "23"
+      }
+    ]
   },
   {
     "id": 3,
@@ -95,12 +107,12 @@
     "id": 9,
     "topico": "Seguridad ciudadana",
     "subtopico": "9. Reforma y Depuración de la Policía Nacional",
-    "phrase": "Apoyo una reorganización total de la Policía para expulsar a los efectivos corruptos",
+    "phrase": "Intensificar el uso de geolocalización y control de chips para mejorar la trazabilidad de llamadas y mensajes utilizados por organizaciones criminales.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Inmediata reorganización... depuración inmediata de mandos comprometidos con la corrupción y redes criminales internas... reformas en el sistema de ascensos.",
-        "paginas": "22"
+        "sustento": "Intensificar el uso de geolocalización y control de chips para mejorar la trazabilidad de llamadas y mensajes utilizados por organizaciones criminales.",
+        "paginas": "23"
       }
     ]
   },
@@ -121,11 +133,11 @@
     "id": 11,
     "topico": "Seguridad ciudadana",
     "subtopico": "11. Fortalecimiento de Inteligencia (GEIN / DINI / Unidades de Élite)",
-    "phrase": "Crear unidades de élite de inteligencia (tipo GEIN) para descabezar mafias",
+    "phrase": "Crear una plataforma digital unificada para denuncias ciudadanas, seguimiento de casos y alertas comunitarias.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Creación de una Unidad Especial de Inteligencia Financiera y Ciberdelito, enfocada en rastrear extorsiones... en coordinación con SBS y SUNAT.",
+        "sustento": "Crear una plataforma digital unificada para denuncias ciudadanas, seguimiento de casos y alertas comunitarias.",
         "paginas": "23"
       }
     ]
@@ -147,15 +159,27 @@
     "id": 13,
     "topico": "Seguridad ciudadana",
     "subtopico": "13. Expulsión Inmediata de Extranjeros Delincuentes",
-    "phrase": "Apoyo la expulsión inmediata de cualquier extranjero que cometa un delito en el país",
-    "matches": []
+    "phrase": "Implementar planes locales de seguridad con la participación directa de juntas vecinales, gobiernos locales y organizaciones sociales.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Implementar planes locales de seguridad con la participación directa de juntas vecinales, gobiernos locales y organizaciones sociales.",
+        "paginas": "23"
+      }
+    ]
   },
   {
     "id": 14,
     "topico": "Seguridad ciudadana",
     "subtopico": "14. Militarización de Fronteras contra el Ingreso Ilegal",
-    "phrase": "Apoyo que las Fuerzas Armadas vigilen las fronteras para impedir el ingreso ilegal de extranjeros",
-    "matches": []
+    "phrase": "Articular las acciones de los ciudadanos organizados al Plan Nacional de recuperación de barrios y espacios públicos inseguros.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Articular las acciones de los ciudadanos organizados al Plan Nacional de recuperación de barrios y espacios públicos inseguros.",
+        "paginas": "23"
+      }
+    ]
   },
   {
     "id": 15,
@@ -167,10 +191,31 @@
         "partido": "FUERZA POPULAR",
         "sustento": "Lanzamiento del 'Programa Nacional de Prevención Temprana'... programas deportivos, culturales y artísticos para niños y adolescentes con factores de riesgo en zonas de alta vulnerabilidad... acompañamiento de tutoría, becas.",
         "paginas": "15"
-      },
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "topico": "Seguridad ciudadana",
+    "subtopico": "16. Programas de Prevención Social",
+    "phrase": "Fomentar iniciativas de cultura, deporte y economía local como ejes para rescatar a niños y jóvenes en riesgo de las redes de criminalidad.",
+    "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Plan Nacional de recuperación de barrios... priorizando territorios donde la economía popular está bajo amenaza... iniciativas de prevención, cultura, deporte... orientados a rescatar a niños y jóvenes.",
+        "sustento": "Fomentar iniciativas de cultura, deporte y economía local como ejes para rescatar a niños y jóvenes en riesgo de las redes de criminalidad.",
+        "paginas": "23"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "topico": "Seguridad ciudadana",
+    "subtopico": "16. Programas de Prevención Social",
+    "phrase": "Ampliar los servicios de protección para mujeres víctimas de violencia y personas vulnerables, priorizando la atención a la salud mental.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Ampliar los servicios de protección para mujeres víctimas de violencia y personas vulnerables, priorizando la atención a la salud mental.",
         "paginas": "23"
       }
     ]
