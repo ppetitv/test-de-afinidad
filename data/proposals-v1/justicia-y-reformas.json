@@ -3,11 +3,11 @@
     "id": 1,
     "topico": "Justicia y reformas",
     "subtopico": "1. Convocar a una Asamblea Constituyente para una Nueva Constitución",
-    "phrase": "Se debe convocar a una Asamblea Constituyente para redactar una nueva Constitución que reemplace a la de 1993",
+    "phrase": "Convocar a una Asamblea Constituyente para redactar una Nueva Constitución Soberana, Democrática y Popular. ",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "La reforma de la Constitución debe hacerse por una Asamblea Constituyente convocada para esa finalidad expresa",
+        "sustento": "Convocar a una Asamblea Constituyente para redactar una Nueva Constitución Soberana, Democrática y Popular. ",
         "paginas": "18"
       }
     ]
@@ -29,8 +29,14 @@
     "id": 3,
     "topico": "Justicia y reformas",
     "subtopico": "3. Salida del Pacto de San José (Corte IDH) y Aplicación de Pena de Muerte",
-    "phrase": "El Perú se debe retirar de la competencia de la Corte IDH para poder aplicar la pena de muerte a criminales peligrosos",
-    "matches": []
+    "phrase": "Garantizar una auténtica y plena separación de los poderes del Estado y preservar la independencia de los organismos autónomos.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Garantizar una auténtica y plena separación de los poderes del Estado y preservar la independencia de los organismos autónomos.",
+        "paginas": "10"
+      }
+    ]
   },
   {
     "id": 4,
@@ -49,40 +55,64 @@
     "id": 5,
     "topico": "Justicia y reformas",
     "subtopico": "5. Retorno a la reelección inmediata de alcaldes y gobernadores",
-    "phrase": "Se debe permitir que las autoridades locales y regionales puedan ser reelegidas para dar continuidad a sus proyectos",
-    "matches": []
+    "phrase": "Complementar la democracia representativa con formas de autogobierno, democracia directa y participativa.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Complementar la democracia representativa con formas de autogobierno, democracia directa y participativa.",
+        "paginas": "5"
+      }
+    ]
   },
   {
     "id": 6,
     "topico": "Justicia y reformas",
     "subtopico": "6. Renovación del Congreso por mitades o tercios",
-    "phrase": "Se debe renovar el Congreso a mitad del mandato para que los ciudadanos premien o sancionen el desempeño legislativo",
-    "matches": []
+    "phrase": "Institucionalizar el referéndum, las audiencias públicas y la consulta popular para decisiones estratégicas.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Institucionalizar el referéndum, las audiencias públicas y la consulta popular para decisiones estratégicas.",
+        "paginas": "20"
+      }
+    ]
   },
   {
     "id": 7,
     "topico": "Justicia y reformas",
     "subtopico": "7. Voto Voluntario y Reinstauración de las PASO",
-    "phrase": "Se debe eliminar la obligatoriedad del voto y/o asegurar que los candidatos sean elegidos por la ciudadanía en primarias abiertas",
-    "matches": []
+    "phrase": "Otorgar representación directa a los pueblos originarios en el parlamento.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Otorgar representación directa a los pueblos originarios en el parlamento.",
+        "paginas": "20"
+      }
+    ]
   },
   {
     "id": 8,
     "topico": "Justicia y reformas",
     "subtopico": "8. Eliminación de la Inmunidad Parlamentaria (Sin Antejuicio para delitos comunes)",
-    "phrase": "Se debe eliminar totalmente la inmunidad parlamentaria para que los congresistas sean procesados como cualquier ciudadano",
-    "matches": []
+    "phrase": "Prohibir la práctica de los lobbies, la 'puerta giratoria' en el acceso a puestos de gobierno y los favoritismos económicos.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Prohibir la práctica de los lobbies, la 'puerta giratoria' en el acceso a puestos de gobierno y los favoritismos económicos.",
+        "paginas": "13"
+      }
+    ]
   },
   {
     "id": 9,
     "topico": "Justicia y reformas",
     "subtopico": "9. Muerte Civil para funcionarios corruptos (Inhabilitación Perpetua)",
-    "phrase": "Se debe prohibir de por vida que cualquier persona condenada por corrupción vuelva a trabajar o contratar con el Estado",
+    "phrase": "Realizar una reforma profunda del sistema de justicia para recuperar la institucionalidad.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Se declarará la imprescriptibilidad de los delitos contra la administración pública y la inhabilitación perpetua.",
-        "paginas": "13"
+        "sustento": "Realizar una reforma profunda del sistema de justicia para recuperar la institucionalidad.",
+        "paginas": "19"
       }
     ]
   },
@@ -90,24 +120,17 @@
     "id": 10,
     "topico": "Justicia y reformas",
     "subtopico": "10. Imprescriptibilidad de los delitos de corrupción",
-    "phrase": "Los delitos de corrupción no deben caducar, permitiendo procesar a los responsables sin importar el tiempo transcurrido",
+    "phrase": "Elegir al presidente o presidenta del Poder Judicial y al Fiscal de la Nación en mérito a la antigüedad y probidad comprobada.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Se declarará la imprescriptibilidad de los delitos contra la administración pública y la inhabilitación perpetua",
+        "sustento": "Elegir al presidente o presidenta del Poder Judicial y al Fiscal de la Nación en mérito a la antigüedad y probidad comprobada.",
         "paginas": "13"
       }
     ]
   },
   {
     "id": 11,
-    "topico": "Justicia y reformas",
-    "subtopico": "11. Fortalecimiento de la Contraloría (Capacidad Sancionadora Vinculante)",
-    "phrase": "La Contraloría debe tener el poder de sancionar y destituir directamente a los funcionarios corruptos",
-    "matches": []
-  },
-  {
-    "id": 12,
     "topico": "Justicia y reformas",
     "subtopico": "12. Juicio por Jurados y Veedurías Ciudadanas",
     "phrase": "Los ciudadanos comunes deben participar en los juicios o vigilar directamente las obras y procesos judiciales",
@@ -116,23 +139,11 @@
         "partido": "FUERZA POPULAR",
         "sustento": "Creación de una plataforma de auditoría ciudadana amigable y en tiempo real... Creación del Observatorio Ciudadano de Compras Públicas.",
         "paginas": "21"
-      },
-      {
-        "partido": "JUNTOS POR EL PERU",
-        "sustento": "Se impulsarán veedurías y observatorios ciudadanos en seguridad pública... Asimismo, se crearán veedurías ciudadanas sobre los medios de comunicación.",
-        "paginas": "24, 18"
       }
     ]
   },
   {
-    "id": 13,
-    "topico": "Justicia y reformas",
-    "subtopico": "13. Elección popular de jueces y fiscales",
-    "phrase": "Los jueces y fiscales deben ser elegidos por el voto de los ciudadanos para asegurar su rendición de cuentas ante el pueblo",
-    "matches": []
-  },
-  {
-    "id": 14,
+    "id": 12,
     "topico": "Justicia y reformas",
     "subtopico": "14. Digitalización total del sistema judicial (Justicia Smart)",
     "phrase": "Se debe eliminar el uso de papel en los juicios y usar inteligencia artificial para acelerar las sentencias y evitar archivos injustos",
@@ -145,7 +156,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 13,
     "topico": "Justicia y Reformas",
     "subtopico": "15. Privatización o Concesión de la Administración de Cárceles",
     "phrase": "Las empresas privadas deben construir y administrar las cárceles para reducir el hacinamiento y asegurar que los presos trabajen",
