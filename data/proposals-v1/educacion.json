@@ -3,8 +3,14 @@
     "id": 1,
     "topico": "Educación",
     "subtopico": "1. Sistema de Vouchers Educativos (Subsidio a la demanda)",
-    "phrase": "El estado debe entregar un cheque o bono directamente a las familias para que elijan entre educación pública o privada",
-    "matches": []
+    "phrase": "Restituir el carácter público, universal, gratuito e intercultural del sistema educativo, fortaleciendo el rol del Estado como garante del derecho a la educación.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Restituir el carácter público, universal, gratuito e intercultural del sistema educativo, fortaleciendo el rol del Estado como garante del derecho a la educación.",
+        "paginas": "51"
+      }
+    ]
   },
   {
     "id": 2,
@@ -29,11 +35,6 @@
         "partido": "FUERZA POPULAR",
         "sustento": "Reducir en 50% la brecha de infraestructura educativa y garantizar servicios básicos y conectividad funcional en todos los colegios priorizados.",
         "paginas": "95"
-      },
-      {
-        "partido": "JUNTOS POR EL PERU",
-        "sustento": "Garantizando que el 100% de las escuelas contarán con servicios básicos y un 80% con conectividad priorizando la intervención en los centros educativos ubicados en la Amazonía y los andes.",
-        "paginas": "51"
       }
     ]
   },
@@ -54,12 +55,12 @@
     "id": 5,
     "topico": "Educación",
     "subtopico": "5. Implementación del Enfoque de Género y Educación Sexual Integral (ESI)",
-    "phrase": "El currículo escolar debe incluir obligatoriamente el enfoque de género y educación sexual integral científica",
+    "phrase": "Incrementar la inversión en educación hasta alcanzar al menos el 6% del PBI.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Fortalecer la Educación Sexual Integral (ESI) vinculando el proyecto de vida y planificación familiar sobre todo en zonas rurales para disminuir los casos de embarazo adolescente.",
-        "paginas": "56"
+        "sustento": "Incrementar la inversión en educación hasta alcanzar al menos el 6% del PBI.",
+        "paginas": "49"
       }
     ]
   },
@@ -106,11 +107,11 @@
     "id": 9,
     "topico": "Educación",
     "subtopico": "9. Ingreso Libre a Universidades Públicas",
-    "phrase": "Se debe eliminar el examen de admisión y garantizar el ingreso libre de los jóvenes a las universidades del Estado",
+    "phrase": "Erradicar el analfabetismo y reducir la deserción escolar a menos del 2%.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Restituir el carácter público... a través del incremento de la inversión educativa... el aumento de la matrícula pública universitaria en un 50%.",
+        "sustento": "Erradicar el analfabetismo y reducir la deserción escolar a menos del 2%.",
         "paginas": "51"
       }
     ]
@@ -119,18 +120,24 @@
     "id": 10,
     "topico": "Educación",
     "subtopico": "10. Fortalecimiento de la SUNEDU (Fiscalización Estricta)",
-    "phrase": "Se deben fortalecer las facultades de la SUNEDU para supervisar la calidad de todas las universidades y cerrar las que no cumplan",
-    "matches": []
+    "phrase": "Impulsar la alfabetización en lenguas originarias mediante materiales producidos con las comunidades.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Impulsar la alfabetización en lenguas originarias mediante materiales producidos con las comunidades.",
+        "paginas": "51"
+      }
+    ]
   },
   {
     "id": 11,
     "topico": "Educación",
     "subtopico": "11. Reforma de SUNEDU (Autonomía / Segunda Oportunidad)",
-    "phrase": "Se debe reformar la SUNEDU para garantizar la autonomía de las universidades y dar una segunda oportunidad a instituciones observadas",
+    "phrase": "Cerrar las brechas de Educación Intercultural Bilingüe (EIB) en un 70%, incrementando la cobertura en el nivel secundaria.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Implementar un sistema de aseguramiento de la calidad autónomo transparente y participativo que... asegure la participación plena de la comunidad universitaria.",
+        "sustento": "Cerrar las brechas de Educación Intercultural Bilingüe (EIB) en un 70%, incrementando la cobertura en el nivel secundaria.",
         "paginas": "52"
       }
     ]
@@ -152,26 +159,38 @@
     "id": 13,
     "topico": "Educación",
     "subtopico": "13. Aumento de Sueldo Base al Magisterio (Ej: 1 UIT)",
-    "phrase": "Se debe elevar el sueldo base de los maestros para dignificar su labor",
-    "matches": []
+    "phrase": "Garantizar la estabilidad laboral y salarios dignos para los docentes.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Garantizar la estabilidad laboral y salarios dignos para los docentes.",
+        "paginas": "52"
+      }
+    ]
   },
   {
     "id": 14,
     "topico": "Educación",
     "subtopico": "14. Evaluación de Desempeño Docente Estricta (Meritocracia)",
-    "phrase": "Los ascensos y la permanencia de los maestros deben depender estrictamente de evaluaciones de desempeño periódicas",
-    "matches": []
+    "phrase": "Reforzar el sistema universitario público otorgando prioridad a la investigación científica y tecnológica.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Reforzar el sistema universitario público otorgando prioridad a la investigación científica y tecnológica.",
+        "paginas": "52"
+      }
+    ]
   },
   {
     "id": 15,
     "topico": "Educación",
     "subtopico": "15. Educación Intercultural Bilingüe (EIB) e Inclusiva",
-    "phrase": "Se debe garantizar que los niños indígenas estudien en su lengua materna y que se incluyan especialistas para niños con discapacidad",
+    "phrase": "Incrementar el presupuesto por estudiante universitario en un 50% y triplicar el número de docentes a tiempo completo.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Incremento a un 70% de cobertura de EIB en el nivel secundaria... accesibilidad educativa con adaptaciones de infraestructura materiales y personal de apoyo para el 100% de estudiantes con discapacidad",
-        "paginas": "52"
+        "sustento": "Incrementar el presupuesto por estudiante universitario en un 50% y triplicar el número de docentes a tiempo completo.",
+        "paginas": "60"
       }
     ]
   }
