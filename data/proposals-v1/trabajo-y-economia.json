@@ -3,12 +3,12 @@
     "id": 1,
     "topico": "Trabajo y economía",
     "subtopico": "1. Cambio del Modelo Económico / Nueva Constitución Económica",
-    "phrase": "Cambiar el modelo económico actual y/o la Constitución para que el Estado tenga un rol empresarial en sectores estratégicos",
+    "phrase": "Promover la coexistencia de la iniciativa pública y privada, manteniendo una intervención estatal activa para regular los mercados y evitar abusos de monopolios.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Nueva Constitución Soberana... recuperar la soberanía nacional sobre los recursos naturales... fortalecer su capacidad de iniciativa empresarial... eliminando la prohibición [del Estado] para montar empresas estatales...",
-        "paginas": "10"
+        "sustento": "Promover la coexistencia de la iniciativa pública y privada, manteniendo una intervención estatal activa para regular los mercados y evitar abusos de monopolios.",
+        "paginas": "11"
       }
     ]
   },
@@ -29,26 +29,38 @@
     "id": 3,
     "topico": "Trabajo y economía",
     "subtopico": "3. Industrialización por Sustitución de Importaciones y Valor Agregado",
-    "phrase": "Impulsar la industrialización nacional para transformar nuestras materias primas y dejar de ser un país meramente exportador de recursos",
-    "matches": []
+    "phrase": "Establecer que todos los recursos del subsuelo (gas, petróleo, minerales) pertenezcan al Estado, reservar para gestión directa los recursos estratégicos y eliminar los contratos Ley que otorgan beneficios especiales a empresas extranjeras.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Establecer que todos los recursos del subsuelo (gas, petróleo, minerales) pertenezcan al Estado, reservar para gestión directa los recursos estratégicos y eliminar los contratos Ley que otorgan beneficios especiales a empresas extranjeras.",
+        "paginas": "11"
+      }
+    ]
   },
   {
     "id": 4,
     "topico": "Trabajo y economía",
     "subtopico": "4. Reducción del Tamaño del Estado y Austeridad",
-    "phrase": "Reducir el tamaño del aparato estatal, eliminando ministerios duplicados y recortando el gasto en burocracia",
-    "matches": []
+    "phrase": "Implementar un sistema tributario progresivo mediante la aplicación de impuestos a las sobreganancias y a las grandes fortunas, además de eliminar las exoneraciones tributarias regresivas, especialmente las otorgadas a grandes agroexportadoras.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Implementar un sistema tributario progresivo mediante la aplicación de impuestos a las sobreganancias y a las grandes fortunas, además de eliminar las exoneraciones tributarias regresivas, especialmente las otorgadas a grandes agroexportadoras.",
+        "paginas": "11"
+      }
+    ]
   },
   {
     "id": 5,
     "topico": "Trabajo y economía",
     "subtopico": "5. Reforma Tributaria Progresiva (Impuesto a la Riqueza / Grandes Fortunas)",
-    "phrase": "Defiendo una reforma tributaria bajo el principio de que 'pague más quien tiene más' (ricos y mineras)",
+    "phrase": "Fomentar la industrialización nacional tanto en el campo como en la ciudad para reducir la dependencia de la exportación de materias primas, además de crear complejos industriales regionales y un nuevo Ministerio de Ciencia y Tecnología.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Crear un sistema tributario progresivo: impuesto a grandes fortunas en situación de crisis... Incremento del 40% de los ingresos de la explotación minera actual... Implementaremos el impuesto a las sobreganancias mineras.",
-        "paginas": "25"
+        "sustento": "Fomentar la industrialización nacional tanto en el campo como en la ciudad para reducir la dependencia de la exportación de materias primas, además de crear complejos industriales regionales y un nuevo Ministerio de Ciencia y Tecnología.",
+        "paginas": "37"
       }
     ]
   },
@@ -56,15 +68,27 @@
     "id": 6,
     "topico": "Trabajo y economía",
     "subtopico": "6. Reducción de Impuestos (IGV o Renta)",
-    "phrase": "Bajar impuestos como el IGV o el Impuesto a la Renta para aliviar a las familias y reactivar el consumo",
-    "matches": []
+    "phrase": "Gestionar la adhesión del Perú a los BRICS, fortalecer la Comunidad Andina (CAN) y relanzar la UNASUR y la CELAC para promover un desarrollo económico solidario.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Gestionar la adhesión del Perú a los BRICS, fortalecer la Comunidad Andina (CAN) y relanzar la UNASUR y la CELAC para promover un desarrollo económico solidario.",
+        "paginas": "10"
+      }
+    ]
   },
   {
     "id": 7,
     "topico": "Trabajo y economía",
     "subtopico": "7. Amnistía Tributaria o Facilidades para PYMES",
-    "phrase": "Otorgar amnistías tributarias o condonación de multas para que las PYMES con deudas puedan formalizarse",
-    "matches": []
+    "phrase": "Erradicar toda forma de explotación laboral y eliminar los regímenes que vulneren los derechos básicos en favor de las grandes empresas.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Erradicar toda forma de explotación laboral y eliminar los regímenes que vulneren los derechos básicos en favor de las grandes empresas.",
+        "paginas": "11"
+      }
+    ]
   },
   {
     "id": 8,
@@ -83,12 +107,12 @@
     "id": 9,
     "topico": "Trabajo y economía",
     "subtopico": "9. Aumento del Sueldo Mínimo Vital (RMV)",
-    "phrase": "Aumentar el sueldo mínimo para que cubra el costo real de la canasta básica familiar",
+    "phrase": "Modificar los mecanismos de ajuste de la Remuneración Mínima Vital para que cubra las necesidades de la población y cerrar la brecha existente con el costo de la Canasta Básica Familiar.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Modificar los mecanismos para el ajuste de la Remuneración Mínima Vital (RMV) de acuerdo a las necesidades... Redistribución del crecimiento: aumento de salarios.",
-        "paginas": "90"
+        "sustento": "Modificar los mecanismos de ajuste de la Remuneración Mínima Vital para que cubra las necesidades de la población y cerrar la brecha existente con el costo de la Canasta Básica Familiar.",
+        "paginas": "67"
       }
     ]
   },
@@ -96,25 +120,17 @@
     "id": 10,
     "topico": "Trabajo y economía",
     "subtopico": "10. Eliminación del Régimen CAS y Tercerización",
-    "phrase": "Eliminar el régimen CAS y la tercerización laboral para que todos los trabajadores pasen a planilla con derechos plenos",
-    "matches": []
+    "phrase": "Crear el Instituto Nacional por la Empleabilidad para centralizar la orientación vocacional y la certificación de jóvenes, además de implementar 10,000 plazas anuales de primeras prácticas profesionales en el sector público mediante concurso.",
+    "matches": [
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Crear el Instituto Nacional por la Empleabilidad para centralizar la orientación vocacional y la certificación de jóvenes, además de implementar 10,000 plazas anuales de primeras prácticas profesionales en el sector público mediante concurso.",
+        "paginas": "55"
+      }
+    ]
   },
   {
     "id": 11,
-    "topico": "Trabajo y economía",
-    "subtopico": "11. Flexibilización Laboral y Regímenes Especiales",
-    "phrase": "Crear regímenes laborales más flexibles para reducir los costos de contratación y facilitar el empleo juvenil",
-    "matches": []
-  },
-  {
-    "id": 12,
-    "topico": "Trabajo y economía",
-    "subtopico": "12. Créditos Baratos para Emprendedores (Banco de Fomento)",
-    "phrase": "Apoyo la creación de un Banco de Fomento para dar créditos baratos a las MYPES y a los agricultores",
-    "matches": []
-  },
-  {
-    "id": 13,
     "topico": "Trabajo y economía",
     "subtopico": "13. Cero Impuestos los Primeros Años (Marcha Blanca)",
     "phrase": "Exonerar de todo impuesto a las empresas nuevas durante sus primeros años de vida para que puedan crecer",
@@ -127,7 +143,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 12,
     "topico": "Trabajo y economía",
     "subtopico": "14. Compras Estatales Obligatorias a MYPES",
     "phrase": "Estoy a favor de reservar una cuota de las compras estatales exclusivamente para los pequeños empresarios",
@@ -140,7 +156,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 13,
     "topico": "Trabajo y economía",
     "subtopico": "15. Reforma Integral del Sistema de Pensiones (Pensión Universal)",
     "phrase": "Crear un sistema de pensiones único o universal que garantice una jubilación digna para todos los peruanos, incluyendo informales",
