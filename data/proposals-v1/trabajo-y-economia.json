@@ -167,5 +167,44 @@
         "paginas": "117"
       }
     ]
+  },
+  {
+    "id": 14,
+    "topico": "Trabajo y economía",
+    "subtopico": "16. Independencia del Banco Central",
+    "phrase": "Asegurar la independencia del Banco Central de Reserva del Perú (BCRP) y el respeto irrestricto a los contratos.",
+    "matches": [
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Asegurar la independencia del Banco Central de Reserva del Perú (BCRP) y el respeto irrestricto a los contratos.",
+        "paginas": "23"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "topico": "Trabajo y economía",
+    "subtopico": "17. Consolidación Fiscal",
+    "phrase": "Implementar un programa de consolidación fiscal para reducir el déficit hasta alcanzar el 1% del PBI al final del gobierno / Restablecer el equilibrio de las finanzas públicas corrigiendo los desbalances acumulados.",
+    "matches": [
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Implementar un programa de consolidación fiscal para reducir el déficit hasta alcanzar el 1% del PBI al final del gobierno / Restablecer el equilibrio de las finanzas públicas corrigiendo los desbalances acumulados.",
+        "paginas": "22"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "topico": "Trabajo y economía",
+    "subtopico": "18. Empleo Formal",
+    "phrase": "Generar más de 500,000 nuevos empleos formales durante el periodo de gobierno a través de la atracción de inversión.",
+    "matches": [
+      {
+        "partido": "FUERZA POPULAR",
+        "sustento": "Generar más de 500,000 nuevos empleos formales durante el periodo de gobierno a través de la atracción de inversión.",
+        "paginas": "23"
+      }
+    ]
   }
 ]
