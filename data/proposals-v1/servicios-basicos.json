@@ -29,12 +29,12 @@
     "id": 3,
     "topico": "Servicios básicos",
     "subtopico": "3. Fortalecimiento de la gestión pública del agua (No privatización)",
-    "phrase": "Defiendo que la gestión del agua sea 100% estatal y rechazo cualquier forma de privatización de las EPS (como Sedapal)",
+    "phrase": "Garantizar el acceso al agua y saneamiento de los sectores más pobres a través de la orientación de políticas y planes específicos de gestión de recursos hídricos.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Retomar el control de la gestión del agua en favor de las políticas públicas que favorezca a los sectores más pobres... gestión soberana y pública del recurso hídrico.",
-        "paginas": "46"
+        "sustento": "Garantizar el acceso al agua y saneamiento de los sectores más pobres a través de la orientación de políticas y planes específicos de gestión de recursos hídricos.",
+        "paginas": "44"
       }
     ]
   },
@@ -145,9 +145,15 @@
   {
     "id": 12,
     "topico": "Servicios básicos",
-    "subtopico": "12. Internet como Derecho Humano Constitucional",
-    "phrase": "Garantizar el acceso a internet como un derecho fundamental",
-    "matches": []
+    "subtopico": "12. Fortalecer el vínculo entre la gestión de los recursos hídricos y los servicios de suministro de agua y saneamiento, mejorando el rol de la Autoridad Nacional del Agua.",
+    "phrase": "Fortalecer el vínculo entre la gestión de los recursos hídricos y los servicios de suministro de agua y saneamiento, mejorando el rol de la Autoridad Nacional del Agua. ",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Fortalecer el vínculo entre la gestión de los recursos hídricos y los servicios de suministro de agua y saneamiento, mejorando el rol de la Autoridad Nacional del Agua. ",
+        "paginas": "46"
+      }
+    ]
   },
   {
     "id": 13,
@@ -159,11 +165,6 @@
         "partido": "FUERZA POPULAR",
         "sustento": "Rediseño de la gestión de la Red Dorsal Nacional de Fibra Óptica... Alcanzar 90% de cobertura de internet en todos los distritos... Implementación de proyectos de conectividad integral... para el 100% de escuelas rurales.",
         "paginas": "64"
-      },
-      {
-        "partido": "JUNTOS POR EL PERU",
-        "sustento": "Garantizando que el 100% de las escuelas contarán con servicios básicos y un 80% con conectividad, priorizando... la Amazonía y los andes.",
-        "paginas": "51"
       }
     ]
   },
@@ -190,6 +191,84 @@
         "partido": "FUERZA POPULAR",
         "sustento": "Implementación de un Plan de Cobertura Universal de Internet Satelital y Móvil, especialmente para comunidades amazónicas... Satélite de Comunicaciones Menores.",
         "paginas": "65"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "topico": "Servicios básicos",
+    "subtopico": "16. Priorizar el agua para el consumo humano, la agricultura familiar y las comunidades campesinas.",
+    "phrase": "Priorizar el agua para el consumo humano, la agricultura familiar y las comunidades campesinas.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Priorizar el agua para el consumo humano, la agricultura familiar y las comunidades campesinas.",
+        "paginas": "45"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "topico": "Servicios básicos",
+    "subtopico": "17. Garantizar que el 100% de las escuelas públicas cuenten con servicios básicos y un 80% con conectividad, priorizando zonas de la Amazonía y los Andes.",
+    "phrase": "Garantizar que el 100% de las escuelas públicas cuenten con servicios básicos y un 80% con conectividad, priorizando zonas de la Amazonía y los Andes.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Garantizar que el 100% de las escuelas públicas cuenten con servicios básicos y un 80% con conectividad, priorizando zonas de la Amazonía y los Andes.",
+        "paginas": "51"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "topico": "Servicios básicos",
+    "subtopico": "18. Asegurar que el 100% de los parques mineros planificados cuenten con servicios de agua, saneamiento, electricidad e internet.",
+    "phrase": "Asegurar que el 100% de los parques mineros planificados cuenten con servicios de agua, saneamiento, electricidad e internet.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Asegurar que el 100% de los parques mineros planificados cuenten con servicios de agua, saneamiento, electricidad e internet.",
+        "paginas": "51"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "topico": "Servicios básicos",
+    "subtopico": "19. Garantizar niveles apropiados para la vida en los poblados-campamento de zonas mineras, proveyendo servicios básicos, escuelas y sistemas de salud.",
+    "phrase": "Garantizar niveles apropiados para la vida en los poblados-campamento de zonas mineras, proveyendo servicios básicos, escuelas y sistemas de salud.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Garantizar niveles apropiados para la vida en los poblados-campamento de zonas mineras, proveyendo servicios básicos, escuelas y sistemas de salud.",
+        "paginas": "51"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "topico": "Servicios básicos",
+    "subtopico": "20. Crear un Centro de Innovación Nacional dedicado al desarrollo de propuestas en saneamiento, construcción y energías renovables.",
+    "phrase": "Crear un Centro de Innovación Nacional dedicado al desarrollo de propuestas en saneamiento, construcción y energías renovables.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Crear un Centro de Innovación Nacional dedicado al desarrollo de propuestas en saneamiento, construcción y energías renovables.",
+        "paginas": "46"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "topico": "Servicios básicos",
+    "subtopico": "21. Mantener la competencia descentralizada de los gobiernos regionales y locales en materia de vivienda y saneamiento.",
+    "phrase": "Mantener la competencia descentralizada de los gobiernos regionales y locales en materia de vivienda y saneamiento.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Mantener la competencia descentralizada de los gobiernos regionales y locales en materia de vivienda y saneamiento.",
+        "paginas": "46"
       }
     ]
   }
