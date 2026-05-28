@@ -3,12 +3,12 @@
     "id": 1,
     "topico": "Tecnología",
     "subtopico": "1. Creación del Ministerio de Ciencia, Tecnología e Innovación (MCTI)",
-    "phrase": "Crear un Ministerio dedicado exclusivamente a rectorar las políticas de ciencia y tecnología",
+    "phrase": "Propugnar el desarrollo científico y tecnológico en todas las áreas del conocimiento humano y asegurar el uso razonable de los algoritmos de la Inteligencia Artificial.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Impulsar la ciencia, tecnología e innovación con un nuevo Ministerio de Ciencia y Tecnología para una economía industrializada.",
-        "paginas": "66"
+        "sustento": "Propugnar el desarrollo científico y tecnológico en todas las áreas del conocimiento humano y asegurar el uso razonable de los algoritmos de la Inteligencia Artificial.",
+        "paginas": "7"
       }
     ]
   },
@@ -16,12 +16,12 @@
     "id": 2,
     "topico": "Tecnología",
     "subtopico": "2. Aumento de la inversión en I+D+i (Meta del 1% al 3% del PBI)",
-    "phrase": "Incrementar el presupuesto nacional en investigación y desarrollo para alcanzar niveles competitivos",
+    "phrase": "Democratizar el acceso a los avances de la ciencia, tecnología, información y conocimiento para todos los sectores sociales, sin exclusiones.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Aumentar inversión en I+D de 0.15% a 0.50% del PBI... Alcanzar 0.5% del PBI en investigación, ciencia y tecnología.",
-        "paginas": "62"
+        "sustento": "Democratizar el acceso a los avances de la ciencia, tecnología, información y conocimiento para todos los sectores sociales, sin exclusiones.",
+        "paginas": "7"
       }
     ]
   },
@@ -29,12 +29,12 @@
     "id": 3,
     "topico": "Tecnología",
     "subtopico": "3. Repatriación de Talentos y Científicos (\"Brain Gain\")",
-    "phrase": "Crear incentivos tributarios y laborales para que los científicos peruanos en el extranjero regresen al país",
+    "phrase": "Crear un nuevo Ministerio de Ciencia y Tecnología para transitar hacia una economía industrializada y basada en el conocimiento.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Plan nacional de atracción y retorno de talentos... Becas e incentivos para maestrías y doctorados... con enfoque territorial.",
-        "paginas": "59"
+        "sustento": "Crear un nuevo Ministerio de Ciencia y Tecnología para transitar hacia una economía industrializada y basada en el conocimiento.",
+        "paginas": "66"
       }
     ]
   },
@@ -42,8 +42,14 @@
     "id": 4,
     "topico": "Tecnología",
     "subtopico": "4. Internet como Derecho Humano y Servicio Público Esencial",
-    "phrase": "Declarar el acceso a internet como un derecho fundamental garantizado por el Estado",
-    "matches": []
+    "phrase": "Priorizar la cooperación internacional en innovación tecnológica para el desarrollo de servicios de salud, recursos energéticos, diversificación productiva e infraestructura.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Priorizar la cooperación internacional en innovación tecnológica para el desarrollo de servicios de salud, recursos energéticos, diversificación productiva e infraestructura.",
+        "paginas": "11"
+      }
+    ]
   },
   {
     "id": 5,
@@ -62,8 +68,14 @@
     "id": 6,
     "topico": "Tecnología",
     "subtopico": "6. Despliegue masivo de Tecnología 5G",
-    "phrase": "Acelerar la licitación y el despliegue de redes 5G para mejorar la competitividad industrial",
-    "matches": []
+    "phrase": "Alcanzar una inversión del 0.5% del PBI en investigación, ciencia y tecnología.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Alcanzar una inversión del 0.5% del PBI en investigación, ciencia y tecnología.",
+        "paginas": "60"
+      }
+    ]
   },
   {
     "id": 7,
@@ -82,8 +94,14 @@
     "id": 8,
     "topico": "Tecnología",
     "subtopico": "8. Ciudadanía Digital e Identidad Digital (DNI Electrónico)",
-    "phrase": "Apoyo que el DNI electrónico permita realizar el 100% de los trámites estatales sin ir a las oficinas",
-    "matches": []
+    "phrase": "Crear una Unidad Especial de Inteligencia Financiera y Ciberdelito para rastrear extorsiones, fraudes digitales y estafas por medios electrónicos.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Crear una Unidad Especial de Inteligencia Financiera y Ciberdelito para rastrear extorsiones, fraudes digitales y estafas por medios electrónicos.",
+        "paginas": "23"
+      }
+    ]
   },
   {
     "id": 9,
@@ -115,11 +133,11 @@
     "id": 11,
     "topico": "Tecnología",
     "subtopico": "11. Creación de una Agencia / Comando de Ciberseguridad",
-    "phrase": "Crear una agencia especializada que proteja los datos críticos del país y combata el cibercrimen",
+    "phrase": "Implementar auditorías tecnológicas de operaciones sospechosas y bloqueos preventivos de cuentas ligadas a fraude.",
     "matches": [
       {
         "partido": "JUNTOS POR EL PERU",
-        "sustento": "Creación de una Unidad Especial de Inteligencia Financiera y Ciberdelito, enfocada en rastrear extorsiones, fraudes digitales... en coordinación con la SBS y la UIF.",
+        "sustento": "Implementar auditorías tecnológicas de operaciones sospechosas y bloqueos preventivos de cuentas ligadas a fraude.",
         "paginas": "23"
       }
     ]
@@ -128,8 +146,14 @@
     "id": 12,
     "topico": "Tecnología",
     "subtopico": "12. Ley de Fomento al Ecosistema Startup e Innovación",
-    "phrase": "Apoyo brindar incentivos tributarios y capital semilla para impulsar las startups tecnológicas",
-    "matches": []
+    "phrase": "Intensificar el uso de telecomunicaciones para la geolocalización y trazabilidad de llamadas y mensajes usados en extorsiones.",
+    "matches": [
+      {
+        "partido": "JUNTOS POR EL PERU",
+        "sustento": "Intensificar el uso de telecomunicaciones para la geolocalización y trazabilidad de llamadas y mensajes usados en extorsiones.",
+        "paginas": "23"
+      }
+    ]
   },
   {
     "id": 13,
@@ -167,11 +191,6 @@
         "partido": "FUERZA POPULAR",
         "sustento": "Desarrollo de un Plan Nacional de Parques Industriales Modernos, priorizando 10 polos productivos... Modernización y aceleración de la ejecución de Parques Industriales Tecnológicos regionales...",
         "paginas": "72"
-      },
-      {
-        "partido": "JUNTOS POR EL PERU",
-        "sustento": "Fortalecer el Sistema Nacional de Parques Industriales a través de mayor investigación aplicada... 10 complejos industriales descentralizados tecnológicos implementados.",
-        "paginas": "67"
       }
     ]
   }
