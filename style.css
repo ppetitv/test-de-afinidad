@@ -2597,6 +2597,10 @@ body::before {
     scroll-snap-align: start;
 }
 
+.src-rec-card:only-child {
+    flex: 1 1 100%;
+}
+
 .src-rec-card:hover {
     border-color: rgba(0, 0, 0, 0.2);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
