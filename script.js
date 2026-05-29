@@ -40,6 +40,18 @@ document.addEventListener('DOMContentLoaded', async () => {
                 titulo: "Sinesio López y Vladimiro Huaroc se enfrentaron en el debate técnico: esto dijeron sobre reforma del Estado",
                 imagen: "https://f.rpp-noticias.io/2026/05/24/495849_1870954.jpg?imgdimension=look",
                 party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
+            },
+            {
+                url: "https://rpp.pe/politica/elecciones/juntos-por-el-peru-propone-autonomia-de-los-organismos-de-control-para-reducir-la-corrupcion-es-viable-noticia-1689968",
+                titulo: "Juntos por el Perú propone autonomía de los organismos de control para reducir la corrupción: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/05/25/151115_1870997.jpg?imgdimension=look",
+                party: ["JUNTOS POR EL PERU"]
+            },
+            {
+                url: "https://rpp.pe/politica/elecciones/fuerza-popular-propone-un-centro-de-gobierno-estrategico-como-reforma-del-estado-es-viable-noticia-1689970",
+                titulo: "Fuerza Popular propone un centro de gobierno estratégico como reforma del estado: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/05/25/082608_1871007.jpg?imgdimension=look",
+                party: ["FUERZA POPULAR"]
             }
         ],
         "medio-ambiente": [
@@ -68,6 +80,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                 titulo: "Fuerza Popular propone fortalecer la telemedicina con “brigadas de salud” para combatir la anemia en regiones: ¿es viable?",
                 imagen: "https://f.rpp-noticias.io/2026/05/25/240624_1870996.jpg?imgdimension=look",
                 party: ["FUERZA POPULAR"]
+            },
+            {
+                url: "https://rpp.pe/politica/elecciones/juntos-por-el-peru-propone-incrementar-la-inversion-en-salud-y-fortalecer-el-primer-nivel-de-atencion-es-viable-noticia-1689973",
+                titulo: "Juntos por el Perú propone incrementar la inversión en salud y fortalecer el primer nivel de atención: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/05/25/262626_1871008.jpg?imgdimension=look",
+                party: ["JUNTOS POR EL PERU"]
             }
         ],
         "seguridad-ciudadana": "",
@@ -98,6 +116,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                 titulo: "Luis Carranza, del equipo técnico de Fuerza Popular: 'Nuestra presión tributaria no es tan baja'",
                 imagen: "https://f.rpp-noticias.io/2026/05/24/214721_1870965.jpg?imgdimension=look",
                 party: ["FUERZA POPULAR"]
+            },
+            {
+                url: "https://rpp.pe/politica/elecciones/juntos-por-el-peru-propone-programa-mi-primera-chamba-con-bonos-para-100-mil-jovenes-es-viable-noticia-1689975",
+                titulo: "Juntos por el Perú propone programa 'Mi primera chamba' con bonos para 100 mil jóvenes: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/05/25/233623_1871019.jpg?imgdimension=look",
+                party: ["JUNTOS POR EL PERU"]
             }
         ],
         "transporte": [
@@ -106,6 +130,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                 titulo: "Obras paralizadas, agua potable y transporte: ¿qué plantearon Neuhaus y Guerra García en el debate técnico sobre infraestructura?",
                 imagen: "https://f.rpp-noticias.io/2026/05/24/373237_1870960.jpg?imgdimension=look",
                 party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
+            },
+            {
+                url: "https://rpp.pe/economia/economia/juntos-por-el-peru-propone-pavimentar-y-mejorar-50-000-km-de-caminos-rurales-es-viable-noticia-1689966",
+                titulo: "Juntos por el Perú propone pavimentar y mejorar 50 000 km de caminos rurales: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/05/25/552155_1871001.jpg?imgdimension=look",
+                party: ["JUNTOS POR EL PERU"]
             }
         ],
         "vivienda": [
