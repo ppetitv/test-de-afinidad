@@ -231,9 +231,31 @@ document.addEventListener('DOMContentLoaded', async () => {
         const proposalsJSON = await proposalsResponse.json();
 
 
-        data.proposals = proposalsJSON
-            .sort(() => 0.5 - Math.random())
-            .slice(0, 10)
+        const shuffledProposals = proposalsJSON.sort(() => 0.5 - Math.random());
+
+        const fpProposals = [];
+        const jppProposals = [];
+
+        for (const row of shuffledProposals) {
+            const parties = row.matches.map(m => m.partido);
+
+            // Priorizar propuestas exclusivas o simplemente llenar los cupos sin repetir
+            if (parties.includes("FUERZA POPULAR") && fpProposals.length < 5) {
+                if (!jppProposals.some(p => p.id === row.id)) {
+                    fpProposals.push(row);
+                    continue;
+                }
+            }
+            if (parties.includes("JUNTOS POR EL PERU") && jppProposals.length < 5) {
+                if (!fpProposals.some(p => p.id === row.id)) {
+                    jppProposals.push(row);
+                }
+            }
+        }
+
+        const selectedProposals = [...fpProposals, ...jppProposals].sort(() => 0.5 - Math.random());
+
+        data.proposals = selectedProposals
             .map(row => {
                 const stances = {};
                 const sources = {};
