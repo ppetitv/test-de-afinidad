@@ -55,12 +55,12 @@
     "id": 5,
     "topico": "Tecnología",
     "subtopico": "5. Red Dorsal Nacional de Fibra Óptica (RDNFO) Operativa al 100%",
-    "phrase": "Apoyo reactivar la Red Dorsal de Fibra Óptica (vía Estado o concesión) para llevar internet a todos los distritos",
+    "phrase": "Crear una plataforma con IA para que el 80% de los trámites empresariales se realicen en línea, buscando transparencia y eliminación de la discrecionalidad.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Rediseño de la gestión de la Red Dorsal Nacional de Fibra Óptica mediante concesión supervisada, garantizando uso efectivo... Implementación de un Plan de Cobertura Universal.",
-        "paginas": "48"
+        "sustento": "Crear una plataforma con IA para que el 80% de los trámites empresariales se realicen en línea, buscando transparencia y eliminación de la discrecionalidad.",
+        "paginas": "23"
       }
     ]
   },
@@ -81,12 +81,12 @@
     "id": 7,
     "topico": "Tecnología",
     "subtopico": "7. Internet Satelital para Zonas Rurales y Fronteras",
-    "phrase": "Usar tecnología satelital para conectar a las comunidades más aisladas de la selva y la sierra",
+    "phrase": "Implementar la interoperabilidad total de historias clínicas electrónicas ligadas al DNI y un sistema nacional de telemedicina.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Implementación de un Plan de Cobertura Universal de Internet Satelital... Implementación de la Red de Comunicaciones Nanay – Putumayo y Satélite de Comunicaciones Menores: conectividad para comunidades amazónicas.",
-        "paginas": "65"
+        "sustento": "Implementar la interoperabilidad total de historias clínicas electrónicas ligadas al DNI y un sistema nacional de telemedicina.",
+        "paginas": "100"
       }
     ]
   },
@@ -107,12 +107,12 @@
     "id": 9,
     "topico": "Tecnología",
     "subtopico": "9. Cero Papel en el Estado (Digitalización de Expedientes)",
-    "phrase": "Apoyo eliminar totalmente el uso de papel en las entidades públicas, digitalizando todos los archivos y trámites",
+    "phrase": "Implementar la interoperabilidad digital entre el Poder Judicial, Fiscalía y Policía, e integración de IA para el análisis predictivo de casos y reducción de tiempos procesales.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Estrategia nacional “Cero Colas”, que obligue a todas las entidades públicas a ofrecer atención 100% digital para trámites recurrentes... eliminar las colas físicas.",
-        "paginas": "23"
+        "sustento": "Implementar la interoperabilidad digital entre el Poder Judicial, Fiscalía y Policía, e integración de IA para el análisis predictivo de casos y reducción de tiempos procesales.",
+        "paginas": "27"
       }
     ]
   },
@@ -120,12 +120,12 @@
     "id": 10,
     "topico": "Tecnología",
     "subtopico": "10. Voto Electrónico y Participación Digital",
-    "phrase": "Implementar el voto electrónico para agilizar el conteo y facilitar la participación desde cualquier lugar",
+    "phrase": "Usar la IA en la Contraloría para identificar patrones anómalos en contrataciones públicas y alertas de sobrecostos.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Creación de una plataforma de auditoría ciudadana amigable y en tiempo real, que permita a los ciudadanos monitorear obras públicas mediante aplicaciones móviles...",
-        "paginas": "21"
+        "sustento": "Usar la IA en la Contraloría para identificar patrones anómalos en contrataciones públicas y alertas de sobrecostos.",
+        "paginas": "20"
       }
     ]
   },
@@ -159,12 +159,12 @@
     "id": 13,
     "topico": "Tecnología",
     "subtopico": "13. Regulación y uso de Blockchain y Criptoactivos",
-    "phrase": "Estoy a favor de usar la tecnología Blockchain para evitar la manipulación de datos en contratos y licitaciones del Estado",
+    "phrase": "Implementar la estrategia 'Cero Colas' para que las entidades públicas ofrezcan atención 100% digital en trámites de alta demanda.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Inicio de la transición hacia una criptomoneda estatal para transacciones públicas, asegurando trazabilidad total",
-        "paginas": "21"
+        "sustento": "Implementar la estrategia 'Cero Colas' para que las entidades públicas ofrezcan atención 100% digital en trámites de alta demanda.",
+        "paginas": "23"
       }
     ]
   },
@@ -172,12 +172,12 @@
     "id": 14,
     "topico": "Tecnología",
     "subtopico": "14. Estrategia Nacional de Inteligencia Artificial (IA)",
-    "phrase": "Apoyo el uso de Inteligencia Artificial para modernizar la salud, combatir el crimen y agilizar la justicia",
+    "phrase": "Implementar Centros de Comando y Videovigilancia (C5i) interconectados a nivel nacional, que utilizarán IA para el análisis predictivo del delito y mapas en tiempo real.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "...implementar un piloto de inteligencia artificial en contrataciones públicas para detectar sobrecostos y riesgos de colusión... incorporar inteligencia artificial para el análisis predictivo de casos [judiciales]...",
-        "paginas": "21"
+        "sustento": "Implementar Centros de Comando, Control, Computación, Comunicaciones y Ciberinteligencia (C5i) a nivel nacional, utilizando inteligencia artificial para el análisis predictivo y la georreferenciación del delito.",
+        "paginas": "16"
       }
     ]
   },
@@ -185,12 +185,12 @@
     "id": 15,
     "topico": "Tecnología",
     "subtopico": "15. Parques Científicos y Tecnológicos (Hubs Regionales)",
-    "phrase": "Apoyo la creación de parques tecnológicos en las regiones para conectar a las universidades con las empresas",
+    "phrase": "Implementación obligatoria del Expediente Judicial Electrónico (EJE) a nivel nacional para la gestión documental y notificaciones.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Desarrollo de un Plan Nacional de Parques Industriales Modernos, priorizando 10 polos productivos... Modernización y aceleración de la ejecución de Parques Industriales Tecnológicos regionales...",
-        "paginas": "72"
+        "sustento": "Implementación obligatoria del Expediente Judicial Electrónico (EJE) a nivel nacional para la gestión documental y notificaciones.",
+        "paginas": "27"
       }
     ]
   },
@@ -198,12 +198,12 @@
     "id": 16,
     "topico": "Tecnología",
     "subtopico": "16. Transformación Digital Empresarial",
-    "phrase": "Crear una plataforma con IA para que el 80% de los trámites empresariales se realicen en línea, buscando transparencia y eliminación de la discrecionalidad.",
+    "phrase": "Crear la Ventanilla Única Minera Electrónica con IA y un Sistema Nacional de Trazabilidad de Combustibles interoperable para combatir el contrabando. También se propone la digitalización del sistema eléctrico mediante redes inteligentes (smart grids).",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Creación de una plataforma con IA para que el 80% de los trámites empresariales se realicen en línea, buscando transparencia y eliminación de la discrecionalidad.",
-        "paginas": "23"
+        "sustento": "Crear la Ventanilla Única Minera Electrónica con IA y un Sistema Nacional de Trazabilidad de Combustibles interoperable para combatir el contrabando. También se propone la digitalización del sistema eléctrico mediante redes inteligentes (smart grids).",
+        "paginas": "41"
       }
     ]
   }
