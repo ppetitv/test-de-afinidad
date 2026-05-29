@@ -30,6 +30,94 @@ document.addEventListener('DOMContentLoaded', async () => {
         "trabajo-y-economia", "transporte", "vivienda"
     ];
 
+    const TOPIC_NOTES = {
+        "cultura-y-turismo": "",
+        "derechos-e-igualdad": "",
+        "educacion": "",
+        "justicia-y-reformas": [
+            {
+                url: "https://rpp.pe/politica/elecciones/debate-tecnico-2026-propuestas-de-sinesio-lopez-y-vladimiro-huaroc-sobre-reforma-del-estado-noticia-1689934",
+                titulo: "Sinesio López y Vladimiro Huaroc se enfrentaron en el debate técnico: esto dijeron sobre reforma del Estado",
+                imagen: "https://f.rpp-noticias.io/2026/05/24/495849_1870954.jpg?imgdimension=look",
+                party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
+            }
+        ],
+        "medio-ambiente": [
+            {
+                url: "https://rpp.pe/politica/elecciones/debate-tecnico-estas-son-las-propuestas-de-fuerza-popular-y-juntos-por-el-peru-para-el-sector-agricultura-y-medio-ambiente-noticia-1689923",
+                titulo: "Debate técnico: estas son las propuestas de Fuerza Popular y Juntos por el Perú para el sector agricultura y medio ambiente",
+                imagen: "https://f.rpp-noticias.io/2026/05/24/575657_1870956.jpg?imgdimension=look",
+                party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
+            }
+        ],
+        "salud": [
+            {
+                url: "https://rpp.pe/politica/elecciones/debate-tecnico-conoce-las-propuestas-de-fuerza-popular-y-juntos-por-el-peru-para-impulsar-el-deporte-noticia-1689937",
+                titulo: "Debate técnico: ¿cuáles son las propuestas de Fuerza Popular y Juntos por el Perú para la juventud y el deporte?",
+                imagen: "https://f.rpp-noticias.io/2026/05/24/465946_1870957.jpg?imgdimension=look",
+                party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
+            },
+            {
+                url: "https://rpp.pe/politica/elecciones/debate-tecnico-estas-fueron-las-propuestas-de-fuerza-popular-y-juntos-por-el-peru-en-el-tema-de-salud-noticia-1689939",
+                titulo: "Debate técnico: estas fueron las propuestas de Fuerza Popular y Juntos por el Perú en el tema de salud",
+                imagen: "https://f.rpp-noticias.io/2026/05/24/412641_1870962.jpg?imgdimension=look",
+                party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
+            },
+            {
+                url: "https://rpp.pe/politica/elecciones/fuerza-popular-propone-fortalecer-la-telemedicina-con-brigadas-de-salud-para-combatir-la-anemia-en-regiones-es-viable-noticia-1689964",
+                titulo: "Fuerza Popular propone fortalecer la telemedicina con “brigadas de salud” para combatir la anemia en regiones: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/05/25/240624_1870996.jpg?imgdimension=look",
+                party: ["FUERZA POPULAR"]
+            }
+        ],
+        "seguridad-ciudadana": "",
+        "servicios-basicos": [
+            {
+                url: "https://rpp.pe/politica/elecciones/debate-tecnico-2026-propuestas-de-infraestructura-de-neuhaus-y-guerra-garcia-noticia-1689938",
+                titulo: "Obras paralizadas, agua potable y transporte: ¿qué plantearon Neuhaus y Guerra García en el debate técnico sobre infraestructura?",
+                imagen: "https://f.rpp-noticias.io/2026/05/24/373237_1870960.jpg?imgdimension=look",
+                party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
+            }
+        ],
+        "tecnologia": "",
+        "trabajo-y-economia": [
+            {
+                url: "https://rpp.pe/politica/elecciones/debate-tecnico-fuerza-popular-y-juntos-por-el-peru-presentaron-sus-propuestas-en-materia-de-economia-y-generacion-de-empleo-noticia-1689924",
+                titulo: "Debate técnico: las estrategias de Juntos por el Perú y Fuerza Popular para impulsar el crecimiento económico y la generación de empleo",
+                imagen: "https://f.rpp-noticias.io/2026/05/24/031103_1870961.jpg?imgdimension=look",
+                party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
+            },
+            {
+                url: "https://rpp.pe/politica/elecciones/pedro-francke-defiende-equilibrio-fiscal-e-inversion-privada-en-segunda-vuelta-noticia-1689940",
+                titulo: "Pedro Francke reconoce que ideas sobre inversión privada y equilibrio fiscal se trabajaron con equipo para la segunda vuelta",
+                imagen: "https://f.rpp-noticias.io/2026/05/24/atsapp-video-2026-05-24-at-104129-pm-1870963mp4_1870964.jpg?imgdimension=look",
+                party: ["JUNTOS POR EL PERU"]
+            },
+            {
+                url: "https://rpp.pe/politica/elecciones/luis-carranza-del-equipo-tecnico-de-fuerza-popular-nuestra-presion-tributaria-no-es-tan-baja-noticia-1689942",
+                titulo: "Luis Carranza, del equipo técnico de Fuerza Popular: 'Nuestra presión tributaria no es tan baja'",
+                imagen: "https://f.rpp-noticias.io/2026/05/24/214721_1870965.jpg?imgdimension=look",
+                party: ["FUERZA POPULAR"]
+            }
+        ],
+        "transporte": [
+            {
+                url: "https://rpp.pe/politica/elecciones/debate-tecnico-2026-propuestas-de-infraestructura-de-neuhaus-y-guerra-garcia-noticia-1689938",
+                titulo: "Obras paralizadas, agua potable y transporte: ¿qué plantearon Neuhaus y Guerra García en el debate técnico sobre infraestructura?",
+                imagen: "https://f.rpp-noticias.io/2026/05/24/373237_1870960.jpg?imgdimension=look",
+                party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
+            }
+        ],
+        "vivienda": [
+            {
+                url: "https://rpp.pe/politica/elecciones/debate-tecnico-2026-propuestas-de-infraestructura-de-neuhaus-y-guerra-garcia-noticia-1689938",
+                titulo: "Obras paralizadas, agua potable y transporte: ¿qué plantearon Neuhaus y Guerra García en el debate técnico sobre infraestructura?",
+                imagen: "https://f.rpp-noticias.io/2026/05/24/373237_1870960.jpg?imgdimension=look",
+                party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
+            }
+        ]
+    }
+
     const formatFilename = (text) => {
         return text
             .toString()
@@ -353,8 +441,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         setTimeout(() => button.classList.remove('pressed'), 200);
 
         window.marfeel = window.marfeel || { cmd: [] };
-        window.marfeel.cmd.push(['compass', function(compass) {
-            compass.trackConversion(choice +' - test de afinidad');
+        window.marfeel.cmd.push(['compass', function (compass) {
+            compass.trackConversion(choice + ' - test de afinidad');
         }]);
 
         // Show indicator
@@ -508,7 +596,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 loadTopic(tematicId);
 
                 window.marfeel = window.marfeel || { cmd: [] };
-                window.marfeel.cmd.push(['compass', function(compass) {
+                window.marfeel.cmd.push(['compass', function (compass) {
                     compass.trackConversion('click tematica - test de afinidad');
                 }]);
             })
@@ -567,14 +655,14 @@ document.addEventListener('DOMContentLoaded', async () => {
         // 2. Usamos IFRAME en lugar de EMBED
         // iframe suele comportarse mejor con el historial y parámetros en Chrome/Edge
         const iframe = document.createElement('iframe');
-        
+
         // Aseguramos que la URL permita caché o recarga correcta
-        iframe.src = pdfUrl; 
+        iframe.src = pdfUrl;
         iframe.title = "Visor de Plan de Gobierno";
         iframe.width = '100%';
         iframe.height = '100%';
         iframe.style.border = 'none';
-        
+
         // 3. Inyectamos
         pdfPagesContainer.appendChild(iframe);
 
@@ -592,7 +680,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const container = document.getElementById('pdf-content');
         const pagesContainer = document.getElementById('pdf-pages-container');
         const cleanUrl = pdfUrl.split('#')[0];
-        
+
         const pageMatch = pdfUrl.match(/#page=(\d+)/);
         const targetPage = pageMatch ? parseInt(pageMatch[1]) : 1;
 
@@ -604,7 +692,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     <p class="loading-text">CARGANDO PLAN DE GOBIERNO...</p>
                 </div>
             `;
-            
+
             // Abrir el sidebar inmediatamente para que el usuario vea el loader
             sidebar.classList.remove('open');
             sidebarOverlay.classList.remove('visible');
@@ -613,9 +701,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             const loadingTask = pdfjsLib.getDocument(pdfDomain(cleanUrl));
             const pdf = await loadingTask.promise;
-            
+
             // Limpiar el loader antes de renderizar las páginas
-            pagesContainer.innerHTML = ''; 
+            pagesContainer.innerHTML = '';
 
             const outputScale = window.devicePixelRatio || 1;
 
@@ -635,11 +723,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             for (let pageNum = startPage; pageNum <= endPage; pageNum++) {
                 if (!isPdfLoading) {
                     console.log("Carga de PDF cancelada por el usuario");
-                    return; 
+                    return;
                 }
 
                 const page = await pdf.getPage(pageNum);
-                
+
                 const pageWrapper = document.createElement('div');
                 pageWrapper.id = `page-${pageNum}`;
                 pageWrapper.className = 'pdf-page-wrapper';
@@ -656,9 +744,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
                 const canvas = document.createElement('canvas');
                 const context = canvas.getContext('2d');
-                
-                const viewport = page.getViewport({ 
-                    scale: container.clientWidth / page.getViewport({ scale: 1 }).width 
+
+                const viewport = page.getViewport({
+                    scale: container.clientWidth / page.getViewport({ scale: 1 }).width
                 });
 
                 canvas.width = Math.floor(viewport.width * outputScale);
@@ -721,7 +809,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function populateSourcesSidebar(proposal) {
         sourcesContent.innerHTML = '';
-        
+
         const entries = Object.entries(proposal.sources);
         for (let i = entries.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
@@ -777,7 +865,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function closePdfSidebar() {
         isPdfLoading = false;
-        
+
         // 1. Cancelar el renderizado actual si existe
         if (currentRenderTask) {
             currentRenderTask.cancel();
@@ -786,9 +874,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const pdfSidebar = document.getElementById('pdf-sidebar');
         const pagesContainer = document.getElementById('pdf-pages-container');
-        
+
         pdfSidebar.classList.remove('open');
-        
+
         // 2. Limpieza inmediata de los canvas para liberar memoria
         // En móviles, esperar 400ms puede ser demasiado tarde
         const canvases = pagesContainer.querySelectorAll('canvas');
@@ -796,7 +884,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             canvas.width = 1; // "Encoger" el canvas ayuda a liberar memoria RAM instantáneamente
             canvas.height = 1;
         });
-        pagesContainer.innerHTML = ''; 
+        pagesContainer.innerHTML = '';
     }
 
     // --- OTRAS FUNCIONES ---
@@ -1133,7 +1221,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         isProcessing = false;
 
         window.marfeel = window.marfeel || { cmd: [] };
-        window.marfeel.cmd.push(['compass', function(compass) {
+        window.marfeel.cmd.push(['compass', function (compass) {
             compass.trackConversion('repetir test - test de afinidad');
         }]);
     }
@@ -1148,9 +1236,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         window.marfeel = window.marfeel || { cmd: [] };
-                window.marfeel.cmd.push(['compass', function(compass) {
-                    compass.trackConversion('compartir test - test de afinidad');
-                }]);
+        window.marfeel.cmd.push(['compass', function (compass) {
+            compass.trackConversion('compartir test - test de afinidad');
+        }]);
     }
 
     // --- EVENT LISTENERS ---
