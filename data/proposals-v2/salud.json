@@ -29,12 +29,12 @@
     "id": 3,
     "topico": "Salud",
     "subtopico": "3. Historia Clínica Electrónica Única y Nacional",
-    "phrase": "Se debe crear una ficha médica digital compartida por todos los hospitales del país",
+    "phrase": "Implementar la interoperabilidad total de historias clínicas electrónicas utilizando el número de DNI como identificador.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Integrar el 80% del sistema de salud (MINSA, EsSalud y Sanidades) a una historia clínica electrónica ligada al DNI.",
-        "paginas": "101"
+        "sustento": "Implementar la interoperabilidad total de historias clínicas electrónicas utilizando el número de DNI como identificador.",
+        "paginas": "100"
       }
     ]
   },
@@ -55,12 +55,12 @@
     "id": 5,
     "topico": "Salud",
     "subtopico": "5. Control de Precios y Lucha contra Monopolios Farmacéuticos",
-    "phrase": "El Estado debe regular el precio de las medicinas o sancionar a las cadenas de farmacias que acaparan el mercado",
+    "phrase": "Lanzar un Programa Nacional de Prevención de la Anemia y la Desnutrición Infantil articulado con la campaña “Bebés que Nacen Fuertes”.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Programa Nacional de Medicamentos con Descuento Preferencial... con regulación de precios y estándares de calidad.",
-        "paginas": "99"
+        "sustento": "Lanzar un Programa Nacional de Prevención de la Anemia y la Desnutrición Infantil articulado con la campaña “Bebés que Nacen Fuertes”.",
+        "paginas": "100"
       }
     ]
   },
@@ -68,11 +68,11 @@
     "id": 6,
     "topico": "Salud",
     "subtopico": "6. Farmacias Estatales / Boticas Populares",
-    "phrase": "El Estado debe vender directamente medicamentos baratos al público a través de boticas municipales o estatales",
+    "phrase": "Desplegar un sistema de telemedicina nacional, especialmente para zonas rurales y de difícil acceso.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Implementación del Programa Nacional de Medicamentos con Descuento Preferencial... mediante farmacias públicas y privadas, con regulación de precios... Carnet Nacional del Adulto Mayor... descuentos obligatorios.",
+        "sustento": "Desplegar un sistema de telemedicina nacional, especialmente para zonas rurales y de difícil acceso.",
         "paginas": "99"
       }
     ]
@@ -81,11 +81,11 @@
     "id": 7,
     "topico": "Salud",
     "subtopico": "7. Distribución de Medicamentos a Domicilio",
-    "phrase": "El Estado debe llevar las medicinas a casa de los pacientes crónicos y adultos mayores",
+    "phrase": "Incrementar el número de camas hospitalarias y construir nuevos hospitales (Tipos I, II y III) según la densidad poblacional regional.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "\"Implementación del Programa Nacional de Atención Domiciliaria de Cuidados, priorizando hogares en pobreza... con equipos multidisciplinarios.\"",
+        "sustento": "Incrementar el número de camas hospitalarias y construir nuevos hospitales (Tipos I, II y III) según la densidad poblacional regional.",
         "paginas": "99"
       }
     ]
@@ -94,12 +94,12 @@
     "id": 8,
     "topico": "Salud",
     "subtopico": "8. Industrialización Nacional de Medicamentos",
-    "phrase": "El Perú debe fabricar sus propias medicinas y vacunas a través de laboratorios estatales",
+    "phrase": "Asegurar la implementación presupuestal y supervisión de la Ley Nacional del Cáncer.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Implementación de Zonas Económicas Especiales (ZEE)... orientadas a manufactura de alto valor agregado (farmacéutica, biotecnología)... Fomento de la producción nacional.",
-        "paginas": "72"
+        "sustento": "Asegurar la implementación presupuestal y supervisión de la Ley Nacional del Cáncer.",
+        "paginas": "100"
       }
     ]
   },
@@ -159,12 +159,12 @@
     "id": 13,
     "topico": "Salud",
     "subtopico": "13. Plan de Salud Mental Comunitario",
-    "phrase": "Poner psicólogos en todos los colegios y postas para atender la salud mental desde la comunidad",
+    "phrase": "Separar las funciones de financiamiento y prestación de servicios tanto en el sector público como en EsSalud.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Fortalecimiento de los CSMC a través de la creación de módulos juveniles... Implementación de una 'Línea Joven Contigo 24/7', atendida por psicólogos.",
-        "paginas": "85"
+        "sustento": "Separar las funciones de financiamiento y prestación de servicios tanto en el sector público como en EsSalud.",
+        "paginas": "100"
       }
     ]
   },
@@ -172,12 +172,12 @@
     "id": 14,
     "topico": "Salud",
     "subtopico": "14. Lucha Frontal contra la Anemia y Desnutrición (Meta Cero)",
-    "phrase": "Estoy a favor de implementar un sistema de seguimiento domiciliario para asegurar que ningún niño sufra de anemia",
+    "phrase": "Crear el Sistema Nacional de Cuidados como política de Estado para atender a adultos mayores, personas con discapacidad y dependientes.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "\"Reducir la anemia infantil al 20%... Implementación del Paquete 1,000 días... Padrón Nominal de gestantes y niños... seguimiento en tiempo real.\"",
-        "paginas": "101"
+        "sustento": "Crear el Sistema Nacional de Cuidados como política de Estado para atender a adultos mayores, personas con discapacidad y dependientes.",
+        "paginas": "98"
       }
     ]
   },
@@ -185,12 +185,12 @@
     "id": 15,
     "topico": "Salud",
     "subtopico": "15. Telemedicina masiva para zonas rurales",
-    "phrase": "Apoyo el uso masivo de la telemedicina para llevar especialistas a las zonas más alejadas del país",
+    "phrase": "Implementar un sistema de otorgamiento de citas prontas en ambientes adecuados para garantizar un trato digno.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Garantizar telemedicina operativa en el 100% de centros del primer nivel... Lanzamiento del Sistema Nacional de Telemedicina para Zonas Rurales.",
-        "paginas": "101"
+        "sustento": "Implementar un sistema de otorgamiento de citas prontas en ambientes adecuados para garantizar un trato digno.",
+        "paginas": "99"
       }
     ]
   },
