@@ -29,12 +29,12 @@
     "id": 3,
     "topico": "Seguridad ciudadana",
     "subtopico": "3. Militarización de la Seguridad Ciudadana (Apoyo de las FF.AA.)",
-    "phrase": "Las Fuerzas Armadas deben patrullar las calles y apoyar a la policía en zonas críticas",
+    "phrase": "Implementar rápidamente Centros de Comando y Videovigilancia (C5i) interconectados a nivel nacional con inteligencia artificial.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Establecimiento de un Comando Unificado Permanente... integrado por FF.AA., PNP... Comandos mixtos en zonas críticas.",
-        "paginas": "17"
+        "sustento": "Implementación rápida de Centros de Comando y Videovigilancia (C5i) interconectados a nivel nacional con inteligencia artificial.",
+        "paginas": "16"
       }
     ]
   },
@@ -55,11 +55,11 @@
     "id": 5,
     "topico": "Seguridad ciudadana",
     "subtopico": "5. Construcción de Mega-Cárceles de Máxima Seguridad",
-    "phrase": "Construir mega-penales en zonas remotas o de altura para aislar a líderes criminales",
+    "phrase": "Construir cuatro mega penales de máxima seguridad, cuatro penales modulares y uno especializado para jóvenes, bajo administración temporal de las FF.AA..",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Construcción de cuatro (4) mega penales de máxima seguridad... bajo administración temporal y exclusiva de las Fuerzas Armadas.",
+        "sustento": "Construir cuatro mega penales de máxima seguridad, cuatro penales modulares y uno especializado para jóvenes, bajo administración temporal de las FF.AA..",
         "paginas": "17"
       }
     ]
@@ -68,12 +68,12 @@
     "id": 6,
     "topico": "Seguridad ciudadana",
     "subtopico": "6. Trabajo Obligatorio para Presos (Cárceles Productivas)",
-    "phrase": "Los presos deben trabajar obligatoriamente para pagar su propia manutención",
+    "phrase": "Crear Unidades de Inteligencia contra la Extorsión de las MYPEs.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Implementación de Cárceles productivas mediante APP... Programa Nacional de Trabajo Comunitario Penitenciario 'Manos que Reparan'... con aplicación directa a la reparación civil.",
-        "paginas": "18"
+        "sustento": "Crear Unidades de Inteligencia contra la Extorsión de las MYPEs.",
+        "paginas": "17"
       }
     ]
   },
@@ -81,12 +81,12 @@
     "id": 7,
     "topico": "Seguridad ciudadana",
     "subtopico": "7. Privatización o Concesión de la Gestión de Penales",
-    "phrase": "El sector privado debe participar en la construcción y gestión de los servicios de las cárceles",
+    "phrase": "Crear nuevas Unidades de Flagrancia Express para asegurar sentencias rápidas.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Implementación de Cárceles productivas mediante el mecanismo de Asociaciones Público-Privadas (APP), con programas de reinserción laboral.",
-        "paginas": "18"
+        "sustento": "Crear nuevas Unidades de Flagrancia Express para asegurar sentencias rápidas.",
+        "paginas": "17"
       }
     ]
   },
@@ -94,12 +94,12 @@
     "id": 8,
     "topico": "Seguridad ciudadana",
     "subtopico": "8. Bloqueo Total de Señal Celular en Penales",
-    "phrase": "Apoyo el bloqueo tecnológico total de las señales de comunicación en todos los penales del país",
+    "phrase": "Implementar un Plan de Emergencia contra la inseguridad mediante la delegación de facultades legislativas por 60 días.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Implementar un sistema integral de bloqueo de señales móviles en todos los establecimientos... garantizando su funcionamiento permanente.",
-        "paginas": "18"
+        "sustento": "Implementar un Plan de Emergencia contra la inseguridad mediante la delegación de facultades legislativas por 60 días.",
+        "paginas": "16"
       }
     ]
   },
@@ -120,11 +120,11 @@
     "id": 10,
     "topico": "Seguridad ciudadana",
     "subtopico": "10. Uso masivo de Tecnología (IA, Reconocimiento Facial, Drones)",
-    "phrase": "Apoyo el uso intensivo de Inteligencia Artificial y reconocimiento facial para prevenir el delito",
+    "phrase": "Reforzar el patrullaje en zonas críticas reorientando el sistema 24x24 y priorizando provincias y fronteras.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Implementación rápida de Centros de Comando y Videovigilancia (C5i) con inteligencia artificial para análisis predictivo y cámaras de reconocimiento facial.",
+        "sustento": "Reforzar el patrullaje en zonas críticas reorientando el sistema 24x24 y priorizando provincias y fronteras.",
         "paginas": "16"
       }
     ]
@@ -146,12 +146,12 @@
     "id": 12,
     "topico": "Seguridad ciudadana",
     "subtopico": "12. Mejora Salarial y Logística para la PNP",
-    "phrase": "Estoy a favor de aumentar el sueldo a los policías y renovar todo su equipamiento logístico",
+    "phrase": "Establecer comandos mixtos (PNP, FF.AA., Fiscalía, SUNAT) en zonas críticas.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Emisión de Decretos de Urgencia para financiar 1,000 patrulleros inteligentes, 10,000 cámaras... y modernización de 200 comisarías.",
-        "paginas": "19"
+        "sustento": "Establecer comandos mixtos (PNP, FF.AA., Fiscalía, SUNAT) en zonas críticas.",
+        "paginas": "41"
       }
     ]
   },
@@ -185,12 +185,12 @@
     "id": 15,
     "topico": "Seguridad ciudadana",
     "subtopico": "15. Programas de Prevención Social (\"Barrio Seguro\" y Jóvenes)",
-    "phrase": "Apoyo la inversión en deporte, empleo y cultura para alejar a los jóvenes de la delincuencia",
+    "phrase": "Implementar un sistema integral de bloqueo de señales móviles en todas las cárceles.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Lanzamiento del 'Programa Nacional de Prevención Temprana'... programas deportivos, culturales y artísticos para niños y adolescentes con factores de riesgo en zonas de alta vulnerabilidad... acompañamiento de tutoría, becas.",
-        "paginas": "15"
+        "sustento": "Implementar un sistema integral de bloqueo de señales móviles en todas las cárceles.",
+        "paginas": "18"
       }
     ]
   },
