@@ -95,6 +95,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                 titulo: "Obras paralizadas, agua potable y transporte: ¿qué plantearon Neuhaus y Guerra García en el debate técnico sobre infraestructura?",
                 imagen: "https://f.rpp-noticias.io/2026/05/24/373237_1870960.jpg?imgdimension=look",
                 party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
+            },
+            {
+                url: "https://rpp.pe/politica/elecciones/fuerza-popular-propone-reactivar-mas-de-2-200-obras-paralizadas-en-el-pais-es-viable-noticia-1689963",
+                titulo: "Fuerza Popular propone reactivar más de 2 200 obras paralizadas en el país: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/05/25/283028_1871017.jpg?imgdimension=look",
+                party: ["FUERZA POPULAR"]
             }
         ],
         "tecnologia": "",
@@ -122,6 +128,18 @@ document.addEventListener('DOMContentLoaded', async () => {
                 titulo: "Juntos por el Perú propone programa 'Mi primera chamba' con bonos para 100 mil jóvenes: ¿es viable?",
                 imagen: "https://f.rpp-noticias.io/2026/05/25/233623_1871019.jpg?imgdimension=look",
                 party: ["JUNTOS POR EL PERU"]
+            },
+            {
+                url: "https://rpp.pe/economia/economia/que-tan-viable-son-las-propuestas-de-juntos-por-el-peru-y-fuerza-popular-en-materia-economica-y-tributaria-noticia-1689959",
+                titulo: "¿Qué tan viables son las propuestas de Juntos por el Perú y Fuerza Popular en materia económica y tributaria?",
+                imagen: "https://f.rpp-noticias.io/2026/05/25/202220_1871002.jpg?imgdimension=look",
+                party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
+            },
+            {
+                url: "https://rpp.pe/economia/economia/fuerza-popular-propone-otorgar-nuevos-incentivos-tributarios-a-empresas-noticia-1689976",
+                titulo: "Fuerza Popular propone otorgar nuevos incentivos tributarios a empresas",
+                imagen: "https://f.rpp-noticias.io/2026/05/25/105210_1871020.jpg?imgdimension=look",
+                party: ["FUERZA POPULAR"]
             }
         ],
         "transporte": [
