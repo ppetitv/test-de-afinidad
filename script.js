@@ -60,6 +60,15 @@ document.addEventListener('DOMContentLoaded', async () => {
                 titulo: "Debate técnico: estas son las propuestas de Fuerza Popular y Juntos por el Perú para el sector agricultura y medio ambiente",
                 imagen: "https://f.rpp-noticias.io/2026/05/24/575657_1870956.jpg?imgdimension=look",
                 party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
+            },
+            {
+                url: "https://rpp.pe/politica/elecciones/fuerza-popular-propone-ejecutar-megaproyectos-de-irrigacion-agraria-que-estan-abandonados-es-viable-noticia-1689979",
+                titulo: "Fuerza Popular propone ejecutar megaproyectos de irrigación agraria 'que están abandonados': ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/05/25/050805_1871022.jpg?imgdimension=look",
+                party: ["FUERZA POPULAR"]
+            },
+            {
+
             }
         ],
         "salud": [
