@@ -23,6 +23,18 @@ document.addEventListener('DOMContentLoaded', async () => {
     let isPdfLoading = false;
     let currentRenderTask = null;
 
+    function convertToSlug(text) {
+        return text
+            .toString()                     // Asegura que sea un string
+            .normalize('NFD')               // Descompone los caracteres acentuados (á -> a + ´)
+            .replace(/[\u0300-\u036f]/g, '') // Elimina los acentos/diacríticos sobrantes
+            .toLowerCase()                  // Convierte todo a minúsculas
+            .trim()                         // Elimina espacios al inicio y al final
+            .replace(/\s+/g, '-')           // Reemplaza uno o más espacios por un guion
+            .replace(/[^\w\-]+/g, '')       // Elimina cualquier carácter que no sea letra, número o guion
+            .replace(/\-\-+/g, '-');        // Reemplaza múltiples guiones seguidos por uno solo
+    }
+
     const VALID_TOPICS = [
         "cultura-y-turismo", "derechos-e-igualdad", "educacion",
         "justicia-y-reformas", "medio-ambiente", "salud",
@@ -908,6 +920,40 @@ document.addEventListener('DOMContentLoaded', async () => {
                 sourcesContent.appendChild(sourceDiv);
             }
         });
+
+        const recommendedGrid = document.querySelector('.sources-recommended-grid');
+        const recommendedContainer = document.querySelector('.sources-recommended');
+        if (recommendedGrid && recommendedContainer) {
+            recommendedGrid.innerHTML = '';
+            const topicId = convertToSlug(proposal.topic);
+            let recommendedItems = [];
+
+            if (TOPIC_NOTES[topicId] && Array.isArray(TOPIC_NOTES[topicId])) {
+                const partiesInProposal = entries.map(([id, source]) => convertToSlug(source.partyName));
+                recommendedItems = TOPIC_NOTES[topicId].filter(note => {
+                    if (!note.party || !Array.isArray(note.party)) return false;
+                    return note.party.some(party => partiesInProposal.includes(convertToSlug(party)));
+                });
+            }
+
+            if (recommendedItems.length > 0) {
+                recommendedContainer.style.display = 'block';
+                recommendedItems.forEach(item => {
+                    const recHtml = `
+                        <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="src-rec-card">
+                            <div class="src-rec-card-content">
+                                <span class="src-rec-category">Elecciones</span>
+                                <h4 class="src-rec-headline">${item.titulo}</h4>
+                            </div>
+                            <img src="${item.imagen}" alt="Imagen noticia" class="src-rec-image">
+                        </a>
+                    `;
+                    recommendedGrid.insertAdjacentHTML('beforeend', recHtml);
+                });
+            } else {
+                recommendedContainer.style.display = 'none';
+            }
+        }
     }
 
     function openSourcesSidebar() {
