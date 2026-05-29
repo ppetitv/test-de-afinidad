@@ -8,7 +8,7 @@
       {
         "partido": "FUERZA POPULAR",
         "sustento": "Crear un Régimen de Incentivos Tributarios para Empresas Verdes que permita deducir hasta el 50% de la inversión en procesos sostenibles.",
-        "paginas": ""
+        "paginas": "77"
       }
     ]
   },
@@ -16,12 +16,12 @@
     "id": 2,
     "topico": "Medio ambiente",
     "subtopico": "2. Renegociación de contratos y mayor carga fiscal (Canon directo)",
-    "phrase": "Estoy a favor de renegociar contratos de ley y asegurar que la renta de recursos naturales beneficie directamente al pueblo",
+    "phrase": "Establecer un Plan Nacional de Gestión de Residuos con enfoque de economía circular, priorizando rellenos sanitarios regionales y eliminando botaderos a cielo abierto.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Implementación del Canon para el Pueblo: hasta el 40% del canon directamente redistribuido a la población de la zona de extracción... Aseguramiento... del respeto a los contratos",
-        "paginas": "41"
+        "sustento": "Establecer un Plan Nacional de Gestión de Residuos con enfoque de economía circular, priorizando rellenos sanitarios regionales y eliminando botaderos a cielo abierto.",
+        "paginas": "77"
       }
     ]
   },
@@ -29,12 +29,12 @@
     "id": 3,
     "topico": "Medio ambiente",
     "subtopico": "3. Formalización de la minería artesanal e informal",
-    "phrase": "Estoy a favor de la formalización real del pequeño minero con apoyo técnico y financiero del Estado",
+    "phrase": "Implementar un Programa Nacional de Cero Deforestación Ilegal mediante el uso de drones y monitoreo satelital en la Amazonía.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Creación de un Fondo de Garantías Estatales para la Minería Artesanal... Creación de un Fondo Nacional de Innovación Minera... régimen diferenciado... con apoyo técnico.",
-        "paginas": "40"
+        "sustento": "Implementar un Programa Nacional de Cero Deforestación Ilegal mediante el uso de drones y monitoreo satelital en la Amazonía.",
+        "paginas": "77"
       }
     ]
   },
@@ -55,12 +55,12 @@
     "id": 5,
     "topico": "Medio ambiente",
     "subtopico": "5. Programa masivo de \"Siembra y Cosecha de Agua\" (Qochas)",
-    "phrase": "Construir qochas y reservorios en zonas altoandinas para garantizar agua todo el año",
+    "phrase": "Establecer un Fondo Verde Amazónico, financiado con cooperación internacional y aportes privados, para proyectos productivos sostenibles.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Fortalecimiento del Programa Nacional de Siembra y Cosecha de Agua, priorizando qochas, reservorios y mini presas en comunidades altoandinas.",
-        "paginas": "52"
+        "sustento": "Establecer un Fondo Verde Amazónico, financiado con cooperación internacional y aportes privados, para proyectos productivos sostenibles.",
+        "paginas": "77"
       }
     ]
   },
@@ -68,12 +68,12 @@
     "id": 6,
     "topico": "Medio ambiente",
     "subtopico": "6. Construcción de grandes represas y proyectos de irrigación",
-    "phrase": "Ejecutar grandes proyectos hidráulicos como Chavimochic, Majes Siguas y Chinecas",
+    "phrase": "Endurecer las sanciones contra la tala ilegal y el tráfico de especies, incluyendo penas efectivas y decomiso de bienes.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Impulso de la construcción de grandes proyectos de represamiento de agua a nivel nacional, tales como Chavimochic III, Majes Siguas II, Poechos II, Olmos, Chinecas, Alto Piura y Puyango-Tumbes.",
-        "paginas": "52"
+        "sustento": "Endurecer las sanciones contra la tala ilegal y el tráfico de especies, incluyendo penas efectivas y decomiso de bienes.",
+        "paginas": "77"
       }
     ]
   },
@@ -107,12 +107,12 @@
     "id": 9,
     "topico": "Medio ambiente",
     "subtopico": "9. Transición a Energías Renovables (Matriz solar/eólica)",
-    "phrase": "Cambiar la matriz energética hacia fuentes limpias como el sol y el viento",
+    "phrase": "Impulsar la participación de Perú en los mercados internacionales de bonos verdes y de carbono para generar nuevas fuentes de financiamiento.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Aumentar al 20% la participación de energías renovables no convencionales (solar, eólica, geotérmica, biomasa e hidrógeno verde) en la matriz eléctrica nacional.",
-        "paginas": "43"
+        "sustento": "Impulsar la participación de Perú en los mercados internacionales de bonos verdes y de carbono para generar nuevas fuentes de financiamiento.",
+        "paginas": "77"
       }
     ]
   },
@@ -120,11 +120,11 @@
     "id": 10,
     "topico": "Medio ambiente",
     "subtopico": "10. Lucha contra la Tala Ilegal y Deforestación",
-    "phrase": "Usar tecnología (drones y satélites) para erradicar la tala ilegal en la Amazonía",
+    "phrase": "Crear un Registro Nacional de Pasivos Ambientales público y actualizado para priorizar las remediaciones sectoriales.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Implementación de un Programa Nacional de Cero Deforestación Ilegal, con drones y monitoreo satelital en la Amazonía.",
+        "sustento": "Crear un Registro Nacional de Pasivos Ambientales público y actualizado para priorizar las remediaciones sectoriales.",
         "paginas": "77"
       }
     ]
@@ -133,56 +133,17 @@
     "id": 11,
     "topico": "Medio ambiente",
     "subtopico": "11. Electromobilidad y Transporte Público Limpio",
-    "phrase": "Incentivar el uso de vehículos eléctricos para reducir la contaminación en las ciudades",
+    "phrase": "Ejecutar operativos conjuntos (MINAM–PNP–SUNAT) en puntos críticos de tráfico de madera y fauna en Ucayali, Madre de Dios y Loreto.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Promoción del uso de flotas bajas en emisiones (camiones eléctricos y a GNL) con beneficios tributarios temporales.",
-        "paginas": "65"
+        "sustento": "Ejecutar operativos conjuntos (MINAM–PNP–SUNAT) en puntos críticos de tráfico de madera y fauna en Ucayali, Madre de Dios y Loreto.",
+        "paginas": "78"
       }
     ]
   },
   {
     "id": 12,
-    "topico": "Medio ambiente",
-    "subtopico": "12. Economía Circular e Industrialización de la Basura",
-    "phrase": "Los residuos se deben transformar en recursos mediante plantas de reciclaje industrial",
-    "matches": [
-      {
-        "partido": "FUERZA POPULAR",
-        "sustento": "Creación de plantas de tratamiento y valorización energética de residuos sólidos urbanos mediante APP, priorizando ciudades con más de 200,000 habitantes... Régimen de Incentivos... para Empresas Verdes.",
-        "paginas": "77"
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "topico": "Medio ambiente",
-    "subtopico": "13. Ley de Protección y Bienestar Animal",
-    "phrase": "Se debe crear hospitales veterinarios públicos y sancionar con cárcel el maltrato animal",
-    "matches": [
-      {
-        "partido": "FUERZA POPULAR",
-        "sustento": "\"Creación del 'Registro Nacional contra el Maltrato Animal'... impida que el responsable pueda adoptar... Consolidación de una 'Red Nacional Juvenil de Albergues'.\"",
-        "paginas": "28"
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "topico": "Medio ambiente",
-    "subtopico": "14. Nuevas Áreas Naturales Protegidas y Zonificación Ecológica",
-    "phrase": "Se deben ampliar las áreas protegidas y hacer que la zonificación ecológica sea obligatoria",
-    "matches": [
-      {
-        "partido": "FUERZA POPULAR",
-        "sustento": "Impulso de normativa para proteger la biodiversidad, así como la creación de Brigadas de Protección del medioambiente conformadas por líderes locales.",
-        "paginas": "77"
-      }
-    ]
-  },
-  {
-    "id": 15,
     "topico": "Medio ambiente",
     "subtopico": "15. Consulta Previa vinculante para proyectos extractivos",
     "phrase": "Otorgar carácter vinculante a la Zonificación Ecológica y Económica (ZEE) para asegurar la protección ambiental.",
@@ -195,7 +156,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 13,
     "topico": "Medio ambiente",
     "subtopico": "16. Combatir la extracción indiscriminada de recursos naturales y la degradación ambiental en zonas vulnerables",
     "phrase": "Combatir la extracción indiscriminada de recursos naturales y la degradación ambiental en zonas vulnerables",
@@ -208,7 +169,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 14,
     "topico": "Medio ambiente",
     "subtopico": "17. Defensa de los Páramos y Humedales",
     "phrase": "Restablecer las condiciones de intangibilidad de glaciares, lagunas y cuerpos de agua",
@@ -221,7 +182,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 15,
     "topico": "Medio ambiente",
     "subtopico": "18. Reforzar las acciones de protección de bosques y agua mediante consensos con los países vecinos del continente",
     "phrase": "Reforzar las acciones de protección de bosques y agua mediante consensos con los países vecinos del continente",
@@ -234,7 +195,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 16,
     "topico": "Medio ambiente",
     "subtopico": "19. Transformar la matriz energética nacional hacia fuentes renovables como la solar, eólica e hidroeléctricas pequeñas",
     "phrase": "Transformar la matriz energética nacional hacia fuentes renovables como la solar, eólica e hidroeléctricas pequeñas",
@@ -247,7 +208,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 17,
     "topico": "Medio ambiente",
     "subtopico": "20. Transformar la matriz energética nacional hacia fuentes renovables como la solar, eólica e hidroeléctricas pequeñas",
     "phrase": "Transformar la matriz energética nacional hacia fuentes renovables como la solar, eólica e hidroeléctricas pequeñas.",
@@ -260,7 +221,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 18,
     "topico": "Medio ambiente",
     "subtopico": "21. Cumplir los compromisos nacionales de mitigación y adaptación asumidos en el Marco de la Convención de las Naciones Unidas sobre el Cambio Climático",
     "phrase": "Cumplir los compromisos nacionales de mitigación y adaptación asumidos en el Marco de la Convención de las Naciones Unidas sobre el Cambio Climático.",
