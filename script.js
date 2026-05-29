@@ -68,7 +68,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                 party: ["FUERZA POPULAR"]
             },
             {
-
+                url: "https://rpp.pe/politica/elecciones/juntos-por-el-peru-propone-derogar-la-ley-antiforestal-en-un-eventual-gobierno-es-viable-noticia-1689980",
+                titulo: "Juntos por el Perú propone derogar la ley antiforestal en un eventual gobierno: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/05/25/571157_1871039.jpg?imgdimension=look",
+                party: ["JUNTOS POR EL PERU"]
             }
         ],
         "salud": [
