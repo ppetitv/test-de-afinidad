@@ -68,11 +68,11 @@
     "id": 6,
     "topico": "Derechos e igualdad",
     "subtopico": "6. Defender la vida desde la concepción",
-    "phrase": "Se debe proteger el derecho a la vida de manera absoluta desde el momento de la concepción",
+    "phrase": "Garantizar la igualdad ante la ley y rechazar todo tipo de discriminación, incluyendo manifestaciones por origen, religión, política, orientación sexual, discapacidad o contra cualquier minoría.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Protegemos decididamente el derecho a la vida desde su concepción.",
+        "sustento": "Garantizar la igualdad ante la ley y rechazar todo tipo de discriminación, incluyendo manifestaciones por origen, religión, política, orientación sexual, discapacidad o contra cualquier minoría.",
         "paginas": "10"
       }
     ]
@@ -94,12 +94,12 @@
     "id": 8,
     "topico": "Derechos e igualdad",
     "subtopico": "8. Creación de un Ministerio de la Familia (o Fortalecimiento)",
-    "phrase": "Se debe priorizar a la familia como núcleo central de las políticas sociales",
+    "phrase": "Garantizar el derecho a la propiedad mediante la titulación masiva y digital de viviendas en zonas urbanas y periurbanas.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Defendemos el interés superior de los niños y los adolescentes así como a la familia que es la célula fundamental de la sociedad.",
-        "paginas": "10"
+        "sustento": "Garantizar el derecho a la propiedad mediante la titulación masiva y digital de viviendas en zonas urbanas y periurbanas.",
+        "paginas": "110"
       }
     ]
   },
@@ -107,12 +107,12 @@
     "id": 9,
     "topico": "Derechos e igualdad",
     "subtopico": "9. Libertad Religiosa y de Culto como Eje de Gobierno",
-    "phrase": "El Estado debe garantizar y respetar activamente la libertad religiosa de los ciudadanos",
+    "phrase": "Diseñar un Plan de Integración Educativa para poblaciones vulnerables, tales como pueblos indígenas, afrodescendientes y personas con discapacidad, asegurando docentes bilingües e infraestructura adaptada.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Rechazo de todo tipo de discriminación. Esto incluye sus manifestaciones más lesivas como las de origen religión política.",
-        "paginas": "10"
+        "sustento": "Diseñar un Plan de Integración Educativa para poblaciones vulnerables, tales como pueblos indígenas, afrodescendientes y personas con discapacidad, asegurando docentes bilingües e infraestructura adaptada.",
+        "paginas": "92"
       }
     ]
   },
@@ -120,12 +120,12 @@
     "id": 10,
     "topico": "Derechos e igualdad",
     "subtopico": "10. Sistema Nacional de Cuidados (Guarderías y Cuidado de Ancianos)",
-    "phrase": "Se debe crear un sistema estatal que asuma el cuidado de niños y personas dependientes",
+    "phrase": "Garantizar atención gratuita, oportuna e integral para el cáncer, priorizando a las poblaciones más vulnerables y de menores recursos.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Creación del Sistema Nacional de Cuidados como política de Estado para atender integralmente a adultos mayores personas con discapacidad niños.",
-        "paginas": "98"
+        "sustento": "Garantizar atención gratuita, oportuna e integral para el cáncer, priorizando a las poblaciones más vulnerables y de menores recursos.",
+        "paginas": "100"
       }
     ]
   },
@@ -146,12 +146,12 @@
     "id": 12,
     "topico": "Derechos e igualdad",
     "subtopico": "12. Pensión o Programas para la Mujer Rural",
-    "phrase": "Se deben crear programas específicos de apoyo económico para mujeres agricultoras y rurales",
+    "phrase": "Implementar una pensión universal como piso mínimo de protección para todos los adultos mayores, especialmente para quienes trabajaron en la informalidad.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Implementación de un Sistema de Crédito para Mujeres Emprendedoras con asistencia técnica y programas de incubación.",
-        "paginas": "34"
+        "sustento": "Implementar una pensión universal como piso mínimo de protección para todos los adultos mayores, especialmente para quienes trabajaron en la informalidad.",
+        "paginas": "117"
       }
     ]
   },
@@ -159,12 +159,12 @@
     "id": 13,
     "topico": "Derechos e igualdad",
     "subtopico": "13. Lucha contra la Anemia y Desnutrición Infantil",
-    "phrase": "El Estado debe priorizar la eliminación de la anemia y desnutrición infantil como meta nacional absoluta",
+    "phrase": "Equiparar los derechos de los peruanos mediante programas sociales y una justa redistribución de las riquezas.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Lanzamiento de un Programa Nacional de Prevención de la Anemia y la Desnutrición Infantil en el marco de la salud universal desde la primera infancia.",
-        "paginas": "98"
+        "sustento": "Equiparar los derechos de los peruanos mediante programas sociales y una justa redistribución de las riquezas.",
+        "paginas": "10"
       }
     ]
   },
@@ -185,12 +185,12 @@
     "id": 15,
     "topico": "Derechos e igualdad",
     "subtopico": "15. Juventudes: Becas y Primer Empleo",
-    "phrase": "El Estado debe garantizar el acceso de los jóvenes al mercado laboral y a la educación superior mediante becas y subsidios",
+    "phrase": "Otorgar capital semilla y créditos productivos preferenciales a mujeres emprendedoras para impulsar su empleabilidad y formalización.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Otorgamiento de un crédito tributario del 50% del monto pagado a practicantes preprofesionales y profesionales.",
-        "paginas": "35"
+        "sustento": "Otorgar capital semilla y créditos productivos preferenciales a mujeres emprendedoras para impulsar su empleabilidad y formalización.",
+        "paginas": "122"
       }
     ]
   },
@@ -198,11 +198,11 @@
     "id": 16,
     "topico": "Derechos e igualdad",
     "subtopico": "16. Acceso Universal a Servicios Básicos",
-    "phrase": "Asegurar la igualdad de oportunidades y el acceso universal a servicios básicos de calidad (educación, salud, vivienda, agua y saneamiento) como eje prioritario de la política social",
+    "phrase": "Crear el Sistema Nacional de Cuidados para atender de manera integral a adultos mayores, personas con discapacidad y personas en situación de dependencia.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Asegurar la igualdad de oportunidades y el acceso universal a servicios básicos de calidad (educación, salud, vivienda, agua y saneamiento) como eje prioritario de la política social",
+        "sustento": "Crear el Sistema Nacional de Cuidados para atender de manera integral a adultos mayores, personas con discapacidad y personas en situación de dependencia.",
         "paginas": "2"
       }
     ]
