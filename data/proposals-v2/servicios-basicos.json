@@ -3,12 +3,12 @@
     "id": 1,
     "topico": "Servicios básicos",
     "subtopico": "1. Cierre de brechas: Agua y Saneamiento al 100%",
-    "phrase": "Apoyo priorizar la inversión pública para lograr el 100% de cobertura de agua y desagüe a nivel nacional",
+    "phrase": "Reducir la brecha de cobertura de agua potable continua y alcantarillado, con especial énfasis en las áreas rurales y amazónicas.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Dentro del Pilar Estratégico Social (Sección 3.6), establece la meta: \"Alcanzar 100% de cobertura nacional de agua potable y alcantarillado\".",
-        "paginas": "116"
+        "sustento": "Reducir la brecha de cobertura de agua potable continua y alcantarillado, con especial énfasis en las áreas rurales y amazónicas.",
+        "paginas": "114"
       }
     ]
   },
@@ -16,12 +16,12 @@
     "id": 2,
     "topico": "Servicios básicos",
     "subtopico": "2. Privatización o Concesión de la gestión del agua (EPS/SEDAPAL)",
-    "phrase": "Involucrar al sector privado en la administración de las empresas de agua para mejorar su eficiencia",
+    "phrase": "Asegurar la continuidad mínima de agua las 24 horas del día en capitales regionales y al menos 18 horas en provincias para el año 2028.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "En la sección 3.6.2, propone el \"Fomento de Asociaciones Público-Privadas (APP) y Obras por Impuestos (OxI) para financiar proyectos estratégicos de agua y saneamiento\".",
-        "paginas": "115"
+        "sustento": "Asegurar la continuidad mínima de agua las 24 horas del día en capitales regionales y al menos 18 horas en provincias para el año 2028.",
+        "paginas": "120"
       }
     ]
   },
@@ -42,12 +42,12 @@
     "id": 4,
     "topico": "Servicios básicos",
     "subtopico": "4. Sistemas no convencionales: Atrapanieblas y Camiones Cisterna",
-    "phrase": "Apoyo garantizar el agua en los asentamientos humanos con sistemas no convencionales (como atrapanieblas y cisternas).",
+    "phrase": "Fomentar la inversión privada en proyectos estratégicos de saneamiento mediante Asociaciones Público-Privadas (APP) y Obras por Impuestos (OxI).",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Implementación del “Programa Nacional de Agua que Cuida la Vida”: distribución con 500 cisternas y plantas móviles de potabilización para 2 millones de personas en situación crítica.",
-        "paginas": "114"
+        "sustento": "Fomentar la inversión privada en proyectos estratégicos de saneamiento mediante Asociaciones Público-Privadas (APP) y Obras por Impuestos (OxI).",
+        "paginas": "40"
       }
     ]
   },
@@ -55,12 +55,12 @@
     "id": 5,
     "topico": "Servicios básicos",
     "subtopico": "5. Titulación Masiva de Predios (COFOPRI)",
-    "phrase": "Apoyo la entrega masiva de títulos de propiedad para formalizar viviendas en sectores populares",
+    "phrase": "Reformar el modelo de gestión de las Entidades Prestadoras de Servicios de Saneamiento (EPS), promoviendo su sostenibilidad financiera y profesionalización.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Implementación del programa “Mi Título, Mi Hogar Seguro”... Emitir 1 millón de títulos de propiedad digitales, fortaleciendo COFOPRI e integrando catastros...",
-        "paginas": "110"
+        "sustento": "Reformar el modelo de gestión de las Entidades Prestadoras de Servicios de Saneamiento (EPS), promoviendo su sostenibilidad financiera y profesionalización.",
+        "paginas": "115"
       }
     ]
   },
@@ -68,12 +68,12 @@
     "id": 6,
     "topico": "Servicios básicos",
     "subtopico": "6. Construcción masiva de Viviendas de Interés Social",
-    "phrase": "El Estado debe financiar y construir masivamente viviendas de bajo costo para familias pobres",
+    "phrase": "Reducir la brecha de hogares sin electricidad para el 2030 mediante programas de electrificación masiva y soluciones autónomas como paneles solares.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Construcción de 1.25 millones de viviendas y departamentos nuevos a nivel nacional... a través de mecanismos de inversión pública, privada y APP.",
-        "paginas": "109"
+        "sustento": "Reducir la brecha de hogares sin electricidad para el 2030 mediante programas de electrificación masiva y soluciones autónomas como paneles solares.",
+        "paginas": "46"
       }
     ]
   },
@@ -81,12 +81,12 @@
     "id": 7,
     "topico": "Servicios básicos",
     "subtopico": "7. Programa de Vivienda para Jóvenes",
-    "phrase": "Crear bonos de alquiler o programas de acceso a vivienda específicos para jóvenes que buscan independencia",
+    "phrase": "Implementar un Plan de Cobertura Universal de Internet Satelital y Móvil, priorizando comunidades amazónicas y altoandinas.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Fortalecimiento del Bono de Alquiler y Compra de Vivienda para Jóvenes, y promoción de incentivos para el desarrollo del mercado formal de alquiler... especialmente dirigido a jóvenes y trabajadores en etapa de independencia.",
-        "paginas": "109"
+        "sustento": "Implementar un Plan de Cobertura Universal de Internet Satelital y Móvil, priorizando comunidades amazónicas y altoandinas.",
+        "paginas": "65"
       }
     ]
   },
@@ -94,12 +94,12 @@
     "id": 8,
     "topico": "Servicios básicos",
     "subtopico": "8. Reubicación de familias en zonas de riesgo",
-    "phrase": "Trasladar obligatoriamente a familias que viven en zonas de alto riesgo (quebradas) hacia zonas seguras",
+    "phrase": "Rediseñar la gestión de la Red Dorsal Nacional de Fibra Óptica a través de una concesión supervisada que asegure su uso efectivo.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Reubicación de familias en zonas de alto riesgo no mitigable, priorizando proyectos integrales con servicios básicos garantizados.",
-        "paginas": "110"
+        "sustento": "Rediseñar la gestión de la Red Dorsal Nacional de Fibra Óptica a través de una concesión supervisada que asegure su uso efectivo.",
+        "paginas": "64"
       }
     ]
   },
@@ -107,38 +107,12 @@
     "id": 9,
     "topico": "Servicios básicos",
     "subtopico": "9. Masificación del Gas Natural a domicilio",
-    "phrase": "Acelerar la construcción de gasoductos para que el gas natural llegue directamente a todas las cocinas del Perú",
+    "phrase": "Garantizar servicios básicos y conectividad funcional en todos los locales escolares públicos priorizados.",
     "matches": [
       {
         "partido": "FUERZA POPULAR",
-        "sustento": "Promoción del Gasoducto Sur Andino... Reducción de la brecha energética promoviendo infraestructura de almacenamiento, distribución y acceso a precios competitivos.",
-        "paginas": "47"
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "topico": "Servicios básicos",
-    "subtopico": "10. Subsidio a la Tarifa Eléctrica para los más pobres",
-    "phrase": "Aplicar tarifas sociales o bonos para que las familias de menores ingresos paguen menos por la luz",
-    "matches": [
-      {
-        "partido": "FUERZA POPULAR",
-        "sustento": "Aplicación de tarifas sociales reducidas en agua y electricidad... para adultos mayores en situación de vulnerabilidad... a fin de garantizar permanencia, habitabilidad y acceso a servicios esenciales.",
-        "paginas": "110"
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "topico": "Servicios básicos",
-    "subtopico": "11. Electrificación Rural al 100%",
-    "phrase": "El Estado debe garantizar electricidad en el 100% de zonas rurales, usando paneles solares en las comunidades más alejadas",
-    "matches": [
-      {
-        "partido": "FUERZA POPULAR",
-        "sustento": "Alcanzar el 100% de cobertura eléctrica nacional, priorizando zonas rurales y amazónicas... Expansión de la electrificación rural con energías renovables... soluciones autónomas (paneles solares).",
-        "paginas": "48"
+        "sustento": "Garantizar servicios básicos y conectividad funcional en todos los locales escolares públicos priorizados.",
+        "paginas": "88"
       }
     ]
   },
@@ -152,45 +126,6 @@
         "partido": "JUNTOS POR EL PERU",
         "sustento": "Fortalecer el vínculo entre la gestión de los recursos hídricos y los servicios de suministro de agua y saneamiento, mejorando el rol de la Autoridad Nacional del Agua. ",
         "paginas": "46"
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "topico": "Servicios básicos",
-    "subtopico": "13. Red Dorsal y WiFi gratuito en Plazas/Escuelas",
-    "phrase": "Proveer internet gratuito en todas las plazas públicas y colegios estatales del país",
-    "matches": [
-      {
-        "partido": "FUERZA POPULAR",
-        "sustento": "Rediseño de la gestión de la Red Dorsal Nacional de Fibra Óptica... Alcanzar 90% de cobertura de internet en todos los distritos... Implementación de proyectos de conectividad integral... para el 100% de escuelas rurales.",
-        "paginas": "64"
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "topico": "Servicios básicos",
-    "subtopico": "14. Bono de Conectividad y Dispositivos (Tablets/Laptops)",
-    "phrase": "Entregar tablets o laptops con datos gratuitos a estudiantes de bajos recursos para cerrar la brecha digital",
-    "matches": [
-      {
-        "partido": "FUERZA POPULAR",
-        "sustento": "Adquisición de 6 millones de laptops o tablets con conexión a internet para niños en edad escolar",
-        "paginas": "91"
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "topico": "Servicios básicos",
-    "subtopico": "15. Internet Satelital masivo para Fronteras y Selva",
-    "phrase": "Contratar internet satelital de alta velocidad para conectar las comunidades más remotas de la selva y zonas de frontera",
-    "matches": [
-      {
-        "partido": "FUERZA POPULAR",
-        "sustento": "Implementación de un Plan de Cobertura Universal de Internet Satelital y Móvil, especialmente para comunidades amazónicas... Satélite de Comunicaciones Menores.",
-        "paginas": "65"
       }
     ]
   },
