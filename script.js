@@ -52,7 +52,14 @@ document.addEventListener('DOMContentLoaded', async () => {
                 party: ["FUERZA POPULAR", "PODEMOS PERU"]
             }
         ],
-        "educacion": "",
+        "educacion": [
+            {
+                url: "https://rpp.pe/politica/elecciones/debate-presidencial-las-estrategias-de-keiko-fujimori-y-roberto-sanchez-en-materia-de-educacion-y-salud-noticia-1690919",
+                titulo: "Debate presidencial: las estrategias de Keiko Fujimori y Roberto Sánchez en materia de educación y salud",
+                imagen: "https://f.rpp-noticias.io/2026/05/31/portada_2048948.jpg?imgdimension=n_medium",
+                party: ["FUERZA POPULAR", "PODEMOS PERU"]
+            }
+        ],
         "justicia-y-reformas": [
             {
                 url: "https://rpp.pe/politica/elecciones/debate-tecnico-2026-propuestas-de-sinesio-lopez-y-vladimiro-huaroc-sobre-reforma-del-estado-noticia-1689934",
@@ -75,6 +82,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         ],
         "medio-ambiente": [
             {
+                url: "https://rpp.pe/politica/elecciones/roberto-sanchez-en-los-ultimos-15-anos-el-estado-ha-fracasado-en-el-proceso-de-formalizacion-de-la-pequena-mineria-noticia-1690939",
+                titulo: "Roberto Sánchez: En los últimos 15 años, el Estado 'ha fracasado' en el proceso de formalización de la pequeña minería",
+                imagen: "https://f.rpp-noticias.io/2026/05/31/2-2026-05-31-23-07-58-18142-1873234mp4_1873235.jpg?imgdimension=n_medium",
+                party: ["JUNTOS POR EL PERU"]
+            },
+            {
                 url: "https://rpp.pe/politica/elecciones/debate-tecnico-estas-son-las-propuestas-de-fuerza-popular-y-juntos-por-el-peru-para-el-sector-agricultura-y-medio-ambiente-noticia-1689923",
                 titulo: "Debate técnico: estas son las propuestas de Fuerza Popular y Juntos por el Perú para el sector agricultura y medio ambiente",
                 imagen: "https://f.rpp-noticias.io/2026/05/24/575657_1870956.jpg?imgdimension=look",
@@ -94,6 +107,12 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         ],
         "salud": [
+            {
+                url: "https://rpp.pe/politica/elecciones/debate-presidencial-las-estrategias-de-keiko-fujimori-y-roberto-sanchez-en-materia-de-educacion-y-salud-noticia-1690919",
+                titulo: "Debate presidencial: las estrategias de Keiko Fujimori y Roberto Sánchez en materia de educación y salud",
+                imagen: "https://f.rpp-noticias.io/2026/05/31/portada_2048948.jpg?imgdimension=n_medium",
+                party: ["FUERZA POPULAR", "PODEMOS PERU"]
+            },
             {
                 url: "https://rpp.pe/politica/elecciones/debate-tecnico-conoce-las-propuestas-de-fuerza-popular-y-juntos-por-el-peru-para-impulsar-el-deporte-noticia-1689937",
                 titulo: "Debate técnico: ¿cuáles son las propuestas de Fuerza Popular y Juntos por el Perú para la juventud y el deporte?",
@@ -119,7 +138,14 @@ document.addEventListener('DOMContentLoaded', async () => {
                 party: ["JUNTOS POR EL PERU"]
             }
         ],
-        "seguridad-ciudadana": "",
+        "seguridad-ciudadana": [
+            {
+                url: "https://rpp.pe/politica/elecciones/debate-presidencial-propuestas-de-keiko-fujimori-y-roberto-sanchez-para-enfrentar-a-la-criminalidad-noticia-1690934",
+                titulo: "Debate presidencial: ¿Cuáles fueron las propuestas de Keiko Fujimori y Roberto Sánchez para la lucha contra la criminalidad?",
+                imagen: "https://f.rpp-noticias.io/2026/05/31/241624_1873225.jpg?imgdimension=n_medium",
+                party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
+            }
+        ],
         "servicios-basicos": [
             {
                 url: "https://rpp.pe/politica/elecciones/debate-tecnico-2026-propuestas-de-infraestructura-de-neuhaus-y-guerra-garcia-noticia-1689938",
@@ -136,6 +162,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         ],
         "tecnologia": "",
         "trabajo-y-economia": [
+            {
+                url: "https://rpp.pe/politica/elecciones/propuestas-economicas-de-keiko-fujimori-y-roberto-sanchez-en-el-debate-2026-noticia-1690938",
+                titulo: "Debate presidencial: ¿qué plantearon Keiko Fujimori y Roberto Sánchez en el bloque sobre economía y reducción de la pobreza?",
+                imagen: "https://f.rpp-noticias.io/2026/05/31/485348_1873233.jpg?imgdimension=n_medium",
+                party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
+            },
             {
                 url: "https://rpp.pe/politica/elecciones/debate-tecnico-fuerza-popular-y-juntos-por-el-peru-presentaron-sus-propuestas-en-materia-de-economia-y-generacion-de-empleo-noticia-1689924",
                 titulo: "Debate técnico: las estrategias de Juntos por el Perú y Fuerza Popular para impulsar el crecimiento económico y la generación de empleo",
