@@ -43,7 +43,20 @@ document.addEventListener('DOMContentLoaded', async () => {
     ];
 
     const TOPIC_NOTES = {
-        "cultura-y-turismo": "",
+        "cultura-y-turismo": [
+            {
+                url: "https://rpp.pe/economia/economia/juntos-por-el-peru-propone-pavimentar-y-mejorar-50-000-km-de-caminos-rurales-es-viable-noticia-1689966",
+                titulo: "Juntos por el Perú propone pavimentar y mejorar 50 000 km de caminos rurales: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/05/25/552155_1871001.jpg?imgdimension=look",
+                party: ["JUNTOS POR EL PERU"]
+            },
+            {
+                url: "https://rpp.pe/politica/elecciones/keiko-fujimori-plantea-tributacion-cero-para-formalizar-empresas-es-viable-noticia-1690960",
+                titulo: "Keiko Fujimori plantea tributación cero para formalizar empresas: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/06/01/535553_1873265.jpg?imgdimension=n_medium",
+                party: ["FUERZA POPULAR"]
+            }
+        ],
         "derechos-e-igualdad": [
             {
                 url: "https://rpp.pe/politica/elecciones/roberto-sanchez-propone-mayor-presencia-del-peru-ante-el-sistema-internacional-de-derechos-humanos-es-viable-noticia-1690970",
@@ -64,6 +77,18 @@ document.addEventListener('DOMContentLoaded', async () => {
                 titulo: "Debate presidencial: las estrategias de Keiko Fujimori y Roberto Sánchez en materia de educación y salud",
                 imagen: "https://f.rpp-noticias.io/2026/05/31/portada_2048948.jpg?imgdimension=n_medium",
                 party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
+            },
+            {
+                url: "https://rpp.pe/politica/elecciones/debate-tecnico-conoce-las-propuestas-de-fuerza-popular-y-juntos-por-el-peru-para-impulsar-el-deporte-noticia-1689937",
+                titulo: "Debate técnico: ¿cuáles son las propuestas de Fuerza Popular y Juntos por el Perú para la juventud y el deporte?",
+                imagen: "https://f.rpp-noticias.io/2026/05/24/465946_1870957.jpg?imgdimension=look",
+                party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
+            },
+            {
+                url: "https://rpp.pe/politica/elecciones/juntos-por-el-peru-propone-programa-mi-primera-chamba-con-bonos-para-100-mil-jovenes-es-viable-noticia-1689975",
+                titulo: "Juntos por el Perú propone programa 'Mi primera chamba' con bonos para 100 mil jóvenes: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/05/25/233623_1871019.jpg?imgdimension=look",
+                party: ["JUNTOS POR EL PERU"]
             }
         ],
         "justicia-y-reformas": [
@@ -113,6 +138,12 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         ],
         "salud": [
+            {
+                url: "https://rpp.pe/politica/elecciones/roberto-sanchez-propone-implementar-500-policlinicos-y-duplicar-centros-de-salud-mental-comunitaria-es-viable-noticia-1690964",
+                titulo: "Roberto Sánchez propone implementar 500 policlínicos y duplicar centros de salud mental comunitaria: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/06/01/280828_1873269.jpg?imgdimension=n_medium",
+                party: ["JUNTOS POR EL PERU"]
+            },
             {
                 url: "https://rpp.pe/politica/elecciones/keiko-fujimori-plantea-reforzar-la-telemedicina-para-reducir-tiempos-de-espera-en-salud-es-viable-noticia-1690962",
                 titulo: "Keiko Fujimori plantea reforzar la telemedicina para reducir tiempos de espera en salud: ¿es viable?",
@@ -184,8 +215,33 @@ document.addEventListener('DOMContentLoaded', async () => {
                 party: ["FUERZA POPULAR"]
             }
         ],
-        "tecnologia": "",
+        "tecnologia": [
+            {
+                url: "https://rpp.pe/politica/elecciones/keiko-fujimori-plantea-reforzar-la-telemedicina-para-reducir-tiempos-de-espera-en-salud-es-viable-noticia-1690962",
+                titulo: "Keiko Fujimori plantea reforzar la telemedicina para reducir tiempos de espera en salud: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/06/01/080308_1873267.jpg?imgdimension=n_medium",
+                party: ["FUERZA POPULAR"]
+            },
+            {
+                url: "https://rpp.pe/politica/elecciones/fuerza-popular-propone-fortalecer-la-telemedicina-con-brigadas-de-salud-para-combatir-la-anemia-en-regiones-es-viable-noticia-1689964",
+                titulo: "Fuerza Popular propone fortalecer la telemedicina con “brigadas de salud” para combatir la anemia en regiones: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/05/25/240624_1870996.jpg?imgdimension=look",
+                party: ["FUERZA POPULAR"]
+            }
+        ],
         "trabajo-y-economia": [
+            {
+                url: "https://rpp.pe/politica/elecciones/roberto-sanchez-en-los-ultimos-15-anos-el-estado-ha-fracasado-en-el-proceso-de-formalizacion-de-la-pequena-mineria-noticia-1690939",
+                titulo: "Roberto Sánchez: En los últimos 15 años, el Estado 'ha fracasado' en el proceso de formalización de la pequeña minería",
+                imagen: "https://f.rpp-noticias.io/2026/05/31/2-2026-05-31-23-07-58-18142-1873234mp4_1873235.jpg?imgdimension=n_medium",
+                party: ["JUNTOS POR EL PERU"]
+            },
+            {
+                url: "https://rpp.pe/politica/elecciones/roberto-sanchez-plantea-reforzar-el-programa-juntos-en-zonas-urbanas-es-viable-noticia-1690969",
+                titulo: "Roberto Sánchez plantea reforzar el programa 'Juntos' en zonas urbanas: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/06/01/082608_1873277.jpg?imgdimension=n_medium",
+                party: ["JUNTOS POR EL PERU"]
+            },
             {
                 url: "https://rpp.pe/politica/elecciones/keiko-fujimori-plantea-tributacion-cero-para-formalizar-empresas-es-viable-noticia-1690960",
                 titulo: "Keiko Fujimori plantea tributación cero para formalizar empresas: ¿es viable?",
@@ -202,6 +258,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                 url: "https://rpp.pe/politica/elecciones/debate-tecnico-fuerza-popular-y-juntos-por-el-peru-presentaron-sus-propuestas-en-materia-de-economia-y-generacion-de-empleo-noticia-1689924",
                 titulo: "Debate técnico: las estrategias de Juntos por el Perú y Fuerza Popular para impulsar el crecimiento económico y la generación de empleo",
                 imagen: "https://f.rpp-noticias.io/2026/05/24/031103_1870961.jpg?imgdimension=look",
+                party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
+            },
+            {
+                url: "https://rpp.pe/politica/elecciones/debate-tecnico-estas-son-las-propuestas-de-fuerza-popular-y-juntos-por-el-peru-para-el-sector-agricultura-y-medio-ambiente-noticia-1689923",
+                titulo: "Debate técnico: estas son las propuestas de Fuerza Popular y Juntos por el Perú para el sector agricultura y medio ambiente",
+                imagen: "https://f.rpp-noticias.io/2026/05/24/575657_1870956.jpg?imgdimension=look",
                 party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
             },
             {
@@ -237,6 +299,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         ],
         "transporte": [
             {
+                url: "https://rpp.pe/politica/elecciones/keiko-fujimori-plantea-que-policias-y-militares-resguarden-buses-en-areas-metropolitanas-es-viable-noticia-1690959",
+                titulo: "Keiko Fujimori plantea que policías y militares resguarden buses en áreas metropolitanas: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/06/01/375337_1873261.jpg?imgdimension=n_medium",
+                party: ["FUERZA POPULAR"]
+            },
+            {
                 url: "https://rpp.pe/politica/elecciones/debate-tecnico-2026-propuestas-de-infraestructura-de-neuhaus-y-guerra-garcia-noticia-1689938",
                 titulo: "Obras paralizadas, agua potable y transporte: ¿qué plantearon Neuhaus y Guerra García en el debate técnico sobre infraestructura?",
                 imagen: "https://f.rpp-noticias.io/2026/05/24/373237_1870960.jpg?imgdimension=look",
@@ -255,6 +323,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                 titulo: "Obras paralizadas, agua potable y transporte: ¿qué plantearon Neuhaus y Guerra García en el debate técnico sobre infraestructura?",
                 imagen: "https://f.rpp-noticias.io/2026/05/24/373237_1870960.jpg?imgdimension=look",
                 party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
+            },
+            {
+                url: "https://rpp.pe/politica/elecciones/fuerza-popular-propone-reactivar-mas-de-2-200-obras-paralizadas-en-el-pais-es-viable-noticia-1689963",
+                titulo: "Fuerza Popular propone reactivar más de 2 200 obras paralizadas en el país: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/05/25/283028_1871017.jpg?imgdimension=look",
+                party: ["FUERZA POPULAR"]
             }
         ]
     }
