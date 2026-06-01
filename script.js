@@ -44,7 +44,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     const TOPIC_NOTES = {
         "cultura-y-turismo": "",
-        "derechos-e-igualdad": "",
+        "derechos-e-igualdad": [
+            {
+                url: "https://rpp.pe/politica/elecciones/debate-presidencial-2026-keiko-fujimori-y-roberto-sanchez-chocan-por-derechos-humanos-y-gestion-del-estado-noticia-1690935",
+                titulo: "Estado democrático y DD.HH.: así fue el debate entre Keiko Fujimori y Roberto Sánchez",
+                imagen: "https://f.rpp-noticias.io/2026/05/31/043304_1873226.jpg?imgdimension=n_medium",
+                party: ["FUERZA POPULAR", "PODEMOS PERU"]
+            }
+        ],
         "educacion": "",
         "justicia-y-reformas": [
             {
