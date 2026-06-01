@@ -46,10 +46,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         "cultura-y-turismo": "",
         "derechos-e-igualdad": [
             {
+                url: "https://rpp.pe/politica/elecciones/roberto-sanchez-propone-mayor-presencia-del-peru-ante-el-sistema-internacional-de-derechos-humanos-es-viable-noticia-1690970",
+                titulo: "Roberto Sánchez propone mayor presencia del Perú ante el Sistema Internacional de Derechos Humanos: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/06/01/081908_1873270.jpg?imgdimension=n_medium",
+                party: ["JUNTOS POR EL PERU"]
+            },
+            {
                 url: "https://rpp.pe/politica/elecciones/debate-presidencial-2026-keiko-fujimori-y-roberto-sanchez-chocan-por-derechos-humanos-y-gestion-del-estado-noticia-1690935",
                 titulo: "Estado democrático y DD.HH.: así fue el debate entre Keiko Fujimori y Roberto Sánchez",
                 imagen: "https://f.rpp-noticias.io/2026/05/31/043304_1873226.jpg?imgdimension=n_medium",
-                party: ["FUERZA POPULAR", "PODEMOS PERU"]
+                party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
             }
         ],
         "educacion": [
@@ -57,7 +63,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 url: "https://rpp.pe/politica/elecciones/debate-presidencial-las-estrategias-de-keiko-fujimori-y-roberto-sanchez-en-materia-de-educacion-y-salud-noticia-1690919",
                 titulo: "Debate presidencial: las estrategias de Keiko Fujimori y Roberto Sánchez en materia de educación y salud",
                 imagen: "https://f.rpp-noticias.io/2026/05/31/portada_2048948.jpg?imgdimension=n_medium",
-                party: ["FUERZA POPULAR", "PODEMOS PERU"]
+                party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
             }
         ],
         "justicia-y-reformas": [
@@ -108,10 +114,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         ],
         "salud": [
             {
+                url: "https://rpp.pe/politica/elecciones/keiko-fujimori-plantea-reforzar-la-telemedicina-para-reducir-tiempos-de-espera-en-salud-es-viable-noticia-1690962",
+                titulo: "Keiko Fujimori plantea reforzar la telemedicina para reducir tiempos de espera en salud: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/06/01/080308_1873267.jpg?imgdimension=n_medium",
+                party: ["FUERZA POPULAR"]
+            },
+            {
                 url: "https://rpp.pe/politica/elecciones/debate-presidencial-las-estrategias-de-keiko-fujimori-y-roberto-sanchez-en-materia-de-educacion-y-salud-noticia-1690919",
                 titulo: "Debate presidencial: las estrategias de Keiko Fujimori y Roberto Sánchez en materia de educación y salud",
                 imagen: "https://f.rpp-noticias.io/2026/05/31/portada_2048948.jpg?imgdimension=n_medium",
-                party: ["FUERZA POPULAR", "PODEMOS PERU"]
+                party: ["FUERZA POPULAR", "JUNTOS POR EL PERU"]
             },
             {
                 url: "https://rpp.pe/politica/elecciones/debate-tecnico-conoce-las-propuestas-de-fuerza-popular-y-juntos-por-el-peru-para-impulsar-el-deporte-noticia-1689937",
@@ -140,6 +152,18 @@ document.addEventListener('DOMContentLoaded', async () => {
         ],
         "seguridad-ciudadana": [
             {
+                url: "https://rpp.pe/politica/elecciones/roberto-sanchez-propone-crear-una-policia-de-investigaciones-del-peru-para-combatir-la-inseguridad-es-viable-noticia-1690966",
+                titulo: "Roberto Sánchez propone crear una 'Policía de investigaciones del Perú' para combatir la inseguridad: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/06/01/210721_1873268.jpg?imgdimension=n_medium",
+                party: ["JUNTOS POR EL PERU"]
+            },
+            {
+                url: "https://rpp.pe/politica/elecciones/keiko-fujimori-plantea-que-policias-y-militares-resguarden-buses-en-areas-metropolitanas-es-viable-noticia-1690959",
+                titulo: "Keiko Fujimori plantea que policías y militares resguarden buses en áreas metropolitanas: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/06/01/375337_1873261.jpg?imgdimension=n_medium",
+                party: ["FUERZA POPULAR"]
+            },
+            {
                 url: "https://rpp.pe/politica/elecciones/debate-presidencial-propuestas-de-keiko-fujimori-y-roberto-sanchez-para-enfrentar-a-la-criminalidad-noticia-1690934",
                 titulo: "Debate presidencial: ¿Cuáles fueron las propuestas de Keiko Fujimori y Roberto Sánchez para la lucha contra la criminalidad?",
                 imagen: "https://f.rpp-noticias.io/2026/05/31/241624_1873225.jpg?imgdimension=n_medium",
@@ -162,6 +186,12 @@ document.addEventListener('DOMContentLoaded', async () => {
         ],
         "tecnologia": "",
         "trabajo-y-economia": [
+            {
+                url: "https://rpp.pe/politica/elecciones/keiko-fujimori-plantea-tributacion-cero-para-formalizar-empresas-es-viable-noticia-1690960",
+                titulo: "Keiko Fujimori plantea tributación cero para formalizar empresas: ¿es viable?",
+                imagen: "https://f.rpp-noticias.io/2026/06/01/535553_1873265.jpg?imgdimension=n_medium",
+                party: ["FUERZA POPULAR"]
+            },
             {
                 url: "https://rpp.pe/politica/elecciones/propuestas-economicas-de-keiko-fujimori-y-roberto-sanchez-en-el-debate-2026-noticia-1690938",
                 titulo: "Debate presidencial: ¿qué plantearon Keiko Fujimori y Roberto Sánchez en el bloque sobre economía y reducción de la pobreza?",
